@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTDownloadManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTDownloadManager</TokenIdentifier>
+			<Abstract type="html">- kFMRequestTimeoutAlertTag - timeout alert tag
+- kFMRequestErrorNetworkSomethingWentWrong - generic error alert tag
+- kFMUserDicAcceptCellularDownload - notification name for user accepted cellular network download</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/setDownloadDelegate:</TokenIdentifier>
+			<Abstract type="html">Download delegate, can be NULL.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTDownloadManagerDelegate&gt; downloadDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/downloadDelegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadManager/downloadDelegate</TokenIdentifier>
+			<Abstract type="html">Download delegate, can be NULL.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTDownloadManagerDelegate&gt; downloadDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/downloadDelegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/setDownloadDataSource:</TokenIdentifier>
+			<Abstract type="html">Download data source, can be NULL.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTDownloadManagerDataSource&gt; downloadDataSource</Declaration>
+			
+			
+			<Anchor>//api/name/downloadDataSource</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadManager/downloadDataSource</TokenIdentifier>
+			<Abstract type="html">Download data source, can be NULL.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTDownloadManagerDataSource&gt; downloadDataSource</Declaration>
+			
+			
+			<Anchor>//api/name/downloadDataSource</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/setDownloadOperations:</TokenIdentifier>
+			<Abstract type="html">Container for SKTGroupedDownloadOperation operations.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, strong, readonly) NSMutableArray *downloadOperations</Declaration>
+			
+			
+			<Anchor>//api/name/downloadOperations</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadManager/downloadOperations</TokenIdentifier>
+			<Abstract type="html">Container for SKTGroupedDownloadOperation operations.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, strong, readonly) NSMutableArray *downloadOperations</Declaration>
+			
+			
+			<Anchor>//api/name/downloadOperations</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadManager/sharedInstance</TokenIdentifier>
+			<Abstract type="html">Method for retrieving SKTDownloadManager singleton</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>+ (SKTDownloadManager *)sharedInstance</Declaration>
+			
+			<ReturnValue><Abstract type="html">SKTDownloadManager singleton instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/sharedInstance</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/requestDownloads:startAutomatically:withDelegate:withDataSource:</TokenIdentifier>
+			<Abstract type="html">Method for requesting downloads.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)requestDownloads:(NSArray *)downloads startAutomatically:(BOOL)shouldStart withDelegate:(id&lt;SKTDownloadManagerDelegate&gt;)delegate withDataSource:(id&lt;SKTDownloadManagerDataSource&gt;)dataSource</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloads</Name>
+					<Abstract type="html">Array of SKTDownloadObjectHelper objects.</Abstract>
+				</Parameter><Parameter>
+					<Name>shouldStart</Name>
+					<Abstract type="html">A boolean indicating wether the download should start after adding downloads to the queue.</Abstract>
+				</Parameter><Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">Download delegate.</Abstract>
+				</Parameter><Parameter>
+					<Name>dataSource</Name>
+					<Abstract type="html">Download data source</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/requestDownloads:startAutomatically:withDelegate:withDataSource:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/cancelDownload</TokenIdentifier>
+			<Abstract type="html">Cancel all downloads and clear temporary files.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)cancelDownload</Declaration>
+			
+			
+			<Anchor>//api/name/cancelDownload</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/cancelDownloadForDownloadHelper:</TokenIdentifier>
+			<Abstract type="html">Cancel download for a certain item</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)cancelDownloadForDownloadHelper:(SKTDownloadObjectHelper *)downloadHelper</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">The SKTDownloadObjectHelper object containing information regarding the download.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A boolean indicating wether the download was cancelled succesfully.</Abstract></ReturnValue>
+			<Anchor>//api/name/cancelDownloadForDownloadHelper:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/pauseDownload</TokenIdentifier>
+			<Abstract type="html">Pause all downloads.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)pauseDownload</Declaration>
+			
+			
+			<Anchor>//api/name/pauseDownload</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/pauseDownloadForDownloadHelper:</TokenIdentifier>
+			<Abstract type="html">Pause download for a certain item</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)pauseDownloadForDownloadHelper:(SKTDownloadObjectHelper *)downloadHelper</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">The SKTDownloadObjectHelper object containing information regarding the download.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A boolean indicating wether the download was paused succesfully.</Abstract></ReturnValue>
+			<Anchor>//api/name/pauseDownloadForDownloadHelper:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/resumeDownload</TokenIdentifier>
+			<Abstract type="html">Resume download.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)resumeDownload</Declaration>
+			
+			
+			<Anchor>//api/name/resumeDownload</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/resumeDownloadForDownloadHelper:</TokenIdentifier>
+			<Abstract type="html">Resume download for a certain item</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)resumeDownloadForDownloadHelper:(SKTDownloadObjectHelper *)downloadHelper</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">The SKTDownloadObjectHelper object containing information regarding the download.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A boolean indicating wether the download was resumed succesfully.</Abstract></ReturnValue>
+			<Anchor>//api/name/resumeDownloadForDownloadHelper:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/isDownloadPaused</TokenIdentifier>
+			<Abstract type="html">Whether or not the download is paused.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isDownloadPaused</Declaration>
+			
+			<ReturnValue><Abstract type="html">A Boolean indicating whether or not the download is paused.</Abstract></ReturnValue>
+			<Anchor>//api/name/isDownloadPaused</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/isUnzipping</TokenIdentifier>
+			<Abstract type="html">Whether or not unzip is in progress.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isUnzipping</Declaration>
+			
+			<ReturnValue><Abstract type="html">A Boolean indicating whether or not unzipping is in progress.</Abstract></ReturnValue>
+			<Anchor>//api/name/isUnzipping</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/isDownloadRunning</TokenIdentifier>
+			<Abstract type="html">Whether or not download is in progress.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isDownloadRunning</Declaration>
+			
+			<ReturnValue><Abstract type="html">A Boolean indicating whether or not download is in progress.</Abstract></ReturnValue>
+			<Anchor>//api/name/isDownloadRunning</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadManager/canStartDownload</TokenIdentifier>
+			<Abstract type="html">Whether or not download can be started. Internet connection should be available and app should not be in onboard mode.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)canStartDownload</Declaration>
+			
+			<ReturnValue><Abstract type="html">A Boolean indicating whether or not download can be started.</Abstract></ReturnValue>
+			<Anchor>//api/name/canStartDownload</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadManager/canRestartDownload</TokenIdentifier>
+			<Abstract type="html">Whether or not download can be restarted. A previous download session should have been terminated and app should not be in onboard mode.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)canRestartDownload</Declaration>
+			
+			<ReturnValue><Abstract type="html">A Boolean indicating whether or not download can be restarted.</Abstract></ReturnValue>
+			<Anchor>//api/name/canRestartDownload</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/isOnboardMode</TokenIdentifier>
+			<Abstract type="html">Whether or not app is in onboard mode. Download cannot be started in onboard mode.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isOnboardMode</Declaration>
+			
+			<ReturnValue><Abstract type="html">A Boolean indicating whether or not app is in onboard mode.</Abstract></ReturnValue>
+			<Anchor>//api/name/isOnboardMode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/currentGroupedOperation</TokenIdentifier>
+			<Abstract type="html">The current grouped download operation.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>- (SKTGroupedDownloadOperation *)currentGroupedOperation</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current SKTGroupedDownloadOperation instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/currentGroupedOperation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/currentDownloadHelper</TokenIdentifier>
+			<Abstract type="html">The current grouped download operation download helper.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>- (SKTDownloadObjectHelper *)currentDownloadHelper</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current SKTDownloadObjectHelper instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/currentDownloadHelper</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/groupedOperationForDownloadHelper:</TokenIdentifier>
+			<Abstract type="html">Returns the SKTGroupedDownloadOperation corresponding to the SKTDownloadObjectHelper object.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>- (SKTGroupedDownloadOperation *)groupedOperationForDownloadHelper:(SKTDownloadObjectHelper *)downloadHelper</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">The SKTDownloadObjectHelper object containing information regarding the download.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The SKTGroupedDownloadOperation instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/groupedOperationForDownloadHelper:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/operationsForDownloadHelper:</TokenIdentifier>
+			<Abstract type="html">Returns an array of SKTGroupedDownloadOperation corresponding to the SKTDownloadObjectHelper object.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)operationsForDownloadHelper:(SKTDownloadObjectHelper *)downloadHelper</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">The SKTDownloadObjectHelper object containing information regarding the download.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Array of SKTGroupedDownloadOperation instances.</Abstract></ReturnValue>
+			<Anchor>//api/name/operationsForDownloadHelper:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/downloadHelpersFromDownloadOperationQueue</TokenIdentifier>
+			<Abstract type="html">Returns an array of SKTDownloadObjectHelper from the download queue.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)downloadHelpersFromDownloadOperationQueue</Declaration>
+			
+			<ReturnValue><Abstract type="html">Array of SKTDownloadObjectHelper instances.</Abstract></ReturnValue>
+			<Anchor>//api/name/downloadHelpersFromDownloadOperationQueue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/countDownloadHelpersNotFullyDownloaded</TokenIdentifier>
+			<Abstract type="html">Count of downloads which are not fully finished.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>- (NSUInteger)countDownloadHelpersNotFullyDownloaded</Declaration>
+			
+			<ReturnValue><Abstract type="html">An integer representing the count of downloads which are not fully finished.</Abstract></ReturnValue>
+			<Anchor>//api/name/countDownloadHelpersNotFullyDownloaded</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/downloadOperationsNotFullyDownloaded</TokenIdentifier>
+			<Abstract type="html">Downloads which are not fully finished.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)downloadOperationsNotFullyDownloaded</Declaration>
+			
+			<ReturnValue><Abstract type="html">An array representing the SKTGroupedDownloadOperations which are not fully finished.</Abstract></ReturnValue>
+			<Anchor>//api/name/downloadOperationsNotFullyDownloaded</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/changedWifiToCellular</TokenIdentifier>
+			<Abstract type="html">Whether or not connectiong changed from Wifi to cellular.</Abstract>
+			<DeclaredIn>SKTDownloadManager.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)changedWifiToCellular</Declaration>
+			
+			<ReturnValue><Abstract type="html">A Boolean indicating whether or not connectiong changed from Wifi to cellular.</Abstract></ReturnValue>
+			<Anchor>//api/name/changedWifiToCellular</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/setUserDidAcceptCellularDownload:</TokenIdentifier>
+			<Abstract type="html">Whether or not the user has accepted download over cellular networks.</Abstract>
+			<DeclaredIn>SKTDownloadManager+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL userDidAcceptCellularDownload</Declaration>
+			
+			
+			<Anchor>//api/name/userDidAcceptCellularDownload</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadManager/userDidAcceptCellularDownload</TokenIdentifier>
+			<Abstract type="html">Whether or not the user has accepted download over cellular networks.</Abstract>
+			<DeclaredIn>SKTDownloadManager+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL userDidAcceptCellularDownload</Declaration>
+			
+			
+			<Anchor>//api/name/userDidAcceptCellularDownload</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadManager/libraryDirectory</TokenIdentifier>
+			<Abstract type="html">Helper function to return Library directory</Abstract>
+			<DeclaredIn>SKTDownloadManager+Additions.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)libraryDirectory</Declaration>
+			
+			<ReturnValue><Abstract type="html">Library directory path</Abstract></ReturnValue>
+			<Anchor>//api/name/libraryDirectory</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadManager/totalSizeForItems:</TokenIdentifier>
+			<Abstract type="html">Total expected download size for an array of SKTDownloadObjectHelper objects</Abstract>
+			<DeclaredIn>SKTDownloadManager+Additions.h</DeclaredIn>			
+			
+			<Declaration>+ (long long)totalSizeForItems:(NSArray *)items</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>items</Name>
+					<Abstract type="html">NSArray of SKTDownloadObjectHelper objects</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Total size for all SKTDownloadObjectHelper objects as long long</Abstract></ReturnValue>
+			<Anchor>//api/name/totalSizeForItems:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadManager/deviceHasEnoughSpaceForItems:</TokenIdentifier>
+			<Abstract type="html">Whether or not there is enough disk space for a set of SKTDownloadObjectHelper. Used to see if a download can be started or not.</Abstract>
+			<DeclaredIn>SKTDownloadManager+Additions.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)deviceHasEnoughSpaceForItems:(NSArray *)items</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>items</Name>
+					<Abstract type="html">NSArray of SKTDownloadObjectHelper objects</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A boolean indicating is the device has enough disk space for required downloads</Abstract></ReturnValue>
+			<Anchor>//api/name/deviceHasEnoughSpaceForItems:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadManager/mapPackageHasCorrectSize:</TokenIdentifier>
+			<Abstract type="html">Whether or not a map package has been correctly downloaded and has the right size.</Abstract>
+			<DeclaredIn>SKTDownloadManager+Additions.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)mapPackageHasCorrectSize:(SKTDownloadObjectHelper *)downloadHelper</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">SKTDownloadObjectHelper with the download details</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A boolean indicating if the map package was downloaded correctly</Abstract></ReturnValue>
+			<Anchor>//api/name/mapPackageHasCorrectSize:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadManager/fileSizeForPath:</TokenIdentifier>
+			<Abstract type="html">Get the byte size of a file at a given path</Abstract>
+			<DeclaredIn>SKTDownloadManager+Additions.h</DeclaredIn>			
+			
+			<Declaration>+ (unsigned long long)fileSizeForPath:(NSString *)path</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>path</Name>
+					<Abstract type="html">Path to a file/resource</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Unsigned long long representing the bytes of the file at a given path</Abstract></ReturnValue>
+			<Anchor>//api/name/fileSizeForPath:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadManager/expectedDownloadSizeForDownloadHelper:withFileType:</TokenIdentifier>
+			<Abstract type="html">Expected download size for a SKTDownloadObjectHelper object</Abstract>
+			<DeclaredIn>SKTDownloadManager+Additions.h</DeclaredIn>			
+			
+			<Declaration>+ (long long)expectedDownloadSizeForDownloadHelper:(SKTDownloadObjectHelper *)downloadHelper withFileType:(SKTDownloadFileType)downloadFileType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">SKTDownloadObjectHelper with the download details</Abstract>
+				</Parameter><Parameter>
+					<Name>downloadFileType</Name>
+					<Abstract type="html">SKTDownloadFileType representing the type of the download</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">long long representing the expected download size for a download object</Abstract></ReturnValue>
+			<Anchor>//api/name/expectedDownloadSizeForDownloadHelper:withFileType:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadManager/downloadProgressDataForGroupedDownloadOperations:</TokenIdentifier>
+			<Abstract type="html">Returns progress data for a set of SKTGroupedDownloadOperation objects.</Abstract>
+			<DeclaredIn>SKTDownloadManager+Additions.h</DeclaredIn>			
+			
+			<Declaration>+ (NSDictionary *)downloadProgressDataForGroupedDownloadOperations:(NSArray *)array</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>array</Name>
+					<Abstract type="html">NSArray of SKTGroupedDownloadOperation objects</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The dictionary contains following keys/values:
+- an NSString object under the kSKTDownloadOverallProgressString key, representing overall progress string for all SKTGroupedDownloadOperations.
+- an NSNumber object under the kSKTDownloadOverallPercentage key, representing overall percentage as a float value for all SKTGroupedDownloadOperations.
+- an NSNumber object under the kSKTDownloadTotalDownloadSize key, total download size as long long for all SKTGroupedDownloadOperations.
+- an NSNumber object under the kSKTDownloadTotalBytesDownloaded key, total downloaded bytes as long long for all SKTGroupedDownloadOperations.</Abstract></ReturnValue>
+			<Anchor>//api/name/downloadProgressDataForGroupedDownloadOperations:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadManager/stringForSize:</TokenIdentifier>
+			<Abstract type="html">Converts a long long value to a string</Abstract>
+			<DeclaredIn>SKTDownloadManager+Additions.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)stringForSize:(long long)size</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>size</Name>
+					<Abstract type="html">long long value representing the size</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The string representing the size.</Abstract></ReturnValue>
+			<Anchor>//api/name/stringForSize:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadManager/cleanupDownloadHelper:</TokenIdentifier>
+			<Abstract type="html">Delete all files from disk related to a download</Abstract>
+			<DeclaredIn>SKTDownloadManager+DatabaseManager.h</DeclaredIn>			
+			
+			<Declaration>+ (void)cleanupDownloadHelper:(SKTDownloadObjectHelper *)downloadHelper</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">The SKTDownloadObjectHelper object containing information regarding the download.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/cleanupDownloadHelper:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/setDownloadSpeedTimer:</TokenIdentifier>
+			<Abstract type="html">Times used to measure the download speed</Abstract>
+			<DeclaredIn>SKTDownloadManager+DownloadSpeedMeasure.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *downloadSpeedTimer</Declaration>
+			
+			
+			<Anchor>//api/name/downloadSpeedTimer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadManager/downloadSpeedTimer</TokenIdentifier>
+			<Abstract type="html">Times used to measure the download speed</Abstract>
+			<DeclaredIn>SKTDownloadManager+DownloadSpeedMeasure.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *downloadSpeedTimer</Declaration>
+			
+			
+			<Anchor>//api/name/downloadSpeedTimer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/setDownloadSpeeds:</TokenIdentifier>
+			<Abstract type="html">Array used to hold download speed samples</Abstract>
+			<DeclaredIn>SKTDownloadManager+DownloadSpeedMeasure.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *downloadSpeeds</Declaration>
+			
+			
+			<Anchor>//api/name/downloadSpeeds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadManager/downloadSpeeds</TokenIdentifier>
+			<Abstract type="html">Array used to hold download speed samples</Abstract>
+			<DeclaredIn>SKTDownloadManager+DownloadSpeedMeasure.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *downloadSpeeds</Declaration>
+			
+			
+			<Anchor>//api/name/downloadSpeeds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/startSpeedCalculationTimer</TokenIdentifier>
+			<Abstract type="html">Function to start the speed calculation timer.</Abstract>
+			<DeclaredIn>SKTDownloadManager+DownloadSpeedMeasure.h</DeclaredIn>			
+			
+			<Declaration>- (void)startSpeedCalculationTimer</Declaration>
+			
+			
+			<Anchor>//api/name/startSpeedCalculationTimer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/cancelSpeedCalculationTimer</TokenIdentifier>
+			<Abstract type="html">Function to stop the speed calculation timer.</Abstract>
+			<DeclaredIn>SKTDownloadManager+DownloadSpeedMeasure.h</DeclaredIn>			
+			
+			<Declaration>- (void)cancelSpeedCalculationTimer</Declaration>
+			
+			
+			<Anchor>//api/name/cancelSpeedCalculationTimer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadManager/downloadSpeedMeasurementInfo</TokenIdentifier>
+			<Abstract type="html">Returns download speed measurments info.</Abstract>
+			<DeclaredIn>SKTDownloadManager+DownloadSpeedMeasure.h</DeclaredIn>			
+			
+			<Declaration>- (NSDictionary *)downloadSpeedMeasurementInfo</Declaration>
+			
+			<ReturnValue><Abstract type="html">The dictionary contains following keys/values:
+- an NSString object under the kSKDownloadSpeed key, representing download speed string.
+- an NSString object under the kSKDownloadEstimatedTime key, representing download estimated time string.</Abstract></ReturnValue>
+			<Anchor>//api/name/downloadSpeedMeasurementInfo</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadManager/storeDownloadObjects:</TokenIdentifier>
+			<Abstract type="html">Write to disk the download in progress, keep track of running download in case we need to restart the download.</Abstract>
+			<DeclaredIn>SKTDownloadManager+ResumeManager.h</DeclaredIn>			
+			
+			<Declaration>+ (void)storeDownloadObjects:(NSArray *)objectsToDownload</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>objectsToDownload</Name>
+					<Abstract type="html">NSArray of SKTDownloadObjectHelper objects</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/storeDownloadObjects:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadManager/removeDownloadObjects:</TokenIdentifier>
+			<Abstract type="html">Remove a download from disk, there&apos;s no need to restart it in the future.</Abstract>
+			<DeclaredIn>SKTDownloadManager+ResumeManager.h</DeclaredIn>			
+			
+			<Declaration>+ (void)removeDownloadObjects:(NSArray *)objectsToDownload</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>objectsToDownload</Name>
+					<Abstract type="html">NSArray of SKTDownloadObjectHelper objects</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeDownloadObjects:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadManager/storedDownloadObjects</TokenIdentifier>
+			<Abstract type="html">Retrive an array of download objects that were stored on disk.</Abstract>
+			<DeclaredIn>SKTDownloadManager+ResumeManager.h</DeclaredIn>			
+			
+			<Declaration>+ (NSArray *)storedDownloadObjects</Declaration>
+			
+			<ReturnValue><Abstract type="html">NSArray of SKTDownloadObjectHelper objects that we can restore.</Abstract></ReturnValue>
+			<Anchor>//api/name/storedDownloadObjects</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadManager/clearStoredDownloadObjects</TokenIdentifier>
+			<Abstract type="html">Clear download objects that were stored on disk.</Abstract>
+			<DeclaredIn>SKTDownloadManager+ResumeManager.h</DeclaredIn>			
+			
+			<Declaration>+ (void)clearStoredDownloadObjects</Declaration>
+			
+			
+			<Anchor>//api/name/clearStoredDownloadObjects</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

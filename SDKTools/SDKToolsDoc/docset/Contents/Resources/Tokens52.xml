@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/SKTGroupedDownloadOperationDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/SKTGroupedDownloadOperationDelegate</TokenIdentifier>
+			<Abstract type="html">SKTGroupedDownloadOperationDelegate delegate of SKTGroupedDownloadOperation.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperationDelegate.h</DeclaredIn>
+			
+			<NodeRef refid="52"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTGroupedDownloadOperationDelegate/groupedDownloadOperation:finishedWithSuccess:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the grouped download operation finished.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperationDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)groupedDownloadOperation:(SKTGroupedDownloadOperation *)groupedDownloadOperation finishedWithSuccess:(BOOL)success</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groupedDownloadOperation</Name>
+					<Abstract type="html">the grouped download operation.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">A boolean indicating if the grouped download finished with success.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/groupedDownloadOperation:finishedWithSuccess:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTGroupedDownloadOperationDelegate/didStartGroupedDownloadOperation:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the grouped download operation started.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperationDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)didStartGroupedDownloadOperation:(SKTGroupedDownloadOperation *)groupedDownloadOperation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groupedDownloadOperation</Name>
+					<Abstract type="html">the grouped download operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didStartGroupedDownloadOperation:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTGroupedDownloadOperationDelegate/didCancelGroupedDownloadOperation:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the grouped download operation was cancelled.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperationDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)didCancelGroupedDownloadOperation:(SKTGroupedDownloadOperation *)groupedDownloadOperation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groupedDownloadOperation</Name>
+					<Abstract type="html">the grouped download operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didCancelGroupedDownloadOperation:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTGroupedDownloadOperationDelegate/didPauseGroupedDownloadOperation:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the grouped download operation was paused.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperationDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)didPauseGroupedDownloadOperation:(SKTGroupedDownloadOperation *)groupedDownloadOperation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groupedDownloadOperation</Name>
+					<Abstract type="html">the grouped download operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didPauseGroupedDownloadOperation:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTGroupedDownloadOperationDelegate/didResumeGroupedDownloadOperation:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the grouped download operation was resumed.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperationDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)didResumeGroupedDownloadOperation:(SKTGroupedDownloadOperation *)groupedDownloadOperation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groupedDownloadOperation</Name>
+					<Abstract type="html">the grouped download operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didResumeGroupedDownloadOperation:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTGroupedDownloadOperationDelegate/groupedDownloadOperationCanceledByOS:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the grouped download operation was cancelled by the operating system (background task cancelled after a certain period).</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperationDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)groupedDownloadOperationCanceledByOS:(SKTGroupedDownloadOperation *)groupedDownloadOperation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groupedDownloadOperation</Name>
+					<Abstract type="html">the grouped download operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/groupedDownloadOperationCanceledByOS:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTGroupedDownloadOperationDelegate/groupedDownloadOperation:currentDownloadProgress:currentDownloadPercentage:forDownloadHelper:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the current download progress of the grouped download operation was changed.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperationDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)groupedDownloadOperation:(SKTGroupedDownloadOperation *)groupedDownloadOperation currentDownloadProgress:(NSString *)currentProgressString currentDownloadPercentage:(float)currentPercentage forDownloadHelper:(SKTDownloadObjectHelper *)downloadHelper</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groupedDownloadOperation</Name>
+					<Abstract type="html">the grouped download operation.</Abstract>
+				</Parameter><Parameter>
+					<Name>currentProgressString</Name>
+					<Abstract type="html">formatted NSString representing the current download progress.</Abstract>
+				</Parameter><Parameter>
+					<Name>currentPercentage</Name>
+					<Abstract type="html">float representing the current download progress.</Abstract>
+				</Parameter><Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">the download object helper.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/groupedDownloadOperation:currentDownloadProgress:currentDownloadPercentage:forDownloadHelper:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTGroupedDownloadOperationDelegate/groupedDownloadOperation:currentUnzipProgress:currentUnzipPercentage:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the current unzip progress of the grouped download operation was changed.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperationDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)groupedDownloadOperation:(SKTGroupedDownloadOperation *)groupedDownloadOperation currentUnzipProgress:(NSString *)currentUnzipString currentUnzipPercentage:(float)currentUnzipPercentage</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groupedDownloadOperation</Name>
+					<Abstract type="html">the grouped download operation.</Abstract>
+				</Parameter><Parameter>
+					<Name>currentUnzipString</Name>
+					<Abstract type="html">formatted NSString representing the current unzip progress.</Abstract>
+				</Parameter><Parameter>
+					<Name>currentUnzipPercentage</Name>
+					<Abstract type="html">float representing the current unzip progress.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/groupedDownloadOperation:currentUnzipProgress:currentUnzipPercentage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTGroupedDownloadOperationDelegate/didReceiveTimeoutGroupedDownloadOperation:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the grouped download operation received a timeout.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperationDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)didReceiveTimeoutGroupedDownloadOperation:(SKTGroupedDownloadOperation *)groupedDownloadOperation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groupedDownloadOperation</Name>
+					<Abstract type="html">the grouped download operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didReceiveTimeoutGroupedDownloadOperation:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTGroupedDownloadOperationDelegate/groupedDownloadOperation:saveDownloadHelperToDatabase:</TokenIdentifier>
+			<Abstract type="html">Delegate method called to inform the user to do any additional operations, such as saving to the database.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperationDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)groupedDownloadOperation:(SKTGroupedDownloadOperation *)groupedDownloadOperation saveDownloadHelperToDatabase:(SKTDownloadObjectHelper *)downloadHelper</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groupedDownloadOperation</Name>
+					<Abstract type="html">the grouped download operation.</Abstract>
+				</Parameter><Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">the download object helper.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/groupedDownloadOperation:saveDownloadHelperToDatabase:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

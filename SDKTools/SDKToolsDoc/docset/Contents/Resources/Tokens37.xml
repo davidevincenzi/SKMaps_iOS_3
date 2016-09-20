@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTRouteProgressView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTRouteProgressView</TokenIdentifier>
+			<Abstract type="html">Displays calculation progress for a single route. The progress is actually fake because route calculation does not have and eta.</Abstract>
+			<DeclaredIn>SKTRouteProgressView.h</DeclaredIn>
+			
+			<NodeRef refid="37"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTRouteProgressView/setActivityIndicator:</TokenIdentifier>
+			<Abstract type="html">An activity indicator to animate while calculating the route.</Abstract>
+			<DeclaredIn>SKTRouteProgressView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIActivityIndicatorView *activityIndicator</Declaration>
+			
+			
+			<Anchor>//api/name/activityIndicator</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTRouteProgressView/activityIndicator</TokenIdentifier>
+			<Abstract type="html">An activity indicator to animate while calculating the route.</Abstract>
+			<DeclaredIn>SKTRouteProgressView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIActivityIndicatorView *activityIndicator</Declaration>
+			
+			
+			<Anchor>//api/name/activityIndicator</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTRouteProgressView/setProgressLabel:</TokenIdentifier>
+			<Abstract type="html">Displays the current calculation progress.</Abstract>
+			<DeclaredIn>SKTRouteProgressView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *progressLabel</Declaration>
+			
+			
+			<Anchor>//api/name/progressLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTRouteProgressView/progressLabel</TokenIdentifier>
+			<Abstract type="html">Displays the current calculation progress.</Abstract>
+			<DeclaredIn>SKTRouteProgressView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *progressLabel</Declaration>
+			
+			
+			<Anchor>//api/name/progressLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTRouteProgressView/startProgress</TokenIdentifier>
+			<Abstract type="html">Begins progress from 0.</Abstract>
+			<DeclaredIn>SKTRouteProgressView.h</DeclaredIn>			
+			
+			<Declaration>- (void)startProgress</Declaration>
+			
+			
+			<Anchor>//api/name/startProgress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTRouteProgressView/resumeProgress</TokenIdentifier>
+			<Abstract type="html">Resumes the progress update.</Abstract>
+			<DeclaredIn>SKTRouteProgressView.h</DeclaredIn>			
+			
+			<Declaration>- (void)resumeProgress</Declaration>
+			
+			
+			<Anchor>//api/name/resumeProgress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTRouteProgressView/resetProgress</TokenIdentifier>
+			<Abstract type="html">Resets the progress to 0.</Abstract>
+			<DeclaredIn>SKTRouteProgressView.h</DeclaredIn>			
+			
+			<Declaration>- (void)resetProgress</Declaration>
+			
+			
+			<Anchor>//api/name/resetProgress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTRouteProgressView/stopProgress</TokenIdentifier>
+			<Abstract type="html">Stops progress update.</Abstract>
+			<DeclaredIn>SKTRouteProgressView.h</DeclaredIn>			
+			
+			<Declaration>- (void)stopProgress</Declaration>
+			
+			
+			<Anchor>//api/name/stopProgress</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

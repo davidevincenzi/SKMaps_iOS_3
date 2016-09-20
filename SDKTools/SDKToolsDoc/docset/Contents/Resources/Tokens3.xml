@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTAudioManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTAudioManager</TokenIdentifier>
+			<Abstract type="html">Plays sound files from a given folder in a queued manner.</Abstract>
+			<DeclaredIn>SKTAudioManager.h</DeclaredIn>
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTAudioManager/setAudioFilesFolderPath:</TokenIdentifier>
+			<Abstract type="html">Absolute path of the folder from where the files will be loaded.</Abstract>
+			<DeclaredIn>SKTAudioManager.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, strong) NSString *audioFilesFolderPath</Declaration>
+			
+			
+			<Anchor>//api/name/audioFilesFolderPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTAudioManager/audioFilesFolderPath</TokenIdentifier>
+			<Abstract type="html">Absolute path of the folder from where the files will be loaded.</Abstract>
+			<DeclaredIn>SKTAudioManager.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, strong) NSString *audioFilesFolderPath</Declaration>
+			
+			
+			<Anchor>//api/name/audioFilesFolderPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTAudioManager/setVolume:</TokenIdentifier>
+			<Abstract type="html">Desired playback volume.</Abstract>
+			<DeclaredIn>SKTAudioManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float volume</Declaration>
+			
+			
+			<Anchor>//api/name/volume</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTAudioManager/volume</TokenIdentifier>
+			<Abstract type="html">Desired playback volume.</Abstract>
+			<DeclaredIn>SKTAudioManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float volume</Declaration>
+			
+			
+			<Anchor>//api/name/volume</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTAudioManager/setPlayAudioDuringCalls:</TokenIdentifier>
+			<Abstract type="html">Allows/forbids audio playback during calls. This is initialized by SKTNavigationManager when starting navigation or free drive.</Abstract>
+			<DeclaredIn>SKTAudioManager.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, assign) BOOL playAudioDuringCalls</Declaration>
+			
+			
+			<Anchor>//api/name/playAudioDuringCalls</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTAudioManager/playAudioDuringCalls</TokenIdentifier>
+			<Abstract type="html">Allows/forbids audio playback during calls. This is initialized by SKTNavigationManager when starting navigation or free drive.</Abstract>
+			<DeclaredIn>SKTAudioManager.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, assign) BOOL playAudioDuringCalls</Declaration>
+			
+			
+			<Anchor>//api/name/playAudioDuringCalls</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTAudioManager/play:</TokenIdentifier>
+			<Abstract type="html">Queues audio files to be played from audioFilesFolderPath folder. Will resume playback if currently paused.</Abstract>
+			<DeclaredIn>SKTAudioManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)play:(NSArray *)audioFiles</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>audioFiles</Name>
+					<Abstract type="html">Names of the files that are to be played.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/play:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTAudioManager/cancel</TokenIdentifier>
+			<Abstract type="html">Stops audio playback.</Abstract>
+			<DeclaredIn>SKTAudioManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)cancel</Declaration>
+			
+			
+			<Anchor>//api/name/cancel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTAudioManager/pause</TokenIdentifier>
+			<Abstract type="html">Pauses audio playback.</Abstract>
+			<DeclaredIn>SKTAudioManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)pause</Declaration>
+			
+			
+			<Anchor>//api/name/pause</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTAudioManager/resume</TokenIdentifier>
+			<Abstract type="html">Resumes audio playback.</Abstract>
+			<DeclaredIn>SKTAudioManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)resume</Declaration>
+			
+			
+			<Anchor>//api/name/resume</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

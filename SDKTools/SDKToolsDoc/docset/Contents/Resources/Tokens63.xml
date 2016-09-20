@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/SKTRouteInfoViewDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/SKTRouteInfoViewDelegate</TokenIdentifier>
+			<Abstract type="html">Receives notifications about user interaction.</Abstract>
+			<DeclaredIn>SKTRouteInfoView.h</DeclaredIn>
+			
+			<NodeRef refid="63"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTRouteInfoViewDelegate/routeInfoViewClicked:</TokenIdentifier>
+			<Abstract type="html">Called when the info view is tapped.</Abstract>
+			<DeclaredIn>SKTRouteInfoView.h</DeclaredIn>			
+			
+			<Declaration>- (void)routeInfoViewClicked:(SKTRouteInfoView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The view that is tapped.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/routeInfoViewClicked:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

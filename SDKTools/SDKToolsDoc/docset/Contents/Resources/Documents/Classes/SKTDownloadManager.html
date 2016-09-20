@@ -1,0 +1,2956 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>SKTDownloadManager Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">SDKTools </a></h1>
+				<a id="developerHome" href="../index.html">Skobbler</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">SKTDownloadManager Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/downloadDataSource">&nbsp;&nbsp;&nbsp;&nbsp;downloadDataSource</option>
+	
+	<option value="//api/name/downloadDelegate">&nbsp;&nbsp;&nbsp;&nbsp;downloadDelegate</option>
+	
+	<option value="//api/name/downloadOperations">&nbsp;&nbsp;&nbsp;&nbsp;downloadOperations</option>
+	
+	<option value="//api/name/downloadSpeedTimer">&nbsp;&nbsp;&nbsp;&nbsp;downloadSpeedTimer</option>
+	
+	<option value="//api/name/downloadSpeeds">&nbsp;&nbsp;&nbsp;&nbsp;downloadSpeeds</option>
+	
+	<option value="//api/name/userDidAcceptCellularDownload">&nbsp;&nbsp;&nbsp;&nbsp;userDidAcceptCellularDownload</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/canRestartDownload">&nbsp;&nbsp;&nbsp;&nbsp;+ canRestartDownload</option>
+	
+	<option value="//api/name/canStartDownload">&nbsp;&nbsp;&nbsp;&nbsp;+ canStartDownload</option>
+	
+	<option value="//api/name/cleanupDownloadHelper:">&nbsp;&nbsp;&nbsp;&nbsp;+ cleanupDownloadHelper:</option>
+	
+	<option value="//api/name/clearStoredDownloadObjects">&nbsp;&nbsp;&nbsp;&nbsp;+ clearStoredDownloadObjects</option>
+	
+	<option value="//api/name/deviceHasEnoughSpaceForItems:">&nbsp;&nbsp;&nbsp;&nbsp;+ deviceHasEnoughSpaceForItems:</option>
+	
+	<option value="//api/name/downloadProgressDataForGroupedDownloadOperations:">&nbsp;&nbsp;&nbsp;&nbsp;+ downloadProgressDataForGroupedDownloadOperations:</option>
+	
+	<option value="//api/name/expectedDownloadSizeForDownloadHelper:withFileType:">&nbsp;&nbsp;&nbsp;&nbsp;+ expectedDownloadSizeForDownloadHelper:withFileType:</option>
+	
+	<option value="//api/name/fileSizeForPath:">&nbsp;&nbsp;&nbsp;&nbsp;+ fileSizeForPath:</option>
+	
+	<option value="//api/name/libraryDirectory">&nbsp;&nbsp;&nbsp;&nbsp;+ libraryDirectory</option>
+	
+	<option value="//api/name/mapPackageHasCorrectSize:">&nbsp;&nbsp;&nbsp;&nbsp;+ mapPackageHasCorrectSize:</option>
+	
+	<option value="//api/name/removeDownloadObjects:">&nbsp;&nbsp;&nbsp;&nbsp;+ removeDownloadObjects:</option>
+	
+	<option value="//api/name/sharedInstance">&nbsp;&nbsp;&nbsp;&nbsp;+ sharedInstance</option>
+	
+	<option value="//api/name/storeDownloadObjects:">&nbsp;&nbsp;&nbsp;&nbsp;+ storeDownloadObjects:</option>
+	
+	<option value="//api/name/storedDownloadObjects">&nbsp;&nbsp;&nbsp;&nbsp;+ storedDownloadObjects</option>
+	
+	<option value="//api/name/stringForSize:">&nbsp;&nbsp;&nbsp;&nbsp;+ stringForSize:</option>
+	
+	<option value="//api/name/totalSizeForItems:">&nbsp;&nbsp;&nbsp;&nbsp;+ totalSizeForItems:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/cancelDownload">&nbsp;&nbsp;&nbsp;&nbsp;- cancelDownload</option>
+	
+	<option value="//api/name/cancelDownloadForDownloadHelper:">&nbsp;&nbsp;&nbsp;&nbsp;- cancelDownloadForDownloadHelper:</option>
+	
+	<option value="//api/name/cancelSpeedCalculationTimer">&nbsp;&nbsp;&nbsp;&nbsp;- cancelSpeedCalculationTimer</option>
+	
+	<option value="//api/name/changedWifiToCellular">&nbsp;&nbsp;&nbsp;&nbsp;- changedWifiToCellular</option>
+	
+	<option value="//api/name/countDownloadHelpersNotFullyDownloaded">&nbsp;&nbsp;&nbsp;&nbsp;- countDownloadHelpersNotFullyDownloaded</option>
+	
+	<option value="//api/name/currentDownloadHelper">&nbsp;&nbsp;&nbsp;&nbsp;- currentDownloadHelper</option>
+	
+	<option value="//api/name/currentGroupedOperation">&nbsp;&nbsp;&nbsp;&nbsp;- currentGroupedOperation</option>
+	
+	<option value="//api/name/downloadHelpersFromDownloadOperationQueue">&nbsp;&nbsp;&nbsp;&nbsp;- downloadHelpersFromDownloadOperationQueue</option>
+	
+	<option value="//api/name/downloadOperationsNotFullyDownloaded">&nbsp;&nbsp;&nbsp;&nbsp;- downloadOperationsNotFullyDownloaded</option>
+	
+	<option value="//api/name/downloadSpeedMeasurementInfo">&nbsp;&nbsp;&nbsp;&nbsp;- downloadSpeedMeasurementInfo</option>
+	
+	<option value="//api/name/groupedOperationForDownloadHelper:">&nbsp;&nbsp;&nbsp;&nbsp;- groupedOperationForDownloadHelper:</option>
+	
+	<option value="//api/name/isDownloadPaused">&nbsp;&nbsp;&nbsp;&nbsp;- isDownloadPaused</option>
+	
+	<option value="//api/name/isDownloadRunning">&nbsp;&nbsp;&nbsp;&nbsp;- isDownloadRunning</option>
+	
+	<option value="//api/name/isOnboardMode">&nbsp;&nbsp;&nbsp;&nbsp;- isOnboardMode</option>
+	
+	<option value="//api/name/isUnzipping">&nbsp;&nbsp;&nbsp;&nbsp;- isUnzipping</option>
+	
+	<option value="//api/name/operationsForDownloadHelper:">&nbsp;&nbsp;&nbsp;&nbsp;- operationsForDownloadHelper:</option>
+	
+	<option value="//api/name/pauseDownload">&nbsp;&nbsp;&nbsp;&nbsp;- pauseDownload</option>
+	
+	<option value="//api/name/pauseDownloadForDownloadHelper:">&nbsp;&nbsp;&nbsp;&nbsp;- pauseDownloadForDownloadHelper:</option>
+	
+	<option value="//api/name/requestDownloads:startAutomatically:withDelegate:withDataSource:">&nbsp;&nbsp;&nbsp;&nbsp;- requestDownloads:startAutomatically:withDelegate:withDataSource:</option>
+	
+	<option value="//api/name/resumeDownload">&nbsp;&nbsp;&nbsp;&nbsp;- resumeDownload</option>
+	
+	<option value="//api/name/resumeDownloadForDownloadHelper:">&nbsp;&nbsp;&nbsp;&nbsp;- resumeDownloadForDownloadHelper:</option>
+	
+	<option value="//api/name/startSpeedCalculationTimer">&nbsp;&nbsp;&nbsp;&nbsp;- startSpeedCalculationTimer</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Additions Methods">Additions Methods</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_DatabaseManager Methods">DatabaseManager Methods</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_DownloadSpeedMeasure Methods">DownloadSpeedMeasure Methods</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_ResumeManager Methods">ResumeManager Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/downloadDataSource">downloadDataSource</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/downloadDelegate">downloadDelegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/downloadOperations">downloadOperations</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/downloadSpeedTimer">downloadSpeedTimer</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/downloadSpeeds">downloadSpeeds</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/userDidAcceptCellularDownload">userDidAcceptCellularDownload</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/canRestartDownload">canRestartDownload</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/canStartDownload">canStartDownload</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cleanupDownloadHelper:">cleanupDownloadHelper:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/clearStoredDownloadObjects">clearStoredDownloadObjects</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deviceHasEnoughSpaceForItems:">deviceHasEnoughSpaceForItems:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/downloadProgressDataForGroupedDownloadOperations:">downloadProgressDataForGroupedDownloadOperations:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/expectedDownloadSizeForDownloadHelper:withFileType:">expectedDownloadSizeForDownloadHelper:withFileType:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fileSizeForPath:">fileSizeForPath:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/libraryDirectory">libraryDirectory</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/mapPackageHasCorrectSize:">mapPackageHasCorrectSize:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeDownloadObjects:">removeDownloadObjects:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sharedInstance">sharedInstance</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/storeDownloadObjects:">storeDownloadObjects:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/storedDownloadObjects">storedDownloadObjects</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stringForSize:">stringForSize:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/totalSizeForItems:">totalSizeForItems:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cancelDownload">cancelDownload</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cancelDownloadForDownloadHelper:">cancelDownloadForDownloadHelper:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cancelSpeedCalculationTimer">cancelSpeedCalculationTimer</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/changedWifiToCellular">changedWifiToCellular</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/countDownloadHelpersNotFullyDownloaded">countDownloadHelpersNotFullyDownloaded</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/currentDownloadHelper">currentDownloadHelper</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/currentGroupedOperation">currentGroupedOperation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/downloadHelpersFromDownloadOperationQueue">downloadHelpersFromDownloadOperationQueue</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/downloadOperationsNotFullyDownloaded">downloadOperationsNotFullyDownloaded</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/downloadSpeedMeasurementInfo">downloadSpeedMeasurementInfo</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/groupedOperationForDownloadHelper:">groupedOperationForDownloadHelper:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isDownloadPaused">isDownloadPaused</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isDownloadRunning">isDownloadRunning</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isOnboardMode">isOnboardMode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isUnzipping">isUnzipping</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/operationsForDownloadHelper:">operationsForDownloadHelper:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pauseDownload">pauseDownload</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pauseDownloadForDownloadHelper:">pauseDownloadForDownloadHelper:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/requestDownloads:startAutomatically:withDelegate:withDataSource:">requestDownloads:startAutomatically:withDelegate:withDataSource:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resumeDownload">resumeDownload</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resumeDownloadForDownloadHelper:">resumeDownloadForDownloadHelper:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/startSpeedCalculationTimer">startSpeedCalculationTimer</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="SKTDownloadManager Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">SKTDownloadManager Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/SKTGroupedDownloadOperationDelegate.html">SKTGroupedDownloadOperationDelegate</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">SKTDownloadManager.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<ul>
+<li>kFMRequestTimeoutAlertTag &ndash; timeout alert tag</li>
+<li>kFMRequestErrorNetworkSomethingWentWrong &ndash; generic error alert tag</li>
+<li>kFMUserDicAcceptCellularDownload &ndash; notification name for user accepted cellular network download</li>
+</ul>
+
+
+<p>Constans used to read valued returned by <a href="#//api/name/downloadProgressDataForGroupedDownloadOperations:">downloadProgressDataForGroupedDownloadOperations:</a> function.
+&ndash; kSKTDownloadOverallProgressString &ndash; overall progress string for all SKTGroupedDownloadOperations sent to <a href="#//api/name/downloadProgressDataForGroupedDownloadOperations:">downloadProgressDataForGroupedDownloadOperations:</a>
+&ndash; kSKTDownloadOverallPercentage &ndash; overall percentage as a <code>float</code> value for all SKTGroupedDownloadOperations sent to <a href="#//api/name/downloadProgressDataForGroupedDownloadOperations:">downloadProgressDataForGroupedDownloadOperations:</a>
+&ndash; kSKTDownloadTotalDownloadSize &ndash; total download size as <code>long long</code> for all SKTGroupedDownloadOperations sent to <a href="#//api/name/downloadProgressDataForGroupedDownloadOperations:">downloadProgressDataForGroupedDownloadOperations:</a>
+&ndash; kSKTDownloadTotalBytesDownloaded &ndash; total downloaded bytes as <code>long long</code> for all SKTGroupedDownloadOperations sent to <a href="#//api/name/downloadProgressDataForGroupedDownloadOperations:">downloadProgressDataForGroupedDownloadOperations:</a></p>
+
+<p>Constans used to read valued returned by downloadSpeedMeasurementInfo: function.
+&ndash; kSKDownloadSpeed &ndash; download speed string
+&ndash; kSKDownloadEstimatedTime &ndash; download estimated time</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/downloadDelegate">&nbsp;&nbsp;downloadDelegate</a></code>
+		<span class="tooltip"><p>Download delegate, can be NULL.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/downloadDataSource">&nbsp;&nbsp;downloadDataSource</a></code>
+		<span class="tooltip"><p>Download data source, can be NULL.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/downloadOperations">&nbsp;&nbsp;downloadOperations</a></code>
+		<span class="tooltip"><p>Container for <a href="../Classes/SKTGroupedDownloadOperation.html">SKTGroupedDownloadOperation</a> operations.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sharedInstance">+&nbsp;sharedInstance</a></code>
+		<span class="tooltip"><p>Method for retrieving SKTDownloadManager singleton</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/requestDownloads:startAutomatically:withDelegate:withDataSource:">&ndash;&nbsp;requestDownloads:startAutomatically:withDelegate:withDataSource:</a></code>
+		<span class="tooltip"><p>Method for requesting downloads.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cancelDownload">&ndash;&nbsp;cancelDownload</a></code>
+		<span class="tooltip"><p>Cancel all downloads and clear temporary files.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cancelDownloadForDownloadHelper:">&ndash;&nbsp;cancelDownloadForDownloadHelper:</a></code>
+		<span class="tooltip"><p>Cancel download for a certain item</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pauseDownload">&ndash;&nbsp;pauseDownload</a></code>
+		<span class="tooltip"><p>Pause all downloads.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pauseDownloadForDownloadHelper:">&ndash;&nbsp;pauseDownloadForDownloadHelper:</a></code>
+		<span class="tooltip"><p>Pause download for a certain item</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/resumeDownload">&ndash;&nbsp;resumeDownload</a></code>
+		<span class="tooltip"><p>Resume download.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/resumeDownloadForDownloadHelper:">&ndash;&nbsp;resumeDownloadForDownloadHelper:</a></code>
+		<span class="tooltip"><p>Resume download for a certain item</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isDownloadPaused">&ndash;&nbsp;isDownloadPaused</a></code>
+		<span class="tooltip"><p>Whether or not the download is paused.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isUnzipping">&ndash;&nbsp;isUnzipping</a></code>
+		<span class="tooltip"><p>Whether or not unzip is in progress.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isDownloadRunning">&ndash;&nbsp;isDownloadRunning</a></code>
+		<span class="tooltip"><p>Whether or not download is in progress.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/canStartDownload">+&nbsp;canStartDownload</a></code>
+		<span class="tooltip"><p>Whether or not download can be started. Internet connection should be available and app should not be in onboard mode.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/canRestartDownload">+&nbsp;canRestartDownload</a></code>
+		<span class="tooltip"><p>Whether or not download can be restarted. A previous download session should have been terminated and app should not be in onboard mode.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isOnboardMode">&ndash;&nbsp;isOnboardMode</a></code>
+		<span class="tooltip"><p>Whether or not app is in onboard mode. Download cannot be started in onboard mode.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/currentGroupedOperation">&ndash;&nbsp;currentGroupedOperation</a></code>
+		<span class="tooltip"><p>The current grouped download operation.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/currentDownloadHelper">&ndash;&nbsp;currentDownloadHelper</a></code>
+		<span class="tooltip"><p>The current grouped download operation download helper.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/groupedOperationForDownloadHelper:">&ndash;&nbsp;groupedOperationForDownloadHelper:</a></code>
+		<span class="tooltip"><p>Returns the <a href="../Classes/SKTGroupedDownloadOperation.html">SKTGroupedDownloadOperation</a> corresponding to the <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> object.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/operationsForDownloadHelper:">&ndash;&nbsp;operationsForDownloadHelper:</a></code>
+		<span class="tooltip"><p>Returns an array of <a href="../Classes/SKTGroupedDownloadOperation.html">SKTGroupedDownloadOperation</a> corresponding to the <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> object.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/downloadHelpersFromDownloadOperationQueue">&ndash;&nbsp;downloadHelpersFromDownloadOperationQueue</a></code>
+		<span class="tooltip"><p>Returns an array of <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> from the download queue.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/countDownloadHelpersNotFullyDownloaded">&ndash;&nbsp;countDownloadHelpersNotFullyDownloaded</a></code>
+		<span class="tooltip"><p>Count of downloads which are not fully finished.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/downloadOperationsNotFullyDownloaded">&ndash;&nbsp;downloadOperationsNotFullyDownloaded</a></code>
+		<span class="tooltip"><p>Downloads which are not fully finished.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/changedWifiToCellular">&ndash;&nbsp;changedWifiToCellular</a></code>
+		<span class="tooltip"><p>Whether or not connectiong changed from Wifi to cellular.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Additions Methods" name="task_Additions Methods"></a>
+						<h3 class="subsubtitle task-title">Additions Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/userDidAcceptCellularDownload">&nbsp;&nbsp;userDidAcceptCellularDownload</a></code>
+		<span class="tooltip"><p>Whether or not the user has accepted download over cellular networks.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/libraryDirectory">+&nbsp;libraryDirectory</a></code>
+		<span class="tooltip"><p>Helper function to return Library directory</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/totalSizeForItems:">+&nbsp;totalSizeForItems:</a></code>
+		<span class="tooltip"><p>Total expected download size for an array of <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> objects</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deviceHasEnoughSpaceForItems:">+&nbsp;deviceHasEnoughSpaceForItems:</a></code>
+		<span class="tooltip"><p>Whether or not there is enough disk space for a set of <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a>. Used to see if a download can be started or not.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/mapPackageHasCorrectSize:">+&nbsp;mapPackageHasCorrectSize:</a></code>
+		<span class="tooltip"><p>Whether or not a map package has been correctly downloaded and has the right size.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fileSizeForPath:">+&nbsp;fileSizeForPath:</a></code>
+		<span class="tooltip"><p>Get the byte size of a file at a given path</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/expectedDownloadSizeForDownloadHelper:withFileType:">+&nbsp;expectedDownloadSizeForDownloadHelper:withFileType:</a></code>
+		<span class="tooltip"><p>Expected download size for a <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> object</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/downloadProgressDataForGroupedDownloadOperations:">+&nbsp;downloadProgressDataForGroupedDownloadOperations:</a></code>
+		<span class="tooltip"><p>Returns progress data for a set of <a href="../Classes/SKTGroupedDownloadOperation.html">SKTGroupedDownloadOperation</a> objects.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/stringForSize:">+&nbsp;stringForSize:</a></code>
+		<span class="tooltip"><p>Converts a long long value to a string</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="DatabaseManager Methods" name="task_DatabaseManager Methods"></a>
+						<h3 class="subsubtitle task-title">DatabaseManager Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cleanupDownloadHelper:">+&nbsp;cleanupDownloadHelper:</a></code>
+		<span class="tooltip"><p>Delete all files from disk related to a download</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="DownloadSpeedMeasure Methods" name="task_DownloadSpeedMeasure Methods"></a>
+						<h3 class="subsubtitle task-title">DownloadSpeedMeasure Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/downloadSpeedTimer">&nbsp;&nbsp;downloadSpeedTimer</a></code>
+		<span class="tooltip"><p>Times used to measure the download speed</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/downloadSpeeds">&nbsp;&nbsp;downloadSpeeds</a></code>
+		<span class="tooltip"><p>Array used to hold download speed samples</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/startSpeedCalculationTimer">&ndash;&nbsp;startSpeedCalculationTimer</a></code>
+		<span class="tooltip"><p>Function to start the speed calculation timer.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cancelSpeedCalculationTimer">&ndash;&nbsp;cancelSpeedCalculationTimer</a></code>
+		<span class="tooltip"><p>Function to stop the speed calculation timer.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/downloadSpeedMeasurementInfo">&ndash;&nbsp;downloadSpeedMeasurementInfo</a></code>
+		<span class="tooltip"><p>Returns download speed measurments info.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="ResumeManager Methods" name="task_ResumeManager Methods"></a>
+						<h3 class="subsubtitle task-title">ResumeManager Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/storeDownloadObjects:">+&nbsp;storeDownloadObjects:</a></code>
+		<span class="tooltip"><p>Write to disk the download in progress, keep track of running download in case we need to restart the download.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeDownloadObjects:">+&nbsp;removeDownloadObjects:</a></code>
+		<span class="tooltip"><p>Remove a download from disk, there&rsquo;s no need to restart it in the future.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/storedDownloadObjects">+&nbsp;storedDownloadObjects</a></code>
+		<span class="tooltip"><p>Retrive an array of download objects that were stored on disk.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/clearStoredDownloadObjects">+&nbsp;clearStoredDownloadObjects</a></code>
+		<span class="tooltip"><p>Clear download objects that were stored on disk.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/downloadDataSource" title="downloadDataSource"></a>
+	<h3 class="subsubtitle method-title">downloadDataSource</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Download data source, can be NULL.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) id&lt;SKTDownloadManagerDataSource&gt; downloadDataSource</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Download data source, can be NULL.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/downloadDelegate" title="downloadDelegate"></a>
+	<h3 class="subsubtitle method-title">downloadDelegate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Download delegate, can be NULL.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) id&lt;SKTDownloadManagerDelegate&gt; downloadDelegate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Download delegate, can be NULL.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/downloadOperations" title="downloadOperations"></a>
+	<h3 class="subsubtitle method-title">downloadOperations</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Container for <a href="../Classes/SKTGroupedDownloadOperation.html">SKTGroupedDownloadOperation</a> operations.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (atomic, strong, readonly) NSMutableArray *downloadOperations</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Container for <a href="../Classes/SKTGroupedDownloadOperation.html">SKTGroupedDownloadOperation</a> operations.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/downloadSpeedTimer" title="downloadSpeedTimer"></a>
+	<h3 class="subsubtitle method-title">downloadSpeedTimer</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Times used to measure the download speed</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSTimer *downloadSpeedTimer</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Times used to measure the download speed</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager+DownloadSpeedMeasure.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/downloadSpeeds" title="downloadSpeeds"></a>
+	<h3 class="subsubtitle method-title">downloadSpeeds</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Array used to hold download speed samples</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSMutableArray *downloadSpeeds</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Array used to hold download speed samples</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager+DownloadSpeedMeasure.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/userDidAcceptCellularDownload" title="userDidAcceptCellularDownload"></a>
+	<h3 class="subsubtitle method-title">userDidAcceptCellularDownload</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether or not the user has accepted download over cellular networks.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL userDidAcceptCellularDownload</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether or not the user has accepted download over cellular networks.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager+Additions.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/canRestartDownload" title="canRestartDownload"></a>
+	<h3 class="subsubtitle method-title">canRestartDownload</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether or not download can be restarted. A previous download session should have been terminated and app should not be in onboard mode.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)canRestartDownload</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A Boolean indicating whether or not download can be restarted.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether or not download can be restarted. A previous download session should have been terminated and app should not be in onboard mode.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/canStartDownload" title="canStartDownload"></a>
+	<h3 class="subsubtitle method-title">canStartDownload</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether or not download can be started. Internet connection should be available and app should not be in onboard mode.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)canStartDownload</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A Boolean indicating whether or not download can be started.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether or not download can be started. Internet connection should be available and app should not be in onboard mode.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/cleanupDownloadHelper:" title="cleanupDownloadHelper:"></a>
+	<h3 class="subsubtitle method-title">cleanupDownloadHelper:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Delete all files from disk related to a download</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)cleanupDownloadHelper:(SKTDownloadObjectHelper *)<em>downloadHelper</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>downloadHelper</em></dt>
+			<dd><p>The <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> object containing information regarding the download.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Delete all files from disk related to a download</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager+DatabaseManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/clearStoredDownloadObjects" title="clearStoredDownloadObjects"></a>
+	<h3 class="subsubtitle method-title">clearStoredDownloadObjects</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Clear download objects that were stored on disk.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)clearStoredDownloadObjects</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Clear download objects that were stored on disk.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager+ResumeManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deviceHasEnoughSpaceForItems:" title="deviceHasEnoughSpaceForItems:"></a>
+	<h3 class="subsubtitle method-title">deviceHasEnoughSpaceForItems:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether or not there is enough disk space for a set of <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a>. Used to see if a download can be started or not.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)deviceHasEnoughSpaceForItems:(NSArray *)<em>items</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>items</em></dt>
+			<dd><p>NSArray of <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> objects</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A boolean indicating is the device has enough disk space for required downloads</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether or not there is enough disk space for a set of <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a>. Used to see if a download can be started or not.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager+Additions.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/downloadProgressDataForGroupedDownloadOperations:" title="downloadProgressDataForGroupedDownloadOperations:"></a>
+	<h3 class="subsubtitle method-title">downloadProgressDataForGroupedDownloadOperations:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns progress data for a set of <a href="../Classes/SKTGroupedDownloadOperation.html">SKTGroupedDownloadOperation</a> objects.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSDictionary *)downloadProgressDataForGroupedDownloadOperations:(NSArray *)<em>array</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>array</em></dt>
+			<dd><p>NSArray of <a href="../Classes/SKTGroupedDownloadOperation.html">SKTGroupedDownloadOperation</a> objects</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The dictionary contains following keys/values:
+&ndash; an <code>NSString</code> object under the <code>kSKTDownloadOverallProgressString</code> key, representing overall progress string for all SKTGroupedDownloadOperations.
+&ndash; an <code>NSNumber</code> object under the <code>kSKTDownloadOverallPercentage</code> key, representing overall percentage as a <code>float</code> value for all SKTGroupedDownloadOperations.
+&ndash; an <code>NSNumber</code> object under the <code>kSKTDownloadTotalDownloadSize</code> key, total download size as <code>long long</code> for all SKTGroupedDownloadOperations.
+&ndash; an <code>NSNumber</code> object under the <code>kSKTDownloadTotalBytesDownloaded</code> key, total downloaded bytes as <code>long long</code> for all SKTGroupedDownloadOperations.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns progress data for a set of <a href="../Classes/SKTGroupedDownloadOperation.html">SKTGroupedDownloadOperation</a> objects.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager+Additions.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/expectedDownloadSizeForDownloadHelper:withFileType:" title="expectedDownloadSizeForDownloadHelper:withFileType:"></a>
+	<h3 class="subsubtitle method-title">expectedDownloadSizeForDownloadHelper:withFileType:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Expected download size for a <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> object</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (long long)expectedDownloadSizeForDownloadHelper:(SKTDownloadObjectHelper *)<em>downloadHelper</em> withFileType:(SKTDownloadFileType)<em>downloadFileType</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>downloadHelper</em></dt>
+			<dd><p><a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> with the download details</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>downloadFileType</em></dt>
+			<dd><p>SKTDownloadFileType representing the type of the download</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>long long representing the expected download size for a download object</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Expected download size for a <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> object</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager+Additions.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/fileSizeForPath:" title="fileSizeForPath:"></a>
+	<h3 class="subsubtitle method-title">fileSizeForPath:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the byte size of a file at a given path</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (unsigned long long)fileSizeForPath:(NSString *)<em>path</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>path</em></dt>
+			<dd><p>Path to a file/resource</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Unsigned long long representing the bytes of the file at a given path</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Get the byte size of a file at a given path</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager+Additions.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/libraryDirectory" title="libraryDirectory"></a>
+	<h3 class="subsubtitle method-title">libraryDirectory</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Helper function to return Library directory</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)libraryDirectory</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Library directory path</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Helper function to return Library directory</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager+Additions.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/mapPackageHasCorrectSize:" title="mapPackageHasCorrectSize:"></a>
+	<h3 class="subsubtitle method-title">mapPackageHasCorrectSize:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether or not a map package has been correctly downloaded and has the right size.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)mapPackageHasCorrectSize:(SKTDownloadObjectHelper *)<em>downloadHelper</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>downloadHelper</em></dt>
+			<dd><p><a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> with the download details</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A boolean indicating if the map package was downloaded correctly</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether or not a map package has been correctly downloaded and has the right size.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager+Additions.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeDownloadObjects:" title="removeDownloadObjects:"></a>
+	<h3 class="subsubtitle method-title">removeDownloadObjects:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Remove a download from disk, there&rsquo;s no need to restart it in the future.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)removeDownloadObjects:(NSArray *)<em>objectsToDownload</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>objectsToDownload</em></dt>
+			<dd><p>NSArray of <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> objects</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Remove a download from disk, there&rsquo;s no need to restart it in the future.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager+ResumeManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sharedInstance" title="sharedInstance"></a>
+	<h3 class="subsubtitle method-title">sharedInstance</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Method for retrieving SKTDownloadManager singleton</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (SKTDownloadManager *)sharedInstance</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>SKTDownloadManager singleton instance.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Method for retrieving SKTDownloadManager singleton</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/storeDownloadObjects:" title="storeDownloadObjects:"></a>
+	<h3 class="subsubtitle method-title">storeDownloadObjects:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Write to disk the download in progress, keep track of running download in case we need to restart the download.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)storeDownloadObjects:(NSArray *)<em>objectsToDownload</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>objectsToDownload</em></dt>
+			<dd><p>NSArray of <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> objects</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Write to disk the download in progress, keep track of running download in case we need to restart the download.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager+ResumeManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/storedDownloadObjects" title="storedDownloadObjects"></a>
+	<h3 class="subsubtitle method-title">storedDownloadObjects</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Retrive an array of download objects that were stored on disk.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSArray *)storedDownloadObjects</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>NSArray of <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> objects that we can restore.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Retrive an array of download objects that were stored on disk.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager+ResumeManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/stringForSize:" title="stringForSize:"></a>
+	<h3 class="subsubtitle method-title">stringForSize:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Converts a long long value to a string</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)stringForSize:(long long)<em>size</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>size</em></dt>
+			<dd><p>long long value representing the size</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The string representing the size.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Converts a long long value to a string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager+Additions.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/totalSizeForItems:" title="totalSizeForItems:"></a>
+	<h3 class="subsubtitle method-title">totalSizeForItems:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Total expected download size for an array of <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> objects</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (long long)totalSizeForItems:(NSArray *)<em>items</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>items</em></dt>
+			<dd><p>NSArray of <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> objects</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Total size for all <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> objects as long long</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Total expected download size for an array of <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> objects</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager+Additions.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/cancelDownload" title="cancelDownload"></a>
+	<h3 class="subsubtitle method-title">cancelDownload</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Cancel all downloads and clear temporary files.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)cancelDownload</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Cancel all downloads and clear temporary files.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/cancelDownloadForDownloadHelper:" title="cancelDownloadForDownloadHelper:"></a>
+	<h3 class="subsubtitle method-title">cancelDownloadForDownloadHelper:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Cancel download for a certain item</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)cancelDownloadForDownloadHelper:(SKTDownloadObjectHelper *)<em>downloadHelper</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>downloadHelper</em></dt>
+			<dd><p>The <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> object containing information regarding the download.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A boolean indicating wether the download was cancelled succesfully.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Cancel download for a certain item</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/cancelSpeedCalculationTimer" title="cancelSpeedCalculationTimer"></a>
+	<h3 class="subsubtitle method-title">cancelSpeedCalculationTimer</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Function to stop the speed calculation timer.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)cancelSpeedCalculationTimer</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Function to stop the speed calculation timer.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager+DownloadSpeedMeasure.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/changedWifiToCellular" title="changedWifiToCellular"></a>
+	<h3 class="subsubtitle method-title">changedWifiToCellular</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether or not connectiong changed from Wifi to cellular.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)changedWifiToCellular</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A Boolean indicating whether or not connectiong changed from Wifi to cellular.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether or not connectiong changed from Wifi to cellular.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/countDownloadHelpersNotFullyDownloaded" title="countDownloadHelpersNotFullyDownloaded"></a>
+	<h3 class="subsubtitle method-title">countDownloadHelpersNotFullyDownloaded</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Count of downloads which are not fully finished.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSUInteger)countDownloadHelpersNotFullyDownloaded</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An integer representing the count of downloads which are not fully finished.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Count of downloads which are not fully finished.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/currentDownloadHelper" title="currentDownloadHelper"></a>
+	<h3 class="subsubtitle method-title">currentDownloadHelper</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The current grouped download operation download helper.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SKTDownloadObjectHelper *)currentDownloadHelper</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The current <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> instance.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The current grouped download operation download helper.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/currentGroupedOperation" title="currentGroupedOperation"></a>
+	<h3 class="subsubtitle method-title">currentGroupedOperation</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The current grouped download operation.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SKTGroupedDownloadOperation *)currentGroupedOperation</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The current <a href="../Classes/SKTGroupedDownloadOperation.html">SKTGroupedDownloadOperation</a> instance.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The current grouped download operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/downloadHelpersFromDownloadOperationQueue" title="downloadHelpersFromDownloadOperationQueue"></a>
+	<h3 class="subsubtitle method-title">downloadHelpersFromDownloadOperationQueue</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns an array of <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> from the download queue.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)downloadHelpersFromDownloadOperationQueue</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Array of <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> instances.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns an array of <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> from the download queue.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/downloadOperationsNotFullyDownloaded" title="downloadOperationsNotFullyDownloaded"></a>
+	<h3 class="subsubtitle method-title">downloadOperationsNotFullyDownloaded</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Downloads which are not fully finished.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)downloadOperationsNotFullyDownloaded</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An array representing the SKTGroupedDownloadOperations which are not fully finished.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Downloads which are not fully finished.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/downloadSpeedMeasurementInfo" title="downloadSpeedMeasurementInfo"></a>
+	<h3 class="subsubtitle method-title">downloadSpeedMeasurementInfo</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns download speed measurments info.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSDictionary *)downloadSpeedMeasurementInfo</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The dictionary contains following keys/values:
+&ndash; an <code>NSString</code> object under the <code>kSKDownloadSpeed</code> key, representing download speed string.
+&ndash; an <code>NSString</code> object under the <code>kSKDownloadEstimatedTime</code> key, representing download estimated time string.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns download speed measurments info.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager+DownloadSpeedMeasure.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/groupedOperationForDownloadHelper:" title="groupedOperationForDownloadHelper:"></a>
+	<h3 class="subsubtitle method-title">groupedOperationForDownloadHelper:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the <a href="../Classes/SKTGroupedDownloadOperation.html">SKTGroupedDownloadOperation</a> corresponding to the <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> object.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (SKTGroupedDownloadOperation *)groupedOperationForDownloadHelper:(SKTDownloadObjectHelper *)<em>downloadHelper</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>downloadHelper</em></dt>
+			<dd><p>The <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> object containing information regarding the download.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The <a href="../Classes/SKTGroupedDownloadOperation.html">SKTGroupedDownloadOperation</a> instance.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns the <a href="../Classes/SKTGroupedDownloadOperation.html">SKTGroupedDownloadOperation</a> corresponding to the <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> object.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isDownloadPaused" title="isDownloadPaused"></a>
+	<h3 class="subsubtitle method-title">isDownloadPaused</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether or not the download is paused.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)isDownloadPaused</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A Boolean indicating whether or not the download is paused.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether or not the download is paused.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isDownloadRunning" title="isDownloadRunning"></a>
+	<h3 class="subsubtitle method-title">isDownloadRunning</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether or not download is in progress.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)isDownloadRunning</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A Boolean indicating whether or not download is in progress.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether or not download is in progress.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isOnboardMode" title="isOnboardMode"></a>
+	<h3 class="subsubtitle method-title">isOnboardMode</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether or not app is in onboard mode. Download cannot be started in onboard mode.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)isOnboardMode</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A Boolean indicating whether or not app is in onboard mode.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether or not app is in onboard mode. Download cannot be started in onboard mode.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isUnzipping" title="isUnzipping"></a>
+	<h3 class="subsubtitle method-title">isUnzipping</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether or not unzip is in progress.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)isUnzipping</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A Boolean indicating whether or not unzipping is in progress.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether or not unzip is in progress.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/operationsForDownloadHelper:" title="operationsForDownloadHelper:"></a>
+	<h3 class="subsubtitle method-title">operationsForDownloadHelper:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns an array of <a href="../Classes/SKTGroupedDownloadOperation.html">SKTGroupedDownloadOperation</a> corresponding to the <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> object.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)operationsForDownloadHelper:(SKTDownloadObjectHelper *)<em>downloadHelper</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>downloadHelper</em></dt>
+			<dd><p>The <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> object containing information regarding the download.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Array of <a href="../Classes/SKTGroupedDownloadOperation.html">SKTGroupedDownloadOperation</a> instances.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Returns an array of <a href="../Classes/SKTGroupedDownloadOperation.html">SKTGroupedDownloadOperation</a> corresponding to the <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> object.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pauseDownload" title="pauseDownload"></a>
+	<h3 class="subsubtitle method-title">pauseDownload</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Pause all downloads.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)pauseDownload</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Pause all downloads.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pauseDownloadForDownloadHelper:" title="pauseDownloadForDownloadHelper:"></a>
+	<h3 class="subsubtitle method-title">pauseDownloadForDownloadHelper:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Pause download for a certain item</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)pauseDownloadForDownloadHelper:(SKTDownloadObjectHelper *)<em>downloadHelper</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>downloadHelper</em></dt>
+			<dd><p>The <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> object containing information regarding the download.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A boolean indicating wether the download was paused succesfully.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Pause download for a certain item</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/requestDownloads:startAutomatically:withDelegate:withDataSource:" title="requestDownloads:startAutomatically:withDelegate:withDataSource:"></a>
+	<h3 class="subsubtitle method-title">requestDownloads:startAutomatically:withDelegate:withDataSource:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Method for requesting downloads.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)requestDownloads:(NSArray *)<em>downloads</em> startAutomatically:(BOOL)<em>shouldStart</em> withDelegate:(id&lt;SKTDownloadManagerDelegate&gt;)<em>delegate</em> withDataSource:(id&lt;SKTDownloadManagerDataSource&gt;)<em>dataSource</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>downloads</em></dt>
+			<dd><p>Array of <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> objects.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>shouldStart</em></dt>
+			<dd><p>A boolean indicating wether the download should start after adding downloads to the queue.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>delegate</em></dt>
+			<dd><p>Download delegate.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>dataSource</em></dt>
+			<dd><p>Download data source</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Method for requesting downloads.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/resumeDownload" title="resumeDownload"></a>
+	<h3 class="subsubtitle method-title">resumeDownload</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Resume download.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)resumeDownload</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Resume download.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/resumeDownloadForDownloadHelper:" title="resumeDownloadForDownloadHelper:"></a>
+	<h3 class="subsubtitle method-title">resumeDownloadForDownloadHelper:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Resume download for a certain item</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)resumeDownloadForDownloadHelper:(SKTDownloadObjectHelper *)<em>downloadHelper</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>downloadHelper</em></dt>
+			<dd><p>The <a href="../Classes/SKTDownloadObjectHelper.html">SKTDownloadObjectHelper</a> object containing information regarding the download.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A boolean indicating wether the download was resumed succesfully.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Resume download for a certain item</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/startSpeedCalculationTimer" title="startSpeedCalculationTimer"></a>
+	<h3 class="subsubtitle method-title">startSpeedCalculationTimer</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Function to start the speed calculation timer.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)startSpeedCalculationTimer</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Function to start the speed calculation timer.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">SKTDownloadManager+DownloadSpeedMeasure.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Skobbler. All rights reserved. (Last updated: 2014-09-30)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

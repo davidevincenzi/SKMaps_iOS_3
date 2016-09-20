@@ -1,0 +1,58 @@
+if [ ! -d $SRCROOT/SKTNavigationDoc ]; then
+    mkdir $SRCROOT/SKTNavigationDoc
+fi
+
+$SRCROOT/appledoc \
+--project-name SDKTools-Navigation \
+--project-company Skobbler \
+--company-id Skobbler \
+--output $SRCROOT/SKTNavigationDoc \
+--logformat xcode \
+--keep-undocumented-objects \
+--keep-undocumented-members \
+--exit-threshold 2 \
+--ignore *.m \
+--ignore $SRCROOT/SDKTools/ThirdParty \
+--ignore $SRCROOT/SDKTools/SKTMaps \
+--ignore $SRCROOT/SDKTools/SKTDownloadManager \
+$SRCROOT/SDKTools
+
+
+if [ ! -d $SRCROOT/SKTDownloadDoc ]; then
+mkdir $SRCROOT/SKTDownloadDoc
+fi
+
+$SRCROOT/appledoc \
+--project-name SDKTools-Download \
+--project-company Skobbler \
+--company-id Skobbler \
+--output $SRCROOT/SKTDownloadDoc \
+--logformat xcode \
+--keep-undocumented-objects \
+--keep-undocumented-members \
+--exit-threshold 2 \
+--ignore *.m \
+--ignore $SRCROOT/SDKTools/ThirdParty \
+--ignore $SRCROOT/SDKTools/SKTMaps \
+--ignore $SRCROOT/SDKTools/Navigation \
+--ignore $SRCROOT/SDKTools/SKTDownloadManager/Helper/KVCBaseObject.h \
+$SRCROOT/SDKTools
+
+if [ ! -d $SRCROOT/SDKToolsDoc ]; then
+mkdir $SRCROOT/SDKToolsDoc
+fi
+
+$SRCROOT/appledoc \
+--project-name SDKTools \
+--project-company Skobbler \
+--company-id Skobbler \
+--output $SRCROOT/SDKToolsDoc \
+--logformat xcode \
+--keep-undocumented-objects \
+--keep-undocumented-members \
+--exit-threshold 2 \
+--ignore *.m \
+--ignore $SRCROOT/SDKTools/ThirdParty \
+--ignore $SRCROOT/SDKTools/SKTMaps \
+--ignore $SRCROOT/SDKTools/SKTDownloadManager/Helper/KVCBaseObject.h \
+$SRCROOT/SDKTools

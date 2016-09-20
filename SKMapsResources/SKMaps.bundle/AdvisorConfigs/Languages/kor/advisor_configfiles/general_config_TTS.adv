@@ -1,0 +1,285 @@
+#states how have driving wheel on right side
+LeftSideDrive = UK|AU;
+
+#speed 
+km_per_hour = 시속_킬로미터|시속_킬로미터
+mi_per_hour = 시속_마일|시속_마일
+
+# advice combine distances in meters. street_type_next_street_type_Combine1/2_City/Outside
+H_H_Combine1_City=200
+H_H_Combine1_Outside=200
+H_M_Combine1_City=200
+H_M_Combine1_Outside=200
+H_C_Combine1_City=200
+H_C_Combine1_Outside=200
+H_S_Combine1_City=200
+H_S_Combine1_Outside=200
+
+H_H_Combine2_City=100
+H_H_Combine2_Outside=150
+H_M_Combine2_City=100
+H_M_Combine2_Outside=150
+H_C_Combine2_City=100
+H_C_Combine2_Outside=150
+H_S_Combine2_City=100
+H_S_Combine2_Outside=150
+
+M_H_Combine1_City=150
+M_H_Combine1_Outside=150
+M_M_Combine1_City=150
+M_M_Combine1_Outside=150
+M_C_Combine1_City=150
+M_C_Combine1_Outside=150
+M_S_Combine1_City=150
+M_S_Combine1_Outside=150
+
+M_H_Combine2_City=80
+M_H_Combine2_Outside=100
+M_M_Combine2_City=80
+M_M_Combine2_Outside=100
+M_C_Combine2_City=80
+M_C_Combine2_Outside=100
+M_S_Combine2_City=80
+M_S_Combine2_Outside=100
+
+C_H_Combine1_City=100
+C_H_Combine1_Outside=100
+C_M_Combine1_City=100
+C_M_Combine1_Outside=100
+C_C_Combine1_City=100
+C_C_Combine1_Outside=100
+C_S_Combine1_City=100
+C_S_Combine1_Outside=100
+
+C_H_Combine2_City=70
+C_H_Combine2_Outside=90
+C_M_Combine2_City=70
+C_M_Combine2_Outside=90
+C_C_Combine2_City=70
+C_C_Combine2_Outside=90
+C_S_Combine2_City=70
+C_S_Combine2_Outside=90
+
+S_H_Combine1_City=100
+S_H_Combine1_Outside=100
+S_M_Combine1_City=100
+S_M_Combine1_Outside=100
+S_C_Combine1_City=100
+S_C_Combine1_Outside=100
+S_S_Combine1_City=100
+S_S_Combine1_Outside=100
+
+S_H_Combine2_City=50
+S_H_Combine2_Outside=50
+S_M_Combine2_City=50
+S_M_Combine2_Outside=50
+S_C_Combine2_City=50
+S_C_Combine2_Outside=50
+S_S_Combine2_City=50
+S_S_Combine2_Outside=50
+
+#distance replaces
+900_yards = 반_마일
+950_yards = 반_마일
+
+10400_feet = 이_마일
+
+10300_feet = 일
+
+10200_feet = 영_점_구_마일
+
+10100_feet = 영_점_구_마일
+
+10000_feet = 영_점_구_마일
+
+9900_feet = 영_점_구_마일
+
+9800_feet = 영_점_구_마일
+
+9700_feet = 영_점_구_마일
+
+9600_feet = 영_점_팔_마일
+
+9500_feet = 영_점_팔_마일
+
+9400_feet = 영_점_팔_마일
+
+9300_feet = 영_점_팔_마일
+
+9200_feet = 영_점_칠_마일
+
+9100_feet = 영_점_칠_마일
+
+9000_feet = 영_점_칠_마일
+
+8900_feet = 영_점_칠_마일
+
+8800_feet = 영_점_칠_마일
+
+8700_feet = 영_점_칠_마일
+
+8600_feet = 사분의_일_마일
+
+8500_feet = eineinhalb_Meilen
+
+8400_feet = eineinhalb_Meilen
+
+8300_feet = eineinhalb_Meilen
+
+8200_feet = eineinhalb_Meilen
+
+8100_feet = eineinhalb_Meilen
+
+8000_feet = eineinhalb_Meilen
+
+7900_feet = eineinhalb_Meilen
+
+7800_feet = eineinhalb_Meilen
+
+7700_feet = eineinhalb_Meilen
+
+7600_feet = eineinhalb_Meilen
+
+7500_feet = eins_Komma_vier_Meilen
+
+7400_feet = eins_Komma_vier_Meilen
+
+7300_feet = eins_Komma_vier_Meilen
+
+7200_feet = eins_Komma_vier_Meilen
+
+7100_feet = eins_Komma_drei_Meilen
+
+7000_feet = eins_Komma_drei_Meilen
+
+6900_feet = eins_Komma_drei_Meilen
+
+6800_feet = eins_Komma_drei_Meilen
+
+6700_feet = eins_Komma_drei_Meilen
+
+6600_feet = eins_Komma_zwei_Meilen
+
+6500_feet = eins_Komma_zwei_Meilen
+
+6400_feet = eins_Komma_zwei_Meilen
+4400_feet = 반_마일
+4300_feet = 반_마일
+4200_feet = 반_마일
+4100_feet = 반_마일
+4000_feet = 반_마일
+3900_feet = 반_마일
+3800_feet = 반_마일
+3700_feet = 반_마일
+3600_feet = 반_마일
+3500_feet = 반_마일
+3400_feet = 반_마일
+3300_feet = 반_마일
+3200_feet = 반_마일
+3100_feet = 반_마일
+3000_feet = 반_마일
+2900_feet = 반_마일
+2800_feet = 반_마일
+2700_feet = 반_마일
+2600_feet = 반_마일
+2500_feet = 반_마일
+2400_feet = 반_마일
+5100_feet = null_Komma_acht_Meilen
+
+5000_feet = null_Komma_acht_Meilen
+
+4900_feet = null_Komma_acht_Meilen
+
+4800_feet = null_Komma_acht_Meilen
+
+4700_feet = null_Komma_acht_Meilen
+
+4600_feet = null_Komma_acht_Meilen
+
+4500_feet = null_Komma_acht_Meilen
+
+4400_feet = eine_halbe_Meile
+
+4300_feet = eine_halbe_Meile
+
+4200_feet = eine_halbe_Meile
+
+4100_feet = eine_halbe_Meile
+
+4000_feet = eine_halbe_Meile
+
+3900_feet = eine_halbe_Meile
+
+3800_feet = eine_halbe_Meile
+
+3700_feet = eine_halbe_Meile
+
+3600_feet = eine_halbe_Meile
+
+3500_feet = eine_halbe_Meile
+
+3400_feet = eine_halbe_Meile
+
+3300_feet = eine_halbe_Meile
+
+3200_feet = eine_halbe_Meile
+
+3100_feet = eine_halbe_Meile
+
+3000_feet = eine_halbe_Meile
+
+2900_feet = eine_halbe_Meile
+
+2800_feet = eine_halbe_Meile
+
+2700_feet = eine_halbe_Meile
+2600_feet = eine_halbe_Meile
+
+2500_feet = eine_halbe_Meile
+
+2400_feet = eine_halbe_Meile
+
+2300_feet = null_Komma_vier_Meilen
+
+2200_feet = null_Komma_vier_Meilen
+
+2100_feet = null_Komma_vier_Meilen
+
+1900_feet = eine_Viertelmeile
+
+1800_feet = eine_Viertelmeile
+
+1700_feet = eine_Viertelmeile
+
+1600_feet = eine_Viertelmeile
+
+1500_feet = eine_Viertelmeile
+
+1400_feet = eine_Viertelmeile
+
+1300_feet = eine_Viertelmeile
+
+1200_feet = eine_Viertelmeile
+
+1100_feet = eine_Viertelmeile
+
+1_exit = 첫번째
+2_exit = 두번째
+3_exit = 세번쩨
+4_exit = 네번째
+5_exit = 다섯번째
+6_exit = 여섯번째
+7_exit = 일곱번째
+8_exit = 여덟번째
+9_exit = 아홉번째
+10_exit = 열번째
+
+timeBetweenSpeedLimitWarnings = 60 #time is in seconds
+
+notClosedSufix = _open
+closedSufix = _closed
+
+north = 북쪽
+south = 남쪽
+east = 동쪽
+west = 서쪽

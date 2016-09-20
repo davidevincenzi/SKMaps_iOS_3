@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/SKTDownloadOperationDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/SKTDownloadOperationDelegate</TokenIdentifier>
+			<Abstract type="html">SKTDownloadOperationDelegate delegate of SKTDownloadOperation.</Abstract>
+			<DeclaredIn>SKTDownloadOperationDelegate.h</DeclaredIn>
+			
+			<NodeRef refid="51"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadOperationDelegate/downloadOperation:finishedSuccessfully:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the download operation finished.</Abstract>
+			<DeclaredIn>SKTDownloadOperationDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)downloadOperation:(SKTDownloadOperation *)operation finishedSuccessfully:(BOOL)success</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>operation</Name>
+					<Abstract type="html">the download operation.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">A boolean indicating if the download finished with success.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadOperation:finishedSuccessfully:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadOperationDelegate/downloadOperation:willRetryWithDownloadOperation:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the download operation will retry to download.</Abstract>
+			<DeclaredIn>SKTDownloadOperationDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)downloadOperation:(SKTDownloadOperation *)operation willRetryWithDownloadOperation:(NSArray *)newOperations</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>operation</Name>
+					<Abstract type="html">the download operation.</Abstract>
+				</Parameter><Parameter>
+					<Name>newOperations</Name>
+					<Abstract type="html">NSArray containing a copy of the download operations. The new operations will replace the old one.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadOperation:willRetryWithDownloadOperation:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadOperationDelegate/didReceiveTimeOut:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the download operation received timeout.</Abstract>
+			<DeclaredIn>SKTDownloadOperationDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)didReceiveTimeOut:(SKTDownloadOperation *)operation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>operation</Name>
+					<Abstract type="html">the download operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didReceiveTimeOut:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadOperationDelegate/operationCanceledByOS:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the download operation was cancelled by the operating system (background task cancelled after a certain period).</Abstract>
+			<DeclaredIn>SKTDownloadOperationDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)operationCanceledByOS:(SKTDownloadOperation *)operation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>operation</Name>
+					<Abstract type="html">the download operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/operationCanceledByOS:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadOperationDelegate/downloadOperation:bytesRead:totalBytesRead:totalBytesExpected:totalBytesExpectedToReadForFile:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the download operation received bytes.</Abstract>
+			<DeclaredIn>SKTDownloadOperationDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)downloadOperation:(SKTDownloadOperation *)operation bytesRead:(NSInteger)bytesRead totalBytesRead:(long long)totalBytesRead totalBytesExpected:(long long)totalBytesExpected totalBytesExpectedToReadForFile:(long long)totalBytesExpectedToReadForFile</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>operation</Name>
+					<Abstract type="html">the download operation.</Abstract>
+				</Parameter><Parameter>
+					<Name>bytesRead</Name>
+					<Abstract type="html">NSInteger representing incoming read bytes of the download operation.</Abstract>
+				</Parameter><Parameter>
+					<Name>totalBytesRead</Name>
+					<Abstract type="html">long long representing total read bytes of the download operation.</Abstract>
+				</Parameter><Parameter>
+					<Name>totalBytesExpected</Name>
+					<Abstract type="html">long long representing total remaining expected bytes of the download operation.</Abstract>
+				</Parameter><Parameter>
+					<Name>totalBytesExpectedToReadForFile</Name>
+					<Abstract type="html">long long representing total expected bytes of the download operation (expectedContentLenght).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadOperation:bytesRead:totalBytesRead:totalBytesExpected:totalBytesExpectedToReadForFile:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTMainView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTMainView</TokenIdentifier>
+			<Abstract type="html">This is the main view that contains all the navigation related UI elements and it&apos;s meant to be an overlay for the map view. SKTNavigationManager takes care of displaying the appropriate UI elements and updating them.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMainView/setCalculatingRouteView:</TokenIdentifier>
+			<Abstract type="html">View that is displayed while calculating the routes.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationCalculatingRouteView *calculatingRouteView</Declaration>
+			
+			
+			<Anchor>//api/name/calculatingRouteView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMainView/calculatingRouteView</TokenIdentifier>
+			<Abstract type="html">View that is displayed while calculating the routes.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationCalculatingRouteView *calculatingRouteView</Declaration>
+			
+			
+			<Anchor>//api/name/calculatingRouteView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMainView/setWaitingGPSView:</TokenIdentifier>
+			<Abstract type="html">View that is displayd when navigation has not starte and GPS signal is bad.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTWaitingGPSSignalView *waitingGPSView</Declaration>
+			
+			
+			<Anchor>//api/name/waitingGPSView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMainView/waitingGPSView</TokenIdentifier>
+			<Abstract type="html">View that is displayd when navigation has not starte and GPS signal is bad.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTWaitingGPSSignalView *waitingGPSView</Declaration>
+			
+			
+			<Anchor>//api/name/waitingGPSView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMainView/setLostGPSSignalView:</TokenIdentifier>
+			<Abstract type="html">View that is displayed when navigation has started and GPS signal goes bad.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTLostGPSSignalView *lostGPSSignalView</Declaration>
+			
+			
+			<Anchor>//api/name/lostGPSSignalView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMainView/lostGPSSignalView</TokenIdentifier>
+			<Abstract type="html">View that is displayed when navigation has started and GPS signal goes bad.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTLostGPSSignalView *lostGPSSignalView</Declaration>
+			
+			
+			<Anchor>//api/name/lostGPSSignalView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMainView/setNavigationView:</TokenIdentifier>
+			<Abstract type="html">Displays information while navigating.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationView *navigationView</Declaration>
+			
+			
+			<Anchor>//api/name/navigationView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMainView/navigationView</TokenIdentifier>
+			<Abstract type="html">Displays information while navigating.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationView *navigationView</Declaration>
+			
+			
+			<Anchor>//api/name/navigationView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMainView/setReroutingView:</TokenIdentifier>
+			<Abstract type="html">View that is displayed when a rerouting occured.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTReroutingInfoView *reroutingView</Declaration>
+			
+			
+			<Anchor>//api/name/reroutingView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMainView/reroutingView</TokenIdentifier>
+			<Abstract type="html">View that is displayed when a rerouting occured.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTReroutingInfoView *reroutingView</Declaration>
+			
+			
+			<Anchor>//api/name/reroutingView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMainView/setFreeDriveView:</TokenIdentifier>
+			<Abstract type="html">Displays information while in free drive.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationFreeDriveView *freeDriveView</Declaration>
+			
+			
+			<Anchor>//api/name/freeDriveView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMainView/freeDriveView</TokenIdentifier>
+			<Abstract type="html">Displays information while in free drive.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationFreeDriveView *freeDriveView</Declaration>
+			
+			
+			<Anchor>//api/name/freeDriveView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMainView/setPanningView:</TokenIdentifier>
+			<Abstract type="html">Contains controls used while in panning mode.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationPanningView *panningView</Declaration>
+			
+			
+			<Anchor>//api/name/panningView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMainView/panningView</TokenIdentifier>
+			<Abstract type="html">Contains controls used while in panning mode.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationPanningView *panningView</Declaration>
+			
+			
+			<Anchor>//api/name/panningView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMainView/setSettingsView:</TokenIdentifier>
+			<Abstract type="html">Contains various settings that the user can adjust while navigating.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationSettingsView *settingsView</Declaration>
+			
+			
+			<Anchor>//api/name/settingsView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMainView/settingsView</TokenIdentifier>
+			<Abstract type="html">Contains various settings that the user can adjust while navigating.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationSettingsView *settingsView</Declaration>
+			
+			
+			<Anchor>//api/name/settingsView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMainView/setBlockRoadsView:</TokenIdentifier>
+			<Abstract type="html">Contains options to block roads for a certain distance or to unblock them.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationBlockRoadsView *blockRoadsView</Declaration>
+			
+			
+			<Anchor>//api/name/blockRoadsView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMainView/blockRoadsView</TokenIdentifier>
+			<Abstract type="html">Contains options to block roads for a certain distance or to unblock them.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationBlockRoadsView *blockRoadsView</Declaration>
+			
+			
+			<Anchor>//api/name/blockRoadsView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMainView/setOverviewView:</TokenIdentifier>
+			<Abstract type="html">Contains information about navigation destination.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationOverviewView *overviewView</Declaration>
+			
+			
+			<Anchor>//api/name/overviewView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMainView/overviewView</TokenIdentifier>
+			<Abstract type="html">Contains information about navigation destination.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationOverviewView *overviewView</Declaration>
+			
+			
+			<Anchor>//api/name/overviewView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMainView/setRouteInfoView:</TokenIdentifier>
+			<Abstract type="html">Contains information about current location and destination.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationInfoView *routeInfoView</Declaration>
+			
+			
+			<Anchor>//api/name/routeInfoView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMainView/routeInfoView</TokenIdentifier>
+			<Abstract type="html">Contains information about current location and destination.</Abstract>
+			<DeclaredIn>SKTMainView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationInfoView *routeInfoView</Declaration>
+			
+			
+			<Anchor>//api/name/routeInfoView</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

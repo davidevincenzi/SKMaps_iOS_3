@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTDownloadBuilder.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTDownloadBuilder</TokenIdentifier>
+			<Abstract type="html">Factory class which takes in SKTDownloadObjectHelper and generates SKTGroupedDownloadOperation objects.</Abstract>
+			<DeclaredIn>SKTDownloadBuilder.h</DeclaredIn>
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadBuilder/groupedDownloadOperationForDownloadHelper:</TokenIdentifier>
+			<Abstract type="html">Creates a SKTGroupedDownloadOperation object from a SKTDownloadObjectHelper.
+SKTGroupedDownloadOperation contains multiple SKTGroupedOperations.
+For example a map download will contain 3 SKTGroupedOperations (Map, Name browser zip, texture file).</Abstract>
+			<DeclaredIn>SKTDownloadBuilder.h</DeclaredIn>			
+			
+			<Declaration>+ (SKTGroupedDownloadOperation *)groupedDownloadOperationForDownloadHelper:(SKTDownloadObjectHelper *)downloadHelper</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">The SKTDownloadObjectHelper object containing information regarding the download.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">SKTGroupedDownloadOperation containing SKTGroupedOperations.</Abstract></ReturnValue>
+			<Anchor>//api/name/groupedDownloadOperationForDownloadHelper:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

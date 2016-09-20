@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTNavigationDoubleLabelView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTNavigationDoubleLabelView</TokenIdentifier>
+			<Abstract type="html">Helper view that contains 2 labels of equal size.</Abstract>
+			<DeclaredIn>SKTNavigationDoubleLabelView.h</DeclaredIn>
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationDoubleLabelView/setTopLabel:</TokenIdentifier>
+			<Abstract type="html">The top label of the view.</Abstract>
+			<DeclaredIn>SKTNavigationDoubleLabelView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *topLabel</Declaration>
+			
+			
+			<Anchor>//api/name/topLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationDoubleLabelView/topLabel</TokenIdentifier>
+			<Abstract type="html">The top label of the view.</Abstract>
+			<DeclaredIn>SKTNavigationDoubleLabelView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *topLabel</Declaration>
+			
+			
+			<Anchor>//api/name/topLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationDoubleLabelView/setBottomLabel:</TokenIdentifier>
+			<Abstract type="html">The bottom unit label of the view.</Abstract>
+			<DeclaredIn>SKTNavigationDoubleLabelView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *bottomLabel</Declaration>
+			
+			
+			<Anchor>//api/name/bottomLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationDoubleLabelView/bottomLabel</TokenIdentifier>
+			<Abstract type="html">The bottom unit label of the view.</Abstract>
+			<DeclaredIn>SKTNavigationDoubleLabelView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *bottomLabel</Declaration>
+			
+			
+			<Anchor>//api/name/bottomLabel</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,1353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTNavigationManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTNavigationManager</TokenIdentifier>
+			<Abstract type="html">Manages the entire navigation logic and triggers UI updates accordingly.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Used to send navigation notification.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTNavigationManagerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/delegate</TokenIdentifier>
+			<Abstract type="html">Used to send navigation notification.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTNavigationManagerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setMainView:</TokenIdentifier>
+			<Abstract type="html">Provides access to the navigation UI container. This should be used as an overlay for the SKMapView.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) SKTMainView *mainView</Declaration>
+			
+			
+			<Anchor>//api/name/mainView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/mainView</TokenIdentifier>
+			<Abstract type="html">Provides access to the navigation UI container. This should be used as an overlay for the SKMapView.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) SKTMainView *mainView</Declaration>
+			
+			
+			<Anchor>//api/name/mainView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setMapView:</TokenIdentifier>
+			<Abstract type="html">This is the map view that was provided at initialization.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) SKMapView *mapView</Declaration>
+			
+			
+			<Anchor>//api/name/mapView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/mapView</TokenIdentifier>
+			<Abstract type="html">This is the map view that was provided at initialization.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) SKMapView *mapView</Declaration>
+			
+			
+			<Anchor>//api/name/mapView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setConfiguration:</TokenIdentifier>
+			<Abstract type="html">Retains the configuration that was used to start the current navigation session.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) SKTNavigationConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/configuration</TokenIdentifier>
+			<Abstract type="html">Retains the configuration that was used to start the current navigation session.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) SKTNavigationConfiguration *configuration</Declaration>
+			
+			
+			<Anchor>//api/name/configuration</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setNavigationSettings:</TokenIdentifier>
+			<Abstract type="html">Retains a SKTNavigationSettings object created using the given SKTNavigationConfiguration.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) SKNavigationSettings *navigationSettings</Declaration>
+			
+			
+			<Anchor>//api/name/navigationSettings</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/navigationSettings</TokenIdentifier>
+			<Abstract type="html">Retains a SKTNavigationSettings object created using the given SKTNavigationConfiguration.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) SKNavigationSettings *navigationSettings</Declaration>
+			
+			
+			<Anchor>//api/name/navigationSettings</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setNavigationStarted:</TokenIdentifier>
+			<Abstract type="html">Tells whether a navigation or free drive session is currently in progress.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL navigationStarted</Declaration>
+			
+			
+			<Anchor>//api/name/navigationStarted</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/navigationStarted</TokenIdentifier>
+			<Abstract type="html">Tells whether a navigation or free drive session is currently in progress.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL navigationStarted</Declaration>
+			
+			
+			<Anchor>//api/name/navigationStarted</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setIsFreeDrive:</TokenIdentifier>
+			<Abstract type="html">Tells whether the current session is free drive or not. isFreeDrive is NO if no session is currently in progress.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isFreeDrive</Declaration>
+			
+			
+			<Anchor>//api/name/isFreeDrive</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/isFreeDrive</TokenIdentifier>
+			<Abstract type="html">Tells whether the current session is free drive or not. isFreeDrive is NO if no session is currently in progress.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isFreeDrive</Declaration>
+			
+			
+			<Anchor>//api/name/isFreeDrive</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setNavigationInfo:</TokenIdentifier>
+			<Abstract type="html">State of the navigation.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationInfo *navigationInfo</Declaration>
+			
+			
+			<Anchor>//api/name/navigationInfo</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/navigationInfo</TokenIdentifier>
+			<Abstract type="html">State of the navigation.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationInfo *navigationInfo</Declaration>
+			
+			
+			<Anchor>//api/name/navigationInfo</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setSelectedRoute:</TokenIdentifier>
+			<Abstract type="html">Retains the route that the user selected from the calculating route screen.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) SKRouteInformation *selectedRoute</Declaration>
+			
+			
+			<Anchor>//api/name/selectedRoute</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/selectedRoute</TokenIdentifier>
+			<Abstract type="html">Retains the route that the user selected from the calculating route screen.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) SKRouteInformation *selectedRoute</Declaration>
+			
+			
+			<Anchor>//api/name/selectedRoute</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setCalculatedRoutes:</TokenIdentifier>
+			<Abstract type="html">Retains all the calculated routes.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *calculatedRoutes</Declaration>
+			
+			
+			<Anchor>//api/name/calculatedRoutes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/calculatedRoutes</TokenIdentifier>
+			<Abstract type="html">Retains all the calculated routes.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *calculatedRoutes</Declaration>
+			
+			
+			<Anchor>//api/name/calculatedRoutes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setRouteState:</TokenIdentifier>
+			<Abstract type="html">Route state.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKRouteState *routeState</Declaration>
+			
+			
+			<Anchor>//api/name/routeState</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/routeState</TokenIdentifier>
+			<Abstract type="html">Route state.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKRouteState *routeState</Declaration>
+			
+			
+			<Anchor>//api/name/routeState</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setIsInBackground:</TokenIdentifier>
+			<Abstract type="html">Tells whether the app is currently in background. It&apos;s used internally and should not be assigned, ever.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL isInBackground</Declaration>
+			
+			
+			<Anchor>//api/name/isInBackground</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/isInBackground</TokenIdentifier>
+			<Abstract type="html">Tells whether the app is currently in background. It&apos;s used internally and should not be assigned, ever.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL isInBackground</Declaration>
+			
+			
+			<Anchor>//api/name/isInBackground</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setAudioManager:</TokenIdentifier>
+			<Abstract type="html">Provides acces to a class that manages playing a queue of sounds. It should not be used directly to play sounds but the volume can be changed at any time.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTAudioManager *audioManager</Declaration>
+			
+			
+			<Anchor>//api/name/audioManager</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/audioManager</TokenIdentifier>
+			<Abstract type="html">Provides acces to a class that manages playing a queue of sounds. It should not be used directly to play sounds but the volume can be changed at any time.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTAudioManager *audioManager</Declaration>
+			
+			
+			<Anchor>//api/name/audioManager</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setNavigationStates:</TokenIdentifier>
+			<Abstract type="html">This is used as a stack to advance and return from a navigation state to another. It is managed by the NavigationState category and should not be interfered with externally. More info in NavigationState category.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *navigationStates</Declaration>
+			
+			
+			<Anchor>//api/name/navigationStates</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/navigationStates</TokenIdentifier>
+			<Abstract type="html">This is used as a stack to advance and return from a navigation state to another. It is managed by the NavigationState category and should not be interfered with externally. More info in NavigationState category.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *navigationStates</Declaration>
+			
+			
+			<Anchor>//api/name/navigationStates</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setColorScheme:</TokenIdentifier>
+			<Abstract type="html">This dictionary ontains color information loaded from SKColorSignPostConfig.plist and is used to color the views based on the current street and day/nght mode.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *colorScheme</Declaration>
+			
+			
+			<Anchor>//api/name/colorScheme</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/colorScheme</TokenIdentifier>
+			<Abstract type="html">This dictionary ontains color information loaded from SKColorSignPostConfig.plist and is used to color the views based on the current street and day/nght mode.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *colorScheme</Declaration>
+			
+			
+			<Anchor>//api/name/colorScheme</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setCurrentStyle:</TokenIdentifier>
+			<Abstract type="html">The current active style.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKMapViewStyle *currentStyle</Declaration>
+			
+			
+			<Anchor>//api/name/currentStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/currentStyle</TokenIdentifier>
+			<Abstract type="html">The current active style.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKMapViewStyle *currentStyle</Declaration>
+			
+			
+			<Anchor>//api/name/currentStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setBlockedRoadsDistance:</TokenIdentifier>
+			<Abstract type="html">Current blocked distance.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) double blockedRoadsDistance</Declaration>
+			
+			
+			<Anchor>//api/name/blockedRoadsDistance</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/blockedRoadsDistance</TokenIdentifier>
+			<Abstract type="html">Current blocked distance.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) double blockedRoadsDistance</Declaration>
+			
+			
+			<Anchor>//api/name/blockedRoadsDistance</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setPreviousVolume:</TokenIdentifier>
+			<Abstract type="html">Volume before muting.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float previousVolume</Declaration>
+			
+			
+			<Anchor>//api/name/previousVolume</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/previousVolume</TokenIdentifier>
+			<Abstract type="html">Volume before muting.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float previousVolume</Declaration>
+			
+			
+			<Anchor>//api/name/previousVolume</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setReceivedDayNightNotificationInBackground:</TokenIdentifier>
+			<Abstract type="html">Tells whether we received a day/night notification while in background.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL receivedDayNightNotificationInBackground</Declaration>
+			
+			
+			<Anchor>//api/name/receivedDayNightNotificationInBackground</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/receivedDayNightNotificationInBackground</TokenIdentifier>
+			<Abstract type="html">Tells whether we received a day/night notification while in background.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL receivedDayNightNotificationInBackground</Declaration>
+			
+			
+			<Anchor>//api/name/receivedDayNightNotificationInBackground</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setDayNightTimer:</TokenIdentifier>
+			<Abstract type="html">Fires periodically to check for day/night change.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *dayNightTimer</Declaration>
+			
+			
+			<Anchor>//api/name/dayNightTimer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/dayNightTimer</TokenIdentifier>
+			<Abstract type="html">Fires periodically to check for day/night change.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *dayNightTimer</Declaration>
+			
+			
+			<Anchor>//api/name/dayNightTimer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/initWithMapView:</TokenIdentifier>
+			<Abstract type="html">Initialized the manager with a mapView. mapView is used to render the calculated routes and is configured appropriately for navigation and free drive.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithMapView:(SKMapView *)mapView</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mapView</Name>
+					<Abstract type="html">The map view to be used.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithMapView:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/startNavigationWithConfiguration:</TokenIdentifier>
+			<Abstract type="html">Begins a new navigation if navigation is not currently in progress. When the user reaches its destination will switch automatically to free drive mode using the given configuration. Please note that all routes besides the main navigation route will be cleared. If you need those routes, please consider using the route caching API provided by the SKMaps framework.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)startNavigationWithConfiguration:(SKTNavigationConfiguration *)configuration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">A configuration object. See SKTNavigationConfiguration for available options.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/startNavigationWithConfiguration:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/startFreeDriveWithConfiguration:</TokenIdentifier>
+			<Abstract type="html">Begins a free drive session if navigation is not currently in progress. Please note that all routes besides the main navigation route will be cleared. If you need those routes, please consider using the route caching API provided by the SKMaps framework.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)startFreeDriveWithConfiguration:(SKTNavigationConfiguration *)configuration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">A configuration object. See SKTNavigationConfiguration for available options.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/startFreeDriveWithConfiguration:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/stopNavigation</TokenIdentifier>
+			<Abstract type="html">Cancels the current navigation session and stops the audio playback.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)stopNavigation</Declaration>
+			
+			
+			<Anchor>//api/name/stopNavigation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/confirmStopNavigation</TokenIdentifier>
+			<Abstract type="html">Asks the user to confirm stopping the navigation.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)confirmStopNavigation</Declaration>
+			
+			
+			<Anchor>//api/name/confirmStopNavigation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/stopAfterUserQuit</TokenIdentifier>
+			<Abstract type="html">Stops with user quit reason.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)stopAfterUserQuit</Declaration>
+			
+			
+			<Anchor>//api/name/stopAfterUserQuit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/clearNavigationStates</TokenIdentifier>
+			<Abstract type="html">Clears the navigationStates stack and exits all current present states</Abstract>
+			<DeclaredIn>SKTNavigationManager+NavigationState.h</DeclaredIn>			
+			
+			<Declaration>- (void)clearNavigationStates</Declaration>
+			
+			
+			<Anchor>//api/name/clearNavigationStates</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/currentNavigationState</TokenIdentifier>
+			<Abstract type="html">Returns the top of the stack</Abstract>
+			<DeclaredIn>SKTNavigationManager+NavigationState.h</DeclaredIn>			
+			
+			<Declaration>- (SKTNavigationState)currentNavigationState</Declaration>
+			
+			
+			<Anchor>//api/name/currentNavigationState</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/pushNavigationState:</TokenIdentifier>
+			<Abstract type="html">Exits the current active state and pushes the given state on the stack</Abstract>
+			<DeclaredIn>SKTNavigationManager+NavigationState.h</DeclaredIn>			
+			
+			<Declaration>- (void)pushNavigationState:(SKTNavigationState)state</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>state</Name>
+					<Abstract type="html">The state to be pushed</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/pushNavigationState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/pushNavigationStateIfNotPresent:</TokenIdentifier>
+			<Abstract type="html">Exits the current active state and pushes the given state on the stack only if the state is not already on the stack.</Abstract>
+			<DeclaredIn>SKTNavigationManager+NavigationState.h</DeclaredIn>			
+			
+			<Declaration>- (void)pushNavigationStateIfNotPresent:(SKTNavigationState)state</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>state</Name>
+					<Abstract type="html">The state to be pushed</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/pushNavigationStateIfNotPresent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/insertNavigationState:afterState:</TokenIdentifier>
+			<Abstract type="html">Inserts the given state after another give state.</Abstract>
+			<DeclaredIn>SKTNavigationManager+NavigationState.h</DeclaredIn>			
+			
+			<Declaration>- (void)insertNavigationState:(SKTNavigationState)state afterState:(SKTNavigationState)afterState</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>state</Name>
+					<Abstract type="html">The state to be inserted.</Abstract>
+				</Parameter><Parameter>
+					<Name>afterState</Name>
+					<Abstract type="html">The state to be inserted after.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/insertNavigationState:afterState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/insertStateAtBeginning:</TokenIdentifier>
+			<Abstract type="html">Inserts the given state at the bottom of the stack.</Abstract>
+			<DeclaredIn>SKTNavigationManager+NavigationState.h</DeclaredIn>			
+			
+			<Declaration>- (void)insertStateAtBeginning:(SKTNavigationState)state</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>state</Name>
+					<Abstract type="html">State to be inserted.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/insertStateAtBeginning:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/insertNavigationStateIfNotPresent:afterState:</TokenIdentifier>
+			<Abstract type="html">Inserts the given state after another give state only if the state is not already on the stack.</Abstract>
+			<DeclaredIn>SKTNavigationManager+NavigationState.h</DeclaredIn>			
+			
+			<Declaration>- (void)insertNavigationStateIfNotPresent:(SKTNavigationState)state afterState:(SKTNavigationState)afterState</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>state</Name>
+					<Abstract type="html">The state to be inserted.</Abstract>
+				</Parameter><Parameter>
+					<Name>afterState</Name>
+					<Abstract type="html">The state to be inserted after.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/insertNavigationStateIfNotPresent:afterState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/popNavigationState</TokenIdentifier>
+			<Abstract type="html">Removes and exits the current active state and enters the previous one</Abstract>
+			<DeclaredIn>SKTNavigationManager+NavigationState.h</DeclaredIn>			
+			
+			<Declaration>- (SKTNavigationState)popNavigationState</Declaration>
+			
+			
+			<Anchor>//api/name/popNavigationState</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/removeState:</TokenIdentifier>
+			<Abstract type="html">Removes the state from the stack even if it&apos;s not active</Abstract>
+			<DeclaredIn>SKTNavigationManager+NavigationState.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeState:(SKTNavigationState)state</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>state</Name>
+					<Abstract type="html">State to be removed.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/hasState:</TokenIdentifier>
+			<Abstract type="html">Tells whether the given state exists on the stack</Abstract>
+			<DeclaredIn>SKTNavigationManager+NavigationState.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)hasState:(SKTNavigationState)state</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>state</Name>
+					<Abstract type="html">The state to be searched.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hasState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/listenForDayNightChange</TokenIdentifier>
+			<Abstract type="html">Starts listening for day/night local notifications.</Abstract>
+			<DeclaredIn>SKTNavigationManager+Styles.h</DeclaredIn>			
+			
+			<Declaration>- (void)listenForDayNightChange</Declaration>
+			
+			
+			<Anchor>//api/name/listenForDayNightChange</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/stopListeningForDayNightChange</TokenIdentifier>
+			<Abstract type="html">Stops listening for day/night local notifications.</Abstract>
+			<DeclaredIn>SKTNavigationManager+Styles.h</DeclaredIn>			
+			
+			<Declaration>- (void)stopListeningForDayNightChange</Declaration>
+			
+			
+			<Anchor>//api/name/stopListeningForDayNightChange</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/updateStyle</TokenIdentifier>
+			<Abstract type="html">Changes the style based on whether is night or not if the auto day/night is enabled. Enables day style if audo day/night is disabled.</Abstract>
+			<DeclaredIn>SKTNavigationManager+Styles.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateStyle</Declaration>
+			
+			
+			<Anchor>//api/name/updateStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/enableDayStyle</TokenIdentifier>
+			<Abstract type="html">Loads the color dicionary for day style and updates the view colors and map style.</Abstract>
+			<DeclaredIn>SKTNavigationManager+Styles.h</DeclaredIn>			
+			
+			<Declaration>- (void)enableDayStyle</Declaration>
+			
+			
+			<Anchor>//api/name/enableDayStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/enableNightStyle</TokenIdentifier>
+			<Abstract type="html">Loads the color dicionary for night style and updates the view colors and map style.</Abstract>
+			<DeclaredIn>SKTNavigationManager+Styles.h</DeclaredIn>			
+			
+			<Declaration>- (void)enableNightStyle</Declaration>
+			
+			
+			<Anchor>//api/name/enableNightStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/updateColorDictionary</TokenIdentifier>
+			<Abstract type="html">Loads the appropriate color.</Abstract>
+			<DeclaredIn>SKTNavigationManager+Styles.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateColorDictionary</Declaration>
+			
+			
+			<Anchor>//api/name/updateColorDictionary</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setPrefferedDisplayMode:</TokenIdentifier>
+			<Abstract type="html">Display mode chosen by the user.</Abstract>
+			<DeclaredIn>SKTNavigationManager+Settings.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKMapDisplayMode prefferedDisplayMode</Declaration>
+			
+			
+			<Anchor>//api/name/prefferedDisplayMode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/prefferedDisplayMode</TokenIdentifier>
+			<Abstract type="html">Display mode chosen by the user.</Abstract>
+			<DeclaredIn>SKTNavigationManager+Settings.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKMapDisplayMode prefferedDisplayMode</Declaration>
+			
+			
+			<Anchor>//api/name/prefferedDisplayMode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/buttonsForFreeDrive</TokenIdentifier>
+			<Abstract type="html">Returns the buttons used for free drive settings.</Abstract>
+			<DeclaredIn>SKTNavigationManager+Settings.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)buttonsForFreeDrive</Declaration>
+			
+			
+			<Anchor>//api/name/buttonsForFreeDrive</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/buttonsForNavigation</TokenIdentifier>
+			<Abstract type="html">Returns the buttons used for navigation settings.</Abstract>
+			<DeclaredIn>SKTNavigationManager+Settings.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)buttonsForNavigation</Declaration>
+			
+			
+			<Anchor>//api/name/buttonsForNavigation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/updateVolumeUI</TokenIdentifier>
+			<Abstract type="html">Updates the volume button and slider.</Abstract>
+			<DeclaredIn>SKTNavigationManager+Settings.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateVolumeUI</Declaration>
+			
+			
+			<Anchor>//api/name/updateVolumeUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setCurrentSpeedView:</TokenIdentifier>
+			<Abstract type="html">Returns the free drive speed view if in free drive else returns navigation speed view.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) SKTNavigationDoubleLabelView *currentSpeedView</Declaration>
+			
+			
+			<Anchor>//api/name/currentSpeedView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/currentSpeedView</TokenIdentifier>
+			<Abstract type="html">Returns the free drive speed view if in free drive else returns navigation speed view.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) SKTNavigationDoubleLabelView *currentSpeedView</Declaration>
+			
+			
+			<Anchor>//api/name/currentSpeedView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setCurrentSpeedLimitView:</TokenIdentifier>
+			<Abstract type="html">Returns the free drive speed limit view if in free drive else returns navigation speed limit view.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) SKTNavigationSpeedLimitView *currentSpeedLimitView</Declaration>
+			
+			
+			<Anchor>//api/name/currentSpeedLimitView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationManager/currentSpeedLimitView</TokenIdentifier>
+			<Abstract type="html">Returns the free drive speed limit view if in free drive else returns navigation speed limit view.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) SKTNavigationSpeedLimitView *currentSpeedLimitView</Declaration>
+			
+			
+			<Anchor>//api/name/currentSpeedLimitView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/showWaitingGPSSignalUI</TokenIdentifier>
+			<Abstract type="html">Shows waiting GPS signal view.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)showWaitingGPSSignalUI</Declaration>
+			
+			
+			<Anchor>//api/name/showWaitingGPSSignalUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/showCalculatingRouteUI</TokenIdentifier>
+			<Abstract type="html">Shows calculating route view.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)showCalculatingRouteUI</Declaration>
+			
+			
+			<Anchor>//api/name/showCalculatingRouteUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/showNavigationUI</TokenIdentifier>
+			<Abstract type="html">Shows navigation views.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)showNavigationUI</Declaration>
+			
+			
+			<Anchor>//api/name/showNavigationUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/showFreeDriveUI</TokenIdentifier>
+			<Abstract type="html">Shows free drive views.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)showFreeDriveUI</Declaration>
+			
+			
+			<Anchor>//api/name/showFreeDriveUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/showReroutingUI</TokenIdentifier>
+			<Abstract type="html">Shows rerouting view.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)showReroutingUI</Declaration>
+			
+			
+			<Anchor>//api/name/showReroutingUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/showGPSDroppedUI</TokenIdentifier>
+			<Abstract type="html">Shows GPS dropped view.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)showGPSDroppedUI</Declaration>
+			
+			
+			<Anchor>//api/name/showGPSDroppedUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/showPanningUI</TokenIdentifier>
+			<Abstract type="html">Shows panning mode UI elements.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)showPanningUI</Declaration>
+			
+			
+			<Anchor>//api/name/showPanningUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/showSettingsUI</TokenIdentifier>
+			<Abstract type="html">Shows settings view.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)showSettingsUI</Declaration>
+			
+			
+			<Anchor>//api/name/showSettingsUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/showBlockRoadsUI</TokenIdentifier>
+			<Abstract type="html">Shows block roads view.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)showBlockRoadsUI</Declaration>
+			
+			
+			<Anchor>//api/name/showBlockRoadsUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/showOverviewUI</TokenIdentifier>
+			<Abstract type="html">Shows overview view.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)showOverviewUI</Declaration>
+			
+			
+			<Anchor>//api/name/showOverviewUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/showRouteInfoUI</TokenIdentifier>
+			<Abstract type="html">Shows route info UI.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)showRouteInfoUI</Declaration>
+			
+			
+			<Anchor>//api/name/showRouteInfoUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/hideWaitingGPSSignalUI</TokenIdentifier>
+			<Abstract type="html">Hides waiting GPS signal view.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)hideWaitingGPSSignalUI</Declaration>
+			
+			
+			<Anchor>//api/name/hideWaitingGPSSignalUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/hideCalculatingRouteUI</TokenIdentifier>
+			<Abstract type="html">Hides calculating route view.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)hideCalculatingRouteUI</Declaration>
+			
+			
+			<Anchor>//api/name/hideCalculatingRouteUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/hideNavigationUI</TokenIdentifier>
+			<Abstract type="html">Hidess navigation views.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)hideNavigationUI</Declaration>
+			
+			
+			<Anchor>//api/name/hideNavigationUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/hideFreeDriveUI</TokenIdentifier>
+			<Abstract type="html">Hides free drive views.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)hideFreeDriveUI</Declaration>
+			
+			
+			<Anchor>//api/name/hideFreeDriveUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/hideReroutingUI</TokenIdentifier>
+			<Abstract type="html">Hides rerouting view.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)hideReroutingUI</Declaration>
+			
+			
+			<Anchor>//api/name/hideReroutingUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/hideGPSDroppedUI</TokenIdentifier>
+			<Abstract type="html">Hides GPS dropped view.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)hideGPSDroppedUI</Declaration>
+			
+			
+			<Anchor>//api/name/hideGPSDroppedUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/hidePanningUI</TokenIdentifier>
+			<Abstract type="html">Hides panning mode UI elements.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)hidePanningUI</Declaration>
+			
+			
+			<Anchor>//api/name/hidePanningUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/hideSettingsUI</TokenIdentifier>
+			<Abstract type="html">Hides settings view.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)hideSettingsUI</Declaration>
+			
+			
+			<Anchor>//api/name/hideSettingsUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/hideBlockRoadsUI</TokenIdentifier>
+			<Abstract type="html">Hides block roads view.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)hideBlockRoadsUI</Declaration>
+			
+			
+			<Anchor>//api/name/hideBlockRoadsUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/hideOverviewUI</TokenIdentifier>
+			<Abstract type="html">Hides overview.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)hideOverviewUI</Declaration>
+			
+			
+			<Anchor>//api/name/hideOverviewUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/hideRouteInfoUI</TokenIdentifier>
+			<Abstract type="html">Hides route info UI.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)hideRouteInfoUI</Declaration>
+			
+			
+			<Anchor>//api/name/hideRouteInfoUI</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/updateSpeed</TokenIdentifier>
+			<Abstract type="html">Updates speed view with current speed.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/updateSpeed</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/updateSpeedLimit</TokenIdentifier>
+			<Abstract type="html">Update speed limit view with current speed limit. If speed limit is less than 1 it will be hidden.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateSpeedLimit</Declaration>
+			
+			
+			<Anchor>//api/name/updateSpeedLimit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/updateSpeedUnit</TokenIdentifier>
+			<Abstract type="html">Updates speed unit label based on the current configuration.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateSpeedUnit</Declaration>
+			
+			
+			<Anchor>//api/name/updateSpeedUnit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/updateDTA</TokenIdentifier>
+			<Abstract type="html">Updates DTA view with current DTA.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateDTA</Declaration>
+			
+			
+			<Anchor>//api/name/updateDTA</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/updateETA</TokenIdentifier>
+			<Abstract type="html">Updates ETA view with current ETA.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateETA</Declaration>
+			
+			
+			<Anchor>//api/name/updateETA</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/updateVisualAdviceSign</TokenIdentifier>
+			<Abstract type="html">Updates sign for the visual advice.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateVisualAdviceSign</Declaration>
+			
+			
+			<Anchor>//api/name/updateVisualAdviceSign</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/updateShortVisualAdviceSign</TokenIdentifier>
+			<Abstract type="html">Updates sign for the short visual advices.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateShortVisualAdviceSign</Declaration>
+			
+			
+			<Anchor>//api/name/updateShortVisualAdviceSign</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/updateCalculatedRouteInformation</TokenIdentifier>
+			<Abstract type="html">Updates the route calculation views with the currently calculated route information.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateCalculatedRouteInformation</Declaration>
+			
+			
+			<Anchor>//api/name/updateCalculatedRouteInformation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/updateCalculatedRouteInformationAtIndex:</TokenIdentifier>
+			<Abstract type="html">Updates the info for the given route index.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateCalculatedRouteInformationAtIndex:(NSInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Index of the route info view to be updated.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/updateCalculatedRouteInformationAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/stopRouteCalculationProgress</TokenIdentifier>
+			<Abstract type="html">Shows waiting GPS signal view</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)stopRouteCalculationProgress</Declaration>
+			
+			
+			<Anchor>//api/name/stopRouteCalculationProgress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/zoomOnSelectedRoute</TokenIdentifier>
+			<Abstract type="html">Zooms on the currently selected route to fit into the calculating route view.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)zoomOnSelectedRoute</Declaration>
+			
+			
+			<Anchor>//api/name/zoomOnSelectedRoute</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/addDestinationFlag</TokenIdentifier>
+			<Abstract type="html">Adds a flag at the destination coordinate.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)addDestinationFlag</Declaration>
+			
+			
+			<Anchor>//api/name/addDestinationFlag</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/removeDestinationFlag</TokenIdentifier>
+			<Abstract type="html">Removes the flag from the destination coordinate.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeDestinationFlag</Declaration>
+			
+			
+			<Anchor>//api/name/removeDestinationFlag</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/setupNavigationDisplayMode</TokenIdentifier>
+			<Abstract type="html">Changes mapView display settings to be suitable for navigation.</Abstract>
+			<DeclaredIn>SKTNavigationManager+UI.h</DeclaredIn>			
+			
+			<Declaration>- (void)setupNavigationDisplayMode</Declaration>
+			
+			
+			<Anchor>//api/name/setupNavigationDisplayMode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationManager/routeSettingsForConfiguration:</TokenIdentifier>
+			<Abstract type="html">Creates an SKRouteSettings object to be used when calculating routes for navigation.</Abstract>
+			<DeclaredIn>SKTNavigationManager+Factories.h</DeclaredIn>			
+			
+			<Declaration>+ (SKRouteSettings *)routeSettingsForConfiguration:(SKTNavigationConfiguration *)configuration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">The navigation settings.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/routeSettingsForConfiguration:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/visualAdviceConfiguration</TokenIdentifier>
+			<Abstract type="html">Loads the visual advice configuration from the color dictionary based on currentCountryCode and day/night mode.</Abstract>
+			<DeclaredIn>SKTNavigationManager+Factories.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)visualAdviceConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/visualAdviceConfiguration</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationManager/colorConfigDictionaryForCountry:night:</TokenIdentifier>
+			<Abstract type="html">Returns a dictionary with colors for current country and day/night mode and country code.</Abstract>
+			<DeclaredIn>SKTNavigationManager+Factories.h</DeclaredIn>			
+			
+			<Declaration>+ (NSDictionary *)colorConfigDictionaryForCountry:(NSString *)country night:(BOOL)night</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>country</Name>
+					<Abstract type="html">Country code.</Abstract>
+				</Parameter><Parameter>
+					<Name>night</Name>
+					<Abstract type="html">Tells if to load the night version.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/colorConfigDictionaryForCountry:night:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/configurationForStreetType:</TokenIdentifier>
+			<Abstract type="html">Returns an SKVisualAdviceConfiguration configured with colors from the colorScheme for the given street type.</Abstract>
+			<DeclaredIn>SKTNavigationManager+Factories.h</DeclaredIn>			
+			
+			<Declaration>- (SKVisualAdviceConfiguration *)configurationForStreetType:(SKStreetType)streetType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>streetType</Name>
+					<Abstract type="html">The street type</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/configurationForStreetType:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationManager/audioAdvisorSettingsForLanguage:</TokenIdentifier>
+			<Abstract type="html">Creates a SKAdvisorSettings object configured for the given language.</Abstract>
+			<DeclaredIn>SKTNavigationManager+Factories.h</DeclaredIn>			
+			
+			<Declaration>+ (SKAdvisorSettings *)audioAdvisorSettingsForLanguage:(NSString *)language</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>language</Name>
+					<Abstract type="html">Desired language.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/audioAdvisorSettingsForLanguage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/listenForBackgroundChanges</TokenIdentifier>
+			<Abstract type="html">Begins listening for background notification.</Abstract>
+			<DeclaredIn>SKTNavigationManager+BackgroundMode.h</DeclaredIn>			
+			
+			<Declaration>- (void)listenForBackgroundChanges</Declaration>
+			
+			
+			<Anchor>//api/name/listenForBackgroundChanges</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationManager/stopListeningForBackgroundChanges</TokenIdentifier>
+			<Abstract type="html">Stops listening for background notification.</Abstract>
+			<DeclaredIn>SKTNavigationManager+BackgroundMode.h</DeclaredIn>			
+			
+			<Declaration>- (void)stopListeningForBackgroundChanges</Declaration>
+			
+			
+			<Anchor>//api/name/stopListeningForBackgroundChanges</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIView+Additions.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIView(Additions)</TokenIdentifier>
+			<Abstract type="html">Helper category to get and set various values of the view&apos;s frame.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>
+			
+			<NodeRef refid="46"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(Additions)/setFrameX:</TokenIdentifier>
+			<Abstract type="html">Get/set x position.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat frameX</Declaration>
+			
+			
+			<Anchor>//api/name/frameX</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(Additions)/frameX</TokenIdentifier>
+			<Abstract type="html">Get/set x position.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat frameX</Declaration>
+			
+			
+			<Anchor>//api/name/frameX</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(Additions)/setFrameY:</TokenIdentifier>
+			<Abstract type="html">Get/set y position.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat frameY</Declaration>
+			
+			
+			<Anchor>//api/name/frameY</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(Additions)/frameY</TokenIdentifier>
+			<Abstract type="html">Get/set y position.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat frameY</Declaration>
+			
+			
+			<Anchor>//api/name/frameY</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(Additions)/setFrameMaxX:</TokenIdentifier>
+			<Abstract type="html">Get/set maximum coordinate that the view occupies horizontally (frameX + frameWidth.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat frameMaxX</Declaration>
+			
+			
+			<Anchor>//api/name/frameMaxX</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(Additions)/frameMaxX</TokenIdentifier>
+			<Abstract type="html">Get/set maximum coordinate that the view occupies horizontally (frameX + frameWidth.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat frameMaxX</Declaration>
+			
+			
+			<Anchor>//api/name/frameMaxX</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(Additions)/setFrameMaxY:</TokenIdentifier>
+			<Abstract type="html">Get/set maximum coordinate that the view occupies vertically (frameY + frameHeight.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat frameMaxY</Declaration>
+			
+			
+			<Anchor>//api/name/frameMaxY</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(Additions)/frameMaxY</TokenIdentifier>
+			<Abstract type="html">Get/set maximum coordinate that the view occupies vertically (frameY + frameHeight.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat frameMaxY</Declaration>
+			
+			
+			<Anchor>//api/name/frameMaxY</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(Additions)/setFrameWidth:</TokenIdentifier>
+			<Abstract type="html">Get/set the view&apos;s frame width.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat frameWidth</Declaration>
+			
+			
+			<Anchor>//api/name/frameWidth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(Additions)/frameWidth</TokenIdentifier>
+			<Abstract type="html">Get/set the view&apos;s frame width.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat frameWidth</Declaration>
+			
+			
+			<Anchor>//api/name/frameWidth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(Additions)/setFrameHeight:</TokenIdentifier>
+			<Abstract type="html">Get/set the view&apos;s frame height.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat frameHeight</Declaration>
+			
+			
+			<Anchor>//api/name/frameHeight</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(Additions)/frameHeight</TokenIdentifier>
+			<Abstract type="html">Get/set the view&apos;s frame height.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat frameHeight</Declaration>
+			
+			
+			<Anchor>//api/name/frameHeight</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(Additions)/setBoundsWidth:</TokenIdentifier>
+			<Abstract type="html">Get/set the view&apos;s bounds width.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat boundsWidth</Declaration>
+			
+			
+			<Anchor>//api/name/boundsWidth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(Additions)/boundsWidth</TokenIdentifier>
+			<Abstract type="html">Get/set the view&apos;s bounds width.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat boundsWidth</Declaration>
+			
+			
+			<Anchor>//api/name/boundsWidth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(Additions)/setBoundsHeight:</TokenIdentifier>
+			<Abstract type="html">Get/set the view&apos;s bounds height.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat boundsHeight</Declaration>
+			
+			
+			<Anchor>//api/name/boundsHeight</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(Additions)/boundsHeight</TokenIdentifier>
+			<Abstract type="html">Get/set the view&apos;s bounds height.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat boundsHeight</Declaration>
+			
+			
+			<Anchor>//api/name/boundsHeight</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(Additions)/setCenterX:</TokenIdentifier>
+			<Abstract type="html">Get/set the x coordinate of center of the view.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat centerX</Declaration>
+			
+			
+			<Anchor>//api/name/centerX</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(Additions)/centerX</TokenIdentifier>
+			<Abstract type="html">Get/set the x coordinate of center of the view.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat centerX</Declaration>
+			
+			
+			<Anchor>//api/name/centerX</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(Additions)/setCenterY:</TokenIdentifier>
+			<Abstract type="html">Get/set the y coordinate of center of the view.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat centerY</Declaration>
+			
+			
+			<Anchor>//api/name/centerY</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(Additions)/centerY</TokenIdentifier>
+			<Abstract type="html">Get/set the y coordinate of center of the view.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat centerY</Declaration>
+			
+			
+			<Anchor>//api/name/centerY</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(Additions)/setFrameSize:</TokenIdentifier>
+			<Abstract type="html">Get/set the view&apos;s frame size.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGSize frameSize</Declaration>
+			
+			
+			<Anchor>//api/name/frameSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(Additions)/frameSize</TokenIdentifier>
+			<Abstract type="html">Get/set the view&apos;s frame size.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGSize frameSize</Declaration>
+			
+			
+			<Anchor>//api/name/frameSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(Additions)/setFrameOrigin:</TokenIdentifier>
+			<Abstract type="html">Get/set the view&apos;s frame origin.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGPoint frameOrigin</Declaration>
+			
+			
+			<Anchor>//api/name/frameOrigin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(Additions)/frameOrigin</TokenIdentifier>
+			<Abstract type="html">Get/set the view&apos;s frame origin.</Abstract>
+			<DeclaredIn>UIView+Additions.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGPoint frameOrigin</Declaration>
+			
+			
+			<Anchor>//api/name/frameOrigin</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTMapDownloadState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTMapDownloadState</TokenIdentifier>
+			<Abstract type="html">SKTMapDownloadState keeps tracks of the state of the download.</Abstract>
+			<DeclaredIn>SKTMapDownloadState.h</DeclaredIn>
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMapDownloadState/setBSkmDownloaded:</TokenIdentifier>
+			<Abstract type="html">Boolean indicating if the map file has been downloaded.</Abstract>
+			<DeclaredIn>SKTMapDownloadState.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL bSkmDownloaded</Declaration>
+			
+			
+			<Anchor>//api/name/bSkmDownloaded</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMapDownloadState/bSkmDownloaded</TokenIdentifier>
+			<Abstract type="html">Boolean indicating if the map file has been downloaded.</Abstract>
+			<DeclaredIn>SKTMapDownloadState.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL bSkmDownloaded</Declaration>
+			
+			
+			<Anchor>//api/name/bSkmDownloaded</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMapDownloadState/setBNBDownloaded:</TokenIdentifier>
+			<Abstract type="html">Boolean indicating if the name browser file has been downloaded.</Abstract>
+			<DeclaredIn>SKTMapDownloadState.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL bNBDownloaded</Declaration>
+			
+			
+			<Anchor>//api/name/bNBDownloaded</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMapDownloadState/bNBDownloaded</TokenIdentifier>
+			<Abstract type="html">Boolean indicating if the name browser file has been downloaded.</Abstract>
+			<DeclaredIn>SKTMapDownloadState.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL bNBDownloaded</Declaration>
+			
+			
+			<Anchor>//api/name/bNBDownloaded</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMapDownloadState/setBTexturesDownloaded:</TokenIdentifier>
+			<Abstract type="html">Boolean indicating if the texture file has been downloaded.</Abstract>
+			<DeclaredIn>SKTMapDownloadState.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL bTexturesDownloaded</Declaration>
+			
+			
+			<Anchor>//api/name/bTexturesDownloaded</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMapDownloadState/bTexturesDownloaded</TokenIdentifier>
+			<Abstract type="html">Boolean indicating if the texture file has been downloaded.</Abstract>
+			<DeclaredIn>SKTMapDownloadState.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL bTexturesDownloaded</Declaration>
+			
+			
+			<Anchor>//api/name/bTexturesDownloaded</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMapDownloadState/setBNBUnzipped:</TokenIdentifier>
+			<Abstract type="html">Boolean indicating if the name browser file has been unzipped.</Abstract>
+			<DeclaredIn>SKTMapDownloadState.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL bNBUnzipped</Declaration>
+			
+			
+			<Anchor>//api/name/bNBUnzipped</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMapDownloadState/bNBUnzipped</TokenIdentifier>
+			<Abstract type="html">Boolean indicating if the name browser file has been unzipped.</Abstract>
+			<DeclaredIn>SKTMapDownloadState.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL bNBUnzipped</Declaration>
+			
+			
+			<Anchor>//api/name/bNBUnzipped</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMapDownloadState/initInstalled:</TokenIdentifier>
+			<Abstract type="html">Init method for SKTMapDownloadState</Abstract>
+			<DeclaredIn>SKTMapDownloadState.h</DeclaredIn>			
+			
+			<Declaration>- (id)initInstalled:(BOOL)installed</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>installed</Name>
+					<Abstract type="html">boolean indicating if the map is installed or not.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">SKTMapDownloadState object initialized based on installed parameter.</Abstract></ReturnValue>
+			<Anchor>//api/name/initInstalled:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMapDownloadState/isFullyDownloaded</TokenIdentifier>
+			<Abstract type="html">  Method for checking if map has finished downloading, this means download and unzip included.</Abstract>
+			<DeclaredIn>SKTMapDownloadState.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isFullyDownloaded</Declaration>
+			
+			<ReturnValue><Abstract type="html">A boolean indicating if map is fully downloaded, unzipping included.</Abstract></ReturnValue>
+			<Anchor>//api/name/isFullyDownloaded</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMapDownloadState/isFullyUnzipped</TokenIdentifier>
+			<Abstract type="html">Method for checking if map is fully unzipped.</Abstract>
+			<DeclaredIn>SKTMapDownloadState.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isFullyUnzipped</Declaration>
+			
+			<ReturnValue><Abstract type="html">A boolean indicating if map is fully unzipped.</Abstract></ReturnValue>
+			<Anchor>//api/name/isFullyUnzipped</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMapDownloadState/finishedDownloading</TokenIdentifier>
+			<Abstract type="html">Method for checking if map has finished downloading.</Abstract>
+			<DeclaredIn>SKTMapDownloadState.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)finishedDownloading</Declaration>
+			
+			<ReturnValue><Abstract type="html">A boolean indicating if map is finished downloading.</Abstract></ReturnValue>
+			<Anchor>//api/name/finishedDownloading</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMapDownloadState/setInstalled:</TokenIdentifier>
+			<Abstract type="html">Method for specifing if a map is installed or not. Should be used after the download has completed.</Abstract>
+			<DeclaredIn>SKTMapDownloadState.h</DeclaredIn>			
+			
+			<Declaration>- (void)setInstalled:(BOOL)installed</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>installed</Name>
+					<Abstract type="html">boolean indicating if the map is installed or not.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setInstalled:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

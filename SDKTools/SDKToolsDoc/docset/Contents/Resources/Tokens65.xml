@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/SKTWaitingGPSSignalViewDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/SKTWaitingGPSSignalViewDelegate</TokenIdentifier>
+			<Abstract type="html">Receives notifications about user interaction.</Abstract>
+			<DeclaredIn>SKTWaitingGPSSignalView.h</DeclaredIn>
+			
+			<NodeRef refid="65"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTWaitingGPSSignalViewDelegate/skWaitingGPSSignalDidClickOkButton:</TokenIdentifier>
+			<Abstract type="html">Called when the user has pressed the OK button.</Abstract>
+			<DeclaredIn>SKTWaitingGPSSignalView.h</DeclaredIn>			
+			
+			<Declaration>- (void)skWaitingGPSSignalDidClickOkButton:(SKTWaitingGPSSignalView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The waiting view that contains this button.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/skWaitingGPSSignalDidClickOkButton:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

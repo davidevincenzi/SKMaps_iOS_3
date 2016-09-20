@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/SKTNavigationSettingsViewDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/SKTNavigationSettingsViewDelegate</TokenIdentifier>
+			<Abstract type="html">Receives notifications about user interaction.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>
+			
+			<NodeRef refid="60"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTNavigationSettingsViewDelegate/navigationSettingsViewDidClickBackButton:</TokenIdentifier>
+			<Abstract type="html">Called when the user has pressed the back button.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>			
+			
+			<Declaration>- (void)navigationSettingsViewDidClickBackButton:(SKTNavigationSettingsView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The view that contains the button.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/navigationSettingsViewDidClickBackButton:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

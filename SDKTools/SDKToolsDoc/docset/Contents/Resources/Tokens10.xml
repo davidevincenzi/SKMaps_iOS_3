@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTGroupedOperations.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTGroupedOperations</TokenIdentifier>
+			<Abstract type="html">SKTGroupedOperations a SKTDownloadOperation and a SKTUnzipOperation if neccesary.
+For example a map download will contain 3 SKTGroupedOperations (Map, Name browser zip, texture file).</Abstract>
+			<DeclaredIn>SKTGroupedOperations.h</DeclaredIn>
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedOperations/setDownloadOperation:</TokenIdentifier>
+			<Abstract type="html">The download operation.</Abstract>
+			<DeclaredIn>SKTGroupedOperations.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTDownloadOperation *downloadOperation</Declaration>
+			
+			
+			<Anchor>//api/name/downloadOperation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTGroupedOperations/downloadOperation</TokenIdentifier>
+			<Abstract type="html">The download operation.</Abstract>
+			<DeclaredIn>SKTGroupedOperations.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTDownloadOperation *downloadOperation</Declaration>
+			
+			
+			<Anchor>//api/name/downloadOperation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedOperations/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Download delegate for the grouped operation</Abstract>
+			<DeclaredIn>SKTGroupedOperations.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) id&lt;SKTGroupedOperationsDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTGroupedOperations/delegate</TokenIdentifier>
+			<Abstract type="html">Download delegate for the grouped operation</Abstract>
+			<DeclaredIn>SKTGroupedOperations.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) id&lt;SKTGroupedOperationsDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedOperations/setStateDownloadItem:</TokenIdentifier>
+			<Abstract type="html">Current state of the download</Abstract>
+			<DeclaredIn>SKTGroupedOperations.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, assign) SKTMapDownloadItemStatus stateDownloadItem</Declaration>
+			
+			
+			<Anchor>//api/name/stateDownloadItem</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTGroupedOperations/stateDownloadItem</TokenIdentifier>
+			<Abstract type="html">Current state of the download</Abstract>
+			<DeclaredIn>SKTGroupedOperations.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, assign) SKTMapDownloadItemStatus stateDownloadItem</Declaration>
+			
+			
+			<Anchor>//api/name/stateDownloadItem</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedOperations/setQueue:</TokenIdentifier>
+			<Abstract type="html">The dispatch queue for download. If NULL (default), the main queue is used.</Abstract>
+			<DeclaredIn>SKTGroupedOperations.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) dispatch_queue_t queue</Declaration>
+			
+			
+			<Anchor>//api/name/queue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTGroupedOperations/queue</TokenIdentifier>
+			<Abstract type="html">The dispatch queue for download. If NULL (default), the main queue is used.</Abstract>
+			<DeclaredIn>SKTGroupedOperations.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) dispatch_queue_t queue</Declaration>
+			
+			
+			<Anchor>//api/name/queue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTGroupedOperations/groupedOperation</TokenIdentifier>
+			<Abstract type="html">Factory class for returning an empty SKTGroupedOperations.</Abstract>
+			<DeclaredIn>SKTGroupedOperations.h</DeclaredIn>			
+			
+			<Declaration>+ (instancetype)groupedOperation</Declaration>
+			
+			
+			<Anchor>//api/name/groupedOperation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedOperations/setupWithDownloadOperation:andUnzipOperation:</TokenIdentifier>
+			<Abstract type="html">Sets SKTDownloadOperation and SKTUnzipOperation on a SKTGroupedOperations.</Abstract>
+			<DeclaredIn>SKTGroupedOperations.h</DeclaredIn>			
+			
+			<Declaration>- (void)setupWithDownloadOperation:(SKTDownloadOperation *)downloadOperation andUnzipOperation:(SKTUnzipOperation *)unzipOperation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadOperation</Name>
+					<Abstract type="html">The download operation (required).</Abstract>
+				</Parameter><Parameter>
+					<Name>unzipOperation</Name>
+					<Abstract type="html">The unzip operation, can be NULL.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setupWithDownloadOperation:andUnzipOperation:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedOperations/pause</TokenIdentifier>
+			<Abstract type="html">Method for pausing the SKTGroupedOperations. Unzipping operation cannot be paused so it will be cancelled and restarted on resume.</Abstract>
+			<DeclaredIn>SKTGroupedOperations.h</DeclaredIn>			
+			
+			<Declaration>- (void)pause</Declaration>
+			
+			
+			<Anchor>//api/name/pause</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedOperations/resume</TokenIdentifier>
+			<Abstract type="html">Method for resuming the SKTGroupedOperations. Cancelled or finished download operations will be recreated and started</Abstract>
+			<DeclaredIn>SKTGroupedOperations.h</DeclaredIn>			
+			
+			<Declaration>- (void)resume</Declaration>
+			
+			
+			<Anchor>//api/name/resume</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedOperations/cancel</TokenIdentifier>
+			<Abstract type="html">Method for cancelling the SKTGroupedOperations.</Abstract>
+			<DeclaredIn>SKTGroupedOperations.h</DeclaredIn>			
+			
+			<Declaration>- (void)cancel</Declaration>
+			
+			
+			<Anchor>//api/name/cancel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedOperations/sampleSize</TokenIdentifier>
+			<Abstract type="html">Method for retrieving download sample size for measuring download speed.</Abstract>
+			<DeclaredIn>SKTGroupedOperations.h</DeclaredIn>			
+			
+			<Declaration>- (long long)sampleSize</Declaration>
+			
+			<ReturnValue><Abstract type="html">&apos;long long&apos; Representing size in bytes between bytes read (totalBytesRead - totalBytesPreviouslyRead).</Abstract></ReturnValue>
+			<Anchor>//api/name/sampleSize</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

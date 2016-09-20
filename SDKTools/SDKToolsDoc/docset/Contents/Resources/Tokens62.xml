@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/SKTNavigationVisualAdviceViewDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/SKTNavigationVisualAdviceViewDelegate</TokenIdentifier>
+			<Abstract type="html">Receives notifications about user interaction.</Abstract>
+			<DeclaredIn>SKTNavigationVisualAdviceView.h</DeclaredIn>
+			
+			<NodeRef refid="62"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTNavigationVisualAdviceViewDelegate/visualAdviceViewTapped:</TokenIdentifier>
+			<Abstract type="html">Called when the user taps the view.</Abstract>
+			<DeclaredIn>SKTNavigationVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>- (void)visualAdviceViewTapped:(SKTNavigationVisualAdviceView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The view that the user taps.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/visualAdviceViewTapped:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

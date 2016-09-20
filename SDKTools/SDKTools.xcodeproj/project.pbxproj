@@ -1,0 +1,1149 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033B376219B47F30007ECA23 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 033B376019B47F30007ECA23 /* Reachability.h */; };
+		033B376319B47F30007ECA23 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 033B376119B47F30007ECA23 /* Reachability.m */; };
+		03639AC11940999D00F54937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03639AC01940999D00F54937 /* Foundation.framework */; };
+		0365932719C036A800E7E2D6 /* NSString+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592CE19C036A800E7E2D6 /* NSString+Additions.h */; };
+		0365932819C036A800E7E2D6 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592CF19C036A800E7E2D6 /* NSString+Additions.m */; };
+		0365932919C036A800E7E2D6 /* UIButton+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592D019C036A800E7E2D6 /* UIButton+Additions.h */; };
+		0365932A19C036A800E7E2D6 /* UIButton+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592D119C036A800E7E2D6 /* UIButton+Additions.m */; };
+		0365932B19C036A800E7E2D6 /* UIColor+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592D219C036A800E7E2D6 /* UIColor+Additions.h */; };
+		0365932C19C036A800E7E2D6 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592D319C036A800E7E2D6 /* UIColor+Additions.m */; };
+		0365932D19C036A800E7E2D6 /* UIDevice+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592D419C036A800E7E2D6 /* UIDevice+Additions.h */; };
+		0365932E19C036A800E7E2D6 /* UIDevice+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592D519C036A800E7E2D6 /* UIDevice+Additions.m */; };
+		0365932F19C036A800E7E2D6 /* UIFont+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592D619C036A800E7E2D6 /* UIFont+Additions.h */; };
+		0365933019C036A800E7E2D6 /* UIFont+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592D719C036A800E7E2D6 /* UIFont+Additions.m */; };
+		0365933119C036A800E7E2D6 /* UIImage+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592D819C036A800E7E2D6 /* UIImage+Additions.h */; };
+		0365933219C036A800E7E2D6 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592D919C036A800E7E2D6 /* UIImage+Additions.m */; };
+		0365933319C036A800E7E2D6 /* UIView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592DA19C036A800E7E2D6 /* UIView+Additions.h */; };
+		0365933419C036A800E7E2D6 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592DB19C036A800E7E2D6 /* UIView+Additions.m */; };
+		0365933519C036A800E7E2D6 /* SKTAudioManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592DC19C036A800E7E2D6 /* SKTAudioManager.h */; };
+		0365933619C036A800E7E2D6 /* SKTAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592DD19C036A800E7E2D6 /* SKTAudioManager.m */; };
+		0365933719C036A800E7E2D6 /* SKTNavigationConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592DE19C036A800E7E2D6 /* SKTNavigationConfiguration.h */; };
+		0365933819C036A800E7E2D6 /* SKTNavigationConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592DF19C036A800E7E2D6 /* SKTNavigationConfiguration.m */; };
+		0365933919C036A800E7E2D6 /* SKTNavigationConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592E019C036A800E7E2D6 /* SKTNavigationConstants.h */; };
+		0365933A19C036A800E7E2D6 /* SKTNavigationConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592E119C036A800E7E2D6 /* SKTNavigationConstants.m */; };
+		0365933B19C036A800E7E2D6 /* SKTNavigationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592E219C036A800E7E2D6 /* SKTNavigationInfo.h */; };
+		0365933C19C036A800E7E2D6 /* SKTNavigationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592E319C036A800E7E2D6 /* SKTNavigationInfo.m */; };
+		0365933D19C036A800E7E2D6 /* SKTNavigationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592E419C036A800E7E2D6 /* SKTNavigationManager.h */; };
+		0365933E19C036A800E7E2D6 /* SKTNavigationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592E519C036A800E7E2D6 /* SKTNavigationManager.m */; };
+		0365933F19C036A800E7E2D6 /* SKTNavigationManager+BackgroundMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592E619C036A800E7E2D6 /* SKTNavigationManager+BackgroundMode.h */; };
+		0365934019C036A800E7E2D6 /* SKTNavigationManager+BackgroundMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592E719C036A800E7E2D6 /* SKTNavigationManager+BackgroundMode.m */; };
+		0365934119C036A800E7E2D6 /* SKTNavigationManager+Factories.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592E819C036A800E7E2D6 /* SKTNavigationManager+Factories.h */; };
+		0365934219C036A800E7E2D6 /* SKTNavigationManager+Factories.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592E919C036A800E7E2D6 /* SKTNavigationManager+Factories.m */; };
+		0365934319C036A800E7E2D6 /* SKTNavigationManager+NavigationState.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592EA19C036A800E7E2D6 /* SKTNavigationManager+NavigationState.h */; };
+		0365934419C036A800E7E2D6 /* SKTNavigationManager+NavigationState.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592EB19C036A800E7E2D6 /* SKTNavigationManager+NavigationState.m */; };
+		0365934519C036A800E7E2D6 /* SKTNavigationManager+Settings.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592EC19C036A800E7E2D6 /* SKTNavigationManager+Settings.h */; };
+		0365934619C036A800E7E2D6 /* SKTNavigationManager+Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592ED19C036A800E7E2D6 /* SKTNavigationManager+Settings.m */; };
+		0365934719C036A800E7E2D6 /* SKTNavigationManager+Styles.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592EE19C036A800E7E2D6 /* SKTNavigationManager+Styles.h */; };
+		0365934819C036A800E7E2D6 /* SKTNavigationManager+Styles.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592EF19C036A800E7E2D6 /* SKTNavigationManager+Styles.m */; };
+		0365934919C036A800E7E2D6 /* SKTNavigationManager+UI.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592F019C036A800E7E2D6 /* SKTNavigationManager+UI.h */; };
+		0365934A19C036A800E7E2D6 /* SKTNavigationManager+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592F119C036A800E7E2D6 /* SKTNavigationManager+UI.m */; };
+		0365934B19C036A800E7E2D6 /* SKTNavigationUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592F219C036A800E7E2D6 /* SKTNavigationUtils.h */; };
+		0365934C19C036A800E7E2D6 /* SKTNavigationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592F319C036A800E7E2D6 /* SKTNavigationUtils.m */; };
+		0365934D19C036A800E7E2D6 /* SKTActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592F519C036A800E7E2D6 /* SKTActionSheet.h */; };
+		0365934E19C036A800E7E2D6 /* SKTActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592F619C036A800E7E2D6 /* SKTActionSheet.m */; };
+		0365934F19C036A800E7E2D6 /* SKTAnimatedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592F719C036A800E7E2D6 /* SKTAnimatedLabel.h */; };
+		0365935019C036A800E7E2D6 /* SKTAnimatedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592F819C036A800E7E2D6 /* SKTAnimatedLabel.m */; };
+		0365935119C036A800E7E2D6 /* SKTBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592F919C036A800E7E2D6 /* SKTBaseView.h */; };
+		0365935219C036A800E7E2D6 /* SKTBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592FA19C036A800E7E2D6 /* SKTBaseView.m */; };
+		0365935319C036A800E7E2D6 /* SKTInsetLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592FB19C036A800E7E2D6 /* SKTInsetLabel.h */; };
+		0365935419C036A800E7E2D6 /* SKTInsetLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592FC19C036A800E7E2D6 /* SKTInsetLabel.m */; };
+		0365935519C036A800E7E2D6 /* SKTLostGPSSignalView.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592FD19C036A800E7E2D6 /* SKTLostGPSSignalView.h */; };
+		0365935619C036A800E7E2D6 /* SKTLostGPSSignalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036592FE19C036A800E7E2D6 /* SKTLostGPSSignalView.m */; };
+		0365935719C036A800E7E2D6 /* SKTMainView.h in Headers */ = {isa = PBXBuildFile; fileRef = 036592FF19C036A800E7E2D6 /* SKTMainView.h */; };
+		0365935819C036A800E7E2D6 /* SKTMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365930019C036A800E7E2D6 /* SKTMainView.m */; };
+		0365935919C036A800E7E2D6 /* SKTNavigationBlockRoadsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365930119C036A800E7E2D6 /* SKTNavigationBlockRoadsView.h */; };
+		0365935A19C036A800E7E2D6 /* SKTNavigationBlockRoadsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365930219C036A800E7E2D6 /* SKTNavigationBlockRoadsView.m */; };
+		0365935B19C036A800E7E2D6 /* SKTNavigationCalculatingRouteView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365930319C036A800E7E2D6 /* SKTNavigationCalculatingRouteView.h */; };
+		0365935C19C036A800E7E2D6 /* SKTNavigationCalculatingRouteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365930419C036A800E7E2D6 /* SKTNavigationCalculatingRouteView.m */; };
+		0365935D19C036A800E7E2D6 /* SKTNavigationDoubleLabelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365930519C036A800E7E2D6 /* SKTNavigationDoubleLabelView.h */; };
+		0365935E19C036A800E7E2D6 /* SKTNavigationDoubleLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365930619C036A800E7E2D6 /* SKTNavigationDoubleLabelView.m */; };
+		0365935F19C036A800E7E2D6 /* SKTNavigationETAView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365930719C036A800E7E2D6 /* SKTNavigationETAView.h */; };
+		0365936019C036A800E7E2D6 /* SKTNavigationETAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365930819C036A800E7E2D6 /* SKTNavigationETAView.m */; };
+		0365936119C036A800E7E2D6 /* SKTNavigationFreeDriveView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365930919C036A800E7E2D6 /* SKTNavigationFreeDriveView.h */; };
+		0365936219C036A800E7E2D6 /* SKTNavigationFreeDriveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365930A19C036A800E7E2D6 /* SKTNavigationFreeDriveView.m */; };
+		0365936319C036A800E7E2D6 /* SKTNavigationInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365930B19C036A800E7E2D6 /* SKTNavigationInfoView.h */; };
+		0365936419C036A800E7E2D6 /* SKTNavigationInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365930C19C036A800E7E2D6 /* SKTNavigationInfoView.m */; };
+		0365936519C036A800E7E2D6 /* SKTNavigationOverviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365930D19C036A800E7E2D6 /* SKTNavigationOverviewView.h */; };
+		0365936619C036A800E7E2D6 /* SKTNavigationOverviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365930E19C036A800E7E2D6 /* SKTNavigationOverviewView.m */; };
+		0365936719C036A800E7E2D6 /* SKTNavigationPanningView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365930F19C036A800E7E2D6 /* SKTNavigationPanningView.h */; };
+		0365936819C036A800E7E2D6 /* SKTNavigationPanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365931019C036A800E7E2D6 /* SKTNavigationPanningView.m */; };
+		0365936919C036A800E7E2D6 /* SKTNavigationSettingsButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365931119C036A800E7E2D6 /* SKTNavigationSettingsButton.h */; };
+		0365936A19C036A800E7E2D6 /* SKTNavigationSettingsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365931219C036A800E7E2D6 /* SKTNavigationSettingsButton.m */; };
+		0365936B19C036A800E7E2D6 /* SKTNavigationSettingsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365931319C036A800E7E2D6 /* SKTNavigationSettingsView.h */; };
+		0365936C19C036A800E7E2D6 /* SKTNavigationSettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365931419C036A800E7E2D6 /* SKTNavigationSettingsView.m */; };
+		0365936D19C036A800E7E2D6 /* SKTNavigationShortVisualAdviceView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365931519C036A800E7E2D6 /* SKTNavigationShortVisualAdviceView.h */; };
+		0365936E19C036A800E7E2D6 /* SKTNavigationShortVisualAdviceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365931619C036A800E7E2D6 /* SKTNavigationShortVisualAdviceView.m */; };
+		0365936F19C036A800E7E2D6 /* SKTNavigationSpeedLimitView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365931719C036A800E7E2D6 /* SKTNavigationSpeedLimitView.h */; };
+		0365937019C036A800E7E2D6 /* SKTNavigationSpeedLimitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365931819C036A800E7E2D6 /* SKTNavigationSpeedLimitView.m */; };
+		0365937119C036A800E7E2D6 /* SKTNavigationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365931919C036A800E7E2D6 /* SKTNavigationView.h */; };
+		0365937219C036A800E7E2D6 /* SKTNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365931A19C036A800E7E2D6 /* SKTNavigationView.m */; };
+		0365937319C036A800E7E2D6 /* SKTNavigationVisualAdviceView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365931B19C036A800E7E2D6 /* SKTNavigationVisualAdviceView.h */; };
+		0365937419C036A800E7E2D6 /* SKTNavigationVisualAdviceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365931C19C036A800E7E2D6 /* SKTNavigationVisualAdviceView.m */; };
+		0365937519C036A800E7E2D6 /* SKTProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365931D19C036A800E7E2D6 /* SKTProgressView.h */; };
+		0365937619C036A800E7E2D6 /* SKTProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365931E19C036A800E7E2D6 /* SKTProgressView.m */; };
+		0365937719C036A800E7E2D6 /* SKTReroutingInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365931F19C036A800E7E2D6 /* SKTReroutingInfoView.h */; };
+		0365937819C036A800E7E2D6 /* SKTReroutingInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365932019C036A800E7E2D6 /* SKTReroutingInfoView.m */; };
+		0365937919C036A800E7E2D6 /* SKTRouteInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365932119C036A800E7E2D6 /* SKTRouteInfoView.h */; };
+		0365937A19C036A800E7E2D6 /* SKTRouteInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365932219C036A800E7E2D6 /* SKTRouteInfoView.m */; };
+		0365937B19C036A800E7E2D6 /* SKTRouteProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365932319C036A800E7E2D6 /* SKTRouteProgressView.h */; };
+		0365937C19C036A800E7E2D6 /* SKTRouteProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365932419C036A800E7E2D6 /* SKTRouteProgressView.m */; };
+		0365937D19C036A800E7E2D6 /* SKTWaitingGPSSignalView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365932519C036A800E7E2D6 /* SKTWaitingGPSSignalView.h */; };
+		0365937E19C036A800E7E2D6 /* SKTWaitingGPSSignalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365932619C036A800E7E2D6 /* SKTWaitingGPSSignalView.m */; };
+		03FD6F3119C03F80000F09BE /* SKTDownloadManager+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F0719C03F80000F09BE /* SKTDownloadManager+Additions.h */; };
+		03FD6F3219C03F80000F09BE /* SKTDownloadManager+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6F0819C03F80000F09BE /* SKTDownloadManager+Additions.m */; };
+		03FD6F3319C03F80000F09BE /* SKTDownloadManager+DatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F0919C03F80000F09BE /* SKTDownloadManager+DatabaseManager.h */; };
+		03FD6F3419C03F80000F09BE /* SKTDownloadManager+DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6F0A19C03F80000F09BE /* SKTDownloadManager+DatabaseManager.m */; };
+		03FD6F3519C03F80000F09BE /* SKTDownloadManager+DownloadSpeedMeasure.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F0B19C03F80000F09BE /* SKTDownloadManager+DownloadSpeedMeasure.h */; };
+		03FD6F3619C03F80000F09BE /* SKTDownloadManager+DownloadSpeedMeasure.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6F0C19C03F80000F09BE /* SKTDownloadManager+DownloadSpeedMeasure.m */; };
+		03FD6F3719C03F80000F09BE /* SKTDownloadManager+ResumeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F0D19C03F80000F09BE /* SKTDownloadManager+ResumeManager.h */; };
+		03FD6F3819C03F80000F09BE /* SKTDownloadManager+ResumeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6F0E19C03F80000F09BE /* SKTDownloadManager+ResumeManager.m */; };
+		03FD6F3919C03F80000F09BE /* SKTDownloadBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F1019C03F80000F09BE /* SKTDownloadBuilder.h */; };
+		03FD6F3A19C03F80000F09BE /* SKTDownloadBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6F1119C03F80000F09BE /* SKTDownloadBuilder.m */; };
+		03FD6F3B19C03F80000F09BE /* KVCBaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F1319C03F80000F09BE /* KVCBaseObject.h */; };
+		03FD6F3C19C03F80000F09BE /* KVCBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6F1419C03F80000F09BE /* KVCBaseObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		03FD6F3D19C03F80000F09BE /* SKTDownloadObjectHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F1519C03F80000F09BE /* SKTDownloadObjectHelper.h */; };
+		03FD6F3E19C03F80000F09BE /* SKTDownloadObjectHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6F1619C03F80000F09BE /* SKTDownloadObjectHelper.m */; };
+		03FD6F3F19C03F80000F09BE /* SKTMapDownloadState.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F1719C03F80000F09BE /* SKTMapDownloadState.h */; };
+		03FD6F4019C03F80000F09BE /* SKTMapDownloadState.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6F1819C03F80000F09BE /* SKTMapDownloadState.m */; };
+		03FD6F4119C03F80000F09BE /* SKTMapRegionDetailsHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F1919C03F80000F09BE /* SKTMapRegionDetailsHelper.h */; };
+		03FD6F4219C03F80000F09BE /* SKTMapRegionDetailsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6F1A19C03F80000F09BE /* SKTMapRegionDetailsHelper.m */; };
+		03FD6F4319C03F80000F09BE /* SKTDownloadAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F1B19C03F80000F09BE /* SKTDownloadAPI.h */; };
+		03FD6F4419C03F80000F09BE /* SKTDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F1C19C03F80000F09BE /* SKTDownloadManager.h */; };
+		03FD6F4519C03F80000F09BE /* SKTDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6F1D19C03F80000F09BE /* SKTDownloadManager.m */; };
+		03FD6F4619C03F80000F09BE /* SKTDownloadManagerDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F1E19C03F80000F09BE /* SKTDownloadManagerDataSource.h */; };
+		03FD6F4719C03F80000F09BE /* SKTDownloadManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F1F19C03F80000F09BE /* SKTDownloadManagerDelegate.h */; };
+		03FD6F4819C03F80000F09BE /* SKTDownloadTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F2019C03F80000F09BE /* SKTDownloadTypes.h */; };
+		03FD6F4919C03F80000F09BE /* SKTGroupedDownloadOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F2219C03F80000F09BE /* SKTGroupedDownloadOperation.h */; };
+		03FD6F4A19C03F80000F09BE /* SKTGroupedDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6F2319C03F80000F09BE /* SKTGroupedDownloadOperation.m */; };
+		03FD6F4B19C03F80000F09BE /* SKTGroupedDownloadOperationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F2419C03F80000F09BE /* SKTGroupedDownloadOperationDelegate.h */; };
+		03FD6F4C19C03F80000F09BE /* SKTDownloadOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F2719C03F80000F09BE /* SKTDownloadOperation.h */; };
+		03FD6F4D19C03F80000F09BE /* SKTDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6F2819C03F80000F09BE /* SKTDownloadOperation.m */; };
+		03FD6F4E19C03F80000F09BE /* SKTDownloadOperationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F2919C03F80000F09BE /* SKTDownloadOperationDelegate.h */; };
+		03FD6F4F19C03F80000F09BE /* SKTGroupedOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F2A19C03F80000F09BE /* SKTGroupedOperations.h */; };
+		03FD6F5019C03F80000F09BE /* SKTGroupedOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6F2B19C03F80000F09BE /* SKTGroupedOperations.m */; };
+		03FD6F5119C03F80000F09BE /* SKTGroupedOperationsDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F2C19C03F80000F09BE /* SKTGroupedOperationsDelegate.h */; };
+		03FD6F5219C03F80000F09BE /* SKTUnzipOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F2E19C03F80000F09BE /* SKTUnzipOperation.h */; };
+		03FD6F5319C03F80000F09BE /* SKTUnzipOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6F2F19C03F80000F09BE /* SKTUnzipOperation.m */; };
+		03FD6F5419C03F80000F09BE /* SKTUnzipOperationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F3019C03F80000F09BE /* SKTUnzipOperationDelegate.h */; };
+		03FD6F6319C04485000F09BE /* SKTMapsObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F5619C04485000F09BE /* SKTMapsObject.h */; };
+		03FD6F6419C04485000F09BE /* SKTMapsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6F5719C04485000F09BE /* SKTMapsObject.m */; };
+		03FD6F7A19C04541000F09BE /* SKTBBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F7019C04541000F09BE /* SKTBBox.h */; };
+		03FD6F7B19C04541000F09BE /* SKTBBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6F7119C04541000F09BE /* SKTBBox.m */; };
+		03FD6F7C19C04541000F09BE /* SKTElevation.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F7219C04541000F09BE /* SKTElevation.h */; };
+		03FD6F7D19C04541000F09BE /* SKTElevation.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6F7319C04541000F09BE /* SKTElevation.m */; };
+		03FD6F7E19C04541000F09BE /* SKTLanguage.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F7419C04541000F09BE /* SKTLanguage.h */; };
+		03FD6F7F19C04541000F09BE /* SKTLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6F7519C04541000F09BE /* SKTLanguage.m */; };
+		03FD6F8019C04541000F09BE /* SKTPackage.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F7619C04541000F09BE /* SKTPackage.h */; };
+		03FD6F8119C04541000F09BE /* SKTPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6F7719C04541000F09BE /* SKTPackage.m */; };
+		03FD6F8219C04541000F09BE /* SKTTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD6F7819C04541000F09BE /* SKTTexture.h */; };
+		03FD6F8319C04541000F09BE /* SKTTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6F7919C04541000F09BE /* SKTTexture.m */; };
+		91661C78197E6026007E77FE /* AFDownloadRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 91661C63197E6026007E77FE /* AFDownloadRequestOperation.h */; };
+		91661C79197E6026007E77FE /* AFDownloadRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 91661C64197E6026007E77FE /* AFDownloadRequestOperation.m */; };
+		91661C7A197E6026007E77FE /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 91661C65197E6026007E77FE /* AFHTTPRequestOperation.h */; };
+		91661C7B197E6026007E77FE /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 91661C66197E6026007E77FE /* AFHTTPRequestOperation.m */; };
+		91661C7C197E6026007E77FE /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 91661C67197E6026007E77FE /* AFHTTPRequestOperationManager.h */; };
+		91661C7D197E6026007E77FE /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91661C68197E6026007E77FE /* AFHTTPRequestOperationManager.m */; };
+		91661C7E197E6026007E77FE /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 91661C69197E6026007E77FE /* AFHTTPSessionManager.h */; };
+		91661C7F197E6026007E77FE /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91661C6A197E6026007E77FE /* AFHTTPSessionManager.m */; };
+		91661C80197E6026007E77FE /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 91661C6B197E6026007E77FE /* AFNetworking.h */; };
+		91661C81197E6026007E77FE /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 91661C6C197E6026007E77FE /* AFNetworkReachabilityManager.h */; };
+		91661C82197E6026007E77FE /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91661C6D197E6026007E77FE /* AFNetworkReachabilityManager.m */; };
+		91661C83197E6026007E77FE /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 91661C6E197E6026007E77FE /* AFSecurityPolicy.h */; };
+		91661C84197E6026007E77FE /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91661C6F197E6026007E77FE /* AFSecurityPolicy.m */; };
+		91661C85197E6026007E77FE /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 91661C70197E6026007E77FE /* AFURLConnectionOperation.h */; };
+		91661C86197E6026007E77FE /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 91661C71197E6026007E77FE /* AFURLConnectionOperation.m */; };
+		91661C87197E6026007E77FE /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 91661C72197E6026007E77FE /* AFURLRequestSerialization.h */; };
+		91661C88197E6026007E77FE /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 91661C73197E6026007E77FE /* AFURLRequestSerialization.m */; };
+		91661C89197E6026007E77FE /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 91661C74197E6026007E77FE /* AFURLResponseSerialization.h */; };
+		91661C8A197E6026007E77FE /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 91661C75197E6026007E77FE /* AFURLResponseSerialization.m */; };
+		91661C8B197E6026007E77FE /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 91661C76197E6026007E77FE /* AFURLSessionManager.h */; };
+		91661C8C197E6026007E77FE /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91661C77197E6026007E77FE /* AFURLSessionManager.m */; };
+		91661C92197E62D5007E77FE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91661C91197E62D5007E77FE /* MobileCoreServices.framework */; };
+		91661D0A197E80C4007E77FE /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 91661CFF197E80C4007E77FE /* crypt.h */; };
+		91661D0B197E80C4007E77FE /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 91661D00197E80C4007E77FE /* ioapi.c */; };
+		91661D0C197E80C4007E77FE /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 91661D01197E80C4007E77FE /* ioapi.h */; };
+		91661D0D197E80C4007E77FE /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 91661D02197E80C4007E77FE /* mztools.c */; };
+		91661D0E197E80C4007E77FE /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = 91661D03197E80C4007E77FE /* mztools.h */; };
+		91661D0F197E80C4007E77FE /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 91661D04197E80C4007E77FE /* unzip.c */; };
+		91661D10197E80C4007E77FE /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 91661D05197E80C4007E77FE /* unzip.h */; };
+		91661D11197E80C4007E77FE /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 91661D06197E80C4007E77FE /* zip.c */; };
+		91661D12197E80C4007E77FE /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 91661D07197E80C4007E77FE /* zip.h */; };
+		91661D13197E80C4007E77FE /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 91661D08197E80C4007E77FE /* ZipArchive.h */; };
+		91661D14197E80C4007E77FE /* ZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 91661D09197E80C4007E77FE /* ZipArchive.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		033B376019B47F30007ECA23 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Reachability/Reachability.h; sourceTree = "<group>"; };
+		033B376119B47F30007ECA23 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Reachability/Reachability.m; sourceTree = "<group>"; };
+		03639ABD1940999D00F54937 /* libSDKTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSDKTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		03639AC01940999D00F54937 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03639AC41940999D00F54937 /* SDKTools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDKTools-Prefix.pch"; sourceTree = "<group>"; };
+		03639B5419409B0700F54937 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		036592CE19C036A800E7E2D6 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		036592CF19C036A800E7E2D6 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		036592D019C036A800E7E2D6 /* UIButton+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Additions.h"; sourceTree = "<group>"; };
+		036592D119C036A800E7E2D6 /* UIButton+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Additions.m"; sourceTree = "<group>"; };
+		036592D219C036A800E7E2D6 /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		036592D319C036A800E7E2D6 /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+		036592D419C036A800E7E2D6 /* UIDevice+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Additions.h"; sourceTree = "<group>"; };
+		036592D519C036A800E7E2D6 /* UIDevice+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Additions.m"; sourceTree = "<group>"; };
+		036592D619C036A800E7E2D6 /* UIFont+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Additions.h"; sourceTree = "<group>"; };
+		036592D719C036A800E7E2D6 /* UIFont+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Additions.m"; sourceTree = "<group>"; };
+		036592D819C036A800E7E2D6 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		036592D919C036A800E7E2D6 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
+		036592DA19C036A800E7E2D6 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		036592DB19C036A800E7E2D6 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		036592DC19C036A800E7E2D6 /* SKTAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTAudioManager.h; path = Navigation/SKTAudioManager.h; sourceTree = "<group>"; };
+		036592DD19C036A800E7E2D6 /* SKTAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTAudioManager.m; path = Navigation/SKTAudioManager.m; sourceTree = "<group>"; };
+		036592DE19C036A800E7E2D6 /* SKTNavigationConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTNavigationConfiguration.h; path = Navigation/SKTNavigationConfiguration.h; sourceTree = "<group>"; };
+		036592DF19C036A800E7E2D6 /* SKTNavigationConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTNavigationConfiguration.m; path = Navigation/SKTNavigationConfiguration.m; sourceTree = "<group>"; };
+		036592E019C036A800E7E2D6 /* SKTNavigationConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTNavigationConstants.h; path = Navigation/SKTNavigationConstants.h; sourceTree = "<group>"; };
+		036592E119C036A800E7E2D6 /* SKTNavigationConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTNavigationConstants.m; path = Navigation/SKTNavigationConstants.m; sourceTree = "<group>"; };
+		036592E219C036A800E7E2D6 /* SKTNavigationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTNavigationInfo.h; path = Navigation/SKTNavigationInfo.h; sourceTree = "<group>"; };
+		036592E319C036A800E7E2D6 /* SKTNavigationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTNavigationInfo.m; path = Navigation/SKTNavigationInfo.m; sourceTree = "<group>"; };
+		036592E419C036A800E7E2D6 /* SKTNavigationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTNavigationManager.h; path = Navigation/SKTNavigationManager.h; sourceTree = "<group>"; };
+		036592E519C036A800E7E2D6 /* SKTNavigationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTNavigationManager.m; path = Navigation/SKTNavigationManager.m; sourceTree = "<group>"; };
+		036592E619C036A800E7E2D6 /* SKTNavigationManager+BackgroundMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SKTNavigationManager+BackgroundMode.h"; path = "Navigation/SKTNavigationManager+BackgroundMode.h"; sourceTree = "<group>"; };
+		036592E719C036A800E7E2D6 /* SKTNavigationManager+BackgroundMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SKTNavigationManager+BackgroundMode.m"; path = "Navigation/SKTNavigationManager+BackgroundMode.m"; sourceTree = "<group>"; };
+		036592E819C036A800E7E2D6 /* SKTNavigationManager+Factories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SKTNavigationManager+Factories.h"; path = "Navigation/SKTNavigationManager+Factories.h"; sourceTree = "<group>"; };
+		036592E919C036A800E7E2D6 /* SKTNavigationManager+Factories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SKTNavigationManager+Factories.m"; path = "Navigation/SKTNavigationManager+Factories.m"; sourceTree = "<group>"; };
+		036592EA19C036A800E7E2D6 /* SKTNavigationManager+NavigationState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SKTNavigationManager+NavigationState.h"; path = "Navigation/SKTNavigationManager+NavigationState.h"; sourceTree = "<group>"; };
+		036592EB19C036A800E7E2D6 /* SKTNavigationManager+NavigationState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SKTNavigationManager+NavigationState.m"; path = "Navigation/SKTNavigationManager+NavigationState.m"; sourceTree = "<group>"; };
+		036592EC19C036A800E7E2D6 /* SKTNavigationManager+Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SKTNavigationManager+Settings.h"; path = "Navigation/SKTNavigationManager+Settings.h"; sourceTree = "<group>"; };
+		036592ED19C036A800E7E2D6 /* SKTNavigationManager+Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SKTNavigationManager+Settings.m"; path = "Navigation/SKTNavigationManager+Settings.m"; sourceTree = "<group>"; };
+		036592EE19C036A800E7E2D6 /* SKTNavigationManager+Styles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SKTNavigationManager+Styles.h"; path = "Navigation/SKTNavigationManager+Styles.h"; sourceTree = "<group>"; };
+		036592EF19C036A800E7E2D6 /* SKTNavigationManager+Styles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SKTNavigationManager+Styles.m"; path = "Navigation/SKTNavigationManager+Styles.m"; sourceTree = "<group>"; };
+		036592F019C036A800E7E2D6 /* SKTNavigationManager+UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SKTNavigationManager+UI.h"; path = "Navigation/SKTNavigationManager+UI.h"; sourceTree = "<group>"; };
+		036592F119C036A800E7E2D6 /* SKTNavigationManager+UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SKTNavigationManager+UI.m"; path = "Navigation/SKTNavigationManager+UI.m"; sourceTree = "<group>"; };
+		036592F219C036A800E7E2D6 /* SKTNavigationUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTNavigationUtils.h; path = Navigation/SKTNavigationUtils.h; sourceTree = "<group>"; };
+		036592F319C036A800E7E2D6 /* SKTNavigationUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTNavigationUtils.m; path = Navigation/SKTNavigationUtils.m; sourceTree = "<group>"; };
+		036592F519C036A800E7E2D6 /* SKTActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTActionSheet.h; sourceTree = "<group>"; };
+		036592F619C036A800E7E2D6 /* SKTActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTActionSheet.m; sourceTree = "<group>"; };
+		036592F719C036A800E7E2D6 /* SKTAnimatedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTAnimatedLabel.h; sourceTree = "<group>"; };
+		036592F819C036A800E7E2D6 /* SKTAnimatedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTAnimatedLabel.m; sourceTree = "<group>"; };
+		036592F919C036A800E7E2D6 /* SKTBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTBaseView.h; sourceTree = "<group>"; };
+		036592FA19C036A800E7E2D6 /* SKTBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTBaseView.m; sourceTree = "<group>"; };
+		036592FB19C036A800E7E2D6 /* SKTInsetLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTInsetLabel.h; sourceTree = "<group>"; };
+		036592FC19C036A800E7E2D6 /* SKTInsetLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTInsetLabel.m; sourceTree = "<group>"; };
+		036592FD19C036A800E7E2D6 /* SKTLostGPSSignalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTLostGPSSignalView.h; sourceTree = "<group>"; };
+		036592FE19C036A800E7E2D6 /* SKTLostGPSSignalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTLostGPSSignalView.m; sourceTree = "<group>"; };
+		036592FF19C036A800E7E2D6 /* SKTMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTMainView.h; sourceTree = "<group>"; };
+		0365930019C036A800E7E2D6 /* SKTMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTMainView.m; sourceTree = "<group>"; };
+		0365930119C036A800E7E2D6 /* SKTNavigationBlockRoadsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTNavigationBlockRoadsView.h; sourceTree = "<group>"; };
+		0365930219C036A800E7E2D6 /* SKTNavigationBlockRoadsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTNavigationBlockRoadsView.m; sourceTree = "<group>"; };
+		0365930319C036A800E7E2D6 /* SKTNavigationCalculatingRouteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTNavigationCalculatingRouteView.h; sourceTree = "<group>"; };
+		0365930419C036A800E7E2D6 /* SKTNavigationCalculatingRouteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTNavigationCalculatingRouteView.m; sourceTree = "<group>"; };
+		0365930519C036A800E7E2D6 /* SKTNavigationDoubleLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTNavigationDoubleLabelView.h; sourceTree = "<group>"; };
+		0365930619C036A800E7E2D6 /* SKTNavigationDoubleLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTNavigationDoubleLabelView.m; sourceTree = "<group>"; };
+		0365930719C036A800E7E2D6 /* SKTNavigationETAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTNavigationETAView.h; sourceTree = "<group>"; };
+		0365930819C036A800E7E2D6 /* SKTNavigationETAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTNavigationETAView.m; sourceTree = "<group>"; };
+		0365930919C036A800E7E2D6 /* SKTNavigationFreeDriveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTNavigationFreeDriveView.h; sourceTree = "<group>"; };
+		0365930A19C036A800E7E2D6 /* SKTNavigationFreeDriveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTNavigationFreeDriveView.m; sourceTree = "<group>"; };
+		0365930B19C036A800E7E2D6 /* SKTNavigationInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTNavigationInfoView.h; sourceTree = "<group>"; };
+		0365930C19C036A800E7E2D6 /* SKTNavigationInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTNavigationInfoView.m; sourceTree = "<group>"; };
+		0365930D19C036A800E7E2D6 /* SKTNavigationOverviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTNavigationOverviewView.h; sourceTree = "<group>"; };
+		0365930E19C036A800E7E2D6 /* SKTNavigationOverviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTNavigationOverviewView.m; sourceTree = "<group>"; };
+		0365930F19C036A800E7E2D6 /* SKTNavigationPanningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTNavigationPanningView.h; sourceTree = "<group>"; };
+		0365931019C036A800E7E2D6 /* SKTNavigationPanningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTNavigationPanningView.m; sourceTree = "<group>"; };
+		0365931119C036A800E7E2D6 /* SKTNavigationSettingsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTNavigationSettingsButton.h; sourceTree = "<group>"; };
+		0365931219C036A800E7E2D6 /* SKTNavigationSettingsButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTNavigationSettingsButton.m; sourceTree = "<group>"; };
+		0365931319C036A800E7E2D6 /* SKTNavigationSettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTNavigationSettingsView.h; sourceTree = "<group>"; };
+		0365931419C036A800E7E2D6 /* SKTNavigationSettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTNavigationSettingsView.m; sourceTree = "<group>"; };
+		0365931519C036A800E7E2D6 /* SKTNavigationShortVisualAdviceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTNavigationShortVisualAdviceView.h; sourceTree = "<group>"; };
+		0365931619C036A800E7E2D6 /* SKTNavigationShortVisualAdviceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTNavigationShortVisualAdviceView.m; sourceTree = "<group>"; };
+		0365931719C036A800E7E2D6 /* SKTNavigationSpeedLimitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTNavigationSpeedLimitView.h; sourceTree = "<group>"; };
+		0365931819C036A800E7E2D6 /* SKTNavigationSpeedLimitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTNavigationSpeedLimitView.m; sourceTree = "<group>"; };
+		0365931919C036A800E7E2D6 /* SKTNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTNavigationView.h; sourceTree = "<group>"; };
+		0365931A19C036A800E7E2D6 /* SKTNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTNavigationView.m; sourceTree = "<group>"; };
+		0365931B19C036A800E7E2D6 /* SKTNavigationVisualAdviceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTNavigationVisualAdviceView.h; sourceTree = "<group>"; };
+		0365931C19C036A800E7E2D6 /* SKTNavigationVisualAdviceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTNavigationVisualAdviceView.m; sourceTree = "<group>"; };
+		0365931D19C036A800E7E2D6 /* SKTProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTProgressView.h; sourceTree = "<group>"; };
+		0365931E19C036A800E7E2D6 /* SKTProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTProgressView.m; sourceTree = "<group>"; };
+		0365931F19C036A800E7E2D6 /* SKTReroutingInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTReroutingInfoView.h; sourceTree = "<group>"; };
+		0365932019C036A800E7E2D6 /* SKTReroutingInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTReroutingInfoView.m; sourceTree = "<group>"; };
+		0365932119C036A800E7E2D6 /* SKTRouteInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTRouteInfoView.h; sourceTree = "<group>"; };
+		0365932219C036A800E7E2D6 /* SKTRouteInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTRouteInfoView.m; sourceTree = "<group>"; };
+		0365932319C036A800E7E2D6 /* SKTRouteProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTRouteProgressView.h; sourceTree = "<group>"; };
+		0365932419C036A800E7E2D6 /* SKTRouteProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTRouteProgressView.m; sourceTree = "<group>"; };
+		0365932519C036A800E7E2D6 /* SKTWaitingGPSSignalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTWaitingGPSSignalView.h; sourceTree = "<group>"; };
+		0365932619C036A800E7E2D6 /* SKTWaitingGPSSignalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTWaitingGPSSignalView.m; sourceTree = "<group>"; };
+		03FD6F0719C03F80000F09BE /* SKTDownloadManager+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKTDownloadManager+Additions.h"; sourceTree = "<group>"; };
+		03FD6F0819C03F80000F09BE /* SKTDownloadManager+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKTDownloadManager+Additions.m"; sourceTree = "<group>"; };
+		03FD6F0919C03F80000F09BE /* SKTDownloadManager+DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKTDownloadManager+DatabaseManager.h"; sourceTree = "<group>"; };
+		03FD6F0A19C03F80000F09BE /* SKTDownloadManager+DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKTDownloadManager+DatabaseManager.m"; sourceTree = "<group>"; };
+		03FD6F0B19C03F80000F09BE /* SKTDownloadManager+DownloadSpeedMeasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKTDownloadManager+DownloadSpeedMeasure.h"; sourceTree = "<group>"; };
+		03FD6F0C19C03F80000F09BE /* SKTDownloadManager+DownloadSpeedMeasure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKTDownloadManager+DownloadSpeedMeasure.m"; sourceTree = "<group>"; };
+		03FD6F0D19C03F80000F09BE /* SKTDownloadManager+ResumeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKTDownloadManager+ResumeManager.h"; sourceTree = "<group>"; };
+		03FD6F0E19C03F80000F09BE /* SKTDownloadManager+ResumeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKTDownloadManager+ResumeManager.m"; sourceTree = "<group>"; };
+		03FD6F1019C03F80000F09BE /* SKTDownloadBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTDownloadBuilder.h; sourceTree = "<group>"; };
+		03FD6F1119C03F80000F09BE /* SKTDownloadBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTDownloadBuilder.m; sourceTree = "<group>"; };
+		03FD6F1319C03F80000F09BE /* KVCBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCBaseObject.h; sourceTree = "<group>"; };
+		03FD6F1419C03F80000F09BE /* KVCBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCBaseObject.m; sourceTree = "<group>"; };
+		03FD6F1519C03F80000F09BE /* SKTDownloadObjectHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTDownloadObjectHelper.h; sourceTree = "<group>"; };
+		03FD6F1619C03F80000F09BE /* SKTDownloadObjectHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTDownloadObjectHelper.m; sourceTree = "<group>"; };
+		03FD6F1719C03F80000F09BE /* SKTMapDownloadState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTMapDownloadState.h; sourceTree = "<group>"; };
+		03FD6F1819C03F80000F09BE /* SKTMapDownloadState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTMapDownloadState.m; sourceTree = "<group>"; };
+		03FD6F1919C03F80000F09BE /* SKTMapRegionDetailsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTMapRegionDetailsHelper.h; sourceTree = "<group>"; };
+		03FD6F1A19C03F80000F09BE /* SKTMapRegionDetailsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTMapRegionDetailsHelper.m; sourceTree = "<group>"; };
+		03FD6F1B19C03F80000F09BE /* SKTDownloadAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTDownloadAPI.h; sourceTree = "<group>"; };
+		03FD6F1C19C03F80000F09BE /* SKTDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTDownloadManager.h; sourceTree = "<group>"; };
+		03FD6F1D19C03F80000F09BE /* SKTDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTDownloadManager.m; sourceTree = "<group>"; };
+		03FD6F1E19C03F80000F09BE /* SKTDownloadManagerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTDownloadManagerDataSource.h; sourceTree = "<group>"; };
+		03FD6F1F19C03F80000F09BE /* SKTDownloadManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTDownloadManagerDelegate.h; sourceTree = "<group>"; };
+		03FD6F2019C03F80000F09BE /* SKTDownloadTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTDownloadTypes.h; sourceTree = "<group>"; };
+		03FD6F2219C03F80000F09BE /* SKTGroupedDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTGroupedDownloadOperation.h; sourceTree = "<group>"; };
+		03FD6F2319C03F80000F09BE /* SKTGroupedDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTGroupedDownloadOperation.m; sourceTree = "<group>"; };
+		03FD6F2419C03F80000F09BE /* SKTGroupedDownloadOperationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTGroupedDownloadOperationDelegate.h; sourceTree = "<group>"; };
+		03FD6F2719C03F80000F09BE /* SKTDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTDownloadOperation.h; sourceTree = "<group>"; };
+		03FD6F2819C03F80000F09BE /* SKTDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTDownloadOperation.m; sourceTree = "<group>"; };
+		03FD6F2919C03F80000F09BE /* SKTDownloadOperationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTDownloadOperationDelegate.h; sourceTree = "<group>"; };
+		03FD6F2A19C03F80000F09BE /* SKTGroupedOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTGroupedOperations.h; sourceTree = "<group>"; };
+		03FD6F2B19C03F80000F09BE /* SKTGroupedOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTGroupedOperations.m; sourceTree = "<group>"; };
+		03FD6F2C19C03F80000F09BE /* SKTGroupedOperationsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTGroupedOperationsDelegate.h; sourceTree = "<group>"; };
+		03FD6F2E19C03F80000F09BE /* SKTUnzipOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTUnzipOperation.h; sourceTree = "<group>"; };
+		03FD6F2F19C03F80000F09BE /* SKTUnzipOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTUnzipOperation.m; sourceTree = "<group>"; };
+		03FD6F3019C03F80000F09BE /* SKTUnzipOperationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTUnzipOperationDelegate.h; sourceTree = "<group>"; };
+		03FD6F5619C04485000F09BE /* SKTMapsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTMapsObject.h; sourceTree = "<group>"; };
+		03FD6F5719C04485000F09BE /* SKTMapsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTMapsObject.m; sourceTree = "<group>"; };
+		03FD6F7019C04541000F09BE /* SKTBBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTBBox.h; sourceTree = "<group>"; };
+		03FD6F7119C04541000F09BE /* SKTBBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTBBox.m; sourceTree = "<group>"; };
+		03FD6F7219C04541000F09BE /* SKTElevation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTElevation.h; sourceTree = "<group>"; };
+		03FD6F7319C04541000F09BE /* SKTElevation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTElevation.m; sourceTree = "<group>"; };
+		03FD6F7419C04541000F09BE /* SKTLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTLanguage.h; sourceTree = "<group>"; };
+		03FD6F7519C04541000F09BE /* SKTLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTLanguage.m; sourceTree = "<group>"; };
+		03FD6F7619C04541000F09BE /* SKTPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTPackage.h; sourceTree = "<group>"; };
+		03FD6F7719C04541000F09BE /* SKTPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTPackage.m; sourceTree = "<group>"; };
+		03FD6F7819C04541000F09BE /* SKTTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTTexture.h; sourceTree = "<group>"; };
+		03FD6F7919C04541000F09BE /* SKTTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTTexture.m; sourceTree = "<group>"; };
+		03FD6F9219C06A67000F09BE /* SKTNavigationResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SKTNavigationResources.bundle; sourceTree = "<group>"; };
+		91661C63197E6026007E77FE /* AFDownloadRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFDownloadRequestOperation.h; sourceTree = "<group>"; };
+		91661C64197E6026007E77FE /* AFDownloadRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFDownloadRequestOperation.m; sourceTree = "<group>"; };
+		91661C65197E6026007E77FE /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		91661C66197E6026007E77FE /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		91661C67197E6026007E77FE /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		91661C68197E6026007E77FE /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		91661C69197E6026007E77FE /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		91661C6A197E6026007E77FE /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		91661C6B197E6026007E77FE /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		91661C6C197E6026007E77FE /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		91661C6D197E6026007E77FE /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		91661C6E197E6026007E77FE /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		91661C6F197E6026007E77FE /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		91661C70197E6026007E77FE /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		91661C71197E6026007E77FE /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		91661C72197E6026007E77FE /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		91661C73197E6026007E77FE /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		91661C74197E6026007E77FE /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		91661C75197E6026007E77FE /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		91661C76197E6026007E77FE /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		91661C77197E6026007E77FE /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		91661C8F197E62C8007E77FE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		91661C91197E62D5007E77FE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		91661C9C197E78B8007E77FE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		91661C9E197E78BE007E77FE /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		91661CA0197E78C7007E77FE /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		91661CFF197E80C4007E77FE /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		91661D00197E80C4007E77FE /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		91661D01197E80C4007E77FE /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		91661D02197E80C4007E77FE /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		91661D03197E80C4007E77FE /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		91661D04197E80C4007E77FE /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		91661D05197E80C4007E77FE /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		91661D06197E80C4007E77FE /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		91661D07197E80C4007E77FE /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		91661D08197E80C4007E77FE /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		91661D09197E80C4007E77FE /* ZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipArchive.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03639ABA1940999D00F54937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91661C92197E62D5007E77FE /* MobileCoreServices.framework in Frameworks */,
+				03639AC11940999D00F54937 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		033B375F19B47EEF007ECA23 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				033B376019B47F30007ECA23 /* Reachability.h */,
+				033B376119B47F30007ECA23 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		033C80CA196D646D002F259E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			path = SDKTools/Resources;
+			sourceTree = "<group>";
+		};
+		035C0E861975212B00EA86CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03FD6F9219C06A67000F09BE /* SKTNavigationResources.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		03639AB41940999D00F54937 = {
+			isa = PBXGroup;
+			children = (
+				03639AC21940999D00F54937 /* SDKTools */,
+				03639ABF1940999D00F54937 /* Frameworks */,
+				03639ABE1940999D00F54937 /* Products */,
+				033C80CA196D646D002F259E /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		03639ABE1940999D00F54937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03639ABD1940999D00F54937 /* libSDKTools.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03639ABF1940999D00F54937 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91661CA0197E78C7007E77FE /* libstdc++.dylib */,
+				91661C9E197E78BE007E77FE /* libc++.dylib */,
+				91661C9C197E78B8007E77FE /* libz.dylib */,
+				91661C91197E62D5007E77FE /* MobileCoreServices.framework */,
+				91661C8F197E62C8007E77FE /* SystemConfiguration.framework */,
+				03639B5419409B0700F54937 /* UIKit.framework */,
+				03639AC01940999D00F54937 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03639AC21940999D00F54937 /* SDKTools */ = {
+			isa = PBXGroup;
+			children = (
+				03FD6F5519C04485000F09BE /* SKTMaps */,
+				03FD6F0519C03F80000F09BE /* SKTDownloadManager */,
+				91661C61197E6026007E77FE /* ThirdParty */,
+				035C0E861975212B00EA86CC /* Resources */,
+				03C8C3211947352A00AAD997 /* Navigation */,
+				03639AC31940999D00F54937 /* Supporting Files */,
+			);
+			path = SDKTools;
+			sourceTree = "<group>";
+		};
+		03639AC31940999D00F54937 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03639AC41940999D00F54937 /* SDKTools-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		036592CD19C036A800E7E2D6 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				036592CE19C036A800E7E2D6 /* NSString+Additions.h */,
+				036592CF19C036A800E7E2D6 /* NSString+Additions.m */,
+				036592D019C036A800E7E2D6 /* UIButton+Additions.h */,
+				036592D119C036A800E7E2D6 /* UIButton+Additions.m */,
+				036592D219C036A800E7E2D6 /* UIColor+Additions.h */,
+				036592D319C036A800E7E2D6 /* UIColor+Additions.m */,
+				036592D419C036A800E7E2D6 /* UIDevice+Additions.h */,
+				036592D519C036A800E7E2D6 /* UIDevice+Additions.m */,
+				036592D619C036A800E7E2D6 /* UIFont+Additions.h */,
+				036592D719C036A800E7E2D6 /* UIFont+Additions.m */,
+				036592D819C036A800E7E2D6 /* UIImage+Additions.h */,
+				036592D919C036A800E7E2D6 /* UIImage+Additions.m */,
+				036592DA19C036A800E7E2D6 /* UIView+Additions.h */,
+				036592DB19C036A800E7E2D6 /* UIView+Additions.m */,
+			);
+			name = Additions;
+			path = Navigation/Additions;
+			sourceTree = "<group>";
+		};
+		036592F419C036A800E7E2D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				036592F519C036A800E7E2D6 /* SKTActionSheet.h */,
+				036592F619C036A800E7E2D6 /* SKTActionSheet.m */,
+				036592F719C036A800E7E2D6 /* SKTAnimatedLabel.h */,
+				036592F819C036A800E7E2D6 /* SKTAnimatedLabel.m */,
+				036592F919C036A800E7E2D6 /* SKTBaseView.h */,
+				036592FA19C036A800E7E2D6 /* SKTBaseView.m */,
+				036592FB19C036A800E7E2D6 /* SKTInsetLabel.h */,
+				036592FC19C036A800E7E2D6 /* SKTInsetLabel.m */,
+				036592FD19C036A800E7E2D6 /* SKTLostGPSSignalView.h */,
+				036592FE19C036A800E7E2D6 /* SKTLostGPSSignalView.m */,
+				036592FF19C036A800E7E2D6 /* SKTMainView.h */,
+				0365930019C036A800E7E2D6 /* SKTMainView.m */,
+				0365930119C036A800E7E2D6 /* SKTNavigationBlockRoadsView.h */,
+				0365930219C036A800E7E2D6 /* SKTNavigationBlockRoadsView.m */,
+				0365930319C036A800E7E2D6 /* SKTNavigationCalculatingRouteView.h */,
+				0365930419C036A800E7E2D6 /* SKTNavigationCalculatingRouteView.m */,
+				0365930519C036A800E7E2D6 /* SKTNavigationDoubleLabelView.h */,
+				0365930619C036A800E7E2D6 /* SKTNavigationDoubleLabelView.m */,
+				0365930719C036A800E7E2D6 /* SKTNavigationETAView.h */,
+				0365930819C036A800E7E2D6 /* SKTNavigationETAView.m */,
+				0365930919C036A800E7E2D6 /* SKTNavigationFreeDriveView.h */,
+				0365930A19C036A800E7E2D6 /* SKTNavigationFreeDriveView.m */,
+				0365930B19C036A800E7E2D6 /* SKTNavigationInfoView.h */,
+				0365930C19C036A800E7E2D6 /* SKTNavigationInfoView.m */,
+				0365930D19C036A800E7E2D6 /* SKTNavigationOverviewView.h */,
+				0365930E19C036A800E7E2D6 /* SKTNavigationOverviewView.m */,
+				0365930F19C036A800E7E2D6 /* SKTNavigationPanningView.h */,
+				0365931019C036A800E7E2D6 /* SKTNavigationPanningView.m */,
+				0365931119C036A800E7E2D6 /* SKTNavigationSettingsButton.h */,
+				0365931219C036A800E7E2D6 /* SKTNavigationSettingsButton.m */,
+				0365931319C036A800E7E2D6 /* SKTNavigationSettingsView.h */,
+				0365931419C036A800E7E2D6 /* SKTNavigationSettingsView.m */,
+				0365931519C036A800E7E2D6 /* SKTNavigationShortVisualAdviceView.h */,
+				0365931619C036A800E7E2D6 /* SKTNavigationShortVisualAdviceView.m */,
+				0365931719C036A800E7E2D6 /* SKTNavigationSpeedLimitView.h */,
+				0365931819C036A800E7E2D6 /* SKTNavigationSpeedLimitView.m */,
+				0365931919C036A800E7E2D6 /* SKTNavigationView.h */,
+				0365931A19C036A800E7E2D6 /* SKTNavigationView.m */,
+				0365931B19C036A800E7E2D6 /* SKTNavigationVisualAdviceView.h */,
+				0365931C19C036A800E7E2D6 /* SKTNavigationVisualAdviceView.m */,
+				0365931D19C036A800E7E2D6 /* SKTProgressView.h */,
+				0365931E19C036A800E7E2D6 /* SKTProgressView.m */,
+				0365931F19C036A800E7E2D6 /* SKTReroutingInfoView.h */,
+				0365932019C036A800E7E2D6 /* SKTReroutingInfoView.m */,
+				0365932119C036A800E7E2D6 /* SKTRouteInfoView.h */,
+				0365932219C036A800E7E2D6 /* SKTRouteInfoView.m */,
+				0365932319C036A800E7E2D6 /* SKTRouteProgressView.h */,
+				0365932419C036A800E7E2D6 /* SKTRouteProgressView.m */,
+				0365932519C036A800E7E2D6 /* SKTWaitingGPSSignalView.h */,
+				0365932619C036A800E7E2D6 /* SKTWaitingGPSSignalView.m */,
+			);
+			name = Views;
+			path = Navigation/Views;
+			sourceTree = "<group>";
+		};
+		03C8C3211947352A00AAD997 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				036592E419C036A800E7E2D6 /* SKTNavigationManager.h */,
+				036592E519C036A800E7E2D6 /* SKTNavigationManager.m */,
+				036592E619C036A800E7E2D6 /* SKTNavigationManager+BackgroundMode.h */,
+				036592E719C036A800E7E2D6 /* SKTNavigationManager+BackgroundMode.m */,
+				036592E819C036A800E7E2D6 /* SKTNavigationManager+Factories.h */,
+				036592E919C036A800E7E2D6 /* SKTNavigationManager+Factories.m */,
+				036592EA19C036A800E7E2D6 /* SKTNavigationManager+NavigationState.h */,
+				036592EB19C036A800E7E2D6 /* SKTNavigationManager+NavigationState.m */,
+				036592EC19C036A800E7E2D6 /* SKTNavigationManager+Settings.h */,
+				036592ED19C036A800E7E2D6 /* SKTNavigationManager+Settings.m */,
+				036592EE19C036A800E7E2D6 /* SKTNavigationManager+Styles.h */,
+				036592EF19C036A800E7E2D6 /* SKTNavigationManager+Styles.m */,
+				036592F019C036A800E7E2D6 /* SKTNavigationManager+UI.h */,
+				036592F119C036A800E7E2D6 /* SKTNavigationManager+UI.m */,
+				036592DC19C036A800E7E2D6 /* SKTAudioManager.h */,
+				036592DD19C036A800E7E2D6 /* SKTAudioManager.m */,
+				036592DE19C036A800E7E2D6 /* SKTNavigationConfiguration.h */,
+				036592DF19C036A800E7E2D6 /* SKTNavigationConfiguration.m */,
+				036592E019C036A800E7E2D6 /* SKTNavigationConstants.h */,
+				036592E119C036A800E7E2D6 /* SKTNavigationConstants.m */,
+				036592E219C036A800E7E2D6 /* SKTNavigationInfo.h */,
+				036592E319C036A800E7E2D6 /* SKTNavigationInfo.m */,
+				036592F219C036A800E7E2D6 /* SKTNavigationUtils.h */,
+				036592F319C036A800E7E2D6 /* SKTNavigationUtils.m */,
+				036592CD19C036A800E7E2D6 /* Additions */,
+				036592F419C036A800E7E2D6 /* Views */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		03FD6F0519C03F80000F09BE /* SKTDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				03FD6F0619C03F80000F09BE /* Additions */,
+				03FD6F0F19C03F80000F09BE /* Factories */,
+				03FD6F1219C03F80000F09BE /* Helper */,
+				03FD6F1B19C03F80000F09BE /* SKTDownloadAPI.h */,
+				03FD6F1C19C03F80000F09BE /* SKTDownloadManager.h */,
+				03FD6F1D19C03F80000F09BE /* SKTDownloadManager.m */,
+				03FD6F1E19C03F80000F09BE /* SKTDownloadManagerDataSource.h */,
+				03FD6F1F19C03F80000F09BE /* SKTDownloadManagerDelegate.h */,
+				03FD6F2019C03F80000F09BE /* SKTDownloadTypes.h */,
+				03FD6F2119C03F80000F09BE /* SKTGroupedDownloadOperation */,
+			);
+			path = SKTDownloadManager;
+			sourceTree = "<group>";
+		};
+		03FD6F0619C03F80000F09BE /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				03FD6F0719C03F80000F09BE /* SKTDownloadManager+Additions.h */,
+				03FD6F0819C03F80000F09BE /* SKTDownloadManager+Additions.m */,
+				03FD6F0919C03F80000F09BE /* SKTDownloadManager+DatabaseManager.h */,
+				03FD6F0A19C03F80000F09BE /* SKTDownloadManager+DatabaseManager.m */,
+				03FD6F0B19C03F80000F09BE /* SKTDownloadManager+DownloadSpeedMeasure.h */,
+				03FD6F0C19C03F80000F09BE /* SKTDownloadManager+DownloadSpeedMeasure.m */,
+				03FD6F0D19C03F80000F09BE /* SKTDownloadManager+ResumeManager.h */,
+				03FD6F0E19C03F80000F09BE /* SKTDownloadManager+ResumeManager.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		03FD6F0F19C03F80000F09BE /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				03FD6F1019C03F80000F09BE /* SKTDownloadBuilder.h */,
+				03FD6F1119C03F80000F09BE /* SKTDownloadBuilder.m */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		03FD6F1219C03F80000F09BE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				03FD6F1319C03F80000F09BE /* KVCBaseObject.h */,
+				03FD6F1419C03F80000F09BE /* KVCBaseObject.m */,
+				03FD6F1519C03F80000F09BE /* SKTDownloadObjectHelper.h */,
+				03FD6F1619C03F80000F09BE /* SKTDownloadObjectHelper.m */,
+				03FD6F1719C03F80000F09BE /* SKTMapDownloadState.h */,
+				03FD6F1819C03F80000F09BE /* SKTMapDownloadState.m */,
+				03FD6F1919C03F80000F09BE /* SKTMapRegionDetailsHelper.h */,
+				03FD6F1A19C03F80000F09BE /* SKTMapRegionDetailsHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		03FD6F2119C03F80000F09BE /* SKTGroupedDownloadOperation */ = {
+			isa = PBXGroup;
+			children = (
+				03FD6F2219C03F80000F09BE /* SKTGroupedDownloadOperation.h */,
+				03FD6F2319C03F80000F09BE /* SKTGroupedDownloadOperation.m */,
+				03FD6F2419C03F80000F09BE /* SKTGroupedDownloadOperationDelegate.h */,
+				03FD6F2519C03F80000F09BE /* SKTGroupedOperations */,
+			);
+			path = SKTGroupedDownloadOperation;
+			sourceTree = "<group>";
+		};
+		03FD6F2519C03F80000F09BE /* SKTGroupedOperations */ = {
+			isa = PBXGroup;
+			children = (
+				03FD6F2619C03F80000F09BE /* SKTDownloadOperation */,
+				03FD6F2A19C03F80000F09BE /* SKTGroupedOperations.h */,
+				03FD6F2B19C03F80000F09BE /* SKTGroupedOperations.m */,
+				03FD6F2C19C03F80000F09BE /* SKTGroupedOperationsDelegate.h */,
+				03FD6F2D19C03F80000F09BE /* UnzipOperation */,
+			);
+			path = SKTGroupedOperations;
+			sourceTree = "<group>";
+		};
+		03FD6F2619C03F80000F09BE /* SKTDownloadOperation */ = {
+			isa = PBXGroup;
+			children = (
+				03FD6F2719C03F80000F09BE /* SKTDownloadOperation.h */,
+				03FD6F2819C03F80000F09BE /* SKTDownloadOperation.m */,
+				03FD6F2919C03F80000F09BE /* SKTDownloadOperationDelegate.h */,
+			);
+			path = SKTDownloadOperation;
+			sourceTree = "<group>";
+		};
+		03FD6F2D19C03F80000F09BE /* UnzipOperation */ = {
+			isa = PBXGroup;
+			children = (
+				03FD6F2E19C03F80000F09BE /* SKTUnzipOperation.h */,
+				03FD6F2F19C03F80000F09BE /* SKTUnzipOperation.m */,
+				03FD6F3019C03F80000F09BE /* SKTUnzipOperationDelegate.h */,
+			);
+			path = UnzipOperation;
+			sourceTree = "<group>";
+		};
+		03FD6F5519C04485000F09BE /* SKTMaps */ = {
+			isa = PBXGroup;
+			children = (
+				03FD6F5619C04485000F09BE /* SKTMapsObject.h */,
+				03FD6F5719C04485000F09BE /* SKTMapsObject.m */,
+				03FD6F6F19C04541000F09BE /* SKTPackages */,
+			);
+			path = SKTMaps;
+			sourceTree = "<group>";
+		};
+		03FD6F6F19C04541000F09BE /* SKTPackages */ = {
+			isa = PBXGroup;
+			children = (
+				03FD6F7019C04541000F09BE /* SKTBBox.h */,
+				03FD6F7119C04541000F09BE /* SKTBBox.m */,
+				03FD6F7219C04541000F09BE /* SKTElevation.h */,
+				03FD6F7319C04541000F09BE /* SKTElevation.m */,
+				03FD6F7419C04541000F09BE /* SKTLanguage.h */,
+				03FD6F7519C04541000F09BE /* SKTLanguage.m */,
+				03FD6F7619C04541000F09BE /* SKTPackage.h */,
+				03FD6F7719C04541000F09BE /* SKTPackage.m */,
+				03FD6F7819C04541000F09BE /* SKTTexture.h */,
+				03FD6F7919C04541000F09BE /* SKTTexture.m */,
+			);
+			path = SKTPackages;
+			sourceTree = "<group>";
+		};
+		91661C61197E6026007E77FE /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				033B375F19B47EEF007ECA23 /* Reachability */,
+				91661CFD197E80C4007E77FE /* ZipArchive */,
+				91661C62197E6026007E77FE /* AFNetworking */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		91661C62197E6026007E77FE /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				91661C63197E6026007E77FE /* AFDownloadRequestOperation.h */,
+				91661C64197E6026007E77FE /* AFDownloadRequestOperation.m */,
+				91661C65197E6026007E77FE /* AFHTTPRequestOperation.h */,
+				91661C66197E6026007E77FE /* AFHTTPRequestOperation.m */,
+				91661C67197E6026007E77FE /* AFHTTPRequestOperationManager.h */,
+				91661C68197E6026007E77FE /* AFHTTPRequestOperationManager.m */,
+				91661C69197E6026007E77FE /* AFHTTPSessionManager.h */,
+				91661C6A197E6026007E77FE /* AFHTTPSessionManager.m */,
+				91661C6B197E6026007E77FE /* AFNetworking.h */,
+				91661C6C197E6026007E77FE /* AFNetworkReachabilityManager.h */,
+				91661C6D197E6026007E77FE /* AFNetworkReachabilityManager.m */,
+				91661C6E197E6026007E77FE /* AFSecurityPolicy.h */,
+				91661C6F197E6026007E77FE /* AFSecurityPolicy.m */,
+				91661C70197E6026007E77FE /* AFURLConnectionOperation.h */,
+				91661C71197E6026007E77FE /* AFURLConnectionOperation.m */,
+				91661C72197E6026007E77FE /* AFURLRequestSerialization.h */,
+				91661C73197E6026007E77FE /* AFURLRequestSerialization.m */,
+				91661C74197E6026007E77FE /* AFURLResponseSerialization.h */,
+				91661C75197E6026007E77FE /* AFURLResponseSerialization.m */,
+				91661C76197E6026007E77FE /* AFURLSessionManager.h */,
+				91661C77197E6026007E77FE /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		91661CFD197E80C4007E77FE /* ZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				91661CFE197E80C4007E77FE /* minizip */,
+				91661D08197E80C4007E77FE /* ZipArchive.h */,
+				91661D09197E80C4007E77FE /* ZipArchive.m */,
+			);
+			path = ZipArchive;
+			sourceTree = "<group>";
+		};
+		91661CFE197E80C4007E77FE /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				91661CFF197E80C4007E77FE /* crypt.h */,
+				91661D00197E80C4007E77FE /* ioapi.c */,
+				91661D01197E80C4007E77FE /* ioapi.h */,
+				91661D02197E80C4007E77FE /* mztools.c */,
+				91661D03197E80C4007E77FE /* mztools.h */,
+				91661D04197E80C4007E77FE /* unzip.c */,
+				91661D05197E80C4007E77FE /* unzip.h */,
+				91661D06197E80C4007E77FE /* zip.c */,
+				91661D07197E80C4007E77FE /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		91661C5A197E5DA9007E77FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91661D0A197E80C4007E77FE /* crypt.h in Headers */,
+				0365935F19C036A800E7E2D6 /* SKTNavigationETAView.h in Headers */,
+				0365936319C036A800E7E2D6 /* SKTNavigationInfoView.h in Headers */,
+				03FD6F4119C03F80000F09BE /* SKTMapRegionDetailsHelper.h in Headers */,
+				0365937519C036A800E7E2D6 /* SKTProgressView.h in Headers */,
+				0365933B19C036A800E7E2D6 /* SKTNavigationInfo.h in Headers */,
+				0365936F19C036A800E7E2D6 /* SKTNavigationSpeedLimitView.h in Headers */,
+				0365936D19C036A800E7E2D6 /* SKTNavigationShortVisualAdviceView.h in Headers */,
+				0365934719C036A800E7E2D6 /* SKTNavigationManager+Styles.h in Headers */,
+				0365936B19C036A800E7E2D6 /* SKTNavigationSettingsView.h in Headers */,
+				91661C7E197E6026007E77FE /* AFHTTPSessionManager.h in Headers */,
+				0365932F19C036A800E7E2D6 /* UIFont+Additions.h in Headers */,
+				03FD6F4319C03F80000F09BE /* SKTDownloadAPI.h in Headers */,
+				03FD6F3519C03F80000F09BE /* SKTDownloadManager+DownloadSpeedMeasure.h in Headers */,
+				0365937119C036A800E7E2D6 /* SKTNavigationView.h in Headers */,
+				03FD6F4C19C03F80000F09BE /* SKTDownloadOperation.h in Headers */,
+				03FD6F3B19C03F80000F09BE /* KVCBaseObject.h in Headers */,
+				03FD6F7E19C04541000F09BE /* SKTLanguage.h in Headers */,
+				0365932B19C036A800E7E2D6 /* UIColor+Additions.h in Headers */,
+				03FD6F4419C03F80000F09BE /* SKTDownloadManager.h in Headers */,
+				03FD6F4919C03F80000F09BE /* SKTGroupedDownloadOperation.h in Headers */,
+				03FD6F4F19C03F80000F09BE /* SKTGroupedOperations.h in Headers */,
+				0365933D19C036A800E7E2D6 /* SKTNavigationManager.h in Headers */,
+				0365936519C036A800E7E2D6 /* SKTNavigationOverviewView.h in Headers */,
+				03FD6F5219C03F80000F09BE /* SKTUnzipOperation.h in Headers */,
+				03FD6F7A19C04541000F09BE /* SKTBBox.h in Headers */,
+				0365933F19C036A800E7E2D6 /* SKTNavigationManager+BackgroundMode.h in Headers */,
+				03FD6F3F19C03F80000F09BE /* SKTMapDownloadState.h in Headers */,
+				91661C85197E6026007E77FE /* AFURLConnectionOperation.h in Headers */,
+				03FD6F3719C03F80000F09BE /* SKTDownloadManager+ResumeManager.h in Headers */,
+				0365937B19C036A800E7E2D6 /* SKTRouteProgressView.h in Headers */,
+				0365937D19C036A800E7E2D6 /* SKTWaitingGPSSignalView.h in Headers */,
+				03FD6F3919C03F80000F09BE /* SKTDownloadBuilder.h in Headers */,
+				0365935119C036A800E7E2D6 /* SKTBaseView.h in Headers */,
+				91661D10197E80C4007E77FE /* unzip.h in Headers */,
+				0365934B19C036A800E7E2D6 /* SKTNavigationUtils.h in Headers */,
+				91661C80197E6026007E77FE /* AFNetworking.h in Headers */,
+				0365933919C036A800E7E2D6 /* SKTNavigationConstants.h in Headers */,
+				0365932719C036A800E7E2D6 /* NSString+Additions.h in Headers */,
+				91661C8B197E6026007E77FE /* AFURLSessionManager.h in Headers */,
+				91661D12197E80C4007E77FE /* zip.h in Headers */,
+				0365937719C036A800E7E2D6 /* SKTReroutingInfoView.h in Headers */,
+				0365934F19C036A800E7E2D6 /* SKTAnimatedLabel.h in Headers */,
+				0365933719C036A800E7E2D6 /* SKTNavigationConfiguration.h in Headers */,
+				0365935519C036A800E7E2D6 /* SKTLostGPSSignalView.h in Headers */,
+				0365935919C036A800E7E2D6 /* SKTNavigationBlockRoadsView.h in Headers */,
+				0365937319C036A800E7E2D6 /* SKTNavigationVisualAdviceView.h in Headers */,
+				0365932919C036A800E7E2D6 /* UIButton+Additions.h in Headers */,
+				0365932D19C036A800E7E2D6 /* UIDevice+Additions.h in Headers */,
+				91661C7C197E6026007E77FE /* AFHTTPRequestOperationManager.h in Headers */,
+				91661C78197E6026007E77FE /* AFDownloadRequestOperation.h in Headers */,
+				0365935D19C036A800E7E2D6 /* SKTNavigationDoubleLabelView.h in Headers */,
+				0365933319C036A800E7E2D6 /* UIView+Additions.h in Headers */,
+				0365934319C036A800E7E2D6 /* SKTNavigationManager+NavigationState.h in Headers */,
+				03FD6F4B19C03F80000F09BE /* SKTGroupedDownloadOperationDelegate.h in Headers */,
+				0365935319C036A800E7E2D6 /* SKTInsetLabel.h in Headers */,
+				91661D13197E80C4007E77FE /* ZipArchive.h in Headers */,
+				91661D0C197E80C4007E77FE /* ioapi.h in Headers */,
+				0365934919C036A800E7E2D6 /* SKTNavigationManager+UI.h in Headers */,
+				0365934119C036A800E7E2D6 /* SKTNavigationManager+Factories.h in Headers */,
+				91661C89197E6026007E77FE /* AFURLResponseSerialization.h in Headers */,
+				0365936919C036A800E7E2D6 /* SKTNavigationSettingsButton.h in Headers */,
+				03FD6F3319C03F80000F09BE /* SKTDownloadManager+DatabaseManager.h in Headers */,
+				0365934D19C036A800E7E2D6 /* SKTActionSheet.h in Headers */,
+				91661C83197E6026007E77FE /* AFSecurityPolicy.h in Headers */,
+				0365933119C036A800E7E2D6 /* UIImage+Additions.h in Headers */,
+				91661D0E197E80C4007E77FE /* mztools.h in Headers */,
+				03FD6F8219C04541000F09BE /* SKTTexture.h in Headers */,
+				03FD6F4819C03F80000F09BE /* SKTDownloadTypes.h in Headers */,
+				0365935719C036A800E7E2D6 /* SKTMainView.h in Headers */,
+				03FD6F4E19C03F80000F09BE /* SKTDownloadOperationDelegate.h in Headers */,
+				03FD6F7C19C04541000F09BE /* SKTElevation.h in Headers */,
+				0365935B19C036A800E7E2D6 /* SKTNavigationCalculatingRouteView.h in Headers */,
+				03FD6F4719C03F80000F09BE /* SKTDownloadManagerDelegate.h in Headers */,
+				03FD6F3119C03F80000F09BE /* SKTDownloadManager+Additions.h in Headers */,
+				03FD6F4619C03F80000F09BE /* SKTDownloadManagerDataSource.h in Headers */,
+				0365933519C036A800E7E2D6 /* SKTAudioManager.h in Headers */,
+				0365936719C036A800E7E2D6 /* SKTNavigationPanningView.h in Headers */,
+				91661C81197E6026007E77FE /* AFNetworkReachabilityManager.h in Headers */,
+				03FD6F6319C04485000F09BE /* SKTMapsObject.h in Headers */,
+				91661C87197E6026007E77FE /* AFURLRequestSerialization.h in Headers */,
+				03FD6F5419C03F80000F09BE /* SKTUnzipOperationDelegate.h in Headers */,
+				0365937919C036A800E7E2D6 /* SKTRouteInfoView.h in Headers */,
+				03FD6F8019C04541000F09BE /* SKTPackage.h in Headers */,
+				03FD6F3D19C03F80000F09BE /* SKTDownloadObjectHelper.h in Headers */,
+				03FD6F5119C03F80000F09BE /* SKTGroupedOperationsDelegate.h in Headers */,
+				033B376219B47F30007ECA23 /* Reachability.h in Headers */,
+				0365936119C036A800E7E2D6 /* SKTNavigationFreeDriveView.h in Headers */,
+				91661C7A197E6026007E77FE /* AFHTTPRequestOperation.h in Headers */,
+				0365934519C036A800E7E2D6 /* SKTNavigationManager+Settings.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03639ABC1940999D00F54937 /* SDKTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03639AE01940999D00F54937 /* Build configuration list for PBXNativeTarget "SDKTools" */;
+			buildPhases = (
+				03639AB91940999D00F54937 /* Sources */,
+				03639ABA1940999D00F54937 /* Frameworks */,
+				038F5E9419418D1300C6AFC3 /* ShellScript */,
+				91661C5A197E5DA9007E77FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDKTools;
+			productName = SDKTools;
+			productReference = 03639ABD1940999D00F54937 /* libSDKTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03639AB51940999D00F54937 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = BogdanB;
+			};
+			buildConfigurationList = 03639AB81940999D00F54937 /* Build configuration list for PBXProject "SDKTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03639AB41940999D00F54937;
+			productRefGroup = 03639ABE1940999D00F54937 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03639ABC1940999D00F54937 /* SDKTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		038F5E9419418D1300C6AFC3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03639AB91940999D00F54937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0365934C19C036A800E7E2D6 /* SKTNavigationUtils.m in Sources */,
+				03FD6F4019C03F80000F09BE /* SKTMapDownloadState.m in Sources */,
+				91661C86197E6026007E77FE /* AFURLConnectionOperation.m in Sources */,
+				91661D14197E80C4007E77FE /* ZipArchive.m in Sources */,
+				0365936819C036A800E7E2D6 /* SKTNavigationPanningView.m in Sources */,
+				91661C88197E6026007E77FE /* AFURLRequestSerialization.m in Sources */,
+				0365934219C036A800E7E2D6 /* SKTNavigationManager+Factories.m in Sources */,
+				91661C8C197E6026007E77FE /* AFURLSessionManager.m in Sources */,
+				03FD6F3219C03F80000F09BE /* SKTDownloadManager+Additions.m in Sources */,
+				03FD6F3C19C03F80000F09BE /* KVCBaseObject.m in Sources */,
+				91661D11197E80C4007E77FE /* zip.c in Sources */,
+				0365937219C036A800E7E2D6 /* SKTNavigationView.m in Sources */,
+				91661C7B197E6026007E77FE /* AFHTTPRequestOperation.m in Sources */,
+				0365936E19C036A800E7E2D6 /* SKTNavigationShortVisualAdviceView.m in Sources */,
+				0365937819C036A800E7E2D6 /* SKTReroutingInfoView.m in Sources */,
+				03FD6F8119C04541000F09BE /* SKTPackage.m in Sources */,
+				03FD6F3619C03F80000F09BE /* SKTDownloadManager+DownloadSpeedMeasure.m in Sources */,
+				91661D0D197E80C4007E77FE /* mztools.c in Sources */,
+				0365935819C036A800E7E2D6 /* SKTMainView.m in Sources */,
+				0365933619C036A800E7E2D6 /* SKTAudioManager.m in Sources */,
+				03FD6F4519C03F80000F09BE /* SKTDownloadManager.m in Sources */,
+				0365937A19C036A800E7E2D6 /* SKTRouteInfoView.m in Sources */,
+				0365937619C036A800E7E2D6 /* SKTProgressView.m in Sources */,
+				0365937419C036A800E7E2D6 /* SKTNavigationVisualAdviceView.m in Sources */,
+				0365937019C036A800E7E2D6 /* SKTNavigationSpeedLimitView.m in Sources */,
+				91661C79197E6026007E77FE /* AFDownloadRequestOperation.m in Sources */,
+				0365935E19C036A800E7E2D6 /* SKTNavigationDoubleLabelView.m in Sources */,
+				03FD6F3A19C03F80000F09BE /* SKTDownloadBuilder.m in Sources */,
+				03FD6F4A19C03F80000F09BE /* SKTGroupedDownloadOperation.m in Sources */,
+				0365936619C036A800E7E2D6 /* SKTNavigationOverviewView.m in Sources */,
+				03FD6F7D19C04541000F09BE /* SKTElevation.m in Sources */,
+				0365935219C036A800E7E2D6 /* SKTBaseView.m in Sources */,
+				0365933219C036A800E7E2D6 /* UIImage+Additions.m in Sources */,
+				0365935619C036A800E7E2D6 /* SKTLostGPSSignalView.m in Sources */,
+				0365935419C036A800E7E2D6 /* SKTInsetLabel.m in Sources */,
+				0365936C19C036A800E7E2D6 /* SKTNavigationSettingsView.m in Sources */,
+				0365934419C036A800E7E2D6 /* SKTNavigationManager+NavigationState.m in Sources */,
+				03FD6F3419C03F80000F09BE /* SKTDownloadManager+DatabaseManager.m in Sources */,
+				0365935C19C036A800E7E2D6 /* SKTNavigationCalculatingRouteView.m in Sources */,
+				0365933419C036A800E7E2D6 /* UIView+Additions.m in Sources */,
+				91661C84197E6026007E77FE /* AFSecurityPolicy.m in Sources */,
+				0365934819C036A800E7E2D6 /* SKTNavigationManager+Styles.m in Sources */,
+				03FD6F8319C04541000F09BE /* SKTTexture.m in Sources */,
+				03FD6F4D19C03F80000F09BE /* SKTDownloadOperation.m in Sources */,
+				03FD6F7F19C04541000F09BE /* SKTLanguage.m in Sources */,
+				0365932819C036A800E7E2D6 /* NSString+Additions.m in Sources */,
+				91661D0B197E80C4007E77FE /* ioapi.c in Sources */,
+				03FD6F3E19C03F80000F09BE /* SKTDownloadObjectHelper.m in Sources */,
+				0365937E19C036A800E7E2D6 /* SKTWaitingGPSSignalView.m in Sources */,
+				0365936219C036A800E7E2D6 /* SKTNavigationFreeDriveView.m in Sources */,
+				03FD6F4219C03F80000F09BE /* SKTMapRegionDetailsHelper.m in Sources */,
+				0365933C19C036A800E7E2D6 /* SKTNavigationInfo.m in Sources */,
+				0365932E19C036A800E7E2D6 /* UIDevice+Additions.m in Sources */,
+				0365932A19C036A800E7E2D6 /* UIButton+Additions.m in Sources */,
+				0365934619C036A800E7E2D6 /* SKTNavigationManager+Settings.m in Sources */,
+				91661C7F197E6026007E77FE /* AFHTTPSessionManager.m in Sources */,
+				0365933E19C036A800E7E2D6 /* SKTNavigationManager.m in Sources */,
+				0365935A19C036A800E7E2D6 /* SKTNavigationBlockRoadsView.m in Sources */,
+				0365936A19C036A800E7E2D6 /* SKTNavigationSettingsButton.m in Sources */,
+				91661D0F197E80C4007E77FE /* unzip.c in Sources */,
+				0365936019C036A800E7E2D6 /* SKTNavigationETAView.m in Sources */,
+				0365936419C036A800E7E2D6 /* SKTNavigationInfoView.m in Sources */,
+				91661C8A197E6026007E77FE /* AFURLResponseSerialization.m in Sources */,
+				03FD6F5019C03F80000F09BE /* SKTGroupedOperations.m in Sources */,
+				03FD6F6419C04485000F09BE /* SKTMapsObject.m in Sources */,
+				91661C82197E6026007E77FE /* AFNetworkReachabilityManager.m in Sources */,
+				91661C7D197E6026007E77FE /* AFHTTPRequestOperationManager.m in Sources */,
+				0365933A19C036A800E7E2D6 /* SKTNavigationConstants.m in Sources */,
+				0365935019C036A800E7E2D6 /* SKTAnimatedLabel.m in Sources */,
+				0365937C19C036A800E7E2D6 /* SKTRouteProgressView.m in Sources */,
+				03FD6F5319C03F80000F09BE /* SKTUnzipOperation.m in Sources */,
+				0365933819C036A800E7E2D6 /* SKTNavigationConfiguration.m in Sources */,
+				0365933019C036A800E7E2D6 /* UIFont+Additions.m in Sources */,
+				03FD6F7B19C04541000F09BE /* SKTBBox.m in Sources */,
+				033B376319B47F30007ECA23 /* Reachability.m in Sources */,
+				03FD6F3819C03F80000F09BE /* SKTDownloadManager+ResumeManager.m in Sources */,
+				0365934E19C036A800E7E2D6 /* SKTActionSheet.m in Sources */,
+				0365932C19C036A800E7E2D6 /* UIColor+Additions.m in Sources */,
+				0365934A19C036A800E7E2D6 /* SKTNavigationManager+UI.m in Sources */,
+				0365934019C036A800E7E2D6 /* SKTNavigationManager+BackgroundMode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03639ADE1940999D00F54937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03639ADF1940999D00F54937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03639AE11940999D00F54937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DSTROOT = /tmp/SDKTools.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../**",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDKTools/SDKTools-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		03639AE21940999D00F54937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DSTROOT = /tmp/SDKTools.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../**",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDKTools/SDKTools-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03639AB81940999D00F54937 /* Build configuration list for PBXProject "SDKTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03639ADE1940999D00F54937 /* Debug */,
+				03639ADF1940999D00F54937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03639AE01940999D00F54937 /* Build configuration list for PBXNativeTarget "SDKTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03639AE11940999D00F54937 /* Debug */,
+				03639AE21940999D00F54937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03639AB51940999D00F54937 /* Project object */;
+}

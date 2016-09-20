@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/SKTNavigationCalculatingRouteViewDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/SKTNavigationCalculatingRouteViewDelegate</TokenIdentifier>
+			<Abstract type="html">Used to receive user actions.</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>
+			
+			<NodeRef refid="55"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTNavigationCalculatingRouteViewDelegate/calculatingRouteView:didSelectRouteAtIndex:</TokenIdentifier>
+			<Abstract type="html">Called when the user selected a route.</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>- (void)calculatingRouteView:(SKTNavigationCalculatingRouteView *)view didSelectRouteAtIndex:(NSInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The SKTNavigationCalculatingRouteView that sends this message.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Index of the selected route.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/calculatingRouteView:didSelectRouteAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTNavigationCalculatingRouteViewDelegate/calculatingRouteViewStartClicked:</TokenIdentifier>
+			<Abstract type="html">Called when the user wants to start the navigation with the currently selected route.</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>- (void)calculatingRouteViewStartClicked:(SKTNavigationCalculatingRouteView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The SKTNavigationCalculatingRouteView that sends this message.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/calculatingRouteViewStartClicked:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

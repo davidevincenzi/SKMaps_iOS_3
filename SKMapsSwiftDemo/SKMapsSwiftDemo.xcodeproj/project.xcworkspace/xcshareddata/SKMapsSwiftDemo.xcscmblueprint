@@ -1,0 +1,36 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "b489e440-f301-467e-b087-994d6193b56a++8064",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "12825b43-dd7e-4aa1-b8a5-4a599b81e5b9++4434" : {
+      "DVTSourceControlWorkingCopyRepositoryBranchesLocationKey" : "branches",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "trunk"
+    },
+    "b489e440-f301-467e-b087-994d6193b56a++8064" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "12825b43-dd7e-4aa1-b8a5-4a599b81e5b9++4434" : 0,
+    "b489e440-f301-467e-b087-994d6193b56a++8064" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2E7F081C-DC80-4652-8E40-B1AFFE0CB289",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "12825b43-dd7e-4aa1-b8a5-4a599b81e5b9++4434" : "Public_SDK_3_0\/SKOneBoxSearch\/SKOSearchLib\/",
+    "b489e440-f301-467e-b087-994d6193b56a++8064" : "Public_SDK_3_0\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SKMapsSwiftDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SKMapsSwiftDemo\/SKMapsSwiftDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/10.230.2.21\/ForeverMapNgx",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "12825b43-dd7e-4aa1-b8a5-4a599b81e5b9++4434"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/mihai.costiug@10.230.2.21\/SKMapsFramework",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b489e440-f301-467e-b087-994d6193b56a++8064"
+    }
+  ]
+}

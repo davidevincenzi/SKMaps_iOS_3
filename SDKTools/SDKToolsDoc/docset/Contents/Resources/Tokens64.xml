@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/SKTUnzipOperationDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/SKTUnzipOperationDelegate</TokenIdentifier>
+			<Abstract type="html">SKTUnzipOperationDelegate delegate of SKTUnzipOperation.</Abstract>
+			<DeclaredIn>SKTUnzipOperationDelegate.h</DeclaredIn>
+			
+			<NodeRef refid="64"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTUnzipOperationDelegate/unzipOperation:updatedProgressPercentage:</TokenIdentifier>
+			<Abstract type="html">Delegate method for returning unzip progress percentage.</Abstract>
+			<DeclaredIn>SKTUnzipOperationDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)unzipOperation:(SKTUnzipOperation *)unzipOperation updatedProgressPercentage:(float)percentage</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>unzipOperation</Name>
+					<Abstract type="html">the unzip operation.</Abstract>
+				</Parameter><Parameter>
+					<Name>percentage</Name>
+					<Abstract type="html">float representing the unzip percentage.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/unzipOperation:updatedProgressPercentage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTUnzipOperationDelegate/unzipOperation:finishedForFile:withSuccess:</TokenIdentifier>
+			<Abstract type="html">Delegate method for finished unzipping.</Abstract>
+			<DeclaredIn>SKTUnzipOperationDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)unzipOperation:(SKTUnzipOperation *)unzipOperation finishedForFile:(NSString *)file withSuccess:(BOOL)success</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>unzipOperation</Name>
+					<Abstract type="html">the unzip operation.</Abstract>
+				</Parameter><Parameter>
+					<Name>file</Name>
+					<Abstract type="html">the path of the file beeing unzipped.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">a boolean indicating if the unzip was succesfull.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/unzipOperation:finishedForFile:withSuccess:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

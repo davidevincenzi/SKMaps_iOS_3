@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTDownloadObjectHelper.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTDownloadObjectHelper</TokenIdentifier>
+			<Abstract type="html">SKTDownloadObjectHelper holds additional information regarding a download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/setName_en:</TokenIdentifier>
+			<Abstract type="html">English translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_en</Declaration>
+			
+			
+			<Anchor>//api/name/name_en</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadObjectHelper/name_en</TokenIdentifier>
+			<Abstract type="html">English translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_en</Declaration>
+			
+			
+			<Anchor>//api/name/name_en</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/setName_de:</TokenIdentifier>
+			<Abstract type="html">German translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_de</Declaration>
+			
+			
+			<Anchor>//api/name/name_de</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadObjectHelper/name_de</TokenIdentifier>
+			<Abstract type="html">German translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_de</Declaration>
+			
+			
+			<Anchor>//api/name/name_de</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/setName_es:</TokenIdentifier>
+			<Abstract type="html">Spanish translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_es</Declaration>
+			
+			
+			<Anchor>//api/name/name_es</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadObjectHelper/name_es</TokenIdentifier>
+			<Abstract type="html">Spanish translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_es</Declaration>
+			
+			
+			<Anchor>//api/name/name_es</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/setName_fr:</TokenIdentifier>
+			<Abstract type="html">French translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_fr</Declaration>
+			
+			
+			<Anchor>//api/name/name_fr</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadObjectHelper/name_fr</TokenIdentifier>
+			<Abstract type="html">French translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_fr</Declaration>
+			
+			
+			<Anchor>//api/name/name_fr</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/setName_it:</TokenIdentifier>
+			<Abstract type="html">Italian translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_it</Declaration>
+			
+			
+			<Anchor>//api/name/name_it</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadObjectHelper/name_it</TokenIdentifier>
+			<Abstract type="html">Italian translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_it</Declaration>
+			
+			
+			<Anchor>//api/name/name_it</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/setName_ro:</TokenIdentifier>
+			<Abstract type="html">Romanian translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_ro</Declaration>
+			
+			
+			<Anchor>//api/name/name_ro</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadObjectHelper/name_ro</TokenIdentifier>
+			<Abstract type="html">Romanian translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_ro</Declaration>
+			
+			
+			<Anchor>//api/name/name_ro</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/setName_ru:</TokenIdentifier>
+			<Abstract type="html">Russian translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_ru</Declaration>
+			
+			
+			<Anchor>//api/name/name_ru</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadObjectHelper/name_ru</TokenIdentifier>
+			<Abstract type="html">Russian translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_ru</Declaration>
+			
+			
+			<Anchor>//api/name/name_ru</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/setName_hu:</TokenIdentifier>
+			<Abstract type="html">Hungarian translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_hu</Declaration>
+			
+			
+			<Anchor>//api/name/name_hu</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadObjectHelper/name_hu</TokenIdentifier>
+			<Abstract type="html">Hungarian translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_hu</Declaration>
+			
+			
+			<Anchor>//api/name/name_hu</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/setName_nl:</TokenIdentifier>
+			<Abstract type="html">Dutch translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_nl</Declaration>
+			
+			
+			<Anchor>//api/name/name_nl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadObjectHelper/name_nl</TokenIdentifier>
+			<Abstract type="html">Dutch translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_nl</Declaration>
+			
+			
+			<Anchor>//api/name/name_nl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/setName_tr:</TokenIdentifier>
+			<Abstract type="html">Turkish translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_tr</Declaration>
+			
+			
+			<Anchor>//api/name/name_tr</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadObjectHelper/name_tr</TokenIdentifier>
+			<Abstract type="html">Turkish translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_tr</Declaration>
+			
+			
+			<Anchor>//api/name/name_tr</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/setName_pt:</TokenIdentifier>
+			<Abstract type="html">Portuguese translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_pt</Declaration>
+			
+			
+			<Anchor>//api/name/name_pt</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadObjectHelper/name_pt</TokenIdentifier>
+			<Abstract type="html">Portuguese translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_pt</Declaration>
+			
+			
+			<Anchor>//api/name/name_pt</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/setName_sv:</TokenIdentifier>
+			<Abstract type="html">Swedish translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_sv</Declaration>
+			
+			
+			<Anchor>//api/name/name_sv</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadObjectHelper/name_sv</TokenIdentifier>
+			<Abstract type="html">Swedish translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_sv</Declaration>
+			
+			
+			<Anchor>//api/name/name_sv</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/setName_da:</TokenIdentifier>
+			<Abstract type="html">Dansk translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_da</Declaration>
+			
+			
+			<Anchor>//api/name/name_da</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadObjectHelper/name_da</TokenIdentifier>
+			<Abstract type="html">Dansk translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_da</Declaration>
+			
+			
+			<Anchor>//api/name/name_da</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/setName_pl:</TokenIdentifier>
+			<Abstract type="html">Polish translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_pl</Declaration>
+			
+			
+			<Anchor>//api/name/name_pl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadObjectHelper/name_pl</TokenIdentifier>
+			<Abstract type="html">Polish translation for download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name_pl</Declaration>
+			
+			
+			<Anchor>//api/name/name_pl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/setIsPurchased:</TokenIdentifier>
+			<Abstract type="html">Value indicating if a map is purchased.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *isPurchased</Declaration>
+			
+			
+			<Anchor>//api/name/isPurchased</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadObjectHelper/isPurchased</TokenIdentifier>
+			<Abstract type="html">Value indicating if a map is purchased.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *isPurchased</Declaration>
+			
+			
+			<Anchor>//api/name/isPurchased</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/setIsInstalled:</TokenIdentifier>
+			<Abstract type="html">Value indicating if a map is installed.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *isInstalled</Declaration>
+			
+			
+			<Anchor>//api/name/isInstalled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadObjectHelper/isInstalled</TokenIdentifier>
+			<Abstract type="html">Value indicating if a map is installed.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *isInstalled</Declaration>
+			
+			
+			<Anchor>//api/name/isInstalled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/setType:</TokenIdentifier>
+			<Abstract type="html">Value indicating the type of the map, continent, country, state etc.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadObjectHelper/type</TokenIdentifier>
+			<Abstract type="html">Value indicating the type of the map, continent, country, state etc.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/setDownloadType:</TokenIdentifier>
+			<Abstract type="html">SKTDownloadObjectType indicates the type of the download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKTDownloadObjectType downloadType</Declaration>
+			
+			
+			<Anchor>//api/name/downloadType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadObjectHelper/downloadType</TokenIdentifier>
+			<Abstract type="html">SKTDownloadObjectType indicates the type of the download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKTDownloadObjectType downloadType</Declaration>
+			
+			
+			<Anchor>//api/name/downloadType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/setDetails:</TokenIdentifier>
+			<Abstract type="html">SKTMapRegionDetailsHelper contains additional download details.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTMapRegionDetailsHelper *details</Declaration>
+			
+			
+			<Anchor>//api/name/details</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadObjectHelper/details</TokenIdentifier>
+			<Abstract type="html">SKTMapRegionDetailsHelper contains additional download details.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTMapRegionDetailsHelper *details</Declaration>
+			
+			
+			<Anchor>//api/name/details</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/setPackage:</TokenIdentifier>
+			<Abstract type="html">package holds informations from map json file regarding the download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTPackage *package</Declaration>
+			
+			
+			<Anchor>//api/name/package</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadObjectHelper/package</TokenIdentifier>
+			<Abstract type="html">package holds informations from map json file regarding the download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTPackage *package</Declaration>
+			
+			
+			<Anchor>//api/name/package</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadObjectHelper/downloadObjectHelperWithSKTPackage:</TokenIdentifier>
+			<Abstract type="html">Class factory method for creating a SKTDownloadObjectHelper using a SKTPackage object.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>+ (id)downloadObjectHelperWithSKTPackage:(SKTPackage *)package</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">object resulted from Map JSON parsing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">SKTDownloadObjectHelper with required download information.</Abstract></ReturnValue>
+			<Anchor>//api/name/downloadObjectHelperWithSKTPackage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/mapRegionHelperNameForCurrentLanguage</TokenIdentifier>
+			<Abstract type="html">Returns language for map download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)mapRegionHelperNameForCurrentLanguage</Declaration>
+			
+			<ReturnValue><Abstract type="html">NSString representing the current language translation.</Abstract></ReturnValue>
+			<Anchor>//api/name/mapRegionHelperNameForCurrentLanguage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/getCode</TokenIdentifier>
+			<Abstract type="html">Returns map download code.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)getCode</Declaration>
+			
+			<ReturnValue><Abstract type="html">NSString representing the map download core (eg.: RO, US, DE).</Abstract></ReturnValue>
+			<Anchor>//api/name/getCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/getTotalSize</TokenIdentifier>
+			<Abstract type="html">Returns the total size of the download.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>- (long long)getTotalSize</Declaration>
+			
+			<ReturnValue><Abstract type="html">long long indicating the total size of the download.</Abstract></ReturnValue>
+			<Anchor>//api/name/getTotalSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/isFullyDownloaded</TokenIdentifier>
+			<Abstract type="html">Returns a boolean indicating wether the download has finished, unzipping included.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isFullyDownloaded</Declaration>
+			
+			<ReturnValue><Abstract type="html">boolean indicating wether the download has finished, unzipping included.</Abstract></ReturnValue>
+			<Anchor>//api/name/isFullyDownloaded</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/isFullyUnzipped</TokenIdentifier>
+			<Abstract type="html">Returns a boolean indicating wether the download has finished unzipping.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isFullyUnzipped</Declaration>
+			
+			<ReturnValue><Abstract type="html">boolean indicating wether the download has finished unzipping.</Abstract></ReturnValue>
+			<Anchor>//api/name/isFullyUnzipped</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/finishedDownloading</TokenIdentifier>
+			<Abstract type="html">Returns a boolean indicating wether download has finished.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)finishedDownloading</Declaration>
+			
+			<ReturnValue><Abstract type="html">boolean indicating wether download has finished.</Abstract></ReturnValue>
+			<Anchor>//api/name/finishedDownloading</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadObjectHelper/compare:</TokenIdentifier>
+			<Abstract type="html">Compare method for download objects, compares object codes.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>- (NSComparisonResult)compare:(id)otherObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>otherObject</Name>
+					<Abstract type="html">The object to which we compare.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSComparisonResult indicating the compare result.</Abstract></ReturnValue>
+			<Anchor>//api/name/compare:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadObjectHelper/downloadHelper:downloadURLForType:</TokenIdentifier>
+			<Abstract type="html">Returns the URL for the downloadFileType.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>+ (NSURL *)downloadHelper:(SKTDownloadObjectHelper *)currentDownloadHelper downloadURLForType:(SKTDownloadFileType)downloadFileType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>currentDownloadHelper</Name>
+					<Abstract type="html">the download helper object</Abstract>
+				</Parameter><Parameter>
+					<Name>downloadFileType</Name>
+					<Abstract type="html">download file type</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">URL for the downloadFileType.</Abstract></ReturnValue>
+			<Anchor>//api/name/downloadHelper:downloadURLForType:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadObjectHelper/linkAvailableForDownloadHelper:withType:</TokenIdentifier>
+			<Abstract type="html">Returns a boolean indicating the a url exists for the downloadFileType.</Abstract>
+			<DeclaredIn>SKTDownloadObjectHelper.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)linkAvailableForDownloadHelper:(SKTDownloadObjectHelper *)downloadHelper withType:(SKTDownloadFileType)downloadFileType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">the download helper object</Abstract>
+				</Parameter><Parameter>
+					<Name>downloadFileType</Name>
+					<Abstract type="html">download file type</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a boolean indicating the a url exists for the downloadFileType.</Abstract></ReturnValue>
+			<Anchor>//api/name/linkAvailableForDownloadHelper:withType:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

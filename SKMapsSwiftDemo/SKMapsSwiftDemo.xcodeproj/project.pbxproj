@@ -1,0 +1,1150 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033DF23E1B12FA4600A06309 /* SKAdvisorResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 033DF23D1B12FA4600A06309 /* SKAdvisorResources.bundle */; };
+		033DF2401B12FBFC00A06309 /* Info-Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = 033DF23F1B12FBFC00A06309 /* Info-Release.plist */; };
+		03BC03531AFB8FCF00798608 /* SKMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAF385219EFDC4800B90CF1 /* SKMaps.framework */; };
+		03BC03541AFB8FCF00798608 /* SKMaps.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FBAF385219EFDC4800B90CF1 /* SKMaps.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03CA53EA1A9B74C80052379D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81DA6A5A19D98709002BF074 /* LaunchScreen.xib */; };
+		59659D1D1BBC4426005B5546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59659D1B1BBC4426005B5546 /* Main.storyboard */; };
+		6BE2C37D1D91977700C8C4FA /* SKMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81FEA4CD19EFEF1A0030A2EE /* SKMaps.bundle */; };
+		81058BD319E809ED00227416 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81058BD219E809ED00227416 /* MenuView.swift */; };
+		8134567C19EFE211002AD5C1 /* libSDKTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8134567919EFE205002AD5C1 /* libSDKTools.a */; };
+		8134568119EFE2DF002AD5C1 /* SKTNavigationResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8134568019EFE2DF002AD5C1 /* SKTNavigationResources.bundle */; };
+		8149A3E719DD5FAB00BBFD4B /* RoutingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8149A3E619DD5FAB00BBFD4B /* RoutingViewController.swift */; };
+		8149A3EA19DDC3BA00BBFD4B /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8149A3E919DDC3BA00BBFD4B /* AudioService.swift */; };
+		8149A3EC19DDC4B200BBFD4B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8149A3EB19DDC4B200BBFD4B /* AVFoundation.framework */; };
+		8149A3EE19DDC4B800BBFD4B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8149A3ED19DDC4B800BBFD4B /* AudioToolbox.framework */; };
+		814E655819ED589800AD1D9E /* MapJSONViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814E655719ED589800AD1D9E /* MapJSONViewController.swift */; };
+		814E655A19ED58AC00AD1D9E /* MapDownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814E655919ED58AC00AD1D9E /* MapDownloadViewController.swift */; };
+		815A72BD19ED3EC8005FDD2B /* MapJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815A72BC19ED3EC8005FDD2B /* MapJSONParser.swift */; };
+		815A72C119ED3FC8005FDD2B /* MapRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815A72C019ED3FC8005FDD2B /* MapRegion.swift */; };
+		819CE89A19DAD6EF009DB8DF /* MapCreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819CE89919DAD6EF009DB8DF /* MapCreatorViewController.swift */; };
+		819CE89D19DAD7BB009DB8DF /* MapCreator.json in Resources */ = {isa = PBXBuildFile; fileRef = 819CE89C19DAD7BB009DB8DF /* MapCreator.json */; };
+		819CE89F19DAD8CE009DB8DF /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 819CE89E19DAD8CE009DB8DF /* libc++.dylib */; };
+		819CE8A119DAD8D4009DB8DF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819CE8A019DAD8D4009DB8DF /* CoreMotion.framework */; };
+		819CE8A319DAD95E009DB8DF /* MapStylesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819CE8A219DAD95E009DB8DF /* MapStylesViewController.swift */; };
+		819CE8A519DADDC0009DB8DF /* AnnotationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819CE8A419DADDC0009DB8DF /* AnnotationsViewController.swift */; };
+		819CE8AC19DAE1AF009DB8DF /* customImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 819CE8A619DAE1AF009DB8DF /* customImage.png */; };
+		819CE8AD19DAE1AF009DB8DF /* customImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 819CE8A719DAE1AF009DB8DF /* customImage@2x.png */; };
+		819CE8AE19DAE1AF009DB8DF /* picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 819CE8A819DAE1AF009DB8DF /* picture.png */; };
+		819CE8AF19DAE1AF009DB8DF /* picture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 819CE8A919DAE1AF009DB8DF /* picture@2x.png */; };
+		819CE8B019DAE1AF009DB8DF /* redPin.png in Resources */ = {isa = PBXBuildFile; fileRef = 819CE8AA19DAE1AF009DB8DF /* redPin.png */; };
+		819CE8B119DAE1AF009DB8DF /* redPin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 819CE8AB19DAE1AF009DB8DF /* redPin@2x.png */; };
+		819CE8B419DAE7B8009DB8DF /* OverlaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819CE8B319DAE7B8009DB8DF /* OverlaysViewController.swift */; };
+		819CE8B619DAEE34009DB8DF /* HeatMapSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819CE8B519DAEE34009DB8DF /* HeatMapSettingsViewController.swift */; };
+		819CE8B919DAFEA0009DB8DF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 819CE8BB19DAFEA0009DB8DF /* Localizable.strings */; };
+		819CE8BF19DB0D63009DB8DF /* HeatMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819CE8BE19DB0D63009DB8DF /* HeatMapViewController.swift */; };
+		81C4424A19E6D4F90085D22C /* NavigationUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C4424819E6D4F90085D22C /* NavigationUIViewController.swift */; };
+		81C4424B19E6D4F90085D22C /* POITrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C4424919E6D4F90085D22C /* POITrackerViewController.swift */; };
+		81C4424D19E6D5050085D22C /* Seattle.log in Resources */ = {isa = PBXBuildFile; fileRef = 81C4424C19E6D5050085D22C /* Seattle.log */; };
+		81D5E4E819DEB2D500DCCAFB /* AlternativeRoutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D5E4E719DEB2D500DCCAFB /* AlternativeRoutesViewController.swift */; };
+		81D5E4EA19DEC9D100DCCAFB /* RealReachViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D5E4E919DEC9D100DCCAFB /* RealReachViewController.swift */; };
+		81D5E4EC19DED13B00DCCAFB /* TracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D5E4EB19DED13B00DCCAFB /* TracksViewController.swift */; };
+		81D5E4F219DED71D00DCCAFB /* Berlin - Hamburg.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 81D5E4ED19DED71C00DCCAFB /* Berlin - Hamburg.gpx */; };
+		81D5E4F319DED71D00DCCAFB /* Berlin Unter den Linden - Berlin Grunewaldstraße.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 81D5E4EE19DED71D00DCCAFB /* Berlin Unter den Linden - Berlin Grunewaldstraße.gpx */; };
+		81D5E4F419DED71D00DCCAFB /* Berlin Unter den Linden - Berlin Hohenzollerndamm.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 81D5E4EF19DED71D00DCCAFB /* Berlin Unter den Linden - Berlin Hohenzollerndamm.gpx */; };
+		81D5E4F519DED71D00DCCAFB /* Chicago city track.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 81D5E4F019DED71D00DCCAFB /* Chicago city track.gpx */; };
+		81D5E4F619DED71D00DCCAFB /* München Oskar-von-Miller-Ring - Herterichstraße.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 81D5E4F119DED71D00DCCAFB /* München Oskar-von-Miller-Ring - Herterichstraße.gpx */; };
+		81D5E4F819DED76800DCCAFB /* GPSFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D5E4F719DED76800DCCAFB /* GPSFilesViewController.swift */; };
+		81D5E4FA19DEF1D700DCCAFB /* GPSElementsDrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D5E4F919DEF1D700DCCAFB /* GPSElementsDrawingViewController.swift */; };
+		81DA6A5919D98709002BF074 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81DA6A5819D98709002BF074 /* Images.xcassets */; };
+		81DA6A6819D98709002BF074 /* SKMapsSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DA6A6719D98709002BF074 /* SKMapsSwiftDemoTests.swift */; };
+		81DA6A7419D987D0002BF074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DA6A7319D987D0002BF074 /* AppDelegate.swift */; };
+		81DA6A7719D98813002BF074 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DA6A7619D98813002BF074 /* RootViewController.swift */; };
+		81DA6A8B19D99353002BF074 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DA6A8A19D99353002BF074 /* libz.dylib */; };
+		81DA6A8F19D9937C002BF074 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DA6A8E19D9937C002BF074 /* CoreLocation.framework */; };
+		81DA6A9119D99383002BF074 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DA6A9019D99383002BF074 /* QuartzCore.framework */; };
+		81DA6A9319D993A0002BF074 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DA6A9219D993A0002BF074 /* OpenGLES.framework */; };
+		81DA6A9519D993A5002BF074 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DA6A9419D993A5002BF074 /* CoreGraphics.framework */; };
+		81DA6A9719D9944C002BF074 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DA6A9619D9944C002BF074 /* libstdc++.6.dylib */; };
+		81DA6A9E19D99CCA002BF074 /* MapDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DA6A9D19D99CCA002BF074 /* MapDisplayViewController.swift */; };
+		961749CE1B690ACC002CC118 /* CategorySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961749CD1B690ACC002CC118 /* CategorySearchViewController.swift */; };
+		D20C14501BEA576F00966F39 /* MultiStepSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20C144E1BEA576F00966F39 /* MultiStepSearchViewController.swift */; };
+		D21E39241CC7D1D20038C4B1 /* SKOneBoxSearchBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D21E39231CC7D1D20038C4B1 /* SKOneBoxSearchBundle.bundle */; };
+		D21E39261CC7D20B0038C4B1 /* OneBoxSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21E39251CC7D20B0038C4B1 /* OneBoxSearchViewController.swift */; };
+		D2B53CD41C5919340064782A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B53CD31C5919340064782A /* CoreData.framework */; };
+		D2B53CD61C5919380064782A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B53CD51C5919380064782A /* MapKit.framework */; };
+		D2F38C6C1CDCD46800D4CD5C /* AppleSearchObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F38C601CDCD46800D4CD5C /* AppleSearchObject.m */; };
+		D2F38C6D1CDCD46800D4CD5C /* AppleSearchProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F38C621CDCD46800D4CD5C /* AppleSearchProvider.m */; };
+		D2F38C6E1CDCD46800D4CD5C /* AppleSearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F38C641CDCD46800D4CD5C /* AppleSearchService.m */; };
+		D2F38C6F1CDCD46800D4CD5C /* MapsSearchObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F38C661CDCD46800D4CD5C /* MapsSearchObject.m */; };
+		D2F38C701CDCD46800D4CD5C /* MapsSearchProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F38C681CDCD46800D4CD5C /* MapsSearchProvider.m */; };
+		D2F38C711CDCD46800D4CD5C /* MapsSearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F38C6A1CDCD46800D4CD5C /* MapsSearchService.m */; };
+		D2F38C781CDCD4C600D4CD5C /* SKOneBoxSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F38C3C1CDCD39000D4CD5C /* SKOneBoxSearch.framework */; };
+		D2F38C791CDCD4C600D4CD5C /* SKOSearchLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F38C481CDCD39400D4CD5C /* SKOSearchLib.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8134567819EFE205002AD5C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8134567419EFE205002AD5C1 /* SDKTools.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03639ABD1940999D00F54937;
+			remoteInfo = SDKTools;
+		};
+		8134567A19EFE20E002AD5C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8134567419EFE205002AD5C1 /* SDKTools.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 03639ABC1940999D00F54937;
+			remoteInfo = SDKTools;
+		};
+		81DA6A6219D98709002BF074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81DA6A4419D98709002BF074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81DA6A4B19D98709002BF074;
+			remoteInfo = SKMapsSwiftDemo;
+		};
+		D2F38C3B1CDCD39000D4CD5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2F38C341CDCD39000D4CD5C /* SKOneBoxSearch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 91F1FFAE1AB857670093B012;
+			remoteInfo = SKOneBoxSearch;
+		};
+		D2F38C3D1CDCD39000D4CD5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2F38C341CDCD39000D4CD5C /* SKOneBoxSearch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 91F1FFB91AB857670093B012;
+			remoteInfo = SKOneBoxSearchTests;
+		};
+		D2F38C3F1CDCD39000D4CD5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2F38C341CDCD39000D4CD5C /* SKOneBoxSearch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 91F1FFED1AB857B80093B012;
+			remoteInfo = SKOneBoxSearchBundle;
+		};
+		D2F38C471CDCD39400D4CD5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2F38C411CDCD39300D4CD5C /* SKOSearchLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 155AA6801ADD10A6004B40EC;
+			remoteInfo = SKOSearchLib;
+		};
+		D2F38C491CDCD39400D4CD5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2F38C411CDCD39300D4CD5C /* SKOSearchLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 155AA68B1ADD10A6004B40EC;
+			remoteInfo = SKOSearchLibTests;
+		};
+		D2F38C721CDCD4C100D4CD5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2F38C341CDCD39000D4CD5C /* SKOneBoxSearch.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 91F1FFAD1AB857670093B012;
+			remoteInfo = SKOneBoxSearch;
+		};
+		D2F38C741CDCD4C100D4CD5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2F38C341CDCD39000D4CD5C /* SKOneBoxSearch.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 91F1FFEC1AB857B80093B012;
+			remoteInfo = SKOneBoxSearchBundle;
+		};
+		D2F38C761CDCD4C100D4CD5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2F38C411CDCD39300D4CD5C /* SKOSearchLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 155AA67F1ADD10A6004B40EC;
+			remoteInfo = SKOSearchLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FBAF385619EFDC5700B90CF1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				03BC03541AFB8FCF00798608 /* SKMaps.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		033DF23D1B12FA4600A06309 /* SKAdvisorResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SKAdvisorResources.bundle; path = ../../../SKMapsResources/SKAdvisorResources.bundle; sourceTree = "<group>"; };
+		033DF23F1B12FBFC00A06309 /* Info-Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Release.plist"; sourceTree = "<group>"; };
+		59659D1C1BBC4426005B5546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81058BD219E809ED00227416 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		8134567419EFE205002AD5C1 /* SDKTools.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDKTools.xcodeproj; path = ../SDKTools/SDKTools.xcodeproj; sourceTree = "<group>"; };
+		8134568019EFE2DF002AD5C1 /* SKTNavigationResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SKTNavigationResources.bundle; path = ../../../SDKTools/SDKTools/Resources/SKTNavigationResources.bundle; sourceTree = "<group>"; };
+		8149A3E619DD5FAB00BBFD4B /* RoutingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutingViewController.swift; sourceTree = "<group>"; };
+		8149A3E919DDC3BA00BBFD4B /* AudioService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioService.swift; sourceTree = "<group>"; };
+		8149A3EB19DDC4B200BBFD4B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8149A3ED19DDC4B800BBFD4B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		814E655719ED589800AD1D9E /* MapJSONViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapJSONViewController.swift; sourceTree = "<group>"; };
+		814E655919ED58AC00AD1D9E /* MapDownloadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapDownloadViewController.swift; sourceTree = "<group>"; };
+		815A72BC19ED3EC8005FDD2B /* MapJSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapJSONParser.swift; sourceTree = "<group>"; };
+		815A72C019ED3FC8005FDD2B /* MapRegion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapRegion.swift; sourceTree = "<group>"; };
+		819CE89919DAD6EF009DB8DF /* MapCreatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCreatorViewController.swift; sourceTree = "<group>"; };
+		819CE89C19DAD7BB009DB8DF /* MapCreator.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MapCreator.json; sourceTree = "<group>"; };
+		819CE89E19DAD8CE009DB8DF /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		819CE8A019DAD8D4009DB8DF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		819CE8A219DAD95E009DB8DF /* MapStylesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapStylesViewController.swift; sourceTree = "<group>"; };
+		819CE8A419DADDC0009DB8DF /* AnnotationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationsViewController.swift; sourceTree = "<group>"; };
+		819CE8A619DAE1AF009DB8DF /* customImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customImage.png; sourceTree = "<group>"; };
+		819CE8A719DAE1AF009DB8DF /* customImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "customImage@2x.png"; sourceTree = "<group>"; };
+		819CE8A819DAE1AF009DB8DF /* picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture.png; sourceTree = "<group>"; };
+		819CE8A919DAE1AF009DB8DF /* picture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "picture@2x.png"; sourceTree = "<group>"; };
+		819CE8AA19DAE1AF009DB8DF /* redPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redPin.png; sourceTree = "<group>"; };
+		819CE8AB19DAE1AF009DB8DF /* redPin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redPin@2x.png"; sourceTree = "<group>"; };
+		819CE8B319DAE7B8009DB8DF /* OverlaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlaysViewController.swift; sourceTree = "<group>"; };
+		819CE8B519DAEE34009DB8DF /* HeatMapSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeatMapSettingsViewController.swift; sourceTree = "<group>"; };
+		819CE8BA19DAFEA0009DB8DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		819CE8BE19DB0D63009DB8DF /* HeatMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeatMapViewController.swift; sourceTree = "<group>"; };
+		81A907BC19E822F300087E09 /* libSDKTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDKTools.a; path = "SDKTools Lib/libSDKTools.a"; sourceTree = "<group>"; };
+		81C4424819E6D4F90085D22C /* NavigationUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationUIViewController.swift; sourceTree = "<group>"; };
+		81C4424919E6D4F90085D22C /* POITrackerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POITrackerViewController.swift; sourceTree = "<group>"; };
+		81C4424C19E6D5050085D22C /* Seattle.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Seattle.log; sourceTree = "<group>"; };
+		81D5E4E719DEB2D500DCCAFB /* AlternativeRoutesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlternativeRoutesViewController.swift; sourceTree = "<group>"; };
+		81D5E4E919DEC9D100DCCAFB /* RealReachViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealReachViewController.swift; sourceTree = "<group>"; };
+		81D5E4EB19DED13B00DCCAFB /* TracksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TracksViewController.swift; sourceTree = "<group>"; };
+		81D5E4ED19DED71C00DCCAFB /* Berlin - Hamburg.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Berlin - Hamburg.gpx"; sourceTree = "<group>"; };
+		81D5E4EE19DED71D00DCCAFB /* Berlin Unter den Linden - Berlin Grunewaldstraße.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Berlin Unter den Linden - Berlin Grunewaldstraße.gpx"; sourceTree = "<group>"; };
+		81D5E4EF19DED71D00DCCAFB /* Berlin Unter den Linden - Berlin Hohenzollerndamm.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Berlin Unter den Linden - Berlin Hohenzollerndamm.gpx"; sourceTree = "<group>"; };
+		81D5E4F019DED71D00DCCAFB /* Chicago city track.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Chicago city track.gpx"; sourceTree = "<group>"; };
+		81D5E4F119DED71D00DCCAFB /* München Oskar-von-Miller-Ring - Herterichstraße.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "München Oskar-von-Miller-Ring - Herterichstraße.gpx"; sourceTree = "<group>"; };
+		81D5E4F719DED76800DCCAFB /* GPSFilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSFilesViewController.swift; sourceTree = "<group>"; };
+		81D5E4F919DEF1D700DCCAFB /* GPSElementsDrawingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSElementsDrawingViewController.swift; sourceTree = "<group>"; };
+		81DA6A4C19D98709002BF074 /* SKMapsSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKMapsSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DA6A5019D98709002BF074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81DA6A5819D98709002BF074 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		81DA6A5B19D98709002BF074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		81DA6A6119D98709002BF074 /* SKMapsSwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKMapsSwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DA6A6619D98709002BF074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81DA6A6719D98709002BF074 /* SKMapsSwiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKMapsSwiftDemoTests.swift; sourceTree = "<group>"; };
+		81DA6A7319D987D0002BF074 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81DA6A7619D98813002BF074 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		81DA6A8819D991A2002BF074 /* SKMapsSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKMapsSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		81DA6A8A19D99353002BF074 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		81DA6A8C19D9935D002BF074 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		81DA6A8E19D9937C002BF074 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		81DA6A9019D99383002BF074 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		81DA6A9219D993A0002BF074 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		81DA6A9419D993A5002BF074 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		81DA6A9619D9944C002BF074 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		81DA6A9D19D99CCA002BF074 /* MapDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapDisplayViewController.swift; sourceTree = "<group>"; };
+		81FEA4CD19EFEF1A0030A2EE /* SKMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SKMaps.bundle; path = ../../../SKMapsResources/SKMaps.bundle; sourceTree = "<group>"; };
+		961749CD1B690ACC002CC118 /* CategorySearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategorySearchViewController.swift; sourceTree = "<group>"; };
+		D20C144E1BEA576F00966F39 /* MultiStepSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiStepSearchViewController.swift; sourceTree = "<group>"; };
+		D21E39231CC7D1D20038C4B1 /* SKOneBoxSearchBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SKOneBoxSearchBundle.bundle; path = ../../../SKMapsResources/SKOneBoxSearchBundle.bundle; sourceTree = "<group>"; };
+		D21E39251CC7D20B0038C4B1 /* OneBoxSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneBoxSearchViewController.swift; sourceTree = "<group>"; };
+		D2B53CD31C5919340064782A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D2B53CD51C5919380064782A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D2F38C341CDCD39000D4CD5C /* SKOneBoxSearch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SKOneBoxSearch.xcodeproj; path = ../SKOneBoxSearch/SKOneBoxSearch/SKOneBoxSearch.xcodeproj; sourceTree = "<group>"; };
+		D2F38C411CDCD39300D4CD5C /* SKOSearchLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SKOSearchLib.xcodeproj; path = ../SKOneBoxSearch/SKOSearchLib/SKOSearchLib.xcodeproj; sourceTree = "<group>"; };
+		D2F38C5F1CDCD46800D4CD5C /* AppleSearchObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleSearchObject.h; sourceTree = "<group>"; };
+		D2F38C601CDCD46800D4CD5C /* AppleSearchObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleSearchObject.m; sourceTree = "<group>"; };
+		D2F38C611CDCD46800D4CD5C /* AppleSearchProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleSearchProvider.h; sourceTree = "<group>"; };
+		D2F38C621CDCD46800D4CD5C /* AppleSearchProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleSearchProvider.m; sourceTree = "<group>"; };
+		D2F38C631CDCD46800D4CD5C /* AppleSearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleSearchService.h; sourceTree = "<group>"; };
+		D2F38C641CDCD46800D4CD5C /* AppleSearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleSearchService.m; sourceTree = "<group>"; };
+		D2F38C651CDCD46800D4CD5C /* MapsSearchObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapsSearchObject.h; sourceTree = "<group>"; };
+		D2F38C661CDCD46800D4CD5C /* MapsSearchObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapsSearchObject.m; sourceTree = "<group>"; };
+		D2F38C671CDCD46800D4CD5C /* MapsSearchProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapsSearchProvider.h; sourceTree = "<group>"; };
+		D2F38C681CDCD46800D4CD5C /* MapsSearchProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapsSearchProvider.m; sourceTree = "<group>"; };
+		D2F38C691CDCD46800D4CD5C /* MapsSearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapsSearchService.h; sourceTree = "<group>"; };
+		D2F38C6A1CDCD46800D4CD5C /* MapsSearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapsSearchService.m; sourceTree = "<group>"; };
+		D2F38C6B1CDCD46800D4CD5C /* MapsSearchServiceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapsSearchServiceDelegate.h; sourceTree = "<group>"; };
+		FBAF385219EFDC4800B90CF1 /* SKMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SKMaps.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81DA6A4919D98709002BF074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F38C781CDCD4C600D4CD5C /* SKOneBoxSearch.framework in Frameworks */,
+				D2F38C791CDCD4C600D4CD5C /* SKOSearchLib.framework in Frameworks */,
+				D2B53CD61C5919380064782A /* MapKit.framework in Frameworks */,
+				D2B53CD41C5919340064782A /* CoreData.framework in Frameworks */,
+				8134567C19EFE211002AD5C1 /* libSDKTools.a in Frameworks */,
+				03BC03531AFB8FCF00798608 /* SKMaps.framework in Frameworks */,
+				8149A3EE19DDC4B800BBFD4B /* AudioToolbox.framework in Frameworks */,
+				8149A3EC19DDC4B200BBFD4B /* AVFoundation.framework in Frameworks */,
+				819CE8A119DAD8D4009DB8DF /* CoreMotion.framework in Frameworks */,
+				819CE89F19DAD8CE009DB8DF /* libc++.dylib in Frameworks */,
+				81DA6A9719D9944C002BF074 /* libstdc++.6.dylib in Frameworks */,
+				81DA6A9519D993A5002BF074 /* CoreGraphics.framework in Frameworks */,
+				81DA6A9319D993A0002BF074 /* OpenGLES.framework in Frameworks */,
+				81DA6A9119D99383002BF074 /* QuartzCore.framework in Frameworks */,
+				81DA6A8F19D9937C002BF074 /* CoreLocation.framework in Frameworks */,
+				81DA6A8B19D99353002BF074 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DA6A5E19D98709002BF074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81058BD119E809DB00227416 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81058BD219E809ED00227416 /* MenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8134567519EFE205002AD5C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8134567919EFE205002AD5C1 /* libSDKTools.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8149A3E819DDC35400BBFD4B /* AudioService */ = {
+			isa = PBXGroup;
+			children = (
+				8149A3E919DDC3BA00BBFD4B /* AudioService.swift */,
+			);
+			path = AudioService;
+			sourceTree = "<group>";
+		};
+		815A72BA19ED3EB3005FDD2B /* Business Logic */ = {
+			isa = PBXGroup;
+			children = (
+				815A72BB19ED3EB3005FDD2B /* Parsers */,
+			);
+			path = "Business Logic";
+			sourceTree = "<group>";
+		};
+		815A72BB19ED3EB3005FDD2B /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				815A72BC19ED3EC8005FDD2B /* MapJSONParser.swift */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		817C9D8C19ED3F93005589BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				815A72C019ED3FC8005FDD2B /* MapRegion.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		819CE89B19DAD799009DB8DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				033DF23D1B12FA4600A06309 /* SKAdvisorResources.bundle */,
+				81FEA4CD19EFEF1A0030A2EE /* SKMaps.bundle */,
+				8134568019EFE2DF002AD5C1 /* SKTNavigationResources.bundle */,
+				D21E39231CC7D1D20038C4B1 /* SKOneBoxSearchBundle.bundle */,
+				81D5E4ED19DED71C00DCCAFB /* Berlin - Hamburg.gpx */,
+				81D5E4EE19DED71D00DCCAFB /* Berlin Unter den Linden - Berlin Grunewaldstraße.gpx */,
+				81D5E4EF19DED71D00DCCAFB /* Berlin Unter den Linden - Berlin Hohenzollerndamm.gpx */,
+				81D5E4F019DED71D00DCCAFB /* Chicago city track.gpx */,
+				81D5E4F119DED71D00DCCAFB /* München Oskar-von-Miller-Ring - Herterichstraße.gpx */,
+				819CE8A619DAE1AF009DB8DF /* customImage.png */,
+				819CE8A719DAE1AF009DB8DF /* customImage@2x.png */,
+				819CE8A819DAE1AF009DB8DF /* picture.png */,
+				819CE8A919DAE1AF009DB8DF /* picture@2x.png */,
+				819CE8AA19DAE1AF009DB8DF /* redPin.png */,
+				819CE8AB19DAE1AF009DB8DF /* redPin@2x.png */,
+				819CE89C19DAD7BB009DB8DF /* MapCreator.json */,
+				81C4424C19E6D5050085D22C /* Seattle.log */,
+			);
+			name = Resources;
+			path = SKMapsSwiftDemo/Resources;
+			sourceTree = "<group>";
+		};
+		81BEFB5E19DD5F6100C0DBB0 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				81C4424819E6D4F90085D22C /* NavigationUIViewController.swift */,
+				81C4424919E6D4F90085D22C /* POITrackerViewController.swift */,
+				8149A3E619DD5FAB00BBFD4B /* RoutingViewController.swift */,
+				81D5E4E719DEB2D500DCCAFB /* AlternativeRoutesViewController.swift */,
+				81D5E4E919DEC9D100DCCAFB /* RealReachViewController.swift */,
+				81D5E4EB19DED13B00DCCAFB /* TracksViewController.swift */,
+				81D5E4F719DED76800DCCAFB /* GPSFilesViewController.swift */,
+				81D5E4F919DEF1D700DCCAFB /* GPSElementsDrawingViewController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		81DA6A4319D98709002BF074 = {
+			isa = PBXGroup;
+			children = (
+				D2F38C341CDCD39000D4CD5C /* SKOneBoxSearch.xcodeproj */,
+				D2F38C411CDCD39300D4CD5C /* SKOSearchLib.xcodeproj */,
+				8134567419EFE205002AD5C1 /* SDKTools.xcodeproj */,
+				81DA6A4E19D98709002BF074 /* SKMapsSwiftDemo */,
+				81DA6A6419D98709002BF074 /* SKMapsSwiftDemoTests */,
+				819CE89B19DAD799009DB8DF /* Resources */,
+				81DA6A8119D98EF0002BF074 /* Frameworks */,
+				81DA6A4D19D98709002BF074 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81DA6A4D19D98709002BF074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81DA6A4C19D98709002BF074 /* SKMapsSwiftDemo.app */,
+				81DA6A6119D98709002BF074 /* SKMapsSwiftDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81DA6A4E19D98709002BF074 /* SKMapsSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				59659D1B1BBC4426005B5546 /* Main.storyboard */,
+				81DA6A8819D991A2002BF074 /* SKMapsSwiftDemo-Bridging-Header.h */,
+				81DA6A7219D987D0002BF074 /* Classes */,
+				D2F38C4B1CDCD3B900D4CD5C /* Search Providers */,
+				81DA6A5819D98709002BF074 /* Images.xcassets */,
+				81DA6A5A19D98709002BF074 /* LaunchScreen.xib */,
+				819CE8BB19DAFEA0009DB8DF /* Localizable.strings */,
+				81DA6A4F19D98709002BF074 /* Supporting Files */,
+			);
+			path = SKMapsSwiftDemo;
+			sourceTree = "<group>";
+		};
+		81DA6A4F19D98709002BF074 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				033DF23F1B12FBFC00A06309 /* Info-Release.plist */,
+				81DA6A5019D98709002BF074 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81DA6A6419D98709002BF074 /* SKMapsSwiftDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				81DA6A6719D98709002BF074 /* SKMapsSwiftDemoTests.swift */,
+				81DA6A6519D98709002BF074 /* Supporting Files */,
+			);
+			path = SKMapsSwiftDemoTests;
+			sourceTree = "<group>";
+		};
+		81DA6A6519D98709002BF074 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81DA6A6619D98709002BF074 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81DA6A7219D987D0002BF074 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				81DA6A7319D987D0002BF074 /* AppDelegate.swift */,
+				8149A3E819DDC35400BBFD4B /* AudioService */,
+				815A72BA19ED3EB3005FDD2B /* Business Logic */,
+				817C9D8C19ED3F93005589BA /* Models */,
+				81058BD119E809DB00227416 /* Views */,
+				81DA6A7519D987E8002BF074 /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		81DA6A7519D987E8002BF074 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				81DA6A9C19D99CAA002BF074 /* Map */,
+				81BEFB5E19DD5F6100C0DBB0 /* Navigation */,
+				961749CC1B690AA7002CC118 /* Search */,
+				81DA6A7619D98813002BF074 /* RootViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		81DA6A8119D98EF0002BF074 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2B53CD51C5919380064782A /* MapKit.framework */,
+				D2B53CD31C5919340064782A /* CoreData.framework */,
+				81A907BC19E822F300087E09 /* libSDKTools.a */,
+				FBAF385219EFDC4800B90CF1 /* SKMaps.framework */,
+				8149A3ED19DDC4B800BBFD4B /* AudioToolbox.framework */,
+				8149A3EB19DDC4B200BBFD4B /* AVFoundation.framework */,
+				819CE8A019DAD8D4009DB8DF /* CoreMotion.framework */,
+				819CE89E19DAD8CE009DB8DF /* libc++.dylib */,
+				81DA6A9619D9944C002BF074 /* libstdc++.6.dylib */,
+				81DA6A9419D993A5002BF074 /* CoreGraphics.framework */,
+				81DA6A9219D993A0002BF074 /* OpenGLES.framework */,
+				81DA6A9019D99383002BF074 /* QuartzCore.framework */,
+				81DA6A8E19D9937C002BF074 /* CoreLocation.framework */,
+				81DA6A8C19D9935D002BF074 /* libstdc++.dylib */,
+				81DA6A8A19D99353002BF074 /* libz.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81DA6A9C19D99CAA002BF074 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				81DA6A9D19D99CCA002BF074 /* MapDisplayViewController.swift */,
+				819CE89919DAD6EF009DB8DF /* MapCreatorViewController.swift */,
+				819CE8A219DAD95E009DB8DF /* MapStylesViewController.swift */,
+				819CE8A419DADDC0009DB8DF /* AnnotationsViewController.swift */,
+				819CE8B319DAE7B8009DB8DF /* OverlaysViewController.swift */,
+				819CE8B519DAEE34009DB8DF /* HeatMapSettingsViewController.swift */,
+				819CE8BE19DB0D63009DB8DF /* HeatMapViewController.swift */,
+				814E655719ED589800AD1D9E /* MapJSONViewController.swift */,
+				814E655919ED58AC00AD1D9E /* MapDownloadViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		961749CC1B690AA7002CC118 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				961749CD1B690ACC002CC118 /* CategorySearchViewController.swift */,
+				D20C144E1BEA576F00966F39 /* MultiStepSearchViewController.swift */,
+				D21E39251CC7D20B0038C4B1 /* OneBoxSearchViewController.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		D290F3131CDCE72C007AA365 /* Apple Search */ = {
+			isa = PBXGroup;
+			children = (
+				D2F38C5F1CDCD46800D4CD5C /* AppleSearchObject.h */,
+				D2F38C601CDCD46800D4CD5C /* AppleSearchObject.m */,
+				D2F38C611CDCD46800D4CD5C /* AppleSearchProvider.h */,
+				D2F38C621CDCD46800D4CD5C /* AppleSearchProvider.m */,
+				D2F38C631CDCD46800D4CD5C /* AppleSearchService.h */,
+				D2F38C641CDCD46800D4CD5C /* AppleSearchService.m */,
+			);
+			name = "Apple Search";
+			sourceTree = "<group>";
+		};
+		D290F3181CDCE732007AA365 /* SKMaps Search */ = {
+			isa = PBXGroup;
+			children = (
+				D2F38C651CDCD46800D4CD5C /* MapsSearchObject.h */,
+				D2F38C661CDCD46800D4CD5C /* MapsSearchObject.m */,
+				D2F38C671CDCD46800D4CD5C /* MapsSearchProvider.h */,
+				D2F38C681CDCD46800D4CD5C /* MapsSearchProvider.m */,
+				D2F38C691CDCD46800D4CD5C /* MapsSearchService.h */,
+				D2F38C6A1CDCD46800D4CD5C /* MapsSearchService.m */,
+				D2F38C6B1CDCD46800D4CD5C /* MapsSearchServiceDelegate.h */,
+			);
+			name = "SKMaps Search";
+			sourceTree = "<group>";
+		};
+		D2F38C351CDCD39000D4CD5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2F38C3C1CDCD39000D4CD5C /* SKOneBoxSearch.framework */,
+				D2F38C3E1CDCD39000D4CD5C /* SKOneBoxSearchTests.xctest */,
+				D2F38C401CDCD39000D4CD5C /* SKOneBoxSearchBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2F38C421CDCD39300D4CD5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2F38C481CDCD39400D4CD5C /* SKOSearchLib.framework */,
+				D2F38C4A1CDCD39400D4CD5C /* SKOSearchLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2F38C4B1CDCD3B900D4CD5C /* Search Providers */ = {
+			isa = PBXGroup;
+			children = (
+				D290F3181CDCE732007AA365 /* SKMaps Search */,
+				D290F3131CDCE72C007AA365 /* Apple Search */,
+			);
+			name = "Search Providers";
+			path = ../../SKOneBoxSearch/SearchProviders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81DA6A4B19D98709002BF074 /* SKMapsSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81DA6A6B19D98709002BF074 /* Build configuration list for PBXNativeTarget "SKMapsSwiftDemo" */;
+			buildPhases = (
+				81DA6A4819D98709002BF074 /* Sources */,
+				81DA6A4919D98709002BF074 /* Frameworks */,
+				81DA6A4A19D98709002BF074 /* Resources */,
+				FBAF385619EFDC5700B90CF1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2F38C731CDCD4C100D4CD5C /* PBXTargetDependency */,
+				D2F38C751CDCD4C100D4CD5C /* PBXTargetDependency */,
+				D2F38C771CDCD4C100D4CD5C /* PBXTargetDependency */,
+				8134567B19EFE20E002AD5C1 /* PBXTargetDependency */,
+			);
+			name = SKMapsSwiftDemo;
+			productName = SKMapsSwiftDemo;
+			productReference = 81DA6A4C19D98709002BF074 /* SKMapsSwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81DA6A6019D98709002BF074 /* SKMapsSwiftDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81DA6A6E19D98709002BF074 /* Build configuration list for PBXNativeTarget "SKMapsSwiftDemoTests" */;
+			buildPhases = (
+				81DA6A5D19D98709002BF074 /* Sources */,
+				81DA6A5E19D98709002BF074 /* Frameworks */,
+				81DA6A5F19D98709002BF074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81DA6A6319D98709002BF074 /* PBXTargetDependency */,
+			);
+			name = SKMapsSwiftDemoTests;
+			productName = SKMapsSwiftDemoTests;
+			productReference = 81DA6A6119D98709002BF074 /* SKMapsSwiftDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81DA6A4419D98709002BF074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = skobbler;
+				TargetAttributes = {
+					81DA6A4B19D98709002BF074 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					81DA6A6019D98709002BF074 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 81DA6A4B19D98709002BF074;
+					};
+				};
+			};
+			buildConfigurationList = 81DA6A4719D98709002BF074 /* Build configuration list for PBXProject "SKMapsSwiftDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81DA6A4319D98709002BF074;
+			productRefGroup = 81DA6A4D19D98709002BF074 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8134567519EFE205002AD5C1 /* Products */;
+					ProjectRef = 8134567419EFE205002AD5C1 /* SDKTools.xcodeproj */;
+				},
+				{
+					ProductGroup = D2F38C351CDCD39000D4CD5C /* Products */;
+					ProjectRef = D2F38C341CDCD39000D4CD5C /* SKOneBoxSearch.xcodeproj */;
+				},
+				{
+					ProductGroup = D2F38C421CDCD39300D4CD5C /* Products */;
+					ProjectRef = D2F38C411CDCD39300D4CD5C /* SKOSearchLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				81DA6A4B19D98709002BF074 /* SKMapsSwiftDemo */,
+				81DA6A6019D98709002BF074 /* SKMapsSwiftDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8134567919EFE205002AD5C1 /* libSDKTools.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDKTools.a;
+			remoteRef = 8134567819EFE205002AD5C1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D2F38C3C1CDCD39000D4CD5C /* SKOneBoxSearch.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SKOneBoxSearch.framework;
+			remoteRef = D2F38C3B1CDCD39000D4CD5C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D2F38C3E1CDCD39000D4CD5C /* SKOneBoxSearchTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SKOneBoxSearchTests.xctest;
+			remoteRef = D2F38C3D1CDCD39000D4CD5C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D2F38C401CDCD39000D4CD5C /* SKOneBoxSearchBundle.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SKOneBoxSearchBundle.bundle;
+			remoteRef = D2F38C3F1CDCD39000D4CD5C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D2F38C481CDCD39400D4CD5C /* SKOSearchLib.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SKOSearchLib.framework;
+			remoteRef = D2F38C471CDCD39400D4CD5C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D2F38C4A1CDCD39400D4CD5C /* SKOSearchLibTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SKOSearchLibTests.xctest;
+			remoteRef = D2F38C491CDCD39400D4CD5C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81DA6A4A19D98709002BF074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21E39241CC7D1D20038C4B1 /* SKOneBoxSearchBundle.bundle in Resources */,
+				59659D1D1BBC4426005B5546 /* Main.storyboard in Resources */,
+				03CA53EA1A9B74C80052379D /* LaunchScreen.xib in Resources */,
+				81D5E4F519DED71D00DCCAFB /* Chicago city track.gpx in Resources */,
+				819CE8B919DAFEA0009DB8DF /* Localizable.strings in Resources */,
+				819CE89D19DAD7BB009DB8DF /* MapCreator.json in Resources */,
+				033DF23E1B12FA4600A06309 /* SKAdvisorResources.bundle in Resources */,
+				819CE8AF19DAE1AF009DB8DF /* picture@2x.png in Resources */,
+				81D5E4F219DED71D00DCCAFB /* Berlin - Hamburg.gpx in Resources */,
+				6BE2C37D1D91977700C8C4FA /* SKMaps.bundle in Resources */,
+				819CE8AE19DAE1AF009DB8DF /* picture.png in Resources */,
+				819CE8AD19DAE1AF009DB8DF /* customImage@2x.png in Resources */,
+				819CE8B019DAE1AF009DB8DF /* redPin.png in Resources */,
+				81D5E4F619DED71D00DCCAFB /* München Oskar-von-Miller-Ring - Herterichstraße.gpx in Resources */,
+				8134568119EFE2DF002AD5C1 /* SKTNavigationResources.bundle in Resources */,
+				81D5E4F319DED71D00DCCAFB /* Berlin Unter den Linden - Berlin Grunewaldstraße.gpx in Resources */,
+				819CE8AC19DAE1AF009DB8DF /* customImage.png in Resources */,
+				81DA6A5919D98709002BF074 /* Images.xcassets in Resources */,
+				033DF2401B12FBFC00A06309 /* Info-Release.plist in Resources */,
+				81D5E4F419DED71D00DCCAFB /* Berlin Unter den Linden - Berlin Hohenzollerndamm.gpx in Resources */,
+				81C4424D19E6D5050085D22C /* Seattle.log in Resources */,
+				819CE8B119DAE1AF009DB8DF /* redPin@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DA6A5F19D98709002BF074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81DA6A4819D98709002BF074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961749CE1B690ACC002CC118 /* CategorySearchViewController.swift in Sources */,
+				D2F38C701CDCD46800D4CD5C /* MapsSearchProvider.m in Sources */,
+				81DA6A9E19D99CCA002BF074 /* MapDisplayViewController.swift in Sources */,
+				D2F38C6F1CDCD46800D4CD5C /* MapsSearchObject.m in Sources */,
+				815A72C119ED3FC8005FDD2B /* MapRegion.swift in Sources */,
+				819CE8A319DAD95E009DB8DF /* MapStylesViewController.swift in Sources */,
+				81DA6A7719D98813002BF074 /* RootViewController.swift in Sources */,
+				81058BD319E809ED00227416 /* MenuView.swift in Sources */,
+				81D5E4FA19DEF1D700DCCAFB /* GPSElementsDrawingViewController.swift in Sources */,
+				8149A3E719DD5FAB00BBFD4B /* RoutingViewController.swift in Sources */,
+				D21E39261CC7D20B0038C4B1 /* OneBoxSearchViewController.swift in Sources */,
+				81D5E4EC19DED13B00DCCAFB /* TracksViewController.swift in Sources */,
+				815A72BD19ED3EC8005FDD2B /* MapJSONParser.swift in Sources */,
+				81C4424B19E6D4F90085D22C /* POITrackerViewController.swift in Sources */,
+				D2F38C6D1CDCD46800D4CD5C /* AppleSearchProvider.m in Sources */,
+				819CE8A519DADDC0009DB8DF /* AnnotationsViewController.swift in Sources */,
+				D2F38C6C1CDCD46800D4CD5C /* AppleSearchObject.m in Sources */,
+				814E655A19ED58AC00AD1D9E /* MapDownloadViewController.swift in Sources */,
+				81D5E4F819DED76800DCCAFB /* GPSFilesViewController.swift in Sources */,
+				819CE8B419DAE7B8009DB8DF /* OverlaysViewController.swift in Sources */,
+				819CE89A19DAD6EF009DB8DF /* MapCreatorViewController.swift in Sources */,
+				819CE8BF19DB0D63009DB8DF /* HeatMapViewController.swift in Sources */,
+				D20C14501BEA576F00966F39 /* MultiStepSearchViewController.swift in Sources */,
+				81D5E4E819DEB2D500DCCAFB /* AlternativeRoutesViewController.swift in Sources */,
+				8149A3EA19DDC3BA00BBFD4B /* AudioService.swift in Sources */,
+				819CE8B619DAEE34009DB8DF /* HeatMapSettingsViewController.swift in Sources */,
+				D2F38C6E1CDCD46800D4CD5C /* AppleSearchService.m in Sources */,
+				D2F38C711CDCD46800D4CD5C /* MapsSearchService.m in Sources */,
+				81C4424A19E6D4F90085D22C /* NavigationUIViewController.swift in Sources */,
+				81D5E4EA19DEC9D100DCCAFB /* RealReachViewController.swift in Sources */,
+				81DA6A7419D987D0002BF074 /* AppDelegate.swift in Sources */,
+				814E655819ED589800AD1D9E /* MapJSONViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DA6A5D19D98709002BF074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DA6A6819D98709002BF074 /* SKMapsSwiftDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8134567B19EFE20E002AD5C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDKTools;
+			targetProxy = 8134567A19EFE20E002AD5C1 /* PBXContainerItemProxy */;
+		};
+		81DA6A6319D98709002BF074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81DA6A4B19D98709002BF074 /* SKMapsSwiftDemo */;
+			targetProxy = 81DA6A6219D98709002BF074 /* PBXContainerItemProxy */;
+		};
+		D2F38C731CDCD4C100D4CD5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKOneBoxSearch;
+			targetProxy = D2F38C721CDCD4C100D4CD5C /* PBXContainerItemProxy */;
+		};
+		D2F38C751CDCD4C100D4CD5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKOneBoxSearchBundle;
+			targetProxy = D2F38C741CDCD4C100D4CD5C /* PBXContainerItemProxy */;
+		};
+		D2F38C771CDCD4C100D4CD5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKOSearchLib;
+			targetProxy = D2F38C761CDCD4C100D4CD5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59659D1B1BBC4426005B5546 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59659D1C1BBC4426005B5546 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		819CE8BB19DAFEA0009DB8DF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				819CE8BA19DAFEA0009DB8DF /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		81DA6A5A19D98709002BF074 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81DA6A5B19D98709002BF074 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		033DF2431B12FE6000A06309 /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Enterprise;
+		};
+		033DF2441B12FE6000A06309 /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: skobbler GmbH";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: skobbler GmbH";
+				DEFINES_MODULE = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PROJECT_DIR}/../SDKTools/**",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "SKMapsSwiftDemo/Info-Release.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SKMapsSwiftDemo/SKMapsSwiftDemo-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Enterprise;
+		};
+		033DF2451B12FE6000A06309 /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKMapsSwiftDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKMapsSwiftDemo.app/SKMapsSwiftDemo";
+			};
+			name = Enterprise;
+		};
+		81DA6A6919D98709002BF074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81DA6A6A19D98709002BF074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81DA6A6C19D98709002BF074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PROJECT_DIR}/../SDKTools/**",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = SKMapsSwiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SKMapsSwiftDemo/SKMapsSwiftDemo-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		81DA6A6D19D98709002BF074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: skobbler GmbH";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: skobbler GmbH";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PROJECT_DIR}/../SDKTools/**",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "SKMapsSwiftDemo/Info-Release.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SKMapsSwiftDemo/SKMapsSwiftDemo-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		81DA6A6F19D98709002BF074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKMapsSwiftDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKMapsSwiftDemo.app/SKMapsSwiftDemo";
+			};
+			name = Debug;
+		};
+		81DA6A7019D98709002BF074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKMapsSwiftDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKMapsSwiftDemo.app/SKMapsSwiftDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81DA6A4719D98709002BF074 /* Build configuration list for PBXProject "SKMapsSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81DA6A6919D98709002BF074 /* Debug */,
+				81DA6A6A19D98709002BF074 /* Release */,
+				033DF2431B12FE6000A06309 /* Enterprise */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81DA6A6B19D98709002BF074 /* Build configuration list for PBXNativeTarget "SKMapsSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81DA6A6C19D98709002BF074 /* Debug */,
+				81DA6A6D19D98709002BF074 /* Release */,
+				033DF2441B12FE6000A06309 /* Enterprise */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81DA6A6E19D98709002BF074 /* Build configuration list for PBXNativeTarget "SKMapsSwiftDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81DA6A6F19D98709002BF074 /* Debug */,
+				81DA6A7019D98709002BF074 /* Release */,
+				033DF2451B12FE6000A06309 /* Enterprise */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81DA6A4419D98709002BF074 /* Project object */;
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTActionSheet.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTActionSheet</TokenIdentifier>
+			<Abstract type="html">Displays multiple action options to the user.</Abstract>
+			<DeclaredIn>SKTActionSheet.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTActionSheet/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Action sheet&apos;s delegate.</Abstract>
+			<DeclaredIn>SKTActionSheet.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTActionSheetDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTActionSheet/delegate</TokenIdentifier>
+			<Abstract type="html">Action sheet&apos;s delegate.</Abstract>
+			<DeclaredIn>SKTActionSheet.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTActionSheetDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTActionSheet/setCancelButtonIndex:</TokenIdentifier>
+			<Abstract type="html">The index of the cancel button.</Abstract>
+			<DeclaredIn>SKTActionSheet.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger cancelButtonIndex</Declaration>
+			
+			
+			<Anchor>//api/name/cancelButtonIndex</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTActionSheet/cancelButtonIndex</TokenIdentifier>
+			<Abstract type="html">The index of the cancel button.</Abstract>
+			<DeclaredIn>SKTActionSheet.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger cancelButtonIndex</Declaration>
+			
+			
+			<Anchor>//api/name/cancelButtonIndex</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTActionSheet/showInView:</TokenIdentifier>
+			<Abstract type="html">Shows the action sheet in the given view.</Abstract>
+			<DeclaredIn>SKTActionSheet.h</DeclaredIn>			
+			
+			<Declaration>- (void)showInView:(UIView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The view that will contain the action sheet.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/showInView:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTActionSheet/dismiss</TokenIdentifier>
+			<Abstract type="html">Dismisses the action sheet with animation.</Abstract>
+			<DeclaredIn>SKTActionSheet.h</DeclaredIn>			
+			
+			<Declaration>- (void)dismiss</Declaration>
+			
+			
+			<Anchor>//api/name/dismiss</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTActionSheet/dismissInstantly</TokenIdentifier>
+			<Abstract type="html">Dismisses the action sheet without animation.</Abstract>
+			<DeclaredIn>SKTActionSheet.h</DeclaredIn>			
+			
+			<Declaration>- (void)dismissInstantly</Declaration>
+			
+			
+			<Anchor>//api/name/dismissInstantly</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTActionSheet/actionSheetWithButtonTitles:cancelButtonTitle:</TokenIdentifier>
+			<Abstract type="html">Factory method. Creates a new action sheet with the given cancel and action titles.</Abstract>
+			<DeclaredIn>SKTActionSheet.h</DeclaredIn>			
+			
+			<Declaration>+ (instancetype)actionSheetWithButtonTitles:(NSArray *)buttonTitles cancelButtonTitle:(NSString *)cancelButtonTitle</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>buttonTitles</Name>
+					<Abstract type="html">The titles of the action buttons.</Abstract>
+				</Parameter><Parameter>
+					<Name>cancelButtonTitle</Name>
+					<Abstract type="html">The title of the cancel button.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/actionSheetWithButtonTitles:cancelButtonTitle:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

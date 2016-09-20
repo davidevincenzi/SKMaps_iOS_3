@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTNavigationInfoView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTNavigationInfoView</TokenIdentifier>
+			<Abstract type="html">Displays information about the navigation.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>
+			
+			<NodeRef refid="23"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationInfoView/setDelegate:</TokenIdentifier>
+			<Abstract type="html">The info view&apos;s delegate.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTNavigationInfoViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationInfoView/delegate</TokenIdentifier>
+			<Abstract type="html">The info view&apos;s delegate.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTNavigationInfoViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationInfoView/setBackButton:</TokenIdentifier>
+			<Abstract type="html">Used to exit info view.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIButton *backButton</Declaration>
+			
+			
+			<Anchor>//api/name/backButton</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationInfoView/backButton</TokenIdentifier>
+			<Abstract type="html">Used to exit info view.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIButton *backButton</Declaration>
+			
+			
+			<Anchor>//api/name/backButton</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationInfoView/setCurrentLocationInfoContainer:</TokenIdentifier>
+			<Abstract type="html">Current location container.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIView *currentLocationInfoContainer</Declaration>
+			
+			
+			<Anchor>//api/name/currentLocationInfoContainer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationInfoView/currentLocationInfoContainer</TokenIdentifier>
+			<Abstract type="html">Current location container.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIView *currentLocationInfoContainer</Declaration>
+			
+			
+			<Anchor>//api/name/currentLocationInfoContainer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationInfoView/setCurrentLocationTitleLabel:</TokenIdentifier>
+			<Abstract type="html">Current location title.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *currentLocationTitleLabel</Declaration>
+			
+			
+			<Anchor>//api/name/currentLocationTitleLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationInfoView/currentLocationTitleLabel</TokenIdentifier>
+			<Abstract type="html">Current location title.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *currentLocationTitleLabel</Declaration>
+			
+			
+			<Anchor>//api/name/currentLocationTitleLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationInfoView/setCurrentStreetLabel:</TokenIdentifier>
+			<Abstract type="html">Current street.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *currentStreetLabel</Declaration>
+			
+			
+			<Anchor>//api/name/currentStreetLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationInfoView/currentStreetLabel</TokenIdentifier>
+			<Abstract type="html">Current street.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *currentStreetLabel</Declaration>
+			
+			
+			<Anchor>//api/name/currentStreetLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationInfoView/setCurrentCityLabel:</TokenIdentifier>
+			<Abstract type="html">Current city.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *currentCityLabel</Declaration>
+			
+			
+			<Anchor>//api/name/currentCityLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationInfoView/currentCityLabel</TokenIdentifier>
+			<Abstract type="html">Current city.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *currentCityLabel</Declaration>
+			
+			
+			<Anchor>//api/name/currentCityLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationInfoView/setDestinationInfoContainer:</TokenIdentifier>
+			<Abstract type="html">Destination info container.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIView *destinationInfoContainer</Declaration>
+			
+			
+			<Anchor>//api/name/destinationInfoContainer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationInfoView/destinationInfoContainer</TokenIdentifier>
+			<Abstract type="html">Destination info container.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIView *destinationInfoContainer</Declaration>
+			
+			
+			<Anchor>//api/name/destinationInfoContainer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationInfoView/setDestinationTitleLabel:</TokenIdentifier>
+			<Abstract type="html">Destination title.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *destinationTitleLabel</Declaration>
+			
+			
+			<Anchor>//api/name/destinationTitleLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationInfoView/destinationTitleLabel</TokenIdentifier>
+			<Abstract type="html">Destination title.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *destinationTitleLabel</Declaration>
+			
+			
+			<Anchor>//api/name/destinationTitleLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationInfoView/setDestinationStreetLabel:</TokenIdentifier>
+			<Abstract type="html">Destination street.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *destinationStreetLabel</Declaration>
+			
+			
+			<Anchor>//api/name/destinationStreetLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationInfoView/destinationStreetLabel</TokenIdentifier>
+			<Abstract type="html">Destination street.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *destinationStreetLabel</Declaration>
+			
+			
+			<Anchor>//api/name/destinationStreetLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationInfoView/setDestinationCityLabel:</TokenIdentifier>
+			<Abstract type="html">Destination city.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *destinationCityLabel</Declaration>
+			
+			
+			<Anchor>//api/name/destinationCityLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationInfoView/destinationCityLabel</TokenIdentifier>
+			<Abstract type="html">Destination city.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *destinationCityLabel</Declaration>
+			
+			
+			<Anchor>//api/name/destinationCityLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationInfoView/setCurrentLocation:</TokenIdentifier>
+			<Abstract type="html">Current location.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CLLocationCoordinate2D currentLocation</Declaration>
+			
+			
+			<Anchor>//api/name/currentLocation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationInfoView/currentLocation</TokenIdentifier>
+			<Abstract type="html">Current location.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CLLocationCoordinate2D currentLocation</Declaration>
+			
+			
+			<Anchor>//api/name/currentLocation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationInfoView/setDestinationLocation:</TokenIdentifier>
+			<Abstract type="html">Navigation destination.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CLLocationCoordinate2D destinationLocation</Declaration>
+			
+			
+			<Anchor>//api/name/destinationLocation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationInfoView/destinationLocation</TokenIdentifier>
+			<Abstract type="html">Navigation destination.</Abstract>
+			<DeclaredIn>SKTNavigationInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CLLocationCoordinate2D destinationLocation</Declaration>
+			
+			
+			<Anchor>//api/name/destinationLocation</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

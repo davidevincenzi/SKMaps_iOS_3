@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>SDKTools</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						<NodeRef refid="18"/>
+						<NodeRef refid="19"/>
+						<NodeRef refid="20"/>
+						<NodeRef refid="21"/>
+						<NodeRef refid="22"/>
+						<NodeRef refid="23"/>
+						<NodeRef refid="24"/>
+						<NodeRef refid="25"/>
+						<NodeRef refid="26"/>
+						<NodeRef refid="27"/>
+						<NodeRef refid="28"/>
+						<NodeRef refid="29"/>
+						<NodeRef refid="30"/>
+						<NodeRef refid="31"/>
+						<NodeRef refid="32"/>
+						<NodeRef refid="33"/>
+						<NodeRef refid="34"/>
+						<NodeRef refid="35"/>
+						<NodeRef refid="36"/>
+						<NodeRef refid="37"/>
+						<NodeRef refid="38"/>
+						<NodeRef refid="39"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Categories</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="40"/>
+						<NodeRef refid="41"/>
+						<NodeRef refid="42"/>
+						<NodeRef refid="43"/>
+						<NodeRef refid="44"/>
+						<NodeRef refid="45"/>
+						<NodeRef refid="46"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="47"/>
+						<NodeRef refid="48"/>
+						<NodeRef refid="49"/>
+						<NodeRef refid="50"/>
+						<NodeRef refid="51"/>
+						<NodeRef refid="52"/>
+						<NodeRef refid="53"/>
+						<NodeRef refid="54"/>
+						<NodeRef refid="55"/>
+						<NodeRef refid="56"/>
+						<NodeRef refid="57"/>
+						<NodeRef refid="58"/>
+						<NodeRef refid="59"/>
+						<NodeRef refid="60"/>
+						<NodeRef refid="61"/>
+						<NodeRef refid="62"/>
+						<NodeRef refid="63"/>
+						<NodeRef refid="64"/>
+						<NodeRef refid="65"/>
+						
+					</Subnodes>
+				</Node>
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1">
+			<Name>SKTActionSheet</Name>
+			<Path>Classes/SKTActionSheet.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>SKTAnimatedLabel</Name>
+			<Path>Classes/SKTAnimatedLabel.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>SKTAudioManager</Name>
+			<Path>Classes/SKTAudioManager.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>SKTBaseView</Name>
+			<Path>Classes/SKTBaseView.html</Path>
+		</Node>
+		<Node id="5">
+			<Name>SKTDownloadBuilder</Name>
+			<Path>Classes/SKTDownloadBuilder.html</Path>
+		</Node>
+		<Node id="6">
+			<Name>SKTDownloadManager</Name>
+			<Path>Classes/SKTDownloadManager.html</Path>
+		</Node>
+		<Node id="7">
+			<Name>SKTDownloadObjectHelper</Name>
+			<Path>Classes/SKTDownloadObjectHelper.html</Path>
+		</Node>
+		<Node id="8">
+			<Name>SKTDownloadOperation</Name>
+			<Path>Classes/SKTDownloadOperation.html</Path>
+		</Node>
+		<Node id="9">
+			<Name>SKTGroupedDownloadOperation</Name>
+			<Path>Classes/SKTGroupedDownloadOperation.html</Path>
+		</Node>
+		<Node id="10">
+			<Name>SKTGroupedOperations</Name>
+			<Path>Classes/SKTGroupedOperations.html</Path>
+		</Node>
+		<Node id="11">
+			<Name>SKTInsetLabel</Name>
+			<Path>Classes/SKTInsetLabel.html</Path>
+		</Node>
+		<Node id="12">
+			<Name>SKTLostGPSSignalView</Name>
+			<Path>Classes/SKTLostGPSSignalView.html</Path>
+		</Node>
+		<Node id="13">
+			<Name>SKTMainView</Name>
+			<Path>Classes/SKTMainView.html</Path>
+		</Node>
+		<Node id="14">
+			<Name>SKTMapDownloadState</Name>
+			<Path>Classes/SKTMapDownloadState.html</Path>
+		</Node>
+		<Node id="15">
+			<Name>SKTMapRegionDetailsHelper</Name>
+			<Path>Classes/SKTMapRegionDetailsHelper.html</Path>
+		</Node>
+		<Node id="16">
+			<Name>SKTNavigationBlockRoadsView</Name>
+			<Path>Classes/SKTNavigationBlockRoadsView.html</Path>
+		</Node>
+		<Node id="17">
+			<Name>SKTNavigationCalculatingRouteView</Name>
+			<Path>Classes/SKTNavigationCalculatingRouteView.html</Path>
+		</Node>
+		<Node id="18">
+			<Name>SKTNavigationConfiguration</Name>
+			<Path>Classes/SKTNavigationConfiguration.html</Path>
+		</Node>
+		<Node id="19">
+			<Name>SKTNavigationDoubleLabelView</Name>
+			<Path>Classes/SKTNavigationDoubleLabelView.html</Path>
+		</Node>
+		<Node id="20">
+			<Name>SKTNavigationETAView</Name>
+			<Path>Classes/SKTNavigationETAView.html</Path>
+		</Node>
+		<Node id="21">
+			<Name>SKTNavigationFreeDriveView</Name>
+			<Path>Classes/SKTNavigationFreeDriveView.html</Path>
+		</Node>
+		<Node id="22">
+			<Name>SKTNavigationInfo</Name>
+			<Path>Classes/SKTNavigationInfo.html</Path>
+		</Node>
+		<Node id="23">
+			<Name>SKTNavigationInfoView</Name>
+			<Path>Classes/SKTNavigationInfoView.html</Path>
+		</Node>
+		<Node id="24">
+			<Name>SKTNavigationManager</Name>
+			<Path>Classes/SKTNavigationManager.html</Path>
+		</Node>
+		<Node id="25">
+			<Name>SKTNavigationOverviewView</Name>
+			<Path>Classes/SKTNavigationOverviewView.html</Path>
+		</Node>
+		<Node id="26">
+			<Name>SKTNavigationPanningView</Name>
+			<Path>Classes/SKTNavigationPanningView.html</Path>
+		</Node>
+		<Node id="27">
+			<Name>SKTNavigationSettingsButton</Name>
+			<Path>Classes/SKTNavigationSettingsButton.html</Path>
+		</Node>
+		<Node id="28">
+			<Name>SKTNavigationSettingsView</Name>
+			<Path>Classes/SKTNavigationSettingsView.html</Path>
+		</Node>
+		<Node id="29">
+			<Name>SKTNavigationShortVisualAdviceView</Name>
+			<Path>Classes/SKTNavigationShortVisualAdviceView.html</Path>
+		</Node>
+		<Node id="30">
+			<Name>SKTNavigationSpeedLimitView</Name>
+			<Path>Classes/SKTNavigationSpeedLimitView.html</Path>
+		</Node>
+		<Node id="31">
+			<Name>SKTNavigationUtils</Name>
+			<Path>Classes/SKTNavigationUtils.html</Path>
+		</Node>
+		<Node id="32">
+			<Name>SKTNavigationView</Name>
+			<Path>Classes/SKTNavigationView.html</Path>
+		</Node>
+		<Node id="33">
+			<Name>SKTNavigationVisualAdviceView</Name>
+			<Path>Classes/SKTNavigationVisualAdviceView.html</Path>
+		</Node>
+		<Node id="34">
+			<Name>SKTProgressView</Name>
+			<Path>Classes/SKTProgressView.html</Path>
+		</Node>
+		<Node id="35">
+			<Name>SKTReroutingInfoView</Name>
+			<Path>Classes/SKTReroutingInfoView.html</Path>
+		</Node>
+		<Node id="36">
+			<Name>SKTRouteInfoView</Name>
+			<Path>Classes/SKTRouteInfoView.html</Path>
+		</Node>
+		<Node id="37">
+			<Name>SKTRouteProgressView</Name>
+			<Path>Classes/SKTRouteProgressView.html</Path>
+		</Node>
+		<Node id="38">
+			<Name>SKTUnzipOperation</Name>
+			<Path>Classes/SKTUnzipOperation.html</Path>
+		</Node>
+		<Node id="39">
+			<Name>SKTWaitingGPSSignalView</Name>
+			<Path>Classes/SKTWaitingGPSSignalView.html</Path>
+		</Node>
+		
+		<Node id="40">
+			<Name>NSString(Additions)</Name>
+			<Path>Categories/NSString+Additions.html</Path>
+		</Node>
+		<Node id="41">
+			<Name>UIButton(Additions)</Name>
+			<Path>Categories/UIButton+Additions.html</Path>
+		</Node>
+		<Node id="42">
+			<Name>UIColor(Additions)</Name>
+			<Path>Categories/UIColor+Additions.html</Path>
+		</Node>
+		<Node id="43">
+			<Name>UIDevice(Additions)</Name>
+			<Path>Categories/UIDevice+Additions.html</Path>
+		</Node>
+		<Node id="44">
+			<Name>UIFont(Additions)</Name>
+			<Path>Categories/UIFont+Additions.html</Path>
+		</Node>
+		<Node id="45">
+			<Name>UIImage(Additions)</Name>
+			<Path>Categories/UIImage+Additions.html</Path>
+		</Node>
+		<Node id="46">
+			<Name>UIView(Additions)</Name>
+			<Path>Categories/UIView+Additions.html</Path>
+		</Node>
+		
+		<Node id="47">
+			<Name>SKTActionSheetDelegate</Name>
+			<Path>Protocols/SKTActionSheetDelegate.html</Path>
+		</Node>
+		<Node id="48">
+			<Name>SKTBaseViewDelegate</Name>
+			<Path>Protocols/SKTBaseViewDelegate.html</Path>
+		</Node>
+		<Node id="49">
+			<Name>SKTDownloadManagerDataSource</Name>
+			<Path>Protocols/SKTDownloadManagerDataSource.html</Path>
+		</Node>
+		<Node id="50">
+			<Name>SKTDownloadManagerDelegate</Name>
+			<Path>Protocols/SKTDownloadManagerDelegate.html</Path>
+		</Node>
+		<Node id="51">
+			<Name>SKTDownloadOperationDelegate</Name>
+			<Path>Protocols/SKTDownloadOperationDelegate.html</Path>
+		</Node>
+		<Node id="52">
+			<Name>SKTGroupedDownloadOperationDelegate</Name>
+			<Path>Protocols/SKTGroupedDownloadOperationDelegate.html</Path>
+		</Node>
+		<Node id="53">
+			<Name>SKTGroupedOperationsDelegate</Name>
+			<Path>Protocols/SKTGroupedOperationsDelegate.html</Path>
+		</Node>
+		<Node id="54">
+			<Name>SKTNavigationBlockRoadsViewDelegate</Name>
+			<Path>Protocols/SKTNavigationBlockRoadsViewDelegate.html</Path>
+		</Node>
+		<Node id="55">
+			<Name>SKTNavigationCalculatingRouteViewDelegate</Name>
+			<Path>Protocols/SKTNavigationCalculatingRouteViewDelegate.html</Path>
+		</Node>
+		<Node id="56">
+			<Name>SKTNavigationInfoViewDelegate</Name>
+			<Path>Protocols/SKTNavigationInfoViewDelegate.html</Path>
+		</Node>
+		<Node id="57">
+			<Name>SKTNavigationManagerDelegate</Name>
+			<Path>Protocols/SKTNavigationManagerDelegate.html</Path>
+		</Node>
+		<Node id="58">
+			<Name>SKTNavigationOverviewViewDelegate</Name>
+			<Path>Protocols/SKTNavigationOverviewViewDelegate.html</Path>
+		</Node>
+		<Node id="59">
+			<Name>SKTNavigationPanningViewDelegate</Name>
+			<Path>Protocols/SKTNavigationPanningViewDelegate.html</Path>
+		</Node>
+		<Node id="60">
+			<Name>SKTNavigationSettingsViewDelegate</Name>
+			<Path>Protocols/SKTNavigationSettingsViewDelegate.html</Path>
+		</Node>
+		<Node id="61">
+			<Name>SKTNavigationSpeedLimitViewDelegate</Name>
+			<Path>Protocols/SKTNavigationSpeedLimitViewDelegate.html</Path>
+		</Node>
+		<Node id="62">
+			<Name>SKTNavigationVisualAdviceViewDelegate</Name>
+			<Path>Protocols/SKTNavigationVisualAdviceViewDelegate.html</Path>
+		</Node>
+		<Node id="63">
+			<Name>SKTRouteInfoViewDelegate</Name>
+			<Path>Protocols/SKTRouteInfoViewDelegate.html</Path>
+		</Node>
+		<Node id="64">
+			<Name>SKTUnzipOperationDelegate</Name>
+			<Path>Protocols/SKTUnzipOperationDelegate.html</Path>
+		</Node>
+		<Node id="65">
+			<Name>SKTWaitingGPSSignalViewDelegate</Name>
+			<Path>Protocols/SKTWaitingGPSSignalViewDelegate.html</Path>
+		</Node>
+		
+	</Library>
+</DocSetNodes>

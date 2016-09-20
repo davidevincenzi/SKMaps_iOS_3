@@ -1,0 +1,14 @@
+//
+//  SKOneBoxSearch-Prefix.pch
+//  SKOneBoxSearch
+//
+//  Created by Mihai Costiug on 11/08/15.
+//  Copyright (c) 2015 Mihai Serban. All rights reserved.
+//
+
+#ifndef SKOneBoxSearch_SKOneBoxSearch_Prefix_pch
+#define SKOneBoxSearch_SKOneBoxSearch_Prefix_pch
+
+#import "SKOneBoxLocalizationManager.h"
+
+#endif

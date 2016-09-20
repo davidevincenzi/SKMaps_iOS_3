@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTNavigationCalculatingRouteView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTNavigationCalculatingRouteView</TokenIdentifier>
+			<Abstract type="html">Contains information about route calculation.</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationCalculatingRouteView/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Used to send user actions.</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTNavigationCalculatingRouteViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationCalculatingRouteView/delegate</TokenIdentifier>
+			<Abstract type="html">Used to send user actions.</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTNavigationCalculatingRouteViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationCalculatingRouteView/setNumberOfRoutes:</TokenIdentifier>
+			<Abstract type="html">Number of route info views to be displayed.</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSInteger numberOfRoutes</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfRoutes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationCalculatingRouteView/numberOfRoutes</TokenIdentifier>
+			<Abstract type="html">Number of route info views to be displayed.</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSInteger numberOfRoutes</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfRoutes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationCalculatingRouteView/setProgressViews:</TokenIdentifier>
+			<Abstract type="html">Contains numberOfRoutes progress views.</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *progressViews</Declaration>
+			
+			
+			<Anchor>//api/name/progressViews</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationCalculatingRouteView/progressViews</TokenIdentifier>
+			<Abstract type="html">Contains numberOfRoutes progress views.</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *progressViews</Declaration>
+			
+			
+			<Anchor>//api/name/progressViews</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationCalculatingRouteView/setInfoViews:</TokenIdentifier>
+			<Abstract type="html">Contains numberOfRoutes info views.</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *infoViews</Declaration>
+			
+			
+			<Anchor>//api/name/infoViews</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationCalculatingRouteView/infoViews</TokenIdentifier>
+			<Abstract type="html">Contains numberOfRoutes info views.</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSMutableArray *infoViews</Declaration>
+			
+			
+			<Anchor>//api/name/infoViews</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationCalculatingRouteView/setSelectedInfoIndex:</TokenIdentifier>
+			<Abstract type="html">Gets or sets the currently selected route.
+    The info view at this index will be highlighted if there are more than one views.</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSInteger selectedInfoIndex</Declaration>
+			
+			
+			<Anchor>//api/name/selectedInfoIndex</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationCalculatingRouteView/selectedInfoIndex</TokenIdentifier>
+			<Abstract type="html">Gets or sets the currently selected route.
+    The info view at this index will be highlighted if there are more than one views.</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSInteger selectedInfoIndex</Declaration>
+			
+			
+			<Anchor>//api/name/selectedInfoIndex</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationCalculatingRouteView/setStartButton:</TokenIdentifier>
+			<Abstract type="html">Allows the user to start navigation.</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIButton *startButton</Declaration>
+			
+			
+			<Anchor>//api/name/startButton</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationCalculatingRouteView/startButton</TokenIdentifier>
+			<Abstract type="html">Allows the user to start navigation.</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIButton *startButton</Declaration>
+			
+			
+			<Anchor>//api/name/startButton</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationCalculatingRouteView/setContainer:</TokenIdentifier>
+			<Abstract type="html">Contains the top views (route progress, route info, separators).</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIView *container</Declaration>
+			
+			
+			<Anchor>//api/name/container</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationCalculatingRouteView/container</TokenIdentifier>
+			<Abstract type="html">Contains the top views (route progress, route info, separators).</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIView *container</Declaration>
+			
+			
+			<Anchor>//api/name/container</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationCalculatingRouteView/setStatusBarView:</TokenIdentifier>
+			<Abstract type="html">View shown behind the status bar</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIView *statusBarView</Declaration>
+			
+			
+			<Anchor>//api/name/statusBarView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationCalculatingRouteView/statusBarView</TokenIdentifier>
+			<Abstract type="html">View shown behind the status bar</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIView *statusBarView</Declaration>
+			
+			
+			<Anchor>//api/name/statusBarView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationCalculatingRouteView/showInfoViewAtIndex:</TokenIdentifier>
+			<Abstract type="html">Shows the route info view for at the given index.</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>- (void)showInfoViewAtIndex:(NSInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Index of the view to be shown.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/showInfoViewAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationCalculatingRouteView/showInfoViews</TokenIdentifier>
+			<Abstract type="html">Shows all the info views.</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>- (void)showInfoViews</Declaration>
+			
+			
+			<Anchor>//api/name/showInfoViews</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationCalculatingRouteView/showProgressViewAtIndex:</TokenIdentifier>
+			<Abstract type="html">Shows the route progress view for at the given index.</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>- (void)showProgressViewAtIndex:(NSInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Index of the view to be shown.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/showProgressViewAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationCalculatingRouteView/showProgressViews</TokenIdentifier>
+			<Abstract type="html">Shows all the progress views.</Abstract>
+			<DeclaredIn>SKTNavigationCalculatingRouteView.h</DeclaredIn>			
+			
+			<Declaration>- (void)showProgressViews</Declaration>
+			
+			
+			<Anchor>//api/name/showProgressViews</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

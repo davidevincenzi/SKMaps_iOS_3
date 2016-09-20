@@ -1,0 +1,285 @@
+{
+  "longitude" : 23.5899361276051,
+  "results" : [
+    {
+      "providerId" : 5,
+      "providerName" : "Apple",
+      "results" : [
+        {
+          "ISOcountryCode" : "ES",
+          "relevancyType" : 1,
+          "administrativeAreaCode" : "",
+          "uid" : "",
+          "subAdministrativeArea" : "Barcelona",
+          "topResult" : 0,
+          "additionalInformation" : {
+            "kSKOneBoxFilterDistanceKey" : 1808807.726802312,
+            "rankingIndex" : 1
+          },
+          "longitude" : 2.122820913791656,
+          "subLocality" : "",
+          "latitude" : 41.38088812486086,
+          "type" : 1,
+          "street" : "Carrer d'Arístides Maillol",
+          "administrativeArea" : "Catalunya",
+          "houseNumber" : "s\/n",
+          "expected" : true,
+          "postalCode" : "08028",
+          "country" : "España",
+          "name" : "Camp Nou",
+          "locality" : "Barcelona"
+        },
+        {
+          "ISOcountryCode" : "ES",
+          "relevancyType" : 1,
+          "administrativeAreaCode" : "",
+          "uid" : "",
+          "subAdministrativeArea" : "Barcelona",
+          "topResult" : 0,
+          "additionalInformation" : {
+            "kSKOneBoxFilterDistanceKey" : 1807575.757378089,
+            "rankingIndex" : 2
+          },
+          "longitude" : 2.135172486305237,
+          "subLocality" : "Les Corts",
+          "latitude" : 41.38714080538386,
+          "type" : 1,
+          "street" : "Carrer de Numància",
+          "administrativeArea" : "Catalonia",
+          "houseNumber" : "126",
+          "expected" : true,
+          "postalCode" : "08014",
+          "country" : "Spain",
+          "name" : "Camp Nou Apartments",
+          "locality" : "Barcelona"
+        },
+        {
+          "ISOcountryCode" : "ES",
+          "relevancyType" : 1,
+          "administrativeAreaCode" : "",
+          "uid" : "",
+          "subAdministrativeArea" : "Barcelona",
+          "topResult" : 0,
+          "additionalInformation" : {
+            "kSKOneBoxFilterDistanceKey" : 1808919.214150699,
+            "rankingIndex" : 3
+          },
+          "longitude" : 2.126442200000042,
+          "subLocality" : "Sants-Badal",
+          "latitude" : 41.3732203,
+          "type" : 1,
+          "street" : "Carrer de Bonsoms",
+          "administrativeArea" : "Catalonia",
+          "houseNumber" : "21",
+          "expected" : true,
+          "postalCode" : "08028",
+          "country" : "Spain",
+          "name" : "U-nique Camp Nou",
+          "locality" : "Barcelona"
+        },
+        {
+          "ISOcountryCode" : "ES",
+          "relevancyType" : 1,
+          "administrativeAreaCode" : "",
+          "uid" : "",
+          "subAdministrativeArea" : "Barcelona",
+          "topResult" : 0,
+          "additionalInformation" : {
+            "kSKOneBoxFilterDistanceKey" : 1808767.486349521,
+            "rankingIndex" : 4
+          },
+          "longitude" : 2.1263318975532,
+          "subLocality" : "Sants-Badal",
+          "latitude" : 41.3764342195063,
+          "type" : 1,
+          "street" : "Carrer de Roger",
+          "administrativeArea" : "Catalonia",
+          "houseNumber" : "16",
+          "expected" : true,
+          "postalCode" : "08028",
+          "country" : "Spain",
+          "name" : "Penthouse Camp Nou",
+          "locality" : "Barcelona"
+        }
+      ]
+    },
+    {
+      "providerId" : 1,
+      "providerName" : "OpenStreetMap",
+      "results" : [
+
+      ]
+    },
+    {
+      "providerId" : 6,
+      "providerName" : "Telenav",
+      "results" : [
+
+      ]
+    },
+    {
+      "providerId" : 2,
+      "providerName" : "Recents",
+      "results" : [
+        {
+          "ISOcountryCode" : "ES",
+          "relevancyType" : 1,
+          "administrativeAreaCode" : "",
+          "uid" : "",
+          "subAdministrativeArea" : "Barcelona",
+          "topResult" : 0,
+          "additionalInformation" : {
+            "kSKOneBoxFilterDistanceKey" : 1808807.726802312,
+            "rankingIndex" : 1,
+            "locationSuggestion" : true
+          },
+          "longitude" : 2.122820913791656,
+          "subLocality" : "",
+          "latitude" : 41.38088812486086,
+          "type" : 1,
+          "street" : "Carrer d'Arístides Maillol",
+          "administrativeArea" : "Catalunya",
+          "houseNumber" : "s\/n",
+          "expected" : true,
+          "postalCode" : "08028",
+          "country" : "España",
+          "name" : "Camp Nou",
+          "locality" : "Barcelona"
+        }
+      ]
+    },
+    {
+      "providerId" : 11,
+      "providerName" : "Yelp",
+      "results" : [
+
+      ]
+    },
+    {
+      "providerId" : 16,
+      "providerName" : "Google",
+      "results" : [
+
+      ]
+    },
+    {
+      "providerId" : 3,
+      "providerName" : "Foursqare",
+      "results" : [
+        {
+          "ISOcountryCode" : "RO",
+          "relevancyType" : 1,
+          "administrativeAreaCode" : "",
+          "uid" : "512d2418e4b0ea5319e28496",
+          "subAdministrativeArea" : "",
+          "topResult" : 0,
+          "additionalInformation" : {
+            "rating" : 0,
+            "checkinCount" : 3,
+            "tipCount" : 0,
+            "webSiteUrl" : "",
+            "kSKOneBoxFilterDistanceKey" : 1692.524550135486,
+            "type" : "Soccer Field",
+            "rankingIndex" : 1,
+            "hereNowCount" : 0,
+            "providerID" : 3,
+            "foursquarePOIUrl" : "https:\/\/foursquare.com\/v\/Camp%20nou\/512d2418e4b0ea5319e28496",
+            "distance" : 1695,
+            "phoneNumber" : ""
+          },
+          "longitude" : 23.612147,
+          "subLocality" : "",
+          "latitude" : 46.776306,
+          "type" : 1,
+          "street" : "",
+          "administrativeArea" : "",
+          "houseNumber" : "",
+          "expected" : true,
+          "postalCode" : "",
+          "country" : "Romania",
+          "name" : "Camp nou",
+          "locality" : ""
+        },
+        {
+          "ISOcountryCode" : "RO",
+          "relevancyType" : 1,
+          "administrativeAreaCode" : "",
+          "uid" : "4e1fe6dc3151306f8927c4d5",
+          "subAdministrativeArea" : "",
+          "topResult" : 0,
+          "additionalInformation" : {
+            "rating" : 0,
+            "checkinCount" : 0,
+            "tipCount" : 0,
+            "webSiteUrl" : "",
+            "kSKOneBoxFilterDistanceKey" : 1423.930126381794,
+            "type" : "Miscellaneous Shop",
+            "rankingIndex" : 2,
+            "hereNowCount" : 0,
+            "providerID" : 3,
+            "foursquarePOIUrl" : "https:\/\/foursquare.com\/v\/E-camp%20Shop%20(ecamp.ro)\/4e1fe6dc3151306f8927c4d5",
+            "distance" : 1426,
+            "phoneNumber" : ""
+          },
+          "longitude" : 23.577841,
+          "subLocality" : "",
+          "latitude" : 46.76578,
+          "type" : 1,
+          "street" : "Calea Motilor 143-145.",
+          "administrativeArea" : "Cluj",
+          "houseNumber" : "",
+          "expected" : true,
+          "postalCode" : "400370",
+          "country" : "Romania",
+          "name" : "E-camp Shop (ecamp.ro)",
+          "locality" : "Cluj-Napoca"
+        },
+        {
+          "ISOcountryCode" : "RO",
+          "relevancyType" : 1,
+          "administrativeAreaCode" : "",
+          "uid" : "4ead08d40cd64b8eda01c49f",
+          "subAdministrativeArea" : "",
+          "topResult" : 0,
+          "additionalInformation" : {
+            "rating" : 0,
+            "checkinCount" : 29,
+            "tipCount" : 0,
+            "webSiteUrl" : "",
+            "kSKOneBoxFilterDistanceKey" : 2370.625138748634,
+            "type" : "Church",
+            "rankingIndex" : 3,
+            "hereNowCount" : 0,
+            "providerID" : 3,
+            "foursquarePOIUrl" : "https:\/\/foursquare.com\/v\/Biserica%20Sfantul%20Dumitru%20Cel%20Nou\/4ead08d40cd64b8eda01c49f",
+            "distance" : 2374,
+            "phoneNumber" : ""
+          },
+          "longitude" : 23.61949,
+          "subLocality" : "",
+          "latitude" : 46.768823,
+          "type" : 1,
+          "street" : "Unirii nr.1a",
+          "administrativeArea" : "Cluj",
+          "houseNumber" : "",
+          "expected" : true,
+          "postalCode" : "",
+          "country" : "Romania",
+          "name" : "Biserica Sfantul Dumitru Cel Nou",
+          "locality" : "Cluj-Napoca"
+        }
+      ]
+    },
+    {
+      "providerId" : 4,
+      "providerName" : "TripAdvisor",
+      "results" : [
+
+      ]
+    }
+  ],
+  "searchTerm" : "camp nou, barcelona",
+  "searchLanguage" : "en",
+  "latitude" : 46.77555453470227,
+  "radius" : 10000
+}

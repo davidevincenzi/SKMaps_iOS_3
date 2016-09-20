@@ -1,0 +1,21 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#ifdef __OBJC__
+
+    #import <Foundation/Foundation.h>
+    #import "NSString+Additions.h"
+    #import "UIColor+Additions.h"
+    #import "UIDevice+Additions.h"
+    #import "UIView+Additions.h"
+    #import "UIButton+Additions.h"
+    #import "UIImage+Additions.h"
+    #import "UIFont+Additions.h"
+
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <MobileCoreServices/MobileCoreServices.h>
+
+#endif

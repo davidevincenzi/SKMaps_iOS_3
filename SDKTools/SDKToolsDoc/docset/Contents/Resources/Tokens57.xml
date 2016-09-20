@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/SKTNavigationManagerDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/SKTNavigationManagerDelegate</TokenIdentifier>
+			<Abstract type="html">Receives notifications about navigation.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>
+			
+			<NodeRef refid="57"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTNavigationManagerDelegate/navigationManagerDidStopNavigation:withReason:</TokenIdentifier>
+			<Abstract type="html">Called when the navigation has ended.</Abstract>
+			<DeclaredIn>SKTNavigationManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)navigationManagerDidStopNavigation:(SKTNavigationManager *)manager withReason:(SKTNavigationStopReason)reason</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>manager</Name>
+					<Abstract type="html">The manager that finished the navigation.</Abstract>
+				</Parameter><Parameter>
+					<Name>reason</Name>
+					<Abstract type="html">What caused the navigation to stop.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/navigationManagerDidStopNavigation:withReason:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

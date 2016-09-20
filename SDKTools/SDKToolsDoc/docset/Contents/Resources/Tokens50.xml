@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/SKTDownloadManagerDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/SKTDownloadManagerDelegate</TokenIdentifier>
+			<Abstract type="html">SKTDownloadManagerDelegate delegate of SKTDownloadManager.</Abstract>
+			<DeclaredIn>SKTDownloadManagerDelegate.h</DeclaredIn>
+			
+			<NodeRef refid="50"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadManagerDelegate/notEnoughDiskSpace</TokenIdentifier>
+			<Abstract type="html">Delegate method called when there is not enough space on disk.</Abstract>
+			<DeclaredIn>SKTDownloadManagerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)notEnoughDiskSpace</Declaration>
+			
+			
+			<Anchor>//api/name/notEnoughDiskSpace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadManagerDelegate/cannotStartDownload</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the download cannot be started. When onboard mode is on, or network not reachable.</Abstract>
+			<DeclaredIn>SKTDownloadManagerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)cannotStartDownload</Declaration>
+			
+			
+			<Anchor>//api/name/cannotStartDownload</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadManagerDelegate/didStartDownload</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the download started.</Abstract>
+			<DeclaredIn>SKTDownloadManagerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)didStartDownload</Declaration>
+			
+			
+			<Anchor>//api/name/didStartDownload</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadManagerDelegate/didPauseDownload</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the download was paused.</Abstract>
+			<DeclaredIn>SKTDownloadManagerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)didPauseDownload</Declaration>
+			
+			
+			<Anchor>//api/name/didPauseDownload</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadManagerDelegate/didResumeDownload</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the download was resumed.</Abstract>
+			<DeclaredIn>SKTDownloadManagerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)didResumeDownload</Declaration>
+			
+			
+			<Anchor>//api/name/didResumeDownload</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadManagerDelegate/didCancelDownload</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the download was canceled.</Abstract>
+			<DeclaredIn>SKTDownloadManagerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)didCancelDownload</Declaration>
+			
+			
+			<Anchor>//api/name/didCancelDownload</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadManagerDelegate/operationsCancelledByOSDownloadManager:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the download was canceled by the OS. Background operations cancelled.</Abstract>
+			<DeclaredIn>SKTDownloadManagerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)operationsCancelledByOSDownloadManager:(SKTDownloadManager *)downloadManager</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadManager</Name>
+					<Abstract type="html">the download manager object.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/operationsCancelledByOSDownloadManager:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadManagerDelegate/downloadManager:didPauseDownloadForDownloadHelper:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the download was paused.</Abstract>
+			<DeclaredIn>SKTDownloadManagerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)downloadManager:(SKTDownloadManager *)downloadManager didPauseDownloadForDownloadHelper:(SKTDownloadObjectHelper *)downloadHelper</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadManager</Name>
+					<Abstract type="html">the download manager object.</Abstract>
+				</Parameter><Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">the download helper object.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadManager:didPauseDownloadForDownloadHelper:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadManagerDelegate/downloadManager:didResumeDownloadForDownloadHelper:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the download was resumed.</Abstract>
+			<DeclaredIn>SKTDownloadManagerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)downloadManager:(SKTDownloadManager *)downloadManager didResumeDownloadForDownloadHelper:(SKTDownloadObjectHelper *)downloadHelper</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadManager</Name>
+					<Abstract type="html">the download manager object.</Abstract>
+				</Parameter><Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">the download helper object.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadManager:didResumeDownloadForDownloadHelper:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadManagerDelegate/downloadManager:didCancelDownloadForDownloadHelper:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the download was canceled.</Abstract>
+			<DeclaredIn>SKTDownloadManagerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)downloadManager:(SKTDownloadManager *)downloadManager didCancelDownloadForDownloadHelper:(SKTDownloadObjectHelper *)downloadHelper</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadManager</Name>
+					<Abstract type="html">the download manager object.</Abstract>
+				</Parameter><Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">the download helper object.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadManager:didCancelDownloadForDownloadHelper:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadManagerDelegate/downloadManager:internetAvailabilityChanged:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the internet connectivity changed.</Abstract>
+			<DeclaredIn>SKTDownloadManagerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)downloadManager:(SKTDownloadManager *)downloadManager internetAvailabilityChanged:(BOOL)isAvailable</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadManager</Name>
+					<Abstract type="html">the download manager object.</Abstract>
+				</Parameter><Parameter>
+					<Name>isAvailable</Name>
+					<Abstract type="html">boolean indicating wether internet connection is available.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadManager:internetAvailabilityChanged:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadManagerDelegate/downloadManagerSwitchedWifiToCellularNetwork:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the internet connection switched from wifi to cellular.</Abstract>
+			<DeclaredIn>SKTDownloadManagerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)downloadManagerSwitchedWifiToCellularNetwork:(SKTDownloadManager *)downloadManager</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadManager</Name>
+					<Abstract type="html">the download manager object.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadManagerSwitchedWifiToCellularNetwork:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadManagerDelegate/downloadManager:didUpdateDownloadSpeed:andRemainingTime:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the download speed and time was changed.</Abstract>
+			<DeclaredIn>SKTDownloadManagerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)downloadManager:(SKTDownloadManager *)downloadManager didUpdateDownloadSpeed:(NSString *)speed andRemainingTime:(NSString *)remainingTime</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadManager</Name>
+					<Abstract type="html">the download manager object.</Abstract>
+				</Parameter><Parameter>
+					<Name>speed</Name>
+					<Abstract type="html">formatted string representing the download speed.</Abstract>
+				</Parameter><Parameter>
+					<Name>remainingTime</Name>
+					<Abstract type="html">formatted string representing the remaining download time.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadManager:didUpdateDownloadSpeed:andRemainingTime:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadManagerDelegate/downloadManager:didUpdateCurrentDownloadProgress:currentDownloadPercentage:overallDownloadProgress:overallDownloadPercentage:forDownloadHelper:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the download progress was changed.</Abstract>
+			<DeclaredIn>SKTDownloadManagerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)downloadManager:(SKTDownloadManager *)downloadManager didUpdateCurrentDownloadProgress:(NSString *)currentPorgressString currentDownloadPercentage:(float)currentPercentage overallDownloadProgress:(NSString *)overallProgressString overallDownloadPercentage:(float)overallPercentage forDownloadHelper:(SKTDownloadObjectHelper *)downloadHelper</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadManager</Name>
+					<Abstract type="html">the download manager object.</Abstract>
+				</Parameter><Parameter>
+					<Name>currentPorgressString</Name>
+					<Abstract type="html">formatted string representing the current item download progress.</Abstract>
+				</Parameter><Parameter>
+					<Name>currentPercentage</Name>
+					<Abstract type="html">float representing the current item download percentage.</Abstract>
+				</Parameter><Parameter>
+					<Name>overallProgressString</Name>
+					<Abstract type="html">formatted string representing the overall download progress.</Abstract>
+				</Parameter><Parameter>
+					<Name>overallPercentage</Name>
+					<Abstract type="html">float representing the overall download percentage.</Abstract>
+				</Parameter><Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">the download helper object.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadManager:didUpdateCurrentDownloadProgress:currentDownloadPercentage:overallDownloadProgress:overallDownloadPercentage:forDownloadHelper:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadManagerDelegate/downloadManager:didUpdateUnzipProgress:percentage:forDownloadHelper:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the unzip progress was changed.</Abstract>
+			<DeclaredIn>SKTDownloadManagerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)downloadManager:(SKTDownloadManager *)downloadManager didUpdateUnzipProgress:(NSString *)progressString percentage:(float)percentage forDownloadHelper:(SKTDownloadObjectHelper *)downloadHelper</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadManager</Name>
+					<Abstract type="html">the download manager object.</Abstract>
+				</Parameter><Parameter>
+					<Name>progressString</Name>
+					<Abstract type="html">formatted string representing the unzip progress.</Abstract>
+				</Parameter><Parameter>
+					<Name>percentage</Name>
+					<Abstract type="html">float representing the unzip percentage.</Abstract>
+				</Parameter><Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">the download helper object.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadManager:didUpdateUnzipProgress:percentage:forDownloadHelper:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadManagerDelegate/downloadManager:didDownloadDownloadHelper:withSuccess:</TokenIdentifier>
+			<Abstract type="html">Delegate method for finished downloading.</Abstract>
+			<DeclaredIn>SKTDownloadManagerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)downloadManager:(SKTDownloadManager *)downloadManager didDownloadDownloadHelper:(SKTDownloadObjectHelper *)downloadHelper withSuccess:(BOOL)success</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadManager</Name>
+					<Abstract type="html">the download manager object.</Abstract>
+				</Parameter><Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">the download helper object.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">a boolean indicating if the download was succesfull.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadManager:didDownloadDownloadHelper:withSuccess:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTDownloadManagerDelegate/downloadManager:saveDownloadHelperToDatabase:</TokenIdentifier>
+			<Abstract type="html">Delegate method for informing the user it&apos;s safe to save the data to a local database.</Abstract>
+			<DeclaredIn>SKTDownloadManagerDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)downloadManager:(SKTDownloadManager *)downloadManager saveDownloadHelperToDatabase:(SKTDownloadObjectHelper *)downloadHelper</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadManager</Name>
+					<Abstract type="html">the download manager object.</Abstract>
+				</Parameter><Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">the download helper object.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadManager:saveDownloadHelperToDatabase:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

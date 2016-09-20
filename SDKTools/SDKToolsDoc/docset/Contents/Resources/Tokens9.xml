@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTGroupedDownloadOperation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTGroupedDownloadOperation</TokenIdentifier>
+			<Abstract type="html">SKTGroupedDownloadOperation contains multiple SKTGroupedOperations.
+For example a map download will contain 3 SKTGroupedOperations (Map, Name browser zip, texture file).</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedDownloadOperation/setDownloadHelper:</TokenIdentifier>
+			<Abstract type="html">Download helper object used for keeping track of download sizes and download states.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTDownloadObjectHelper *downloadHelper</Declaration>
+			
+			
+			<Anchor>//api/name/downloadHelper</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTGroupedDownloadOperation/downloadHelper</TokenIdentifier>
+			<Abstract type="html">Download helper object used for keeping track of download sizes and download states.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTDownloadObjectHelper *downloadHelper</Declaration>
+			
+			
+			<Anchor>//api/name/downloadHelper</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedDownloadOperation/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Download helper object used for keeping track of download sizes and download states.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTGroupedDownloadOperationDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTGroupedDownloadOperation/delegate</TokenIdentifier>
+			<Abstract type="html">Download helper object used for keeping track of download sizes and download states.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTGroupedDownloadOperationDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedDownloadOperation/setOverallStateDownloadItem:</TokenIdentifier>
+			<Abstract type="html">Current overall state of the downloads</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, assign) SKTMapDownloadItemStatus overallStateDownloadItem</Declaration>
+			
+			
+			<Anchor>//api/name/overallStateDownloadItem</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTGroupedDownloadOperation/overallStateDownloadItem</TokenIdentifier>
+			<Abstract type="html">Current overall state of the downloads</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, assign) SKTMapDownloadItemStatus overallStateDownloadItem</Declaration>
+			
+			
+			<Anchor>//api/name/overallStateDownloadItem</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedDownloadOperation/setDownloadType:</TokenIdentifier>
+			<Abstract type="html">Download file type (Texture,Map,NB,Voice,Wiki).</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKTDownloadFileType downloadType</Declaration>
+			
+			
+			<Anchor>//api/name/downloadType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTGroupedDownloadOperation/downloadType</TokenIdentifier>
+			<Abstract type="html">Download file type (Texture,Map,NB,Voice,Wiki).</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKTDownloadFileType downloadType</Declaration>
+			
+			
+			<Anchor>//api/name/downloadType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedDownloadOperation/setOverallPercentage:</TokenIdentifier>
+			<Abstract type="html">Overall download percentage represented as a &apos;float&apos;.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, assign) float overallPercentage</Declaration>
+			
+			
+			<Anchor>//api/name/overallPercentage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTGroupedDownloadOperation/overallPercentage</TokenIdentifier>
+			<Abstract type="html">Overall download percentage represented as a &apos;float&apos;.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, assign) float overallPercentage</Declaration>
+			
+			
+			<Anchor>//api/name/overallPercentage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedDownloadOperation/setUnzipPercentage:</TokenIdentifier>
+			<Abstract type="html">Overall unzip percentage represented as a &apos;float&apos;.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, assign) float unzipPercentage</Declaration>
+			
+			
+			<Anchor>//api/name/unzipPercentage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTGroupedDownloadOperation/unzipPercentage</TokenIdentifier>
+			<Abstract type="html">Overall unzip percentage represented as a &apos;float&apos;.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, assign) float unzipPercentage</Declaration>
+			
+			
+			<Anchor>//api/name/unzipPercentage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedDownloadOperation/setTotalDownloadSize:</TokenIdentifier>
+			<Abstract type="html">Total download size of the download operations &apos;long long&apos;.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, assign) long long totalDownloadSize</Declaration>
+			
+			
+			<Anchor>//api/name/totalDownloadSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTGroupedDownloadOperation/totalDownloadSize</TokenIdentifier>
+			<Abstract type="html">Total download size of the download operations &apos;long long&apos;.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, assign) long long totalDownloadSize</Declaration>
+			
+			
+			<Anchor>//api/name/totalDownloadSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedDownloadOperation/setTotalBytesDownloaded:</TokenIdentifier>
+			<Abstract type="html">Total download bytes of the download operations &apos;long long&apos;.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, assign) long long totalBytesDownloaded</Declaration>
+			
+			
+			<Anchor>//api/name/totalBytesDownloaded</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTGroupedDownloadOperation/totalBytesDownloaded</TokenIdentifier>
+			<Abstract type="html">Total download bytes of the download operations &apos;long long&apos;.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (atomic, assign) long long totalBytesDownloaded</Declaration>
+			
+			
+			<Anchor>//api/name/totalBytesDownloaded</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTGroupedDownloadOperation/downloadGroupedOperation</TokenIdentifier>
+			<Abstract type="html">Factory class for returning an empty SKTGroupedDownloadOperation.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>+ (instancetype)downloadGroupedOperation</Declaration>
+			
+			
+			<Anchor>//api/name/downloadGroupedOperation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedDownloadOperation/addSKGroupedOperation:</TokenIdentifier>
+			<Abstract type="html">Adds SKTGroupedOperations objects to the SKTGroupedDownloadOperation instance.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>- (void)addSKGroupedOperation:(SKTGroupedOperations *)groupedOperation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groupedOperation</Name>
+					<Abstract type="html">SKTGroupedOperations object.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addSKGroupedOperation:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedDownloadOperation/start</TokenIdentifier>
+			<Abstract type="html">Method for starting the SKTGroupedDownloadOperation object.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)start</Declaration>
+			
+			<ReturnValue><Abstract type="html">A boolean indicating is the SKTGroupedDownloadOperation was started succesfully.</Abstract></ReturnValue>
+			<Anchor>//api/name/start</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedDownloadOperation/pause</TokenIdentifier>
+			<Abstract type="html">Method for pausing the SKTGroupedDownloadOperation object.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)pause</Declaration>
+			
+			<ReturnValue><Abstract type="html">A boolean indicating is the SKTGroupedDownloadOperation was paused succesfully.</Abstract></ReturnValue>
+			<Anchor>//api/name/pause</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedDownloadOperation/resume</TokenIdentifier>
+			<Abstract type="html">Method for resuming the SKTGroupedDownloadOperation object.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)resume</Declaration>
+			
+			<ReturnValue><Abstract type="html">A boolean indicating is the SKTGroupedDownloadOperation was resumed succesfully.</Abstract></ReturnValue>
+			<Anchor>//api/name/resume</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedDownloadOperation/cancel</TokenIdentifier>
+			<Abstract type="html">Method for canceling the SKTGroupedDownloadOperation object.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)cancel</Declaration>
+			
+			<ReturnValue><Abstract type="html">A boolean indicating is the SKTGroupedDownloadOperation was cancelled succesfully.</Abstract></ReturnValue>
+			<Anchor>//api/name/cancel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedDownloadOperation/isDownloading</TokenIdentifier>
+			<Abstract type="html">Whether or not the download is in progress.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isDownloading</Declaration>
+			
+			<ReturnValue><Abstract type="html">A boolean indicating is the SKTGroupedDownloadOperation is downloading.</Abstract></ReturnValue>
+			<Anchor>//api/name/isDownloading</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedDownloadOperation/isUnzipping</TokenIdentifier>
+			<Abstract type="html">Whether or not the unzip is in progress.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isUnzipping</Declaration>
+			
+			<ReturnValue><Abstract type="html">A boolean indicating is the SKTGroupedDownloadOperation is unzipping.</Abstract></ReturnValue>
+			<Anchor>//api/name/isUnzipping</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedDownloadOperation/isPaused</TokenIdentifier>
+			<Abstract type="html">Whether or not the SKTGroupedDownloadOperation is paused.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isPaused</Declaration>
+			
+			<ReturnValue><Abstract type="html">A boolean indicating is the SKTGroupedDownloadOperation is paused.</Abstract></ReturnValue>
+			<Anchor>//api/name/isPaused</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedDownloadOperation/totalDownloadSize:totalBytesDownloaded:overallPercentage:</TokenIdentifier>
+			<Abstract type="html">Method for calculating total download size, total bytes downloaded and the overall percentage</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>- (void)totalDownloadSize:(long long *)totalDownloadSize totalBytesDownloaded:(long long *)totalBytesDownloaded overallPercentage:(float *)overallPercentage</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>totalDownloadSize</Name>
+					<Abstract type="html">Total download size passed by pointer.</Abstract>
+				</Parameter><Parameter>
+					<Name>totalBytesDownloaded</Name>
+					<Abstract type="html">Total bytes downloaded passed by pointer.</Abstract>
+				</Parameter><Parameter>
+					<Name>overallPercentage</Name>
+					<Abstract type="html">Overall percentage passed by pointer.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/totalDownloadSize:totalBytesDownloaded:overallPercentage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTGroupedDownloadOperation/sampleSize</TokenIdentifier>
+			<Abstract type="html">Method for retrieving download sample size for measuring download speed.</Abstract>
+			<DeclaredIn>SKTGroupedDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>- (long long)sampleSize</Declaration>
+			
+			<ReturnValue><Abstract type="html">&apos;long long&apos; representing size in bytes between bytes read (totalBytesRead - totalBytesPreviouslyRead).</Abstract></ReturnValue>
+			<Anchor>//api/name/sampleSize</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

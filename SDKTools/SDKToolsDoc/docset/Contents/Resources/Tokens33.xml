@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTNavigationVisualAdviceView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTNavigationVisualAdviceView</TokenIdentifier>
+			<Abstract type="html">Used to display turn advices for the user.</Abstract>
+			<DeclaredIn>SKTNavigationVisualAdviceView.h</DeclaredIn>
+			
+			<NodeRef refid="33"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationVisualAdviceView/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Visual advice view&apos;s delegate</Abstract>
+			<DeclaredIn>SKTNavigationVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTNavigationVisualAdviceViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationVisualAdviceView/delegate</TokenIdentifier>
+			<Abstract type="html">Visual advice view&apos;s delegate</Abstract>
+			<DeclaredIn>SKTNavigationVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTNavigationVisualAdviceViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationVisualAdviceView/setStreetLabel:</TokenIdentifier>
+			<Abstract type="html">Name of the next street.</Abstract>
+			<DeclaredIn>SKTNavigationVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTAnimatedLabel *streetLabel</Declaration>
+			
+			
+			<Anchor>//api/name/streetLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationVisualAdviceView/streetLabel</TokenIdentifier>
+			<Abstract type="html">Name of the next street.</Abstract>
+			<DeclaredIn>SKTNavigationVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTAnimatedLabel *streetLabel</Declaration>
+			
+			
+			<Anchor>//api/name/streetLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationVisualAdviceView/setDistanceLabel:</TokenIdentifier>
+			<Abstract type="html">Distance to the next turn.</Abstract>
+			<DeclaredIn>SKTNavigationVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *distanceLabel</Declaration>
+			
+			
+			<Anchor>//api/name/distanceLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationVisualAdviceView/distanceLabel</TokenIdentifier>
+			<Abstract type="html">Distance to the next turn.</Abstract>
+			<DeclaredIn>SKTNavigationVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *distanceLabel</Declaration>
+			
+			
+			<Anchor>//api/name/distanceLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationVisualAdviceView/setExitNumberLabel:</TokenIdentifier>
+			<Abstract type="html">The exit to be taken.</Abstract>
+			<DeclaredIn>SKTNavigationVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *exitNumberLabel</Declaration>
+			
+			
+			<Anchor>//api/name/exitNumberLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationVisualAdviceView/exitNumberLabel</TokenIdentifier>
+			<Abstract type="html">The exit to be taken.</Abstract>
+			<DeclaredIn>SKTNavigationVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *exitNumberLabel</Declaration>
+			
+			
+			<Anchor>//api/name/exitNumberLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationVisualAdviceView/setSeparatorLabel:</TokenIdentifier>
+			<Abstract type="html">Separator between exit label and street label when in landscape.</Abstract>
+			<DeclaredIn>SKTNavigationVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *separatorLabel</Declaration>
+			
+			
+			<Anchor>//api/name/separatorLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationVisualAdviceView/separatorLabel</TokenIdentifier>
+			<Abstract type="html">Separator between exit label and street label when in landscape.</Abstract>
+			<DeclaredIn>SKTNavigationVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *separatorLabel</Declaration>
+			
+			
+			<Anchor>//api/name/separatorLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationVisualAdviceView/setSignImageView:</TokenIdentifier>
+			<Abstract type="html">The next turn sign.</Abstract>
+			<DeclaredIn>SKTNavigationVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIImageView *signImageView</Declaration>
+			
+			
+			<Anchor>//api/name/signImageView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationVisualAdviceView/signImageView</TokenIdentifier>
+			<Abstract type="html">The next turn sign.</Abstract>
+			<DeclaredIn>SKTNavigationVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIImageView *signImageView</Declaration>
+			
+			
+			<Anchor>//api/name/signImageView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationVisualAdviceView/setStreetType:</TokenIdentifier>
+			<Abstract type="html">The advice street type.</Abstract>
+			<DeclaredIn>SKTNavigationVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKStreetType streetType</Declaration>
+			
+			
+			<Anchor>//api/name/streetType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationVisualAdviceView/streetType</TokenIdentifier>
+			<Abstract type="html">The advice street type.</Abstract>
+			<DeclaredIn>SKTNavigationVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKStreetType streetType</Declaration>
+			
+			
+			<Anchor>//api/name/streetType</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

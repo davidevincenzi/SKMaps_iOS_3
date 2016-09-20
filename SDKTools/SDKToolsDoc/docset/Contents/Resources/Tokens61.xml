@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/SKTNavigationSpeedLimitViewDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/SKTNavigationSpeedLimitViewDelegate</TokenIdentifier>
+			<Abstract type="html">Action listener for speed limit view</Abstract>
+			<DeclaredIn>SKTNavigationSpeedLimitView.h</DeclaredIn>
+			
+			<NodeRef refid="61"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTNavigationSpeedLimitViewDelegate/speedLimitViewTapped:</TokenIdentifier>
+			<Abstract type="html">Called when the speed limit view is tapped. This is used to replay the audio advice when the user taps the view.</Abstract>
+			<DeclaredIn>SKTNavigationSpeedLimitView.h</DeclaredIn>			
+			
+			<Declaration>- (void)speedLimitViewTapped:(SKTNavigationSpeedLimitView *)speedLimitView</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>speedLimitView</Name>
+					<Abstract type="html">The speed limit view that was tapped.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/speedLimitViewTapped:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

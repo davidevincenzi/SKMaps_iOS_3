@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTNavigationSettingsView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTNavigationSettingsView</TokenIdentifier>
+			<Abstract type="html">Displays different options for customizing navigation.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationSettingsView/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Settings view&apos;s delegate.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTNavigationSettingsViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationSettingsView/delegate</TokenIdentifier>
+			<Abstract type="html">Settings view&apos;s delegate.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTNavigationSettingsViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationSettingsView/setBackButton:</TokenIdentifier>
+			<Abstract type="html">Used to exit settings.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIButton *backButton</Declaration>
+			
+			
+			<Anchor>//api/name/backButton</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationSettingsView/backButton</TokenIdentifier>
+			<Abstract type="html">Used to exit settings.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIButton *backButton</Declaration>
+			
+			
+			<Anchor>//api/name/backButton</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationSettingsView/setVolumeContainer:</TokenIdentifier>
+			<Abstract type="html">Container for volume slider and volume label.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIView *volumeContainer</Declaration>
+			
+			
+			<Anchor>//api/name/volumeContainer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationSettingsView/volumeContainer</TokenIdentifier>
+			<Abstract type="html">Container for volume slider and volume label.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIView *volumeContainer</Declaration>
+			
+			
+			<Anchor>//api/name/volumeContainer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationSettingsView/setVolumeView:</TokenIdentifier>
+			<Abstract type="html">Volume slider.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) MPVolumeView *volumeView</Declaration>
+			
+			
+			<Anchor>//api/name/volumeView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationSettingsView/volumeView</TokenIdentifier>
+			<Abstract type="html">Volume slider.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) MPVolumeView *volumeView</Declaration>
+			
+			
+			<Anchor>//api/name/volumeView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationSettingsView/setVolumeSlider:</TokenIdentifier>
+			<Abstract type="html">Dummy volume slider used to allow the user to mute the sound.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UISlider *volumeSlider</Declaration>
+			
+			
+			<Anchor>//api/name/volumeSlider</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationSettingsView/volumeSlider</TokenIdentifier>
+			<Abstract type="html">Dummy volume slider used to allow the user to mute the sound.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UISlider *volumeSlider</Declaration>
+			
+			
+			<Anchor>//api/name/volumeSlider</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationSettingsView/setVolumeLabel:</TokenIdentifier>
+			<Abstract type="html">Volume label.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *volumeLabel</Declaration>
+			
+			
+			<Anchor>//api/name/volumeLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationSettingsView/volumeLabel</TokenIdentifier>
+			<Abstract type="html">Volume label.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *volumeLabel</Declaration>
+			
+			
+			<Anchor>//api/name/volumeLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationSettingsView/setSettingsButtons:</TokenIdentifier>
+			<Abstract type="html">Settings buttons.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *settingsButtons</Declaration>
+			
+			
+			<Anchor>//api/name/settingsButtons</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationSettingsView/settingsButtons</TokenIdentifier>
+			<Abstract type="html">Settings buttons.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSArray *settingsButtons</Declaration>
+			
+			
+			<Anchor>//api/name/settingsButtons</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationSettingsView/setPortraitNumberOfColumns:</TokenIdentifier>
+			<Abstract type="html">Number of rows to use for the buttons when displaying in portrait.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger portraitNumberOfColumns</Declaration>
+			
+			
+			<Anchor>//api/name/portraitNumberOfColumns</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationSettingsView/portraitNumberOfColumns</TokenIdentifier>
+			<Abstract type="html">Number of rows to use for the buttons when displaying in portrait.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger portraitNumberOfColumns</Declaration>
+			
+			
+			<Anchor>//api/name/portraitNumberOfColumns</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationSettingsView/setLandscapeNumberOfColumns:</TokenIdentifier>
+			<Abstract type="html">Number of rows to use for the buttons when displaying in landscape.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger landscapeNumberOfColumns</Declaration>
+			
+			
+			<Anchor>//api/name/landscapeNumberOfColumns</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationSettingsView/landscapeNumberOfColumns</TokenIdentifier>
+			<Abstract type="html">Number of rows to use for the buttons when displaying in landscape.</Abstract>
+			<DeclaredIn>SKTNavigationSettingsView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger landscapeNumberOfColumns</Declaration>
+			
+			
+			<Anchor>//api/name/landscapeNumberOfColumns</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

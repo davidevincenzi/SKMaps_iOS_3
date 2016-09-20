@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/bogdanb/Library/Developer/Shared/Documentation/DocSets/Skobbler.SDKTools-Navigation.docset
+Time: 2014-09-30 07:10:14 +0000

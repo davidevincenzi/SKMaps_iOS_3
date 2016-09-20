@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIButton+Additions.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIButton(Additions)</TokenIdentifier>
+			<Abstract type="html">Helper category.</Abstract>
+			<DeclaredIn>UIButton+Additions.h</DeclaredIn>
+			
+			<NodeRef refid="41"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIButton(Additions)/buttonWithFrame:icon:backgroundImageNamed:highlightedBkImageNamed:</TokenIdentifier>
+			<Abstract type="html">Factory method.</Abstract>
+			<DeclaredIn>UIButton+Additions.h</DeclaredIn>			
+			
+			<Declaration>+ (UIButton *)buttonWithFrame:(CGRect)frame icon:(NSString *)iconName backgroundImageNamed:(NSString *)bkImageName highlightedBkImageNamed:(NSString *)hiBkImageName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>frame</Name>
+					<Abstract type="html">Button&apos;s frame.</Abstract>
+				</Parameter><Parameter>
+					<Name>iconName</Name>
+					<Abstract type="html">Name of thte icon image.</Abstract>
+				</Parameter><Parameter>
+					<Name>bkImageName</Name>
+					<Abstract type="html">Name of the background image.</Abstract>
+				</Parameter><Parameter>
+					<Name>hiBkImageName</Name>
+					<Abstract type="html">Name of the highligted background image.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/buttonWithFrame:icon:backgroundImageNamed:highlightedBkImageNamed:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIButton(Additions)/buttonWithFrame:icon:backgroundColor:</TokenIdentifier>
+			<Abstract type="html">Factory method.</Abstract>
+			<DeclaredIn>UIButton+Additions.h</DeclaredIn>			
+			
+			<Declaration>+ (UIButton *)buttonWithFrame:(CGRect)frame icon:(NSString *)iconName backgroundColor:(UIColor *)backgroundColor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>frame</Name>
+					<Abstract type="html">Button&apos;s frame.</Abstract>
+				</Parameter><Parameter>
+					<Name>iconName</Name>
+					<Abstract type="html">Name of thte icon image.</Abstract>
+				</Parameter><Parameter>
+					<Name>backgroundColor</Name>
+					<Abstract type="html">Background color.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/buttonWithFrame:icon:backgroundColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIButton(Additions)/buttonWithFrame:icon:backgroundColor:highligtedBackgroundColor:</TokenIdentifier>
+			<Abstract type="html">Factory method.</Abstract>
+			<DeclaredIn>UIButton+Additions.h</DeclaredIn>			
+			
+			<Declaration>+ (UIButton *)buttonWithFrame:(CGRect)frame icon:(NSString *)iconName backgroundColor:(UIColor *)backgroundColor highligtedBackgroundColor:(UIColor *)highligtedBackgroundColor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>frame</Name>
+					<Abstract type="html">Button&apos;s frame.</Abstract>
+				</Parameter><Parameter>
+					<Name>iconName</Name>
+					<Abstract type="html">Name of thte icon image.</Abstract>
+				</Parameter><Parameter>
+					<Name>backgroundColor</Name>
+					<Abstract type="html">Background color.</Abstract>
+				</Parameter><Parameter>
+					<Name>highligtedBackgroundColor</Name>
+					<Abstract type="html">Highligted state background color.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/buttonWithFrame:icon:backgroundColor:highligtedBackgroundColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIButton(Additions)/navigationBackButton</TokenIdentifier>
+			<Abstract type="html">Creates the default back button used in the navigation UI.</Abstract>
+			<DeclaredIn>UIButton+Additions.h</DeclaredIn>			
+			
+			<Declaration>+ (UIButton *)navigationBackButton</Declaration>
+			
+			
+			<Anchor>//api/name/navigationBackButton</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

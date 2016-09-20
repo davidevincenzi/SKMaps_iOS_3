@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIFont+Additions.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIFont(Additions)</TokenIdentifier>
+			<Abstract type="html">Provides helper methods.</Abstract>
+			<DeclaredIn>UIFont+Additions.h</DeclaredIn>
+			
+			<NodeRef refid="44"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIFont(Additions)/lightNavigationFontWithSize:</TokenIdentifier>
+			<Abstract type="html">Creates a light font used across all the UI with a given size.</Abstract>
+			<DeclaredIn>UIFont+Additions.h</DeclaredIn>			
+			
+			<Declaration>+ (UIFont *)lightNavigationFontWithSize:(CGFloat)size</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>size</Name>
+					<Abstract type="html">The size of the font.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/lightNavigationFontWithSize:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIFont(Additions)/mediumNavigationFontWithSize:</TokenIdentifier>
+			<Abstract type="html">Creates a medium font used across all the UI with a given size.</Abstract>
+			<DeclaredIn>UIFont+Additions.h</DeclaredIn>			
+			
+			<Declaration>+ (UIFont *)mediumNavigationFontWithSize:(CGFloat)size</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>size</Name>
+					<Abstract type="html">The size of the font.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/mediumNavigationFontWithSize:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTNavigationView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTNavigationView</TokenIdentifier>
+			<Abstract type="html">Displays visual advices and navigation state information.</Abstract>
+			<DeclaredIn>SKTNavigationView.h</DeclaredIn>
+			
+			<NodeRef refid="32"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationView/setSpeedLimitView:</TokenIdentifier>
+			<Abstract type="html">Displays the current speed limit.</Abstract>
+			<DeclaredIn>SKTNavigationView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationSpeedLimitView *speedLimitView</Declaration>
+			
+			
+			<Anchor>//api/name/speedLimitView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationView/speedLimitView</TokenIdentifier>
+			<Abstract type="html">Displays the current speed limit.</Abstract>
+			<DeclaredIn>SKTNavigationView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationSpeedLimitView *speedLimitView</Declaration>
+			
+			
+			<Anchor>//api/name/speedLimitView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationView/setVisualAdviceView:</TokenIdentifier>
+			<Abstract type="html">Displays the current visual advices (street to take next).</Abstract>
+			<DeclaredIn>SKTNavigationView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationVisualAdviceView *visualAdviceView</Declaration>
+			
+			
+			<Anchor>//api/name/visualAdviceView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationView/visualAdviceView</TokenIdentifier>
+			<Abstract type="html">Displays the current visual advices (street to take next).</Abstract>
+			<DeclaredIn>SKTNavigationView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationVisualAdviceView *visualAdviceView</Declaration>
+			
+			
+			<Anchor>//api/name/visualAdviceView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationView/setShortAdviceView:</TokenIdentifier>
+			<Abstract type="html">Displays the next visual advice (street to take second next).</Abstract>
+			<DeclaredIn>SKTNavigationView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationShortVisualAdviceView *shortAdviceView</Declaration>
+			
+			
+			<Anchor>//api/name/shortAdviceView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationView/shortAdviceView</TokenIdentifier>
+			<Abstract type="html">Displays the next visual advice (street to take second next).</Abstract>
+			<DeclaredIn>SKTNavigationView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationShortVisualAdviceView *shortAdviceView</Declaration>
+			
+			
+			<Anchor>//api/name/shortAdviceView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationView/setSpeedView:</TokenIdentifier>
+			<Abstract type="html">Displays the current speed.</Abstract>
+			<DeclaredIn>SKTNavigationView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationDoubleLabelView *speedView</Declaration>
+			
+			
+			<Anchor>//api/name/speedView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationView/speedView</TokenIdentifier>
+			<Abstract type="html">Displays the current speed.</Abstract>
+			<DeclaredIn>SKTNavigationView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationDoubleLabelView *speedView</Declaration>
+			
+			
+			<Anchor>//api/name/speedView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationView/setDtaView:</TokenIdentifier>
+			<Abstract type="html">Displays current distance to arrival.</Abstract>
+			<DeclaredIn>SKTNavigationView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationDoubleLabelView *dtaView</Declaration>
+			
+			
+			<Anchor>//api/name/dtaView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationView/dtaView</TokenIdentifier>
+			<Abstract type="html">Displays current distance to arrival.</Abstract>
+			<DeclaredIn>SKTNavigationView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationDoubleLabelView *dtaView</Declaration>
+			
+			
+			<Anchor>//api/name/dtaView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationView/setEtaView:</TokenIdentifier>
+			<Abstract type="html">Displayes current estimated time to arrival.</Abstract>
+			<DeclaredIn>SKTNavigationView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationETAView *etaView</Declaration>
+			
+			
+			<Anchor>//api/name/etaView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationView/etaView</TokenIdentifier>
+			<Abstract type="html">Displayes current estimated time to arrival.</Abstract>
+			<DeclaredIn>SKTNavigationView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationETAView *etaView</Declaration>
+			
+			
+			<Anchor>//api/name/etaView</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

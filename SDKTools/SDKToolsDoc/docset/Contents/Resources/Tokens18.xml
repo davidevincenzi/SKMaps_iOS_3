@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTNavigationConfiguration.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTNavigationConfiguration</TokenIdentifier>
+			<Abstract type="html">Provides customization options for navigation and free drive.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setDestination:</TokenIdentifier>
+			<Abstract type="html">Target navigation coordinate. Default is (0, 0).</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CLLocationCoordinate2D destination</Declaration>
+			
+			
+			<Anchor>//api/name/destination</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/destination</TokenIdentifier>
+			<Abstract type="html">Target navigation coordinate. Default is (0, 0).</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CLLocationCoordinate2D destination</Declaration>
+			
+			
+			<Anchor>//api/name/destination</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setRouteInfo:</TokenIdentifier>
+			<Abstract type="html">Pre calculated route to be used for navigation. If this property is not nil, the navigation will be made on this route.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKRouteInformation *routeInfo</Declaration>
+			
+			
+			<Anchor>//api/name/routeInfo</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/routeInfo</TokenIdentifier>
+			<Abstract type="html">Pre calculated route to be used for navigation. If this property is not nil, the navigation will be made on this route.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKRouteInformation *routeInfo</Declaration>
+			
+			
+			<Anchor>//api/name/routeInfo</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setRouteType:</TokenIdentifier>
+			<Abstract type="html">Desired route type. Default is SKRouteCarEfficient.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKRouteMode routeType</Declaration>
+			
+			
+			<Anchor>//api/name/routeType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/routeType</TokenIdentifier>
+			<Abstract type="html">Desired route type. Default is SKRouteCarEfficient.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKRouteMode routeType</Declaration>
+			
+			
+			<Anchor>//api/name/routeType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setNumberOfRoutes:</TokenIdentifier>
+			<Abstract type="html">Number of routes to calculate. Not all routes will not be shown if they are too similar. Default is 3.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger numberOfRoutes</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfRoutes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/numberOfRoutes</TokenIdentifier>
+			<Abstract type="html">Number of routes to calculate. Not all routes will not be shown if they are too similar. Default is 3.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger numberOfRoutes</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfRoutes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setDistanceFormat:</TokenIdentifier>
+			<Abstract type="html">Desired distance format.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKDistanceFormat distanceFormat</Declaration>
+			
+			
+			<Anchor>//api/name/distanceFormat</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/distanceFormat</TokenIdentifier>
+			<Abstract type="html">Desired distance format.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKDistanceFormat distanceFormat</Declaration>
+			
+			
+			<Anchor>//api/name/distanceFormat</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setSpeedLimitWarningThresholdInCity:</TokenIdentifier>
+			<Abstract type="html">Desired speed difference at which to play audio warning for speed limit while inside a city. The measurement unit is given by the distanceFormat. For SKDistanceFormatMetric this is considered km/h, for SKDistanceFormatMilesFeet and SKDistanceFormatMilesYards is mph. Default is 20.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) double speedLimitWarningThresholdInCity</Declaration>
+			
+			
+			<Anchor>//api/name/speedLimitWarningThresholdInCity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/speedLimitWarningThresholdInCity</TokenIdentifier>
+			<Abstract type="html">Desired speed difference at which to play audio warning for speed limit while inside a city. The measurement unit is given by the distanceFormat. For SKDistanceFormatMetric this is considered km/h, for SKDistanceFormatMilesFeet and SKDistanceFormatMilesYards is mph. Default is 20.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) double speedLimitWarningThresholdInCity</Declaration>
+			
+			
+			<Anchor>//api/name/speedLimitWarningThresholdInCity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setSpeedWarningThresholdOutsideCity:</TokenIdentifier>
+			<Abstract type="html">Desired speed difference at which to play audio warning for speed limit while outside a city. The measurement unit is given by the distanceFormat. For SKDistanceFormatMetric this is considered km/h, for SKDistanceFormatMilesFeet and SKDistanceFormatMilesYards is mph. Default is 20.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) double speedWarningThresholdOutsideCity</Declaration>
+			
+			
+			<Anchor>//api/name/speedWarningThresholdOutsideCity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/speedWarningThresholdOutsideCity</TokenIdentifier>
+			<Abstract type="html">Desired speed difference at which to play audio warning for speed limit while outside a city. The measurement unit is given by the distanceFormat. For SKDistanceFormatMetric this is considered km/h, for SKDistanceFormatMilesFeet and SKDistanceFormatMilesYards is mph. Default is 20.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) double speedWarningThresholdOutsideCity</Declaration>
+			
+			
+			<Anchor>//api/name/speedWarningThresholdOutsideCity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setAllowBackgroundNavigation:</TokenIdentifier>
+			<Abstract type="html">Allow or forbid audio playback and location updates while the app is in background. Default is YES.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL allowBackgroundNavigation</Declaration>
+			
+			
+			<Anchor>//api/name/allowBackgroundNavigation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/allowBackgroundNavigation</TokenIdentifier>
+			<Abstract type="html">Allow or forbid audio playback and location updates while the app is in background. Default is YES.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL allowBackgroundNavigation</Declaration>
+			
+			
+			<Anchor>//api/name/allowBackgroundNavigation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setShowStreetNamesAsPopUps:</TokenIdentifier>
+			<Abstract type="html">Enables rendering of street names as pop-ups instead of flat strings on the ground. Default is YES.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL showStreetNamesAsPopUps</Declaration>
+			
+			
+			<Anchor>//api/name/showStreetNamesAsPopUps</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/showStreetNamesAsPopUps</TokenIdentifier>
+			<Abstract type="html">Enables rendering of street names as pop-ups instead of flat strings on the ground. Default is YES.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL showStreetNamesAsPopUps</Declaration>
+			
+			
+			<Anchor>//api/name/showStreetNamesAsPopUps</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setAutomaticDayNight:</TokenIdentifier>
+			<Abstract type="html">Enables automatic style switching according to time of day. Default is YES.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL automaticDayNight</Declaration>
+			
+			
+			<Anchor>//api/name/automaticDayNight</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/automaticDayNight</TokenIdentifier>
+			<Abstract type="html">Enables automatic style switching according to time of day. Default is YES.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL automaticDayNight</Declaration>
+			
+			
+			<Anchor>//api/name/automaticDayNight</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setDayStyle:</TokenIdentifier>
+			<Abstract type="html">Desired style to use during the day. Only used when automaticDayNight is enabled. Default is daystyle.json.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKMapViewStyle *dayStyle</Declaration>
+			
+			
+			<Anchor>//api/name/dayStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/dayStyle</TokenIdentifier>
+			<Abstract type="html">Desired style to use during the day. Only used when automaticDayNight is enabled. Default is daystyle.json.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKMapViewStyle *dayStyle</Declaration>
+			
+			
+			<Anchor>//api/name/dayStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setNightStyle:</TokenIdentifier>
+			<Abstract type="html">Desired style to use during the night. Only used when automaticDayNight is enabled. Default is nightstyle.json.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKMapViewStyle *nightStyle</Declaration>
+			
+			
+			<Anchor>//api/name/nightStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/nightStyle</TokenIdentifier>
+			<Abstract type="html">Desired style to use during the night. Only used when automaticDayNight is enabled. Default is nightstyle.json.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKMapViewStyle *nightStyle</Declaration>
+			
+			
+			<Anchor>//api/name/nightStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setAdvisorLanguage:</TokenIdentifier>
+			<Abstract type="html">Desired language of audio advices. Default is en_us.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *advisorLanguage</Declaration>
+			
+			
+			<Anchor>//api/name/advisorLanguage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/advisorLanguage</TokenIdentifier>
+			<Abstract type="html">Desired language of audio advices. Default is en_us.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *advisorLanguage</Declaration>
+			
+			
+			<Anchor>//api/name/advisorLanguage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setPlayAudioDuringCall:</TokenIdentifier>
+			<Abstract type="html">Enables audio playback during calls. Default is YES.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL playAudioDuringCall</Declaration>
+			
+			
+			<Anchor>//api/name/playAudioDuringCall</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/playAudioDuringCall</TokenIdentifier>
+			<Abstract type="html">Enables audio playback during calls. Default is YES.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL playAudioDuringCall</Declaration>
+			
+			
+			<Anchor>//api/name/playAudioDuringCall</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setPreventStandBy:</TokenIdentifier>
+			<Abstract type="html">Prevents the device to go into standby after a long period of user inactivity. Default is YES.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL preventStandBy</Declaration>
+			
+			
+			<Anchor>//api/name/preventStandBy</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/preventStandBy</TokenIdentifier>
+			<Abstract type="html">Prevents the device to go into standby after a long period of user inactivity. Default is YES.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL preventStandBy</Declaration>
+			
+			
+			<Anchor>//api/name/preventStandBy</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setAvoidTollRoads:</TokenIdentifier>
+			<Abstract type="html">Avoid routes containing toll roads. Default is NO.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL avoidTollRoads</Declaration>
+			
+			
+			<Anchor>//api/name/avoidTollRoads</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/avoidTollRoads</TokenIdentifier>
+			<Abstract type="html">Avoid routes containing toll roads. Default is NO.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL avoidTollRoads</Declaration>
+			
+			
+			<Anchor>//api/name/avoidTollRoads</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setAvoidHighways:</TokenIdentifier>
+			<Abstract type="html">Avoid routes containing highways. Default is NO.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL avoidHighways</Declaration>
+			
+			
+			<Anchor>//api/name/avoidHighways</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/avoidHighways</TokenIdentifier>
+			<Abstract type="html">Avoid routes containing highways. Default is NO.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL avoidHighways</Declaration>
+			
+			
+			<Anchor>//api/name/avoidHighways</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setAvoidFerries:</TokenIdentifier>
+			<Abstract type="html">Avoid routes containing ferries. Default is NO.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL avoidFerries</Declaration>
+			
+			
+			<Anchor>//api/name/avoidFerries</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/avoidFerries</TokenIdentifier>
+			<Abstract type="html">Avoid routes containing ferries. Default is NO.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL avoidFerries</Declaration>
+			
+			
+			<Anchor>//api/name/avoidFerries</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setContinueFreeDriveAfterNavigationEnd:</TokenIdentifier>
+			<Abstract type="html">If this property is YES, free drive will be automatically started after reaching the destination. Default is YES.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL continueFreeDriveAfterNavigationEnd</Declaration>
+			
+			
+			<Anchor>//api/name/continueFreeDriveAfterNavigationEnd</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/continueFreeDriveAfterNavigationEnd</TokenIdentifier>
+			<Abstract type="html">If this property is YES, free drive will be automatically started after reaching the destination. Default is YES.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL continueFreeDriveAfterNavigationEnd</Declaration>
+			
+			
+			<Anchor>//api/name/continueFreeDriveAfterNavigationEnd</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setNavigationType:</TokenIdentifier>
+			<Abstract type="html">Desired navigation type. Useful for debugging. Default is SKTNavigationTypeReal.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKNavigationType navigationType</Declaration>
+			
+			
+			<Anchor>//api/name/navigationType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/navigationType</TokenIdentifier>
+			<Abstract type="html">Desired navigation type. Useful for debugging. Default is SKTNavigationTypeReal.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKNavigationType navigationType</Declaration>
+			
+			
+			<Anchor>//api/name/navigationType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setSimulationLogPath:</TokenIdentifier>
+			<Abstract type="html">Replays the path stored in the given log when navigationType is SKTNavigationTypeSimulationFromLogFile.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *simulationLogPath</Declaration>
+			
+			
+			<Anchor>//api/name/simulationLogPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/simulationLogPath</TokenIdentifier>
+			<Abstract type="html">Replays the path stored in the given log when navigationType is SKTNavigationTypeSimulationFromLogFile.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *simulationLogPath</Declaration>
+			
+			
+			<Anchor>//api/name/simulationLogPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/setStartCoordinate:</TokenIdentifier>
+			<Abstract type="html">Desired start coordinate. Used when navigationType is SKTNavigationTypeSimulation. Default is current location.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CLLocationCoordinate2D startCoordinate</Declaration>
+			
+			
+			<Anchor>//api/name/startCoordinate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationConfiguration/startCoordinate</TokenIdentifier>
+			<Abstract type="html">Desired start coordinate. Used when navigationType is SKTNavigationTypeSimulation. Default is current location.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CLLocationCoordinate2D startCoordinate</Declaration>
+			
+			
+			<Anchor>//api/name/startCoordinate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationConfiguration/defaultConfiguration</TokenIdentifier>
+			<Abstract type="html">Returns an instance of SKTNavigationConfiguration with default values.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>+ (instancetype)defaultConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/defaultConfiguration</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationConfiguration/duplicate</TokenIdentifier>
+			<Abstract type="html">Returns a copy of the configuration.</Abstract>
+			<DeclaredIn>SKTNavigationConfiguration.h</DeclaredIn>			
+			
+			<Declaration>- (instancetype)duplicate</Declaration>
+			
+			
+			<Anchor>//api/name/duplicate</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

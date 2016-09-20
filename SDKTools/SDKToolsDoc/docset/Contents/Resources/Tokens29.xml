@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTNavigationShortVisualAdviceView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTNavigationShortVisualAdviceView</TokenIdentifier>
+			<Abstract type="html">Used to display information about second next street.</Abstract>
+			<DeclaredIn>SKTNavigationShortVisualAdviceView.h</DeclaredIn>
+			
+			<NodeRef refid="29"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationShortVisualAdviceView/setSignImageView:</TokenIdentifier>
+			<Abstract type="html">Second next turn sign.</Abstract>
+			<DeclaredIn>SKTNavigationShortVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIImageView *signImageView</Declaration>
+			
+			
+			<Anchor>//api/name/signImageView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationShortVisualAdviceView/signImageView</TokenIdentifier>
+			<Abstract type="html">Second next turn sign.</Abstract>
+			<DeclaredIn>SKTNavigationShortVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIImageView *signImageView</Declaration>
+			
+			
+			<Anchor>//api/name/signImageView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationShortVisualAdviceView/setDtaView:</TokenIdentifier>
+			<Abstract type="html">Displays distance to the turn.</Abstract>
+			<DeclaredIn>SKTNavigationShortVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationDoubleLabelView *dtaView</Declaration>
+			
+			
+			<Anchor>//api/name/dtaView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationShortVisualAdviceView/dtaView</TokenIdentifier>
+			<Abstract type="html">Displays distance to the turn.</Abstract>
+			<DeclaredIn>SKTNavigationShortVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationDoubleLabelView *dtaView</Declaration>
+			
+			
+			<Anchor>//api/name/dtaView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationShortVisualAdviceView/setDistanceToTurn:</TokenIdentifier>
+			<Abstract type="html">Distance remaining until the indicated turn.</Abstract>
+			<DeclaredIn>SKTNavigationShortVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *distanceToTurn</Declaration>
+			
+			
+			<Anchor>//api/name/distanceToTurn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationShortVisualAdviceView/distanceToTurn</TokenIdentifier>
+			<Abstract type="html">Distance remaining until the indicated turn.</Abstract>
+			<DeclaredIn>SKTNavigationShortVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *distanceToTurn</Declaration>
+			
+			
+			<Anchor>//api/name/distanceToTurn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationShortVisualAdviceView/setStreetType:</TokenIdentifier>
+			<Abstract type="html">The advice street type.</Abstract>
+			<DeclaredIn>SKTNavigationShortVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKStreetType streetType</Declaration>
+			
+			
+			<Anchor>//api/name/streetType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationShortVisualAdviceView/streetType</TokenIdentifier>
+			<Abstract type="html">The advice street type.</Abstract>
+			<DeclaredIn>SKTNavigationShortVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKStreetType streetType</Declaration>
+			
+			
+			<Anchor>//api/name/streetType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationShortVisualAdviceView/setStreetLabel:</TokenIdentifier>
+			<Abstract type="html">Second next street animated label.</Abstract>
+			<DeclaredIn>SKTNavigationShortVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTAnimatedLabel *streetLabel</Declaration>
+			
+			
+			<Anchor>//api/name/streetLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationShortVisualAdviceView/streetLabel</TokenIdentifier>
+			<Abstract type="html">Second next street animated label.</Abstract>
+			<DeclaredIn>SKTNavigationShortVisualAdviceView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTAnimatedLabel *streetLabel</Declaration>
+			
+			
+			<Anchor>//api/name/streetLabel</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

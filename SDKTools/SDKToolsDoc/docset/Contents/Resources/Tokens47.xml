@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/SKTActionSheetDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/SKTActionSheetDelegate</TokenIdentifier>
+			<Abstract type="html">Receives notifications about user interaction.</Abstract>
+			<DeclaredIn>SKTActionSheet.h</DeclaredIn>
+			
+			<NodeRef refid="47"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTActionSheetDelegate/actionSheet:didSelectButtonAtIndex:</TokenIdentifier>
+			<Abstract type="html">Called when a button has been pressed.</Abstract>
+			<DeclaredIn>SKTActionSheet.h</DeclaredIn>			
+			
+			<Declaration>- (void)actionSheet:(SKTActionSheet *)actionSheet didSelectButtonAtIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>actionSheet</Name>
+					<Abstract type="html">The action sheet that contains the button.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Index of the button that has bee pressed.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/actionSheet:didSelectButtonAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTActionSheetDelegate/actionSheetDidDismiss:</TokenIdentifier>
+			<Abstract type="html">Called when the user presses the cancel button or taps outside the button area.</Abstract>
+			<DeclaredIn>SKTActionSheet.h</DeclaredIn>			
+			
+			<Declaration>- (void)actionSheetDidDismiss:(SKTActionSheet *)actionSheet</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>actionSheet</Name>
+					<Abstract type="html">The action sheet that was dismissed.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/actionSheetDidDismiss:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

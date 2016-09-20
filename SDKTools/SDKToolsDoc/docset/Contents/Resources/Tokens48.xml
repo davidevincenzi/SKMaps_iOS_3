@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/SKTBaseViewDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/SKTBaseViewDelegate</TokenIdentifier>
+			<Abstract type="html">Used by the base view to request setting the status bar style.</Abstract>
+			<DeclaredIn>SKTBaseView.h</DeclaredIn>
+			
+			<NodeRef refid="48"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTBaseViewDelegate/baseView:requiresStatusBarStyle:</TokenIdentifier>
+			<Abstract type="html">Sets requests the status bar style to changed.</Abstract>
+			<DeclaredIn>SKTBaseView.h</DeclaredIn>			
+			
+			<Declaration>- (void)baseView:(SKTBaseView *)view requiresStatusBarStyle:(UIStatusBarStyle)style</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The view that requests this style.</Abstract>
+				</Parameter><Parameter>
+					<Name>style</Name>
+					<Abstract type="html">The desired style.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/baseView:requiresStatusBarStyle:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

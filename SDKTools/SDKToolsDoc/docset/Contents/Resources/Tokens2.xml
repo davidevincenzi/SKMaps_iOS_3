@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTAnimatedLabel.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTAnimatedLabel</TokenIdentifier>
+			<Abstract type="html">Wrapper around UILabel that animates the label floating moving left to right. Used to display long strings.</Abstract>
+			<DeclaredIn>SKTAnimatedLabel.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTAnimatedLabel/setLabel:</TokenIdentifier>
+			<Abstract type="html">The label that is animated.</Abstract>
+			<DeclaredIn>SKTAnimatedLabel.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTAnimatedLabel/label</TokenIdentifier>
+			<Abstract type="html">The label that is animated.</Abstract>
+			<DeclaredIn>SKTAnimatedLabel.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UILabel *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTAnimatedLabel/initWithFrame:label:</TokenIdentifier>
+			<Abstract type="html">Initializer method.</Abstract>
+			<DeclaredIn>SKTAnimatedLabel.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithFrame:(CGRect)frame label:(UILabel *)label</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>frame</Name>
+					<Abstract type="html">Frame of the view.</Abstract>
+				</Parameter><Parameter>
+					<Name>label</Name>
+					<Abstract type="html">Label to animate.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithFrame:label:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTAnimatedLabel/restartAnimation</TokenIdentifier>
+			<Abstract type="html">Stops the animation and restarts from 0 if needed.</Abstract>
+			<DeclaredIn>SKTAnimatedLabel.h</DeclaredIn>			
+			
+			<Declaration>- (void)restartAnimation</Declaration>
+			
+			
+			<Anchor>//api/name/restartAnimation</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

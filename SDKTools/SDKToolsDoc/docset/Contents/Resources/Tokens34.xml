@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTProgressView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTProgressView</TokenIdentifier>
+			<Abstract type="html">Display a round progress view.</Abstract>
+			<DeclaredIn>SKTProgressView.h</DeclaredIn>
+			
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTProgressView/setPercent:</TokenIdentifier>
+			<Abstract type="html">Percent of progress.</Abstract>
+			<DeclaredIn>SKTProgressView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat percent</Declaration>
+			
+			
+			<Anchor>//api/name/percent</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTProgressView/percent</TokenIdentifier>
+			<Abstract type="html">Percent of progress.</Abstract>
+			<DeclaredIn>SKTProgressView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat percent</Declaration>
+			
+			
+			<Anchor>//api/name/percent</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTProgressView/setLineWidth:</TokenIdentifier>
+			<Abstract type="html">Sets the width of the circle line.</Abstract>
+			<DeclaredIn>SKTProgressView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat lineWidth</Declaration>
+			
+			
+			<Anchor>//api/name/lineWidth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTProgressView/lineWidth</TokenIdentifier>
+			<Abstract type="html">Sets the width of the circle line.</Abstract>
+			<DeclaredIn>SKTProgressView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat lineWidth</Declaration>
+			
+			
+			<Anchor>//api/name/lineWidth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTProgressView/setTrackColor:</TokenIdentifier>
+			<Abstract type="html">Sets the color of the track of the progress view.</Abstract>
+			<DeclaredIn>SKTProgressView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *trackColor</Declaration>
+			
+			
+			<Anchor>//api/name/trackColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTProgressView/trackColor</TokenIdentifier>
+			<Abstract type="html">Sets the color of the track of the progress view.</Abstract>
+			<DeclaredIn>SKTProgressView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *trackColor</Declaration>
+			
+			
+			<Anchor>//api/name/trackColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTProgressView/setProgressColor:</TokenIdentifier>
+			<Abstract type="html">Sets the progress color of the progress view.</Abstract>
+			<DeclaredIn>SKTProgressView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *progressColor</Declaration>
+			
+			
+			<Anchor>//api/name/progressColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTProgressView/progressColor</TokenIdentifier>
+			<Abstract type="html">Sets the progress color of the progress view.</Abstract>
+			<DeclaredIn>SKTProgressView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *progressColor</Declaration>
+			
+			
+			<Anchor>//api/name/progressColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTProgressView/setCircleColor:</TokenIdentifier>
+			<Abstract type="html">Sets the color for the inside of the progress view.</Abstract>
+			<DeclaredIn>SKTProgressView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *circleColor</Declaration>
+			
+			
+			<Anchor>//api/name/circleColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTProgressView/circleColor</TokenIdentifier>
+			<Abstract type="html">Sets the color for the inside of the progress view.</Abstract>
+			<DeclaredIn>SKTProgressView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *circleColor</Declaration>
+			
+			
+			<Anchor>//api/name/circleColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTProgressView/progressViewWithFrame:trackColor:progressColor:lineWidth:</TokenIdentifier>
+			<Abstract type="html">Factory method</Abstract>
+			<DeclaredIn>SKTProgressView.h</DeclaredIn>			
+			
+			<Declaration>+ (SKTProgressView *)progressViewWithFrame:(CGRect)frame trackColor:(UIColor *)trackColor progressColor:(UIColor *)progressColor lineWidth:(CGFloat)lineWidth</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>frame</Name>
+					<Abstract type="html">Frame of the view.</Abstract>
+				</Parameter><Parameter>
+					<Name>trackColor</Name>
+					<Abstract type="html">Color of the remaining progress outline.</Abstract>
+				</Parameter><Parameter>
+					<Name>progressColor</Name>
+					<Abstract type="html">Color of the progress outline.</Abstract>
+				</Parameter><Parameter>
+					<Name>lineWidth</Name>
+					<Abstract type="html">Progress outline width.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/progressViewWithFrame:trackColor:progressColor:lineWidth:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

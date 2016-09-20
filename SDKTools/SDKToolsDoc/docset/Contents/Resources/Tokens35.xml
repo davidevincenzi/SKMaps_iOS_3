@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTReroutingInfoView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTReroutingInfoView</TokenIdentifier>
+			<Abstract type="html">Warns the user that a rerouting is in progress.</Abstract>
+			<DeclaredIn>SKTReroutingInfoView.h</DeclaredIn>
+			
+			<NodeRef refid="35"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTReroutingInfoView/setMessageLabel:</TokenIdentifier>
+			<Abstract type="html">A message for the user.</Abstract>
+			<DeclaredIn>SKTReroutingInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTInsetLabel *messageLabel</Declaration>
+			
+			
+			<Anchor>//api/name/messageLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTReroutingInfoView/messageLabel</TokenIdentifier>
+			<Abstract type="html">A message for the user.</Abstract>
+			<DeclaredIn>SKTReroutingInfoView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTInsetLabel *messageLabel</Declaration>
+			
+			
+			<Anchor>//api/name/messageLabel</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

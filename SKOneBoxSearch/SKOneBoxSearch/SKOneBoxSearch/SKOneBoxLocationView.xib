@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SKOneBoxLocationView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fiu-Ae-zG3" userLabel="Separator View">
+                    <rect key="frame" x="0.0" y="43" width="320" height="1"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="f5l-cQ-j1w"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="current_location_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="NPl-Oi-Exy">
+                    <rect key="frame" x="12" y="11" width="22" height="22"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="aE2-wo-2Iw"/>
+                        <constraint firstAttribute="width" constant="22" id="qv3-QQ-ZGy"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f21-K0-YG9">
+                    <rect key="frame" x="46" y="0.0" width="229" height="44"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="16"/>
+                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4z4-dQ-ebb">
+                    <rect key="frame" x="283" y="0.0" width="27" height="44"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="27" id="0Ir-l6-3JM"/>
+                    </constraints>
+                    <state key="normal" image="icon_clear_blue.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="clearLocation:" destination="iN0-l3-epB" eventType="touchUpInside" id="zHe-WD-kcs"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="NPl-Oi-Exy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="11" id="0rr-2u-IFS"/>
+                <constraint firstItem="4z4-dQ-ebb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="669-fa-eBi"/>
+                <constraint firstAttribute="trailing" secondItem="fiu-Ae-zG3" secondAttribute="trailing" id="Bt1-4N-BGL"/>
+                <constraint firstAttribute="bottom" secondItem="4z4-dQ-ebb" secondAttribute="bottom" id="Gjh-8U-uRZ"/>
+                <constraint firstItem="4z4-dQ-ebb" firstAttribute="leading" secondItem="f21-K0-YG9" secondAttribute="trailing" constant="8" id="NSK-8D-lX6"/>
+                <constraint firstAttribute="bottom" secondItem="fiu-Ae-zG3" secondAttribute="bottom" id="O8p-ha-qcE"/>
+                <constraint firstItem="f21-K0-YG9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="QMT-iv-bKJ"/>
+                <constraint firstItem="NPl-Oi-Exy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="TLV-HS-LXf"/>
+                <constraint firstAttribute="trailing" secondItem="4z4-dQ-ebb" secondAttribute="trailing" constant="10" id="fYp-US-ZFr"/>
+                <constraint firstItem="f21-K0-YG9" firstAttribute="leading" secondItem="NPl-Oi-Exy" secondAttribute="trailing" constant="12" id="kcK-lL-Q7e"/>
+                <constraint firstAttribute="bottom" secondItem="f21-K0-YG9" secondAttribute="bottom" id="pvQ-hZ-VUO"/>
+                <constraint firstItem="fiu-Ae-zG3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xeb-JR-Hbp"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="locationButton" destination="4z4-dQ-ebb" id="r4C-YL-9tA"/>
+                <outlet property="locationImageView" destination="NPl-Oi-Exy" id="fdm-Vv-Xzc"/>
+                <outlet property="locationLabel" destination="f21-K0-YG9" id="qOz-Bf-lXA"/>
+                <outlet property="separatorView" destination="fiu-Ae-zG3" id="0gL-s2-WZU"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="current_location_icon.png" width="22" height="22"/>
+        <image name="icon_clear_blue.png" width="25" height="25"/>
+    </resources>
+</document>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTLostGPSSignalView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTLostGPSSignalView</TokenIdentifier>
+			<Abstract type="html">SKTLostGPSSignalView is used as a warning when the GPS signal is lost during navigation</Abstract>
+			<DeclaredIn>SKTLostGPSSignalView.h</DeclaredIn>
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTLostGPSSignalView/setImageView:</TokenIdentifier>
+			<Abstract type="html">Contains the warning image.</Abstract>
+			<DeclaredIn>SKTLostGPSSignalView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIImageView *imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTLostGPSSignalView/imageView</TokenIdentifier>
+			<Abstract type="html">Contains the warning image.</Abstract>
+			<DeclaredIn>SKTLostGPSSignalView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIImageView *imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTLostGPSSignalView/setMessageLabel:</TokenIdentifier>
+			<Abstract type="html">Message for the user.</Abstract>
+			<DeclaredIn>SKTLostGPSSignalView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTInsetLabel *messageLabel</Declaration>
+			
+			
+			<Anchor>//api/name/messageLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTLostGPSSignalView/messageLabel</TokenIdentifier>
+			<Abstract type="html">Message for the user.</Abstract>
+			<DeclaredIn>SKTLostGPSSignalView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTInsetLabel *messageLabel</Declaration>
+			
+			
+			<Anchor>//api/name/messageLabel</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

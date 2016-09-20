@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTNavigationSpeedLimitView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTNavigationSpeedLimitView</TokenIdentifier>
+			<Abstract type="html">Displays speed limit can blink a warning for the user when the speed limit is exceeded.</Abstract>
+			<DeclaredIn>SKTNavigationSpeedLimitView.h</DeclaredIn>
+			
+			<NodeRef refid="30"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationSpeedLimitView/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Speed limit view&apos;s delegate.</Abstract>
+			<DeclaredIn>SKTNavigationSpeedLimitView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTNavigationSpeedLimitViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationSpeedLimitView/delegate</TokenIdentifier>
+			<Abstract type="html">Speed limit view&apos;s delegate.</Abstract>
+			<DeclaredIn>SKTNavigationSpeedLimitView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTNavigationSpeedLimitViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationSpeedLimitView/setBackgroundView:</TokenIdentifier>
+			<Abstract type="html">A round background for the speed limit.</Abstract>
+			<DeclaredIn>SKTNavigationSpeedLimitView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) SKTProgressView *backgroundView</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationSpeedLimitView/backgroundView</TokenIdentifier>
+			<Abstract type="html">A round background for the speed limit.</Abstract>
+			<DeclaredIn>SKTNavigationSpeedLimitView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) SKTProgressView *backgroundView</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationSpeedLimitView/setSpeedLimitLabel:</TokenIdentifier>
+			<Abstract type="html">The speed label of the speed limit view.</Abstract>
+			<DeclaredIn>SKTNavigationSpeedLimitView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) UILabel *speedLimitLabel</Declaration>
+			
+			
+			<Anchor>//api/name/speedLimitLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationSpeedLimitView/speedLimitLabel</TokenIdentifier>
+			<Abstract type="html">The speed label of the speed limit view.</Abstract>
+			<DeclaredIn>SKTNavigationSpeedLimitView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) UILabel *speedLimitLabel</Declaration>
+			
+			
+			<Anchor>//api/name/speedLimitLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationSpeedLimitView/setWarningLabel:</TokenIdentifier>
+			<Abstract type="html">Image to blink as warning when speed limit is exceeded.</Abstract>
+			<DeclaredIn>SKTNavigationSpeedLimitView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) UILabel *warningLabel</Declaration>
+			
+			
+			<Anchor>//api/name/warningLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationSpeedLimitView/warningLabel</TokenIdentifier>
+			<Abstract type="html">Image to blink as warning when speed limit is exceeded.</Abstract>
+			<DeclaredIn>SKTNavigationSpeedLimitView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) UILabel *warningLabel</Declaration>
+			
+			
+			<Anchor>//api/name/warningLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationSpeedLimitView/setBlinkWarning:</TokenIdentifier>
+			<Abstract type="html">Elable/disable speed limit warning.</Abstract>
+			<DeclaredIn>SKTNavigationSpeedLimitView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL blinkWarning</Declaration>
+			
+			
+			<Anchor>//api/name/blinkWarning</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationSpeedLimitView/blinkWarning</TokenIdentifier>
+			<Abstract type="html">Elable/disable speed limit warning.</Abstract>
+			<DeclaredIn>SKTNavigationSpeedLimitView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL blinkWarning</Declaration>
+			
+			
+			<Anchor>//api/name/blinkWarning</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTNavigationFreeDriveView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTNavigationFreeDriveView</TokenIdentifier>
+			<Abstract type="html">Displays information about the current street.</Abstract>
+			<DeclaredIn>SKTNavigationFreeDriveView.h</DeclaredIn>
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationFreeDriveView/setStreetLabel:</TokenIdentifier>
+			<Abstract type="html">Contains the current street name.</Abstract>
+			<DeclaredIn>SKTNavigationFreeDriveView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTInsetLabel *streetLabel</Declaration>
+			
+			
+			<Anchor>//api/name/streetLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationFreeDriveView/streetLabel</TokenIdentifier>
+			<Abstract type="html">Contains the current street name.</Abstract>
+			<DeclaredIn>SKTNavigationFreeDriveView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTInsetLabel *streetLabel</Declaration>
+			
+			
+			<Anchor>//api/name/streetLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationFreeDriveView/setAnimatedLabel:</TokenIdentifier>
+			<Abstract type="html">Animated wrapper for streetLabel.</Abstract>
+			<DeclaredIn>SKTNavigationFreeDriveView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTAnimatedLabel *animatedLabel</Declaration>
+			
+			
+			<Anchor>//api/name/animatedLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationFreeDriveView/animatedLabel</TokenIdentifier>
+			<Abstract type="html">Animated wrapper for streetLabel.</Abstract>
+			<DeclaredIn>SKTNavigationFreeDriveView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTAnimatedLabel *animatedLabel</Declaration>
+			
+			
+			<Anchor>//api/name/animatedLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationFreeDriveView/setSpeedLimitView:</TokenIdentifier>
+			<Abstract type="html">Displays the current speed limit.</Abstract>
+			<DeclaredIn>SKTNavigationFreeDriveView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationSpeedLimitView *speedLimitView</Declaration>
+			
+			
+			<Anchor>//api/name/speedLimitView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationFreeDriveView/speedLimitView</TokenIdentifier>
+			<Abstract type="html">Displays the current speed limit.</Abstract>
+			<DeclaredIn>SKTNavigationFreeDriveView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationSpeedLimitView *speedLimitView</Declaration>
+			
+			
+			<Anchor>//api/name/speedLimitView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationFreeDriveView/setStreetType:</TokenIdentifier>
+			<Abstract type="html">Current street type. Used to configure the view&apos;s colors.</Abstract>
+			<DeclaredIn>SKTNavigationFreeDriveView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKStreetType streetType</Declaration>
+			
+			
+			<Anchor>//api/name/streetType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationFreeDriveView/streetType</TokenIdentifier>
+			<Abstract type="html">Current street type. Used to configure the view&apos;s colors.</Abstract>
+			<DeclaredIn>SKTNavigationFreeDriveView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKStreetType streetType</Declaration>
+			
+			
+			<Anchor>//api/name/streetType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationFreeDriveView/setSpeedView:</TokenIdentifier>
+			<Abstract type="html">Displays the current speed.</Abstract>
+			<DeclaredIn>SKTNavigationFreeDriveView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationDoubleLabelView *speedView</Declaration>
+			
+			
+			<Anchor>//api/name/speedView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationFreeDriveView/speedView</TokenIdentifier>
+			<Abstract type="html">Displays the current speed.</Abstract>
+			<DeclaredIn>SKTNavigationFreeDriveView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTNavigationDoubleLabelView *speedView</Declaration>
+			
+			
+			<Anchor>//api/name/speedView</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

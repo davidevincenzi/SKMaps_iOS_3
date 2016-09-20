@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/SKTNavigationBlockRoadsViewDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/SKTNavigationBlockRoadsViewDelegate</TokenIdentifier>
+			<Abstract type="html">Receives notifications about user interaction.</Abstract>
+			<DeclaredIn>SKTNavigationBlockRoadsView.h</DeclaredIn>
+			
+			<NodeRef refid="54"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTNavigationBlockRoadsViewDelegate/blockRoadsViewDidPressBackButton:</TokenIdentifier>
+			<Abstract type="html">Called when the user has pressed the back button.</Abstract>
+			<DeclaredIn>SKTNavigationBlockRoadsView.h</DeclaredIn>			
+			
+			<Declaration>- (void)blockRoadsViewDidPressBackButton:(SKTNavigationBlockRoadsView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The view that contains the button.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/blockRoadsViewDidPressBackButton:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTNavigationBlockRoadsViewDelegate/blockRoadsView:didSelectIndex:</TokenIdentifier>
+			<Abstract type="html">Called when the user selects an item from the table view.</Abstract>
+			<DeclaredIn>SKTNavigationBlockRoadsView.h</DeclaredIn>			
+			
+			<Declaration>- (void)blockRoadsView:(SKTNavigationBlockRoadsView *)view didSelectIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The view that contains the button.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Index of the selected item.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/blockRoadsView:didSelectIndex:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

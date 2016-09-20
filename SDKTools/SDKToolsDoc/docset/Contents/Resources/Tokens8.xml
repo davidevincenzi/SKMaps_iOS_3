@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTDownloadOperation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTDownloadOperation</TokenIdentifier>
+			<Abstract type="html">Download operation</Abstract>
+			<DeclaredIn>SKTDownloadOperation.h</DeclaredIn>
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadOperation/setDownloadHelper:</TokenIdentifier>
+			<Abstract type="html">Download helper object used for keeping track of download sizes and download states.</Abstract>
+			<DeclaredIn>SKTDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTDownloadObjectHelper *downloadHelper</Declaration>
+			
+			
+			<Anchor>//api/name/downloadHelper</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadOperation/downloadHelper</TokenIdentifier>
+			<Abstract type="html">Download helper object used for keeping track of download sizes and download states.</Abstract>
+			<DeclaredIn>SKTDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTDownloadObjectHelper *downloadHelper</Declaration>
+			
+			
+			<Anchor>//api/name/downloadHelper</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadOperation/setDownloadDelegate:</TokenIdentifier>
+			<Abstract type="html">Download delegate.</Abstract>
+			<DeclaredIn>SKTDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTDownloadOperationDelegate&gt; downloadDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/downloadDelegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadOperation/downloadDelegate</TokenIdentifier>
+			<Abstract type="html">Download delegate.</Abstract>
+			<DeclaredIn>SKTDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTDownloadOperationDelegate&gt; downloadDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/downloadDelegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadOperation/setDownloadType:</TokenIdentifier>
+			<Abstract type="html">Download file type (Texture,Map,NB,Voice,Wiki).</Abstract>
+			<DeclaredIn>SKTDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKTDownloadFileType downloadType</Declaration>
+			
+			
+			<Anchor>//api/name/downloadType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadOperation/downloadType</TokenIdentifier>
+			<Abstract type="html">Download file type (Texture,Map,NB,Voice,Wiki).</Abstract>
+			<DeclaredIn>SKTDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKTDownloadFileType downloadType</Declaration>
+			
+			
+			<Anchor>//api/name/downloadType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadOperation/setTotalBytesReadForFile:</TokenIdentifier>
+			<Abstract type="html">Total bytes read for file.</Abstract>
+			<DeclaredIn>SKTDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) long long totalBytesReadForFile</Declaration>
+			
+			
+			<Anchor>//api/name/totalBytesReadForFile</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadOperation/totalBytesReadForFile</TokenIdentifier>
+			<Abstract type="html">Total bytes read for file.</Abstract>
+			<DeclaredIn>SKTDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) long long totalBytesReadForFile</Declaration>
+			
+			
+			<Anchor>//api/name/totalBytesReadForFile</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadOperation/setTotalBytesExpectedToReadForFile:</TokenIdentifier>
+			<Abstract type="html">Total bytes expected to read for file.</Abstract>
+			<DeclaredIn>SKTDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) long long totalBytesExpectedToReadForFile</Declaration>
+			
+			
+			<Anchor>//api/name/totalBytesExpectedToReadForFile</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadOperation/totalBytesExpectedToReadForFile</TokenIdentifier>
+			<Abstract type="html">Total bytes expected to read for file.</Abstract>
+			<DeclaredIn>SKTDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) long long totalBytesExpectedToReadForFile</Declaration>
+			
+			
+			<Anchor>//api/name/totalBytesExpectedToReadForFile</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadOperation/setTotalBytesRead:</TokenIdentifier>
+			<Abstract type="html">Ammount of data downloaded by the connection, measured in bytes.</Abstract>
+			<DeclaredIn>SKTDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) long long totalBytesRead</Declaration>
+			
+			
+			<Anchor>//api/name/totalBytesRead</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadOperation/totalBytesRead</TokenIdentifier>
+			<Abstract type="html">Ammount of data downloaded by the connection, measured in bytes.</Abstract>
+			<DeclaredIn>SKTDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) long long totalBytesRead</Declaration>
+			
+			
+			<Anchor>//api/name/totalBytesRead</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadOperation/setTotalBytesPreviouslyRead:</TokenIdentifier>
+			<Abstract type="html">Previous ammount of data downloaded by the connection, measured in bytes.</Abstract>
+			<DeclaredIn>SKTDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) long long totalBytesPreviouslyRead</Declaration>
+			
+			
+			<Anchor>//api/name/totalBytesPreviouslyRead</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTDownloadOperation/totalBytesPreviouslyRead</TokenIdentifier>
+			<Abstract type="html">Previous ammount of data downloaded by the connection, measured in bytes.</Abstract>
+			<DeclaredIn>SKTDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) long long totalBytesPreviouslyRead</Declaration>
+			
+			
+			<Anchor>//api/name/totalBytesPreviouslyRead</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadOperation/downloadOperationWithDelegate:URL:downloadFilePath:withType:withDownloadHelper:</TokenIdentifier>
+			<Abstract type="html">Factory class for creating an download operation.</Abstract>
+			<DeclaredIn>SKTDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>+ (instancetype)downloadOperationWithDelegate:(id&lt;SKTDownloadOperationDelegate&gt;)delegate URL:(NSURL *)url downloadFilePath:(NSString *)filePath withType:(SKTDownloadFileType)downloadFileType withDownloadHelper:(SKTDownloadObjectHelper *)downloadHelper</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">Download delegate.</Abstract>
+				</Parameter><Parameter>
+					<Name>url</Name>
+					<Abstract type="html">Download URL.</Abstract>
+				</Parameter><Parameter>
+					<Name>filePath</Name>
+					<Abstract type="html">Download path.</Abstract>
+				</Parameter><Parameter>
+					<Name>downloadFileType</Name>
+					<Abstract type="html">Download file type (Texture,Map,NB,Voice,Wiki).</Abstract>
+				</Parameter><Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">Download helper object used for keeping track of download sizes and download states.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Newly created download operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/downloadOperationWithDelegate:URL:downloadFilePath:withType:withDownloadHelper:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadOperation/downloadOperationWithDownloadOperation:</TokenIdentifier>
+			<Abstract type="html">Factory class for creating a fresh copy of the input download operation. Used for retry mechanism.</Abstract>
+			<DeclaredIn>SKTDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>+ (instancetype)downloadOperationWithDownloadOperation:(SKTDownloadOperation *)downloadOperation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadOperation</Name>
+					<Abstract type="html">A SKTDownloadOperation operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns a fresh copy of the input download operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/downloadOperationWithDownloadOperation:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTDownloadOperation/unzipOperationForDownloadOperation:withUnzipDelegate:</TokenIdentifier>
+			<Abstract type="html">Factory class for creating a unzip operation for a download operation.</Abstract>
+			<DeclaredIn>SKTDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>+ (SKTUnzipOperation *)unzipOperationForDownloadOperation:(SKTDownloadOperation *)downloadOperation withUnzipDelegate:(id&lt;SKTUnzipOperationDelegate&gt;)delegate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>downloadOperation</Name>
+					<Abstract type="html">A SKTDownloadOperation operation.</Abstract>
+				</Parameter><Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">Unzip delegate.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns a fresh unzip operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/unzipOperationForDownloadOperation:withUnzipDelegate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTDownloadOperation/sampleSize</TokenIdentifier>
+			<Abstract type="html">Method for retrieving download sample size for measuring download speed.</Abstract>
+			<DeclaredIn>SKTDownloadOperation.h</DeclaredIn>			
+			
+			<Declaration>- (long long)sampleSize</Declaration>
+			
+			<ReturnValue><Abstract type="html">&apos;long long&apos; representing size in bytes between bytes read (totalBytesRead - totalBytesPreviouslyRead.</Abstract></ReturnValue>
+			<Anchor>//api/name/sampleSize</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

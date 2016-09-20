@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTNavigationPanningView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTNavigationPanningView</TokenIdentifier>
+			<Abstract type="html">Displays useful controls while in panning mode.</Abstract>
+			<DeclaredIn>SKTNavigationPanningView.h</DeclaredIn>
+			
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationPanningView/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Panning view&apos;s delegate</Abstract>
+			<DeclaredIn>SKTNavigationPanningView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTNavigationPanningViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationPanningView/delegate</TokenIdentifier>
+			<Abstract type="html">Panning view&apos;s delegate</Abstract>
+			<DeclaredIn>SKTNavigationPanningView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTNavigationPanningViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationPanningView/setPanningBackButton:</TokenIdentifier>
+			<Abstract type="html">Used to exit panning mode.</Abstract>
+			<DeclaredIn>SKTNavigationPanningView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIButton *panningBackButton</Declaration>
+			
+			
+			<Anchor>//api/name/panningBackButton</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationPanningView/panningBackButton</TokenIdentifier>
+			<Abstract type="html">Used to exit panning mode.</Abstract>
+			<DeclaredIn>SKTNavigationPanningView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIButton *panningBackButton</Declaration>
+			
+			
+			<Anchor>//api/name/panningBackButton</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationPanningView/setCenterButton:</TokenIdentifier>
+			<Abstract type="html">Allows the user to center on his current position while in panning mode.</Abstract>
+			<DeclaredIn>SKTNavigationPanningView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIButton *centerButton</Declaration>
+			
+			
+			<Anchor>//api/name/centerButton</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationPanningView/centerButton</TokenIdentifier>
+			<Abstract type="html">Allows the user to center on his current position while in panning mode.</Abstract>
+			<DeclaredIn>SKTNavigationPanningView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIButton *centerButton</Declaration>
+			
+			
+			<Anchor>//api/name/centerButton</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationPanningView/setZoomInButton:</TokenIdentifier>
+			<Abstract type="html">Allows the user to zoom in on the map while in panning mode.</Abstract>
+			<DeclaredIn>SKTNavigationPanningView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIButton *zoomInButton</Declaration>
+			
+			
+			<Anchor>//api/name/zoomInButton</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationPanningView/zoomInButton</TokenIdentifier>
+			<Abstract type="html">Allows the user to zoom in on the map while in panning mode.</Abstract>
+			<DeclaredIn>SKTNavigationPanningView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIButton *zoomInButton</Declaration>
+			
+			
+			<Anchor>//api/name/zoomInButton</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTNavigationPanningView/setZoomOutButton:</TokenIdentifier>
+			<Abstract type="html">Allows the user to zoom out on the map while in panning mode.</Abstract>
+			<DeclaredIn>SKTNavigationPanningView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIButton *zoomOutButton</Declaration>
+			
+			
+			<Anchor>//api/name/zoomOutButton</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTNavigationPanningView/zoomOutButton</TokenIdentifier>
+			<Abstract type="html">Allows the user to zoom out on the map while in panning mode.</Abstract>
+			<DeclaredIn>SKTNavigationPanningView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIButton *zoomOutButton</Declaration>
+			
+			
+			<Anchor>//api/name/zoomOutButton</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

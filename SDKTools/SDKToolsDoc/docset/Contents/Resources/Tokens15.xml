@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTMapRegionDetailsHelper.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTMapRegionDetailsHelper</TokenIdentifier>
+			<Abstract type="html">SKTMapRegionDetailsHelper holds additional information regarding a download, such as download sizes and download urls.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMapRegionDetailsHelper/setCode:</TokenIdentifier>
+			<Abstract type="html">code for the download object.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMapRegionDetailsHelper/code</TokenIdentifier>
+			<Abstract type="html">code for the download object.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *code</Declaration>
+			
+			
+			<Anchor>//api/name/code</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMapRegionDetailsHelper/setParentCode:</TokenIdentifier>
+			<Abstract type="html">parent code for the download object.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *parentCode</Declaration>
+			
+			
+			<Anchor>//api/name/parentCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMapRegionDetailsHelper/parentCode</TokenIdentifier>
+			<Abstract type="html">parent code for the download object.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *parentCode</Declaration>
+			
+			
+			<Anchor>//api/name/parentCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMapRegionDetailsHelper/setSizeMap:</TokenIdentifier>
+			<Abstract type="html">NSNumber representing the size of the SKM file.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *sizeMap</Declaration>
+			
+			
+			<Anchor>//api/name/sizeMap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMapRegionDetailsHelper/sizeMap</TokenIdentifier>
+			<Abstract type="html">NSNumber representing the size of the SKM file.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *sizeMap</Declaration>
+			
+			
+			<Anchor>//api/name/sizeMap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMapRegionDetailsHelper/setSizeNB:</TokenIdentifier>
+			<Abstract type="html">NSNumber representing the size of the name browser file.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *sizeNB</Declaration>
+			
+			
+			<Anchor>//api/name/sizeNB</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMapRegionDetailsHelper/sizeNB</TokenIdentifier>
+			<Abstract type="html">NSNumber representing the size of the name browser file.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *sizeNB</Declaration>
+			
+			
+			<Anchor>//api/name/sizeNB</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMapRegionDetailsHelper/setSizeTexture:</TokenIdentifier>
+			<Abstract type="html">NSNumber representing the size of the texture file.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *sizeTexture</Declaration>
+			
+			
+			<Anchor>//api/name/sizeTexture</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMapRegionDetailsHelper/sizeTexture</TokenIdentifier>
+			<Abstract type="html">NSNumber representing the size of the texture file.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *sizeTexture</Declaration>
+			
+			
+			<Anchor>//api/name/sizeTexture</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMapRegionDetailsHelper/setUnzipSizeTexture:</TokenIdentifier>
+			<Abstract type="html">NSNumber representing the size of the unzip texture file.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *unzipSizeTexture</Declaration>
+			
+			
+			<Anchor>//api/name/unzipSizeTexture</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMapRegionDetailsHelper/unzipSizeTexture</TokenIdentifier>
+			<Abstract type="html">NSNumber representing the size of the unzip texture file.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *unzipSizeTexture</Declaration>
+			
+			
+			<Anchor>//api/name/unzipSizeTexture</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMapRegionDetailsHelper/setDownloadURLMap:</TokenIdentifier>
+			<Abstract type="html">NSString representing the url of the skm file.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *downloadURLMap</Declaration>
+			
+			
+			<Anchor>//api/name/downloadURLMap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMapRegionDetailsHelper/downloadURLMap</TokenIdentifier>
+			<Abstract type="html">NSString representing the url of the skm file.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *downloadURLMap</Declaration>
+			
+			
+			<Anchor>//api/name/downloadURLMap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMapRegionDetailsHelper/setDownloadURLNB:</TokenIdentifier>
+			<Abstract type="html">NSString representing the url of the name browser file.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *downloadURLNB</Declaration>
+			
+			
+			<Anchor>//api/name/downloadURLNB</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMapRegionDetailsHelper/downloadURLNB</TokenIdentifier>
+			<Abstract type="html">NSString representing the url of the name browser file.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *downloadURLNB</Declaration>
+			
+			
+			<Anchor>//api/name/downloadURLNB</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMapRegionDetailsHelper/setDownloadURLTexture:</TokenIdentifier>
+			<Abstract type="html">NSString representing the url of the texture file.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *downloadURLTexture</Declaration>
+			
+			
+			<Anchor>//api/name/downloadURLTexture</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMapRegionDetailsHelper/downloadURLTexture</TokenIdentifier>
+			<Abstract type="html">NSString representing the url of the texture file.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *downloadURLTexture</Declaration>
+			
+			
+			<Anchor>//api/name/downloadURLTexture</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTMapRegionDetailsHelper/setDownloadState:</TokenIdentifier>
+			<Abstract type="html">SKTMapDownloadState representing the download state.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTMapDownloadState *downloadState</Declaration>
+			
+			
+			<Anchor>//api/name/downloadState</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTMapRegionDetailsHelper/downloadState</TokenIdentifier>
+			<Abstract type="html">SKTMapDownloadState representing the download state.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTMapDownloadState *downloadState</Declaration>
+			
+			
+			<Anchor>//api/name/downloadState</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTMapRegionDetailsHelper/mapRegionDetailsHelperWithSKTPackage:</TokenIdentifier>
+			<Abstract type="html">Class factory method for creating a SKTMapRegionDetailsHelper using a SKTPackage object.</Abstract>
+			<DeclaredIn>SKTMapRegionDetailsHelper.h</DeclaredIn>			
+			
+			<Declaration>+ (id)mapRegionDetailsHelperWithSKTPackage:(SKTPackage *)package</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">object resulted from Map JSON parsing.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">SKTMapRegionDetailsHelper with required download information.</Abstract></ReturnValue>
+			<Anchor>//api/name/mapRegionDetailsHelperWithSKTPackage:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

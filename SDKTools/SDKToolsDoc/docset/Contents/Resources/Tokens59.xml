@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/SKTNavigationPanningViewDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/SKTNavigationPanningViewDelegate</TokenIdentifier>
+			<Abstract type="html">Reveives notifications when user taps one of the buttons.</Abstract>
+			<DeclaredIn>SKTNavigationPanningView.h</DeclaredIn>
+			
+			<NodeRef refid="59"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTNavigationPanningViewDelegate/panningViewDidClickBackButton:</TokenIdentifier>
+			<Abstract type="html">Called when the user has pressed the back button.</Abstract>
+			<DeclaredIn>SKTNavigationPanningView.h</DeclaredIn>			
+			
+			<Declaration>- (void)panningViewDidClickBackButton:(SKTNavigationPanningView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The view that contains the button.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/panningViewDidClickBackButton:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTNavigationPanningViewDelegate/panningViewDidClickCenterButton:</TokenIdentifier>
+			<Abstract type="html">Called when the user has pressed the center on current position button.</Abstract>
+			<DeclaredIn>SKTNavigationPanningView.h</DeclaredIn>			
+			
+			<Declaration>- (void)panningViewDidClickCenterButton:(SKTNavigationPanningView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The view that contains the button.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/panningViewDidClickCenterButton:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTNavigationPanningViewDelegate/panningViewDidClickZoomInButton:</TokenIdentifier>
+			<Abstract type="html">Called when the user has pressed the zoom in button.</Abstract>
+			<DeclaredIn>SKTNavigationPanningView.h</DeclaredIn>			
+			
+			<Declaration>- (void)panningViewDidClickZoomInButton:(SKTNavigationPanningView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The view that contains the button.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/panningViewDidClickZoomInButton:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTNavigationPanningViewDelegate/panningViewDidClickZoomOutButton:</TokenIdentifier>
+			<Abstract type="html">Called when the user has pressed the zoom out button.</Abstract>
+			<DeclaredIn>SKTNavigationPanningView.h</DeclaredIn>			
+			
+			<Declaration>- (void)panningViewDidClickZoomOutButton:(SKTNavigationPanningView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The view that contains the button.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/panningViewDidClickZoomOutButton:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

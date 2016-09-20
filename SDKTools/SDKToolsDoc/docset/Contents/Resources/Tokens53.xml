@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/SKTGroupedOperationsDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/SKTGroupedOperationsDelegate</TokenIdentifier>
+			<Abstract type="html">SKTGroupedOperationsDelegate delegate of SKTGroupedOperations.</Abstract>
+			<DeclaredIn>SKTGroupedOperationsDelegate.h</DeclaredIn>
+			
+			<NodeRef refid="53"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTGroupedOperationsDelegate/groupedOperation:finishedWithSuccess:</TokenIdentifier>
+			<Abstract type="html">Delegate method called the grouped operations finished.</Abstract>
+			<DeclaredIn>SKTGroupedOperationsDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)groupedOperation:(SKTGroupedOperations *)groupedOperation finishedWithSuccess:(BOOL)success</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groupedOperation</Name>
+					<Abstract type="html">the grouped operations object.</Abstract>
+				</Parameter><Parameter>
+					<Name>success</Name>
+					<Abstract type="html">boolean indicating wether the grouped operation finished with success.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/groupedOperation:finishedWithSuccess:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTGroupedOperationsDelegate/groupedOperation:unzipUpdatedProgressString:unzipPercentage:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the unzip progress was changed.</Abstract>
+			<DeclaredIn>SKTGroupedOperationsDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)groupedOperation:(SKTGroupedOperations *)groupedOperation unzipUpdatedProgressString:(NSString *)percentageStr unzipPercentage:(float)percentage</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groupedOperation</Name>
+					<Abstract type="html">the grouped operations object.</Abstract>
+				</Parameter><Parameter>
+					<Name>percentageStr</Name>
+					<Abstract type="html">formatted NSString representing the unzip progress for the grouped operation.</Abstract>
+				</Parameter><Parameter>
+					<Name>percentage</Name>
+					<Abstract type="html">float representing the unzip percentage.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/groupedOperation:unzipUpdatedProgressString:unzipPercentage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTGroupedOperationsDelegate/groupedOperation:totalBytesRead:fromTotalExpected:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the download received bytes.</Abstract>
+			<DeclaredIn>SKTGroupedOperationsDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)groupedOperation:(SKTGroupedOperations *)groupedOperation totalBytesRead:(long long)totalBytesRead fromTotalExpected:(long long)totalBytesExpected</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groupedOperation</Name>
+					<Abstract type="html">the grouped operations object.</Abstract>
+				</Parameter><Parameter>
+					<Name>totalBytesRead</Name>
+					<Abstract type="html">long long representing total bytes read by the download operation.</Abstract>
+				</Parameter><Parameter>
+					<Name>totalBytesExpected</Name>
+					<Abstract type="html">long long representing expected total bytes read by the download operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/groupedOperation:totalBytesRead:fromTotalExpected:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTGroupedOperationsDelegate/groupedOperation:didUpdateDownloadState:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the download state of the object was updated.</Abstract>
+			<DeclaredIn>SKTGroupedOperationsDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)groupedOperation:(SKTGroupedOperations *)groupedOperation didUpdateDownloadState:(SKTMapDownloadItemStatus)downloadStatus</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groupedOperation</Name>
+					<Abstract type="html">the grouped operations object.</Abstract>
+				</Parameter><Parameter>
+					<Name>downloadStatus</Name>
+					<Abstract type="html">the new updated download status of the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/groupedOperation:didUpdateDownloadState:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTGroupedOperationsDelegate/groupedOperationCanceledByOS:</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the download was cancelled by OS. (background task cancelled after a certain time)</Abstract>
+			<DeclaredIn>SKTGroupedOperationsDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)groupedOperationCanceledByOS:(SKTGroupedOperations *)groupedOperation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groupedOperation</Name>
+					<Abstract type="html">the grouped operations object.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/groupedOperationCanceledByOS:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/SKTGroupedOperationsDelegate/groupedOperationDidReceiveTimeout</TokenIdentifier>
+			<Abstract type="html">Delegate method called when the download received timeout.</Abstract>
+			<DeclaredIn>SKTGroupedOperationsDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)groupedOperationDidReceiveTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/groupedOperationDidReceiveTimeout</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

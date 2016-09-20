@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTUnzipOperation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTUnzipOperation</TokenIdentifier>
+			<Abstract type="html">Subclass of NSOperation which handles unzipping and reports back progress via delegate.</Abstract>
+			<DeclaredIn>SKTUnzipOperation.h</DeclaredIn>
+			
+			<NodeRef refid="38"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTUnzipOperation/setDownloadHelper:</TokenIdentifier>
+			<Abstract type="html">Download helper object used for keeping track of download sizes and download states.</Abstract>
+			<DeclaredIn>SKTUnzipOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTDownloadObjectHelper *downloadHelper</Declaration>
+			
+			
+			<Anchor>//api/name/downloadHelper</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTUnzipOperation/downloadHelper</TokenIdentifier>
+			<Abstract type="html">Download helper object used for keeping track of download sizes and download states.</Abstract>
+			<DeclaredIn>SKTUnzipOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) SKTDownloadObjectHelper *downloadHelper</Declaration>
+			
+			
+			<Anchor>//api/name/downloadHelper</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTUnzipOperation/setUnzipDelegate:</TokenIdentifier>
+			<Abstract type="html">Unzip delegate.</Abstract>
+			<DeclaredIn>SKTUnzipOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTUnzipOperationDelegate&gt; unzipDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/unzipDelegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTUnzipOperation/unzipDelegate</TokenIdentifier>
+			<Abstract type="html">Unzip delegate.</Abstract>
+			<DeclaredIn>SKTUnzipOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) id&lt;SKTUnzipOperationDelegate&gt; unzipDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/unzipDelegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTUnzipOperation/setDownloadType:</TokenIdentifier>
+			<Abstract type="html">Download file type (Texture,Map,NB,Voice,Wiki).</Abstract>
+			<DeclaredIn>SKTUnzipOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKTDownloadFileType downloadType</Declaration>
+			
+			
+			<Anchor>//api/name/downloadType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTUnzipOperation/downloadType</TokenIdentifier>
+			<Abstract type="html">Download file type (Texture,Map,NB,Voice,Wiki).</Abstract>
+			<DeclaredIn>SKTUnzipOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SKTDownloadFileType downloadType</Declaration>
+			
+			
+			<Anchor>//api/name/downloadType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTUnzipOperation/setTotalSize:</TokenIdentifier>
+			<Abstract type="html">Total unzip size in &apos;long long&apos; bytes.</Abstract>
+			<DeclaredIn>SKTUnzipOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) long long totalSize</Declaration>
+			
+			
+			<Anchor>//api/name/totalSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTUnzipOperation/totalSize</TokenIdentifier>
+			<Abstract type="html">Total unzip size in &apos;long long&apos; bytes.</Abstract>
+			<DeclaredIn>SKTUnzipOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) long long totalSize</Declaration>
+			
+			
+			<Anchor>//api/name/totalSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTUnzipOperation/setUnzipPercentage:</TokenIdentifier>
+			<Abstract type="html">Unzip percentage as &apos;int&apos;.</Abstract>
+			<DeclaredIn>SKTUnzipOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int unzipPercentage</Declaration>
+			
+			
+			<Anchor>//api/name/unzipPercentage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTUnzipOperation/unzipPercentage</TokenIdentifier>
+			<Abstract type="html">Unzip percentage as &apos;int&apos;.</Abstract>
+			<DeclaredIn>SKTUnzipOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int unzipPercentage</Declaration>
+			
+			
+			<Anchor>//api/name/unzipPercentage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SKTUnzipOperation/setQueue:</TokenIdentifier>
+			<Abstract type="html">The dispatch queue for unzip. If NULL (default), the main queue is used.</Abstract>
+			<DeclaredIn>SKTUnzipOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) dispatch_queue_t queue</Declaration>
+			
+			
+			<Anchor>//api/name/queue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SKTUnzipOperation/queue</TokenIdentifier>
+			<Abstract type="html">The dispatch queue for unzip. If NULL (default), the main queue is used.</Abstract>
+			<DeclaredIn>SKTUnzipOperation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) dispatch_queue_t queue</Declaration>
+			
+			
+			<Anchor>//api/name/queue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTUnzipOperation/unzipOperationWithDelegate:withDownloadHelper:withType:</TokenIdentifier>
+			<Abstract type="html">Factory class for creating an unzip operation.</Abstract>
+			<DeclaredIn>SKTUnzipOperation.h</DeclaredIn>			
+			
+			<Declaration>+ (instancetype)unzipOperationWithDelegate:(id&lt;SKTUnzipOperationDelegate&gt;)delegate withDownloadHelper:(SKTDownloadObjectHelper *)downloadHelper withType:(SKTDownloadFileType)downloadFileType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">Unzip delegate.</Abstract>
+				</Parameter><Parameter>
+					<Name>downloadHelper</Name>
+					<Abstract type="html">Download helper used for setting unzip states and retrieving unziping paths.</Abstract>
+				</Parameter><Parameter>
+					<Name>downloadFileType</Name>
+					<Abstract type="html">Download file type (Texture,Map,NB,Voice,Wiki).</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Newly created unzip operation.</Abstract></ReturnValue>
+			<Anchor>//api/name/unzipOperationWithDelegate:withDownloadHelper:withType:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SKTNavigationUtils.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SKTNavigationUtils</TokenIdentifier>
+			<Abstract type="html">SKTNavigationUtils provides convenience and conversion methods</Abstract>
+			<DeclaredIn>SKTNavigationUtils.h</DeclaredIn>
+			
+			<NodeRef refid="31"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationUtils/formattedTimeForTime:</TokenIdentifier>
+			<Abstract type="html">Returns a string containing time formatted using hh:mm format. This is useful for formatting estimated time to arrival.</Abstract>
+			<DeclaredIn>SKTNavigationUtils.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)formattedTimeForTime:(int)seconds</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>seconds</Name>
+					<Abstract type="html">Number of seconds to be converted.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/formattedTimeForTime:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationUtils/formattedDistanceWithDistance:format:</TokenIdentifier>
+			<Abstract type="html">Returns a string containing the formatted distance including measurement unit. The distance is rounded to the closest suitable number so that it&apos;s more visually appealing.</Abstract>
+			<DeclaredIn>SKTNavigationUtils.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)formattedDistanceWithDistance:(int)meters format:(SKDistanceFormat)format</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>meters</Name>
+					<Abstract type="html">Distance in meters.</Abstract>
+				</Parameter><Parameter>
+					<Name>format</Name>
+					<Abstract type="html">Desired format to convert to.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/formattedDistanceWithDistance:format:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationUtils/convertMeters:toUnitFormat:</TokenIdentifier>
+			<Abstract type="html">Returns a string containing the converted distance including measurement unit. No rounding is done.</Abstract>
+			<DeclaredIn>SKTNavigationUtils.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)convertMeters:(int)meters toUnitFormat:(SKTNavigationUnitReturnFormat)returnFormat</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>meters</Name>
+					<Abstract type="html">Distance in meters.</Abstract>
+				</Parameter><Parameter>
+					<Name>returnFormat</Name>
+					<Abstract type="html">Unit to convert to.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/convertMeters:toUnitFormat:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationUtils/convertFromMeters:toDistanceWithFormat:</TokenIdentifier>
+			<Abstract type="html">Converts the distance to a desired format.</Abstract>
+			<DeclaredIn>SKTNavigationUtils.h</DeclaredIn>			
+			
+			<Declaration>+ (float)convertFromMeters:(int)meters toDistanceWithFormat:(SKTNavigationUnitReturnFormat)returnFormat</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>meters</Name>
+					<Abstract type="html">Distance in meters.</Abstract>
+				</Parameter><Parameter>
+					<Name>returnFormat</Name>
+					<Abstract type="html">Unit to convert to.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/convertFromMeters:toDistanceWithFormat:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationUtils/convertSpeed:toFormat:</TokenIdentifier>
+			<Abstract type="html">Converts the distance to a desired format.</Abstract>
+			<DeclaredIn>SKTNavigationUtils.h</DeclaredIn>			
+			
+			<Declaration>+ (float)convertSpeed:(float)metersPerSecond toFormat:(SKDistanceFormat)distanceFormat</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>metersPerSecond</Name>
+					<Abstract type="html">Distance in meters.</Abstract>
+				</Parameter><Parameter>
+					<Name>distanceFormat</Name>
+					<Abstract type="html">Unit to convert to.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/convertSpeed:toFormat:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationUtils/isNight</TokenIdentifier>
+			<Abstract type="html">Checks whether is night.</Abstract>
+			<DeclaredIn>SKTNavigationUtils.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isNight</Declaration>
+			
+			
+			<Anchor>//api/name/isNight</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationUtils/timeOfDay</TokenIdentifier>
+			<Abstract type="html">Return time of day.</Abstract>
+			<DeclaredIn>SKTNavigationUtils.h</DeclaredIn>			
+			
+			<Declaration>+ (SKTNavigationTimeOfDay)timeOfDay</Declaration>
+			
+			
+			<Anchor>//api/name/timeOfDay</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationUtils/cancelLocalNoficationWithUserInfoKey:</TokenIdentifier>
+			<Abstract type="html">Removes local notifications that contain the given key in their user info dictionary.</Abstract>
+			<DeclaredIn>SKTNavigationUtils.h</DeclaredIn>			
+			
+			<Declaration>+ (void)cancelLocalNoficationWithUserInfoKey:(NSString *)userInfoKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>userInfoKey</Name>
+					<Abstract type="html">Key to search for.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/cancelLocalNoficationWithUserInfoKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationUtils/audioFilesFolderPathForLanguage:</TokenIdentifier>
+			<Abstract type="html">Returns the full path for the mp3 files contained in SKAdvisorResources.bundle for the given language</Abstract>
+			<DeclaredIn>SKTNavigationUtils.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)audioFilesFolderPathForLanguage:(NSString *)language</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>language</Name>
+					<Abstract type="html">Audio language.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/audioFilesFolderPathForLanguage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationUtils/currentCountryCode</TokenIdentifier>
+			<Abstract type="html">Returns current country code using reverse geocoding.</Abstract>
+			<DeclaredIn>SKTNavigationUtils.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)currentCountryCode</Declaration>
+			
+			
+			<Anchor>//api/name/currentCountryCode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationUtils/backgroundColorNameForStreetType:</TokenIdentifier>
+			<Abstract type="html">Key of the background color for a given street type.</Abstract>
+			<DeclaredIn>SKTNavigationUtils.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)backgroundColorNameForStreetType:(SKStreetType)streetType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>streetType</Name>
+					<Abstract type="html">Street type.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/backgroundColorNameForStreetType:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationUtils/adviceSignColorNameForStreetType:</TokenIdentifier>
+			<Abstract type="html">Key of the sign color for a given street type.</Abstract>
+			<DeclaredIn>SKTNavigationUtils.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)adviceSignColorNameForStreetType:(SKStreetType)streetType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>streetType</Name>
+					<Abstract type="html">Street type.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/adviceSignColorNameForStreetType:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationUtils/streetTextColorNameForStreetType:</TokenIdentifier>
+			<Abstract type="html">Key of the text color for a given street type.</Abstract>
+			<DeclaredIn>SKTNavigationUtils.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)streetTextColorNameForStreetType:(SKStreetType)streetType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>streetType</Name>
+					<Abstract type="html">Street type.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/streetTextColorNameForStreetType:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationUtils/statusBarStyleNameForStreetType:</TokenIdentifier>
+			<Abstract type="html">Key of the status bar style for a given street type. This is used on iOS 7 to change status bar appearence so that the contrast between status bar and the view underneath it is more visually appealing,</Abstract>
+			<DeclaredIn>SKTNavigationUtils.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)statusBarStyleNameForStreetType:(SKStreetType)streetType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>streetType</Name>
+					<Abstract type="html">Street type.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/statusBarStyleNameForStreetType:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationUtils/destinationImageNameForStreetType:</TokenIdentifier>
+			<Abstract type="html">Key of the destination image for a given street type.</Abstract>
+			<DeclaredIn>SKTNavigationUtils.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)destinationImageNameForStreetType:(SKStreetType)streetType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>streetType</Name>
+					<Abstract type="html">Street type.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/destinationImageNameForStreetType:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationUtils/locationIsZero:</TokenIdentifier>
+			<Abstract type="html">Tells whether the given location is zero.</Abstract>
+			<DeclaredIn>SKTNavigationUtils.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)locationIsZero:(CLLocationCoordinate2D)location</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>location</Name>
+					<Abstract type="html">Location to test.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/locationIsZero:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationUtils/streetCityAndCountryForLocation:</TokenIdentifier>
+			<Abstract type="html">Returns an array containing the street, city and country for a given location.</Abstract>
+			<DeclaredIn>SKTNavigationUtils.h</DeclaredIn>			
+			
+			<Declaration>+ (NSArray *)streetCityAndCountryForLocation:(CLLocationCoordinate2D)location</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>location</Name>
+					<Abstract type="html">Location to reverse geocode.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/streetCityAndCountryForLocation:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SKTNavigationUtils/navigationBundle</TokenIdentifier>
+			<Abstract type="html">Returns the SKTNavigationResources.bundle</Abstract>
+			<DeclaredIn>SKTNavigationUtils.h</DeclaredIn>			
+			
+			<Declaration>+ (NSBundle *)navigationBundle</Declaration>
+			
+			
+			<Anchor>//api/name/navigationBundle</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>
